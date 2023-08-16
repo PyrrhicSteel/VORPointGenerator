@@ -299,8 +299,66 @@
       "fireRate": 250,
       "attackAir": true,
       "originCountry": "FR"
+    },
+    {
+      "id": 31,
+      "name": "16-in/50 Mark 7",
+      "calibre": 406,
+      "maxRange": 38720,
+      "armorPenetration": 829,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "id": 32,
+      "name": "381mm/50 Ansaldo M1939",
+      "calibre": 381,
+      "maxRange": 42800,
+      "armorPenetration": 814,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 33,
+      "name": "152mm/55 M1936",
+      "calibre": 152,
+      "maxRange": 25740,
+      "armorPenetration": 86,
+      "fireRate": 5,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 34,
+      "name": "90mm/50 OTO M1939",
+      "calibre": 90,
+      "maxRange": 13000,
+      "armorPenetration": 50, //CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 35,
+      "name": "37mm/54 M1934",
+      "calibre": 37,
+      "maxRange": 4000,
+      "armorPenetration": 3, //CITATION NEEDED
+      "fireRate": 90,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 36,
+      "name": "20mm/65 Breda M1934",
+      "calibre": 20,
+      "maxRange": 2500,
+      "armorPenetration": 2, //CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "ITA"
     }
-
-
   ]
 }

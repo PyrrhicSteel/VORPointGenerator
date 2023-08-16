@@ -659,7 +659,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "mechanicalComputer": true,
-          "airburstFuses":  true
+          "airburstFuses": true
         },
         {
           "gunRefrenceID": 29,
@@ -680,6 +680,114 @@
           "gunRefrenceID": 30,
           "turretCount": 32,
           "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ta-Class Fast Battlehip (Iowa)",
+      "carrier": false,
+      "speed": 36,
+      "displacement": 48880,
+      "horsepower": 212000,
+      "beltThickness": 272,
+      "length": 270,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 31,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 10,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 49,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ta-Class Fast Battlehip (Littorio)",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 40724,
+      "horsepower": 128200,
+      "beltThickness": 233,
+      "length": 238,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 32,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "poorShellQuaility": true
+
+        },
+        {
+          "gunRefrenceID": 33,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 34,
+          "turretCount": 12,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 35,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
           "localOpticalDirector": true
         }
 
