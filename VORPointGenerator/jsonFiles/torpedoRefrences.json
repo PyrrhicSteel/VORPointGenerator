@@ -1,0 +1,54 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "torpedoRefrences": [
+    {
+      "id": 1,
+      "name": "55 cm 19V, Toulon",
+      "torpWarheadSize": 286, //238 kg TNP
+      "torpRange": 4000,
+      "torpSpeed": 35,
+      "torpGuidance": 0
+    },
+    {
+      "id": 2,
+      "name": "Mark 13 Torpedo",
+      "torpWarheadSize": 358, //275 kg TPX
+      "torpRange": 5210,
+      "torpSpeed": 30,
+      "torpGuidance": 0
+    },
+    {
+      "id": 3,
+      "name": "Mark 14 Torpedo",
+      "torpWarheadSize": 394, //303 kg TPX
+      "torpRange": 8200,
+      "torpSpeed": 31,
+      "torpGuidance": 0
+    },
+    {
+      "id": 4,
+      "name": "Mark 15 Torpedo",
+      "torpWarheadSize": 472, //363 kg HBX
+      "torpRange": 12800,
+      "torpSpeed": 27,
+      "torpGuidance": 0
+    },
+    {
+      "id": 4,
+      "name": "53.3 cm G7a T1",
+      "torpWarheadSize": 600, //617 kg Hexanite I can't find a good conversion, so CITATION NEEDED
+      "torpRange": 15300,
+      "torpSpeed": 30,
+      "torpGuidance": 0
+    }
+
+  ]
+}

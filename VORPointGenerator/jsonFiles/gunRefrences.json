@@ -1,0 +1,276 @@
+{
+  "gunRefrences": [
+    {
+      "id": 1,
+      "name": "5-in/38-cal",
+      "calibre": 127,
+      "maxRange": 16070,
+      "armorPenetration": 127,
+      "fireRate": 17,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 2,
+      "name": "40mm Bofors",
+      "calibre": 40,
+      "maxRange": 10180,
+      "armorPenetration": 15,
+      "fireRate": 85,
+      "attackAir": true,
+      "originCountry": "SE"
+    },
+    {
+      "id": 3,
+      "name": "20mm/70 Oerlikon",
+      "calibre": 20,
+      "maxRange": 4389,
+      "armorPenetration": 0,
+      "fireRate": 285,
+      "attackAir": true,
+      "originCountry": "SE"
+    },
+    {
+      "id": 4,
+      "name": "8-in/55-cal",
+      "calibre": 203,
+      "maxRange": 29131,
+      "armorPenetration": 254,
+      "fireRate": 4,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "id": 5,
+      "name": "5-in/25-cal",
+      "calibre": 127,
+      "maxRange": 13259,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 17,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 6,
+      "name": "1.1-in/75-cal",
+      "calibre": 28,
+      "maxRange": 6767,
+      "armorPenetration": 0,
+      "fireRate": 100,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 7,
+      "name": ".50 M2 HB",
+      "calibre": 12,
+      "maxRange": 1800,
+      "armorPenetration": 2,
+      "fireRate": 525,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 8,
+      "name": "12.7 cm/40 Type 89",
+      "calibre": 127,
+      "maxRange": 14800,
+      "armorPenetration": 100, // CITATION NEEDED
+      "fireRate": 8,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 9,
+      "name": "25 mm/60 Type 96",
+      "calibre": 25,
+      "maxRange": 6800,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 10,
+      "name": "4.7-in/40 QF Mark VIII",
+      "calibre": 120,
+      "maxRange": 14780,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 10,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "id": 11,
+      "name": "4.5-in/45 QF Marks I - V",
+      "calibre": 114,
+      "maxRange": 18970,
+      "armorPenetration": 63,
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "id": 12,
+      "name": "2-pdr QF MK VIII",
+      "calibre": 40,
+      "maxRange": 4572,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 115,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "id": 13,
+      "name": "155mm/50 Modele 1920",
+      "calibre": 155,
+      "maxRange": 25000,
+      "armorPenetration": 102, // CITATION NEEDED
+      "fireRate": 4,
+      "attackAir": false,
+      "originCountry": "FR"
+    },
+    {
+      "id": 14,
+      "name": "75mm/50 Modele 1922",
+      "calibre": 75,
+      "maxRange": 14100,
+      "armorPenetration": 40, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
+    {
+      "id": 15,
+      "name": "37mm/50 Modele 1925",
+      "calibre": 37,
+      "maxRange": 7175,
+      "armorPenetration": 20, // CITATION NEEDED
+      "fireRate": 20,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
+    {
+      "id": 16,
+      "name": "15 cm SK C/28",
+      "calibre": 150,
+      "maxRange": 23000,
+      "armorPenetration": 213, // CITATION NEEDED
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "GER"
+    },
+    {
+      "id": 17,
+      "name": "10.5 cm SK C/33",
+      "calibre": 105,
+      "maxRange": 17700,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 17,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 18,
+      "name": "3.7 cm SK C/30",
+      "calibre": 37,
+      "maxRange": 8500,
+      "armorPenetration": 20, // CITATION NEEDED
+      "fireRate": 30,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 19,
+      "name": "2 cm C/30",
+      "calibre": 20,
+      "maxRange": 4900,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 20,
+      "name": "135 mm/45 OTO 1937",
+      "calibre": 135,
+      "maxRange": 19600,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 21,
+      "name": "65 mm/64 OTO 1939",
+      "calibre": 65,
+      "maxRange": 7500,
+      "armorPenetration": 90, // CITATION NEEDED
+      "fireRate": 20,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 22,
+      "name": "20 mm/65 OTO 1935",
+      "calibre": 20,
+      "maxRange": 2500,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 23,
+      "name": "HS.404 (AN/M2 20mm Hispano)",
+      "calibre": 20,
+      "maxRange": 6500,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
+    {
+      "id": 24,
+      "name": "M1919 Browning",
+      "calibre": 8,
+      "maxRange": 1400,
+      "armorPenetration": 2, // CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 25,
+      "name": "36 cm/45 41st Year Type",
+      "calibre": 356,
+      "maxRange": 35450,
+      "armorPenetration": 500, // CITATION NEEDED
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "JP"
+    },
+    {
+      "id": 26,
+      "name": "15 cm/50 41st Year Type",
+      "calibre": 152,
+      "maxRange": 2100,
+      "armorPenetration": 120, // CITATION NEEDED
+      "fireRate": 6,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 27,
+      "name": "38 cm SK C/34",
+      "calibre": 380,
+      "maxRange": 36520,
+      "armorPenetration": 742, 
+      "fireRate": 3,
+      "attackAir": false,
+      "originCountry": "GER"
+    }
+
+
+  ]
+}

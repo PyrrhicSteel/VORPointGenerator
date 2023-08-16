@@ -1,0 +1,197 @@
+{
+  "aircraftRefrences": [
+    {
+      "id": 1,
+      "name": "F4U Corsair",
+      "countryOfOrigin": "USA",
+      "type": "Fighter",
+      "numPlanes": 20,
+      "speed": 199,
+      "thrust": 2380,
+      "weight": 4238,
+      "rateOfClimb": 22,
+      "serviceCieling": 12600,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 6
+        }
+      ],
+      "rocketRefrences": [
+        {
+          "rocketName": "HVAR",
+          "rocketNumber": 8,
+          "rocketVolleySize": 2,
+          "rocketMaxRange": 1500, // check this
+          "rocketWarheadSize": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "F2A Buffalo",
+      "countryOfOrigin": "USA",
+      "type": "Fighter",
+      "numPlanes": 20,
+      "speed": 143,
+      "thrust": 1200,
+      "weight": 2146,
+      "rateOfClimb": 12,
+      "serviceCieling": 10100,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M57, 250 lb.",
+          "number": 2,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 129
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SB2C Helldiver",
+      "countryOfOrigin": "USA",
+      "type": "Dive Bomber",
+      "numPlanes": 20,
+      "speed": 132,
+      "thrust": 1900,
+      "weight": 4784,
+      "rateOfClimb": 9,
+      "serviceCieling": 8900,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 23,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "rocketRefrences": [
+        {
+          "rocketName": "Tiny Tim",
+          "rocketNumber": 2,
+          "rocketVolleySize": 1,
+          "rocketMaxRange": 1500, // check this
+          "rocketWarheadSize": 68,
+          "railDropped": true
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M66, 2000 lb.",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 499
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SBD Dauntless",
+      "countryOfOrigin": "USA",
+      "type": "Dive Bomber",
+      "numPlanes": 20,
+      "speed": 113,
+      "thrust": 1200,
+      "weight": 2905,
+      "rateOfClimb": 9,
+      "serviceCieling": 7780,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M65, 1000 lb.",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 252
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "TBD Devastator",
+      "countryOfOrigin": "USA",
+      "type": "Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 92,
+      "thrust": 900,
+      "weight": 4213,
+      "rateOfClimb": 4,
+      "serviceCieling": 5900,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 2,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "OS2U Kingfisher",
+      "countryOfOrigin": "USA",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 68,
+      "thrust": 450,
+      "weight": 1513,
+      "rateOfClimb": 5,
+      "serviceCieling": 5500,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M30, 100 lb.",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 102
+        }
+      ]
+    }
+  ]
+}

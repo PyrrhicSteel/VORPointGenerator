@@ -1,0 +1,634 @@
+{
+  "shipRefrences": [
+    {
+      "id": 1,
+      "name": "Wo-Class Aircraft Carrier (Essex)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 27100,
+      "horsepower": 150000,
+      "beltThickness": 74,
+      "length": 270,
+      "aircraftCount": 100,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 8,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 46,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Wo-Class Aircraft Carrier (Lexington)",
+      "carrier": true,
+      "speed": 34,
+      "displacement": 36000,
+      "horsepower": 180000,
+      "beltThickness": 109,
+      "length": 270,
+      "aircraftCount": 90,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 4,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Wo-Class Aircraft Carrier (Yorktown)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 19800,
+      "horsepower": 120000,
+      "beltThickness": 70,
+      "length": 230,
+      "aircraftCount": 90,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 6,
+          "turretCount": 4,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 24,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Wo-Class Aircraft Carrier (Midway)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 45000,
+      "horsepower": 212000,
+      "beltThickness": 158,
+      "length": 295,
+      "aircraftCount": 130,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 18,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 21,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 28,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Wo-Class Aircraft Carrier (Shokaku)",
+      "carrier": true,
+      "speed": 35,
+      "displacement": 25675,
+      "horsepower": 160000,
+      "beltThickness": 125,
+      "length": 258,
+      "aircraftCount": 72,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "Wo-Class Aircraft Carrier (Hiyou)",
+      "carrier": true,
+      "speed": 26,
+      "displacement": 24150,
+      "horsepower": 53250,
+      "beltThickness": 42,
+      "length": 219,
+      "aircraftCount": 54,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "Wo-Class Aircraft Carrier (Unryu)",
+      "hasSonar": true,
+      "carrier": true,
+      "speed": 32,
+      "displacement": 17480,
+      "horsepower": 104000,
+      "beltThickness": 41,
+      "length": 227,
+      "aircraftCount": 57,
+      "depthChargeLauncherNumber": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    },
+
+    {
+      "id": 8,
+      "name": "Wo-Class Aircraft Carrier (Courageous)",
+      "carrier": true,
+      "speed": 30,
+      "displacement": 24210,
+      "horsepower": 90000,
+      "beltThickness": 49,
+      "length": 224,
+      "aircraftCount": 48,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 10,
+          "turretCount": 10,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 9,
+      "name": "Wo-Class Aircraft Carrier (Illustrious)",
+      "carrier": true,
+      "speed": 31,
+      "displacement": 23000,
+      "horsepower": 111000,
+      "beltThickness": 114,
+      "length": 225,
+      "aircraftCount": 57,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 11,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 6,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 10,
+      "name": "Wo-Class Aircraft Carrier (Implacable)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 23460,
+      "horsepower": 148000,
+      "beltThickness": 85,
+      "length": 234,
+      "aircraftCount": 81,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 11,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 5,
+          "gunsPerTurret": 8,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 29,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+
+    {
+      "id": 11,
+      "name": "Wo-Class Aircraft Carrier (Bearn)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 22146,
+      "horsepower": 38890,
+      "beltThickness": 63,
+      "length": 183,
+      "aircraftCount": 32,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 13,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 14,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 15,
+          "turretCount": 8,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 1,
+          "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+
+    {
+      "id": 12,
+      "name": "Wo-Class Aircraft Carrier (Graf Zeppelin)",
+      "carrier": true,
+      "speed": 34,
+      "displacement": 19000,
+      "horsepower": 200000,
+      "beltThickness": 72,
+      "length": 263,
+      "aircraftCount": 42,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 16,
+          "turretCount": 16,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 11,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 28,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Wo-Class Aircraft Carrier (Aquila)",
+      "carrier": true,
+      "speed": 30,
+      "displacement": 23500,
+      "horsepower": 151000,
+      "beltThickness": 74,
+      "length": 236,
+      "aircraftCount": 51,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "gunRefrenceID": 20,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 21,
+          "turretCount": 12,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 22,
+          "turretCount": 6,
+          "gunsPerTurret": 6,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ta-Class Fast Battlehip (Kongo)",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 32156,
+      "horsepower": 136000,
+      "beltThickness": 106,
+      "length": 220,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 25,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 26,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 59,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ta-Class Fast Battlehip (Bismark)",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 41700,
+      "horsepower": 148120,
+      "beltThickness": 268,
+      "length": 251,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 27,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 16,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 20,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 4,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ]
+    }
+  ]
+}
