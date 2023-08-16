@@ -265,10 +265,40 @@
       "name": "38 cm SK C/34",
       "calibre": 380,
       "maxRange": 36520,
-      "armorPenetration": 742, 
+      "armorPenetration": 742,
       "fireRate": 3,
       "attackAir": false,
       "originCountry": "GER"
+    },
+    {
+      "id": 28,
+      "name": "330mm/50 Modele 1931",
+      "calibre": 330,
+      "maxRange": 41700,
+      "armorPenetration": 713,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "FR"
+    },
+    {
+      "id": 29,
+      "name": "130mm/45 Modele 1932",
+      "calibre": 130,
+      "maxRange": 20870,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
+    {
+      "id": 30,
+      "name": "13.2mm Hotchkiss Modele 1929",
+      "calibre": 13,
+      "maxRange": 7200,
+      "armorPenetration": 2, // CITATION NEEDED
+      "fireRate": 250,
+      "attackAir": true,
+      "originCountry": "FR"
     }
 
 

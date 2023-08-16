@@ -571,7 +571,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Ta-Class Fast Battlehip (Bismark)",
       "carrier": false,
       "speed": 30,
@@ -628,6 +628,61 @@
           "torpsPerTurret": 4,
           "torpReloads": 1
         }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Ta-Class Fast Battlehip (Dunkerque)",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 26500,
+      "horsepower": 107500,
+      "beltThickness": 245,
+      "length": 214,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 28,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true
+        },
+        {
+          "gunRefrenceID": 29,
+          "turretCount": 3,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "mechanicalComputer": true,
+          "airburstFuses":  true
+        },
+        {
+          "gunRefrenceID": 29,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "mechanicalComputer": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 15,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 32,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+
       ]
     }
   ]
