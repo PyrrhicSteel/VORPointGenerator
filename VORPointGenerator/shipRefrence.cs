@@ -8,7 +8,7 @@ namespace VORPointGenerator
 {
     public class shipRefrence
     {
-        public int id { get; set; }
+        //public int id { get; set; }
         public string name { get; set; } = string.Empty;
         public bool hasSonar { get; set; } = false;
         public bool submarine { get; set; } = false;

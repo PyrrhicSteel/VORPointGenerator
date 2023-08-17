@@ -1,7 +1,8 @@
 {
   "shipRefrences": [
+    // ABYSSALS
+    // ABYSSAL AIRCRAFT CARRIERS
     {
-      "id": 1,
       "name": "Wo-Class Aircraft Carrier (Essex)",
       "carrier": true,
       "speed": 33,
@@ -55,7 +56,6 @@
     },
 
     {
-      "id": 2,
       "name": "Wo-Class Aircraft Carrier (Lexington)",
       "carrier": true,
       "speed": 34,
@@ -90,7 +90,6 @@
     },
 
     {
-      "id": 3,
       "name": "Wo-Class Aircraft Carrier (Yorktown)",
       "carrier": true,
       "speed": 33,
@@ -132,7 +131,6 @@
     },
 
     {
-      "id": 4,
       "name": "Wo-Class Aircraft Carrier (Midway)",
       "carrier": true,
       "speed": 33,
@@ -174,7 +172,6 @@
     },
 
     {
-      "id": 5,
       "name": "Wo-Class Aircraft Carrier (Shokaku)",
       "carrier": true,
       "speed": 35,
@@ -205,7 +202,6 @@
     },
 
     {
-      "id": 6,
       "name": "Wo-Class Aircraft Carrier (Hiyou)",
       "carrier": true,
       "speed": 26,
@@ -237,7 +233,6 @@
     },
 
     {
-      "id": 7,
       "name": "Wo-Class Aircraft Carrier (Unryu)",
       "hasSonar": true,
       "carrier": true,
@@ -271,7 +266,6 @@
     },
 
     {
-      "id": 8,
       "name": "Wo-Class Aircraft Carrier (Courageous)",
       "carrier": true,
       "speed": 30,
@@ -298,7 +292,6 @@
     },
 
     {
-      "id": 9,
       "name": "Wo-Class Aircraft Carrier (Illustrious)",
       "carrier": true,
       "speed": 31,
@@ -338,7 +331,6 @@
     },
 
     {
-      "id": 10,
       "name": "Wo-Class Aircraft Carrier (Implacable)",
       "carrier": true,
       "speed": 33,
@@ -387,7 +379,6 @@
     },
 
     {
-      "id": 11,
       "name": "Wo-Class Aircraft Carrier (Bearn)",
       "carrier": true,
       "speed": 33,
@@ -435,7 +426,6 @@
     },
 
     {
-      "id": 12,
       "name": "Wo-Class Aircraft Carrier (Graf Zeppelin)",
       "carrier": true,
       "speed": 34,
@@ -481,8 +471,8 @@
 
       ]
     },
+
     {
-      "id": 13,
       "name": "Wo-Class Aircraft Carrier (Aquila)",
       "carrier": true,
       "speed": 30,
@@ -526,8 +516,8 @@
 
       ]
     },
+    // ABYSSAL BATTLESHIPS
     {
-      "id": 14,
       "name": "Ta-Class Fast Battlehip (Kongo)",
       "carrier": false,
       "speed": 30,
@@ -571,7 +561,6 @@
       ]
     },
     {
-      "id": 15,
       "name": "Ta-Class Fast Battlehip (Bismark)",
       "carrier": false,
       "speed": 30,
@@ -631,7 +620,6 @@
       ]
     },
     {
-      "id": 16,
       "name": "Ta-Class Fast Battlehip (Dunkerque)",
       "carrier": false,
       "speed": 30,
@@ -686,7 +674,6 @@
       ]
     },
     {
-      "id": 17,
       "name": "Ta-Class Fast Battlehip (Iowa)",
       "carrier": false,
       "speed": 36,
@@ -739,7 +726,6 @@
       ]
     },
     {
-      "id": 17,
       "name": "Ta-Class Fast Battlehip (Littorio)",
       "carrier": false,
       "speed": 30,
@@ -790,8 +776,60 @@
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         }
-
       ]
     }
+
+    // ABYSSAL HEAVY CRUISERS
+    // ABYSSAL LIGHT CRUISERS
+    // ABYSSAL LIGHT CARRIERS
+    // ABYSSAL DESTROYERS
+
+    // USA
+    // USA CARRIERS
+    // USA BATTLESHIPS
+    // USA HEAVY CRUISERS
+    // USA LIGHT CRUISERS
+    // USA LIGHT CARRIERS
+    // USA DESTROYERS
+
+    // JAPAN
+    // JAPAN CARRIERS
+    // JAPAN BATTLESHIPS
+    // JAPAN HEAVY CRUISERS
+    // JAPAN LIGHT CRUISERS
+    // JAPAN LIGHT CARRIERS
+    // JAPAN DESTROYERS
+
+    // UK
+    // UK CARRIERS
+    // UK BATTLESHIPS
+    // UK HEAVY CRUISERS
+    // UK LIGHT CRUISERS
+    // UK LIGHT CARRIERS
+    // UK DESTROYERS
+
+    // GERMANY
+    // GERMANY CARRIERS
+    // GERMANY BATTLESHIPS
+    // GERMANY HEAVY CRUISERS
+    // GERMANY LIGHT CRUISERS
+    // GERMANY LIGHT CARRIERS
+    // GERMANY DESTROYERS
+
+    // FRANCE
+    // FRANCE CARRIERS
+    // FRANCE BATTLESHIPS
+    // FRANCE HEAVY CRUISERS
+    // FRANCE LIGHT CRUISERS
+    // FRANCE LIGHT CARRIERS
+    // FRANCE DESTROYERS
+
+    // ITALY
+    // ITALY CARRIERS
+    // ITALY BATTLESHIPS
+    // ITALY HEAVY CRUISERS
+    // ITALY LIGHT CRUISERS
+    // ITALY LIGHT CARRIERS
+    // ITALY DESTROYERS
   ]
 }
