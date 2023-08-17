@@ -359,6 +359,27 @@
       "fireRate": 120,
       "attackAir": true,
       "originCountry": "ITA"
+    },
+    {
+      "id": 37,
+      "name": "14-inch Mk VII",
+      "calibre": 356,
+      "maxRange": 35260,
+      "armorPenetration": 668,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 38,
+      "name": "5.25-in/50 QF Mk I",
+      "calibre": 134,
+      "maxRange": 23400,
+      "armorPenetration": 76,
+      "fireRate": 8,
+      "attackAir": true,
+      "originCountry": "UK"
     }
+
   ]
 }

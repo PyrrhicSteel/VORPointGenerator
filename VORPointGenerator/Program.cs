@@ -153,6 +153,7 @@ namespace VORPointGenerator
                     statBlock.range = (int)Math.Round(((double)batteryGun.maxRange / 1750));
 
                     //TODO: have very high rofs increase accuracy
+
                     if (j.localOpticalDirector) { fireControl++; }
                     if (j.localRadarDirector) { fireControl++; }
                     if (j.opticalDirector) { fireControl++; }

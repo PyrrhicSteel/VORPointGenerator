@@ -726,58 +726,96 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Littorio)",
+      "name": "Ta-Class Fast Battlehip (King George V)",
       "carrier": false,
-      "speed": 30,
-      "displacement": 40724,
-      "horsepower": 128200,
-      "beltThickness": 233,
-      "length": 238,
-      "aircraftCount": 3,
+      "speed": 28,
+      "displacement": 40000,
+      "horsepower": 110000,
+      "beltThickness": 258,
+      "length": 227,
+      "aircraftCount": 4,
       "shipFaction": "ABYSSAL",
       "hullCode": "BB",
       "batteries": [
         {
-          "gunRefrenceID": 32,
-          "turretCount": 3,
-          "gunsPerTurret": 3,
+          "gunRefrenceID": 37,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true,
+          "radarDirector": true,
           "rangefinder": true,
-          "poorShellQuaility": true
+          "radarBlindFire": true
 
         },
         {
-          "gunRefrenceID": 33,
-          "turretCount": 4,
-          "gunsPerTurret": 3,
+          "gunRefrenceID": 37,
+          "turretCount": 1,
+          "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true,
-          "rangefinder": true
-        },
-        {
-          "gunRefrenceID": 34,
-          "turretCount": 12,
-          "gunsPerTurret": 1,
-          "localOpticalDirector": true,
-          "opticalDirector": true,
+          "radarDirector": true,
           "rangefinder": true,
-          "airburstFuses": true
+          "radarBlindFire": true
         },
         {
-          "gunRefrenceID": 35,
-          "turretCount": 10,
+          "gunRefrenceID": 38,
+          "turretCount": 8,
           "gunsPerTurret": 2,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 6,
+          "gunsPerTurret": 8,
+          "opticalDirector": true,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 36,
+          "gunRefrenceID": 2,
           "turretCount": 10,
-          "gunsPerTurret": 2,
+          "gunsPerTurret": 1,
           "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 36,
+          "gunsPerTurret": 1
         }
       ]
     }
+
+    // TODO: Ta-class Richelieu
+    // TODO: Ta-class South Dakota
+
+    // TODO: Ru-class Andrea Doria
+    // TODO: Ru-class Bayern
+    // TODO: Ru-class Bretange
+    // TODO: Ru-class Conte di Cavour
+    // TODO: Ru-class Espana
+    // TODO: Ru-class Gangut
+    // TODO: Ru-class Iron Duke
+    // TODO: Ru-class Nelson
+    // TODO: Ru-class Orion
+    // TODO: Ru-class Queen Elizabeth
+    // TODO: Ru-class Revenge
+    // TODO: Ru-class Tegetthoff
+    // TODO: Ru-class Queen Elizabeth
+    // TODO: Ru-class Fuso
+    // TODO: Ru-class Nagato
+    // TODO: Ru-class Yamato
+    // TODO: Ru-class New York
+    // TODO: Ru-class Nevada
+    // TODO: Ru-class Pennsylvania
+    // TODO: Ru-class New Mexico
+    // TODO: Ru-class Tennessee
+    // TODO: Ru-class Colorado
+
 
     // ABYSSAL HEAVY CRUISERS
     // ABYSSAL LIGHT CRUISERS
