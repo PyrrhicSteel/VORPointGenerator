@@ -379,7 +379,38 @@
       "fireRate": 8,
       "attackAir": true,
       "originCountry": "UK"
+    },
+    {
+      "id": 39,
+      "name": "380 mm/45 Modele 1935",
+      "calibre": 380,
+      "maxRange": 41700,
+      "armorPenetration": 748,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "FR"
+    },
+    {
+      "id": 40,
+      "name": "152 mm/55 Modele 1930",
+      "calibre": 152,
+      "maxRange": 26474,
+      "armorPenetration": 122,
+      "fireRate": 5,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
+    {
+      "id": 41,
+      "name": "100 mm/45 Modele 1930",
+      "calibre": 100,
+      "maxRange": 26474,
+      "armorPenetration": 122,
+      "fireRate": 5,
+      "attackAir": true,
+      "originCountry": "FR"
     }
+
 
   ]
 }

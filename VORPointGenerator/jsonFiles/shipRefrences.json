@@ -746,7 +746,6 @@
           "radarDirector": true,
           "rangefinder": true,
           "radarBlindFire": true
-
         },
         {
           "gunRefrenceID": 37,
@@ -788,10 +787,112 @@
           "gunsPerTurret": 1
         }
       ]
+    },
+    {
+      "name": "Ta-Class Fast Battlehip (Richelieu)",
+      "carrier": false,
+      "speed": 28,
+      "displacement": 37850,
+      "horsepower": 155000,
+      "beltThickness": 318,
+      "length": 248,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 39,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "poorShellQuality": true
+        },
+        {
+          "gunRefrenceID": 40,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 41,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 15,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 36,
+          "gunsPerTurret": 1
+        }
+      ]
+    },
+    {
+      "name": "Ta-Class Fast Battlehip (South Dakota)",
+      "carrier": false,
+      "speed": 28,
+      "displacement": 35980,
+      "horsepower": 130000,
+      "beltThickness": 282,
+      "length": 207,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 42,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 19,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 67,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
     }
-
-    // TODO: Ta-class Richelieu
-    // TODO: Ta-class South Dakota
 
     // TODO: Ru-class Andrea Doria
     // TODO: Ru-class Bayern
@@ -805,7 +906,6 @@
     // TODO: Ru-class Queen Elizabeth
     // TODO: Ru-class Revenge
     // TODO: Ru-class Tegetthoff
-    // TODO: Ru-class Queen Elizabeth
     // TODO: Ru-class Fuso
     // TODO: Ru-class Nagato
     // TODO: Ru-class Yamato
