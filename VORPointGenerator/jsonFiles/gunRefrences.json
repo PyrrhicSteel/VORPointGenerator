@@ -409,6 +409,16 @@
       "fireRate": 5,
       "attackAir": true,
       "originCountry": "FR"
+    },
+    {
+      "id": 42,
+      "name": "16-in/45 Mark 6",
+      "calibre": 406,
+      "maxRange": 36741,
+      "armorPenetration": 755,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "USA"
     }
 
 
