@@ -419,6 +419,36 @@
       "fireRate": 2,
       "attackAir": false,
       "originCountry": "USA"
+    },
+    {
+      "id": 43,
+      "name": "12-in/52 Pattern 1907",
+      "calibre": 305,
+      "maxRange": 23300,
+      "armorPenetration": 352,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "USSR"
+    },
+    {
+      "id": 44,
+      "name": "120 mm/50 Pattern 1905",
+      "calibre": 120,
+      "maxRange": 23045,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "USSR"
+    },
+    {
+      "id": 45,
+      "name": "76.2 mm/30 Pattern 1914/15",
+      "calibre": 76,
+      "maxRange": 9500,
+      "armorPenetration": 50, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "USSR"
     }
 
 

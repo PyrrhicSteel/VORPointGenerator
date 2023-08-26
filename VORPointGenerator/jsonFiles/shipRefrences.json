@@ -892,7 +892,7 @@
           "localOpticalDirector": true
         }
       ]
-    }
+    },
 
     // TODO: Ru-class Andrea Doria
     // TODO: Ru-class Bayern
@@ -900,6 +900,50 @@
     // TODO: Ru-class Conte di Cavour
     // TODO: Ru-class Espana
     // TODO: Ru-class Gangut
+    {
+      "name": "Ru-Class Battlehip (Gangut)",
+      "carrier": false,
+      "speed": 28,
+      "displacement": 24400,
+      "horsepower": 52000,
+      "beltThickness": 136,
+      "length": 181,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 43,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 44,
+          "turretCount": 16,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 45,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    }
     // TODO: Ru-class Nelson
     // TODO: Ru-class Queen Elizabeth
     // TODO: Ru-class Revenge
@@ -972,8 +1016,54 @@
     // TODO: Chi-class Ooi
     // TODO: Chi-class Peyk-i Sevket
 
+
     // ABYSSAL LIGHT CARRIERS
+
+    // TODO: Nu-class Casablanca
+    // TODO: Nu-class Bouge
+    // TODO: Nu-class Independance
+    // TODO: Nu-class Colossus
+    // TODO: Nu-class Ruler
+    // TODO: Nu-class Taiyo
+    // TODO: Nu-class Shimane Maru
+    // TODO: Nu-class Ryujo
+
+
     // ABYSSAL DESTROYERS
+
+    // TODO: I-class Admiralen
+    // TODO: I-class Benson
+    // TODO: I-class Clemson
+    // TODO: I-class C-class
+    // TODO: I-class Town
+    // TODO: I-class Tribal
+    // TODO: I-class Churruca
+    // TODO: I-class Soldati
+    // TODO: I-class Fubuki
+    // TODO: I-class Matsu
+    // TODO: I-class Gnevny
+    // TODO: I-class Goteborg
+    // TODO: I-class Orfey
+    // TODO: I-class Storozhevoy
+
+    // TODO: Na-class Aigle
+    // TODO: Na-class Akizuki
+    // TODO: Na-class Fletcher
+    // TODO: Na-class Leningrad
+    // TODO: Na-class Type 1924
+
+    // TODO: Ni-class Shiratsuyu
+    // TODO: Ni-class Type 1936A
+
+    // TODO: Ro-class Freccia
+    // TODO: Ro-class Navigatori
+    // TODO: Ro-class Turbine
+    // TODO: Ha-class Yugumo
+
+    // TODO: Ha-class Allen M. Sumner
+    // TODO: Ha-class Gearing
+    // TODO: Ha-class Asashio
+    // TODO: Ha-class Akizuki
 
     // USA
     // USA CARRIERS
