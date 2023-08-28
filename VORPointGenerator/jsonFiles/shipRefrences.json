@@ -1009,13 +1009,64 @@
           "localOpticalDirector": true
         }
       ]
-    }
+    },
     // TODO: Ri-class New Orleans
 
     // TODO: Ne-class Mogami
     // TODO: Ne-class Myoko
     // TODO: Ne-class Deutschland
-    // TODO: Ne-class Admiral Hipper
+    {
+      "name": "Ne-Class Heavy Cruiser (Admiral Hipper)",
+      "carrier": false,
+      "speed": 32,
+      "displacement": 16700,
+      "horsepower": 132000,
+      "beltThickness": 60,
+      "length": 213,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "batteries": [
+        {
+          "gunRefrenceID": 42,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 19,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 67,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    }
     // TODO: Ne-class Zara
     // TODO: Ne-class Baltimore
     // TODO: Ne-class Commandant Teste
