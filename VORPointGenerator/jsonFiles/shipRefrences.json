@@ -943,7 +943,7 @@
           "torpReloads": 0
         }
       ]
-    }
+    },
     // TODO: Ru-class Nelson
     // TODO: Ru-class Queen Elizabeth
     // TODO: Ru-class Revenge
@@ -968,7 +968,48 @@
     // TODO: Ri-class Veinticinco de Mayo
     // TODO: Ri-class San Giorgio
     // TODO: Ri-class Trento
-    // TODO: Ri-class Northampton
+    {
+      "name": "Ri-Class Heavy Cruiser (Northampton)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 9050,
+      "horsepower": 107000,
+      "beltThickness": 52,
+      "length": 180,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "batteries": [
+        {
+          "gunRefrenceID": 4,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 6,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    }
     // TODO: Ri-class New Orleans
 
     // TODO: Ne-class Mogami
