@@ -46,7 +46,7 @@
       "orginCountry": "USA"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "53.3 cm G7a T1",
       "torpWarheadSize": 600, //617 kg Hexanite I can't find a good conversion, so CITATION NEEDED
       "torpRange": 15300,
@@ -55,13 +55,22 @@
       "orginCountry": "GER"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "456mm model 1910",
       "torpWarheadSize": 96, //96 kg TNT
       "torpRange": 3000,
       "torpSpeed": 29,
       "torpGuidance": 0,
       "orginCountry": "USSR"
+    },
+    {
+      "id": 7,
+      "name": "21-inch Mark IX",
+      "torpWarheadSize": 340, //340 kg TNT
+      "torpRange": 9600,
+      "torpSpeed": 36,
+      "torpGuidance": 0,
+      "orginCountry": "UK"
     }
 
   ]

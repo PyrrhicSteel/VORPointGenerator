@@ -449,6 +449,36 @@
       "fireRate": 12,
       "attackAir": true,
       "originCountry": "USSR"
+    },
+    {
+      "id": 46,
+      "name": "20.3 cm/60 SK C/34",
+      "calibre": 203,
+      "maxRange": 33500,
+      "armorPenetration": 240,
+      "fireRate": 5,
+      "attackAir": false,
+      "originCountry": "GER"
+    },
+    {
+      "id": 47,
+      "name": "6-in/45 BL Mark XII",
+      "calibre": 152,
+      "maxRange": 19660,
+      "armorPenetration": 89,
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 48,
+      "name": "QF 3-pdr QF Mark II",
+      "calibre": 47,
+      "maxRange": 5120,
+      "armorPenetration": 30, // CITATION NEEDED
+      "fireRate": 25,
+      "attackAir": true,
+      "originCountry": "UK"
     }
 
 

@@ -1028,45 +1028,47 @@
       "hullCode": "CA",
       "batteries": [
         {
-          "gunRefrenceID": 42,
-          "turretCount": 3,
-          "gunsPerTurret": 3,
-          "localOpticalDirector": true,
-          "opticalDirector": true,
-          "rangefinder": true,
-          "mechanicalComputer": true,
-          "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true
-        },
-        {
-          "gunRefrenceID": 1,
-          "turretCount": 10,
+          "gunRefrenceID": 46,
+          "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
           "mechanicalComputer": true,
-          "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true,
-          "airburstFuses": true,
-          "radarFuses": true
+          "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 2,
-          "turretCount": 19,
-          "gunsPerTurret": 4,
+          "gunRefrenceID": 17,
+          "turretCount": 10,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
-          "turretCount": 67,
+          "gunRefrenceID": 19,
+          "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 4,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
       ]
-    }
+    },
     // TODO: Ne-class Zara
     // TODO: Ne-class Baltimore
     // TODO: Ne-class Commandant Teste
@@ -1083,7 +1085,53 @@
     // TODO: Ho-class Nagara (jpn) (6)
     // TODO: Ho-class Magdeburg (ger) (4)
     // TODO: Ho-class Svetlana (ussr) (3)
-    // TODO: Ho-class C-class (uk) (28)
+    {
+      "name": "Ho-Class Heavy Cruiser (C-class)",
+      "carrier": false,
+      "speed": 29,
+      "displacement": 4120,
+      "horsepower": 40000,
+      "beltThickness": 51,
+      "length": 140,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 47,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 48,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 4,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ]
+    }
     // TODO: Ho-class Omaha (us) (10)
 
     // TODO: He-class Java (nl)
