@@ -1131,11 +1131,52 @@
           "torpReloads": 0
         }
       ]
-    }
+    },
     // TODO: Ho-class Omaha (us) (10)
 
     // TODO: He-class Java (nl)
-    // TODO: He-class Brooklyn (us) (9)
+    {
+      "name": "He-Class Light Cruiser (Brooklyn)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 9767,
+      "horsepower": 100000,
+      "beltThickness": 98,
+      "length": 180,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 49,
+          "turretCount": 5,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          "radarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    }
     // TODO: He-class Cleveland (us) (27)
 
     // TODO: To-class Katori (jpn) (3)

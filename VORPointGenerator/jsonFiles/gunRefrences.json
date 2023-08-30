@@ -479,6 +479,16 @@
       "fireRate": 25,
       "attackAir": true,
       "originCountry": "UK"
+    },
+    {
+      "id": 49,
+      "name": "6-in/47 Mk 16",
+      "calibre": 152,
+      "maxRange": 21946,
+      "armorPenetration": 180, // CITATION NEEDED
+      "fireRate": 10,
+      "attackAir": false,
+      "originCountry": "USA"
     }
 
 
