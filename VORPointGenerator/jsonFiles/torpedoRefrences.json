@@ -71,6 +71,15 @@
       "torpSpeed": 36,
       "torpGuidance": 0,
       "orginCountry": "UK"
+    },
+    {
+      "id": 8,
+      "name": "61 cm Model 1",
+      "torpWarheadSize": 490, //340 kg TNT
+      "torpRange": 40000,
+      "torpSpeed": 38,
+      "torpGuidance": 0,
+      "orginCountry": "JP"
     }
 
   ]

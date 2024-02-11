@@ -1086,7 +1086,7 @@
     // TODO: Ho-class Magdeburg (ger) (4)
     // TODO: Ho-class Svetlana (ussr) (3)
     {
-      "name": "Ho-Class Heavy Cruiser (C-class)",
+      "name": "Ho-Class Light Cruiser (C-class)",
       "carrier": false,
       "speed": 29,
       "displacement": 4120,
@@ -1176,10 +1176,60 @@
           "localOpticalDirector": true
         }
       ]
-    }
+    },
     // TODO: He-class Cleveland (us) (27)
 
-    // TODO: To-class Katori (jpn) (3)
+    {
+      "name": "To-class Light Cruiser (Katori-class)",
+      "carrier": false,
+      "speed": 18,
+      "displacement": 5890,
+      "horsepower": 8000,
+      "beltThickness": 10,
+      "length": 130,
+      "aircraftCount": 1,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4, //FIX
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: To-class Agano (jpn) (4)
     // TODO: To-class Fiji (uk) (11)
     // TODO: To-class Town (uk) (10)
@@ -1190,7 +1240,52 @@
     // TODO: To-class Almirante Cevera (spn) (3)
 
     // TODO: Tsu-class Bogatyr (ussr) (4)
-    // TODO: Tsu-class Atlanta (usa)
+    {
+      "name": "Tsu-class Light Cruiser (Atlanta-class)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 6718,
+      "horsepower": 75000,
+      "beltThickness": 58,
+      "length": 165,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 6,
+          "turretCount": 4,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ]
+    }
     // TODO: Tsu-class Dido (uk) (16)
     // TODO: Tsu-class Capitani Romani (ity) (4)
 
