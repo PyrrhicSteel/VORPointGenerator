@@ -1223,7 +1223,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4, //FIX
+          "torpRefrenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -1285,11 +1285,46 @@
           "torpReloads": 0
         }
       ]
-    }
+    },
     // TODO: Tsu-class Dido (uk) (16)
     // TODO: Tsu-class Capitani Romani (ity) (4)
 
-    // TODO: Chi-class Ooi
+    {
+      "name": "Chi-class Torpedo Cruiser (Ooi-class)",
+      "carrier": false,
+      "speed": 36,
+      "displacement": 5100,
+      "horsepower": 90000,
+      "beltThickness": 52,
+      "length": 152,
+      "aircraftCount": 1,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 10,
+          "torpsPerTurret": 4,
+          "torpReloads": 2
+        }
+      ]
+    },
     // TODO: Chi-class Peyk-i Sevket
 
 
@@ -1303,6 +1338,38 @@
     // TODO: Nu-class Taiyo
     // TODO: Nu-class Shimane Maru
     // TODO: Nu-class Ryujo
+    {
+      "name": "Nu-Class Light Carrier (Ryujo)",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 29,
+      "displacement": 9990,
+      "horsepower": 65000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 180,
+      "aircraftCount": 48,
+      "depthChargeLauncherNumber": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CVE",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    }
 
 
     // ABYSSAL DESTROYERS

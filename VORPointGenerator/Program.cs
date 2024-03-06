@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace VORPointGenerator
 {
@@ -218,8 +220,10 @@ namespace VORPointGenerator
                 Warship.calculatePointValue();
 
 
-                Console.WriteLine(Warship.printStats());
+                //Console.WriteLine(Warship.printStats());
 
+                Bitmap card = Warship.generateStatCard();
+                
                 shipStats.Add(Warship);
             }
 
