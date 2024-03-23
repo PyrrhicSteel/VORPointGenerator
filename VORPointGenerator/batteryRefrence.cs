@@ -26,5 +26,6 @@ namespace VORPointGenerator
         public bool airburstFuses = false; //most flak weapons
         public bool radarFuses = false; //vt fuses and some modern weapons. Used in conjunction with airburst fuses
         public bool poorShellQuaility = false;
+        public bool CWISTracking = false;
     }
 }

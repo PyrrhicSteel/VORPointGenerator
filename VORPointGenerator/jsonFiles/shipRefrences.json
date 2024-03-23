@@ -22,7 +22,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -34,7 +34,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -109,7 +109,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -150,7 +150,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -310,7 +310,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -322,7 +322,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         }
@@ -350,7 +350,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -492,7 +492,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -504,7 +504,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "radarRangeFinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true
         },
         {
@@ -694,8 +694,8 @@
           "rangefinder": true,
           "mechanicalComputer": true,
           "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true
+          "radarDirector": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 1,
@@ -707,7 +707,7 @@
           "mechanicalComputer": true,
           "radarRangeFinder": true,
           "radarDirector": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -744,8 +744,8 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "radarDirector": true,
-          "rangefinder": true,
-          "radarBlindFire": true
+          "rangefinder": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 37,
@@ -754,8 +754,8 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "radarDirector": true,
-          "rangefinder": true,
-          "radarBlindFire": true
+          "rangefinder": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 38,
@@ -764,7 +764,7 @@
           "opticalDirector": true,
           "radarDirector": true,
           "rangefinder": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -862,8 +862,8 @@
           "rangefinder": true,
           "mechanicalComputer": true,
           "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true
+          "radarDirector": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 1,
@@ -875,7 +875,7 @@
           "mechanicalComputer": true,
           "radarRangeFinder": true,
           "radarDirector": true,
-          "radarBlindFire": true,
+          //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
         },
@@ -899,7 +899,6 @@
     // TODO: Ru-class Bretange
     // TODO: Ru-class Conte di Cavour
     // TODO: Ru-class Espana
-    // TODO: Ru-class Gangut
     {
       "name": "Ru-Class Battlehip (Gangut)",
       "carrier": false,
@@ -951,6 +950,68 @@
     // TODO: Ru-class Fuso
     // TODO: Ru-class Nagato
     // TODO: Ru-class Yamato
+    {
+      "name": "Ru-Class Battlehip (Yamato)",
+      "carrier": false,
+      "speed": 27,
+      "displacement": 69988,
+      "horsepower": 150000,
+      "beltThickness": 380,
+      "length": 263,
+      "aircraftCount": 7,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 55,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+        },
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ru-class New York
     // TODO: Ru-class New Mexico
     // TODO: Ru-class Colorado
@@ -958,7 +1019,42 @@
 
     // ABYSSAL HEAVY CRUISERS
 
-    // TODO: Ri-class Furutaka
+    {
+      "name": "Ri-Class Heavy Cruiser (Furutaka)",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 9150,
+      "horsepower": 102000,
+      "beltThickness": 62,
+      "length": 185,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "batteries": [
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 57,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ]
+    },
     // TODO: Ri-class Aoba
     // TODO: Ri-class Canarias
     // TODO: Ri-class Suffren
@@ -989,8 +1085,8 @@
           "rangefinder": true,
           "mechanicalComputer": true,
           "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true
+          "radarDirector": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 5,
@@ -1072,7 +1168,36 @@
     // TODO: Ne-class Zara
     // TODO: Ne-class Baltimore
     // TODO: Ne-class Commandant Teste
-    // TODO: Ne-class Chitose
+    {
+      "name": "Ne-Class Seaplane Tender (Chitose)",
+      "carrier": false,
+      "speed": 29,
+      "displacement": 11200,
+      "horsepower": 56000,
+      "beltThickness": 56, // CITATION NEEDED
+      "length": 193,
+      "aircraftCount": 24,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "AVP",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 15,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ]
+    },
+
 
 
     // ABYSSAL LIGHT CRUISERS
@@ -1156,8 +1281,8 @@
           "rangefinder": true,
           "mechanicalComputer": true,
           "radarRangeFinder": true,
-          "radarDirector": true,
-          "radarBlindFire": true
+          "radarDirector": true
+          //"RadarBlindFire": true
         },
         {
           "gunRefrenceID": 5,
@@ -1253,15 +1378,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 50,
-          "turretCount": 8,
-          "gunsPerTurret": 2,
-          "localOpticalDirector": true,
-          "opticalDirector": true,
-          "rangefinder": true
-        },
-        {
-          "gunRefrenceID": 5,
+          "gunRefrenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1271,7 +1388,15 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 3,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -1337,7 +1462,6 @@
     // TODO: Nu-class Ruler
     // TODO: Nu-class Taiyo
     // TODO: Nu-class Shimane Maru
-    // TODO: Nu-class Ryujo
     {
       "name": "Nu-Class Light Carrier (Ryujo)",
       "hasSonar": false,
@@ -1369,7 +1493,7 @@
           "opticalDirector": true
         }
       ]
-    }
+    },
 
 
     // ABYSSAL DESTROYERS
@@ -1382,7 +1506,44 @@
     // TODO: I-class Tribal
     // TODO: I-class Churruca
     // TODO: I-class Soldati
-    // TODO: I-class Fubuki
+    {
+      "name": "I-Class Destroyer (Fubuki)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 38,
+      "displacement": 1780,
+      "horsepower": 50000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 115,
+      "aircraftCount": 0,
+      "depthChargeLauncherNumber": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 3,
+          "torpsPerTurret": 3,
+          "torpReloads": 1
+        }
+      ]
+    },
     // TODO: I-class Matsu
     // TODO: I-class Gnevny
     // TODO: I-class Goteborg
@@ -1391,24 +1552,198 @@
 
     // TODO: Na-class Aigle
     // TODO: Na-class Akizuki
-    // TODO: Na-class Fletcher
+    {
+      "name": "Na-class Destroyer (Fletcher-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 2050,
+      "horsepower": 60000,
+      "beltThickness": 20,
+      "length": 112,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 5,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 7,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Na-class Leningrad
     // TODO: Na-class Type 1924
 
     // TODO: Ni-class Shiratsuyu
-    // TODO: Ni-class Type 1936A
+    {
+      "name": "Ni-class Destroyer (Type 1936A)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 2700,
+      "horsepower": 69000,
+      "beltThickness": 20,
+      "length": 127,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 52,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 10,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ]
+    },
 
     // TODO: Ro-class Freccia
     // TODO: Ro-class Navigatori
-    // TODO: Ro-class Turbine
-    // TODO: Ha-class Yugumo
+    {
+      "name": "Ro-class Destroyer (Turbine-Class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 1070,
+      "horsepower": 40000,
+      "beltThickness": 20,
+      "length": 93,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 52,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ]
+    },
+    // TODO: Ro-class Yugumo
 
     // TODO: Ha-class Allen M. Sumner
     // TODO: Ha-class Gearing
     // TODO: Ha-class Asashio
-    // TODO: Ha-class Akizuki
+    {
+      "name": "Ha-Class Destroyer (Akizuki)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 2700,
+      "horsepower": 52000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 134,
+      "aircraftCount": 0,
+      "depthChargeLauncherNumber": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 54,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 1,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ]
+    },
 
-    // USA
+    // TODO: USA
     // USA CARRIERS
     // USA BATTLESHIPS
     // USA HEAVY CRUISERS
@@ -1416,7 +1751,99 @@
     // USA LIGHT CARRIERS
     // USA DESTROYERS
 
-    // JAPAN
+    // TODO: MODERN USA
+    // USA CVN
+    // USA DDG
+    {
+      "name": "USS Cole (DDG-67)", // TODO: Add special ability
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
+      "displacement": 6800,
+      "horsepower": 19570,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 154,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 1,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10002,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10000,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        },
+        {
+          "torpRefrenceID": 10001,
+          "turretCount": 30,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 2,
+          "turretCount": 30,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 3,
+          "turretCount": 30,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ]
+    }
+
+    // TODO: JAPAN
     // JAPAN CARRIERS
     // JAPAN BATTLESHIPS
     // JAPAN HEAVY CRUISERS
@@ -1424,7 +1851,7 @@
     // JAPAN LIGHT CARRIERS
     // JAPAN DESTROYERS
 
-    // UK
+    // TODO: UK
     // UK CARRIERS
     // UK BATTLESHIPS
     // UK HEAVY CRUISERS
@@ -1432,7 +1859,7 @@
     // UK LIGHT CARRIERS
     // UK DESTROYERS
 
-    // GERMANY
+    // TODO: GERMANY
     // GERMANY CARRIERS
     // GERMANY BATTLESHIPS
     // GERMANY HEAVY CRUISERS
@@ -1440,7 +1867,7 @@
     // GERMANY LIGHT CARRIERS
     // GERMANY DESTROYERS
 
-    // FRANCE
+    // TODO: FRANCE
     // FRANCE CARRIERS
     // FRANCE BATTLESHIPS
     // FRANCE HEAVY CRUISERS
@@ -1448,12 +1875,14 @@
     // FRANCE LIGHT CARRIERS
     // FRANCE DESTROYERS
 
-    // ITALY
+    // TODO: ITALY
     // ITALY CARRIERS
     // ITALY BATTLESHIPS
     // ITALY HEAVY CRUISERS
     // ITALY LIGHT CRUISERS
     // ITALY LIGHT CARRIERS
     // ITALY DESTROYERS
+
+    //TODO: MINOR/MODERN NATIONS
   ]
 }

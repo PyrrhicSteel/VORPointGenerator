@@ -1,0 +1,45 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "missileRefrences": [
+    {
+      "id": 1,
+      "name": "RGM-84 Harpoon Block I",
+      "mslWarheadSize": 258, //explosive type not specified, assumed 221 kg PBXN 
+      "mslRange": 138900,
+      "mslSpeed": 467,
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 2,
+      "name": "TLAM Block VA",
+      "mslWarheadSize": 527, //explosive type not specified, assumed 450 kg PBXN
+      "mslRange": 1600000,
+      "mslSpeed": 493,
+      "seaSkimming": true,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 3,
+      "name": "RIM-156 SM-2ER",
+      "mslWarheadSize": 258, //explosive type not specified, assumed 221 kg PBXN
+      "mslRange": 120380,
+      "mslSpeed": 1200,
+      "seaSkimming": false,
+      "inertialGuidance": true,
+      "sarhGuidance": true,
+      "orginCountry": "USA"
+    }
+  ]
+}

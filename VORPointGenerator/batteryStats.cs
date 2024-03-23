@@ -8,6 +8,7 @@
         public int range { get; set; }
         public int power { get; set; }
         public int accuracy { get; set; }
+        public bool attackAir { get; set; }
 
         //apply misc balance fixes
         internal void applyFixes()

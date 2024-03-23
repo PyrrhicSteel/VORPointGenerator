@@ -13,14 +13,18 @@ namespace VORPointGenerator
             List<shipRefrence> shipRefrences = new List<shipRefrence>();
             List<gunRefrence> gunRefrences = new List<gunRefrence>();
             List<torpedoRefrence> torpedoRefrences = new List<torpedoRefrence>();
+            List<missileRefrence> missileRefrences = new List<missileRefrence>();
             List<aircraftRefrence> aircraftRefrences = new List<aircraftRefrence>();
             List<shipStats> shipStats = new List<shipStats>();
             List<aircraftStats> aircraftStats = new List<aircraftStats>();
+            List<missileStats> missileStats = new List<missileStats>();
 
             gunRefrenceList? gunRefrenceList;
             torpedoRefrenceList? torpedoRefrenceList;
+            missileRefrenceList? missileRefrenceList;
             shipRefrenceList? shipRefrenceList;
             aircraftRefrenceList? aircraftRefrenceList;
+
             shipStatList? shipStatList;
 
 
@@ -55,12 +59,23 @@ namespace VORPointGenerator
                 Environment.Exit(1);
             }
             // read missiles
-
+            try
+            {
+                string text = File.ReadAllText(@"./jsonFiles/missileRefrences.json");
+                missileRefrenceList = JsonConvert.DeserializeObject<missileRefrenceList>(text);
+                missileRefrences = missileRefrenceList.missileRefrences;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Failed to find missile refrence list!");
+                Console.WriteLine(e.Message);
+                Environment.Exit(1);
+            }
 
             // quick debug
-            foreach (var i in gunRefrences)
+            foreach (var i in missileRefrences)
             {
-                Console.Write(i.name + ", ");
+                Console.Write(i.name + ": " + i.id + ", ");
             }
 
             Console.WriteLine("\nWEAPONS READ SUCESSFUL\n");
@@ -118,12 +133,22 @@ namespace VORPointGenerator
                 Warship.name = i.name;
                 Warship.maxSpeed = (int)Math.Round((double)i.speed / 4);
                 Warship.maneuverability = (int)Math.Round((double)i.horsepower / (i.displacement * 1.5));
-                Warship.health = (int)Math.Round((double)i.displacement / 1500); //TODO: add a non-linear decay element to prevent hp values from getting too silly
-                Warship.armor = (int)Math.Round((double)i.beltThickness / 50);
+                // Warship.health = (int)Math.Round((double)i.displacement / 1500); //TODO: add a non-linear decay element to prevent hp values from getting too silly
+
+                // alternate health implementation
+                double displacement = i.displacement;
+                Warship.health = (int)Math.Round((double)i.displacement / 2000);
+                while (displacement > 500)
+                {
+                    displacement = displacement * 0.5;
+                    Warship.health++;
+                }
+
+                Warship.armor = (int)Math.Round((double)i.beltThickness / 35);
                 Warship.evasion = (int)Math.Round((double)((i.length / 50) * -1) + Warship.maneuverability);
                 if (i.hasSonar == true) { Warship.sonarRange = 10; }
                 if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 25)); }
-                else { Warship.numAircraft = (i.aircraftCount / 4); }
+                else { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 4)); }
                 Warship.submarine = i.submarine;
                 Warship.carrier = i.carrier;
                 Warship.steelHull = i.steelHull;
@@ -153,8 +178,23 @@ namespace VORPointGenerator
                     statBlock.gunsPerTurret = j.gunsPerTurret;
                     statBlock.power = (int)Math.Round(((double)batteryGun.armorPenetration / 50));
                     statBlock.range = (int)Math.Round(((double)batteryGun.maxRange / 1750));
+                    statBlock.attackAir = batteryGun.attackAir;
 
-                    //TODO: have very high rofs increase accuracy
+                    // have very high rofs increase accuracy
+                    int b = batteryGun.fireRate;
+                    while(b > 10) //TINKER WITH THIS A BUNCH
+                    {
+                        b = (b / 10);
+                        fireControl++;
+                    }
+
+                    // have large guns reduce accuracy
+                    double o = batteryGun.calibre;
+                    while (o > 100)
+                    {
+                        o = (o * 0.75);
+                        fireControl--;
+                    }
 
                     if (j.localOpticalDirector) { fireControl++; }
                     if (j.localRadarDirector) { fireControl++; }
@@ -175,7 +215,6 @@ namespace VORPointGenerator
                     Warship.gunBatteries.Add(statBlock);
 
                 }
-                //BUG: Torpedoes not getting added
                 //Console.WriteLine("Number of loaded torpedoes: " + i.torpedoes.Count);
                 foreach (var j in i.torpedoes)
                 {
@@ -207,9 +246,52 @@ namespace VORPointGenerator
                     t.torpAOE = (int)Math.Round(((double)tRef.torpSpeed / 15)) + torpFireControl;
                     t.torpCharges = j.torpReloads;
 
+
                     Warship.torpedoBatteries.Add(t);
                 }
                 //TODO: missile stats
+                foreach (var j in i.missiles)
+                {
+                    missileStats m = new missileStats();
+                    missileRefrence mRef = new missileRefrence();
+
+                    int mslFireCtrl = 0;
+
+                    foreach (var z in missileRefrences)
+                    {
+                        if (z.id == j.missileRefrenceID)
+                        {
+                            mRef = z;
+                            // Console.WriteLine(z.id);
+                            // Console.WriteLine("found id!");
+                        }
+                    }
+
+
+                    if (j.dataLink) mslFireCtrl+=3;
+                    if (mRef.sarhGuidance) mslFireCtrl += 3;
+                    if (mRef.arhGuidance) mslFireCtrl += 3;
+                    if (mRef.gpsGuidance) mslFireCtrl += 3;
+                    if (mRef.inertialGuidance) mslFireCtrl += 3;
+                    if (mRef.attackAir) mslFireCtrl += 3;
+
+                    Console.WriteLine(mRef.name);
+                    m.name = mRef.name;
+                    m.mslPower = (int)Math.Round((double)mRef.mslWarheadSize / 50);
+                    m.mslTurrets = j.turretCount;
+                    m.mslsPerTurret = j.missilesPerTurret;
+                    m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
+                    m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
+                    m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 100));
+
+                    m.attackAir = mRef.attackAir;
+
+                    if(mRef.seaSkimming) m.mslEvasion++;
+
+                    Warship.missileBatteries.Add(m);
+                }
+
 
                 //TODO: depth charges
 
@@ -218,11 +300,11 @@ namespace VORPointGenerator
                 Warship.abilityWeight = i.abilityWeight;
 
                 Warship.calculatePointValue();
-
+                
 
                 //Console.WriteLine(Warship.printStats());
 
-                Bitmap card = Warship.generateStatCard();
+                Warship.generateStatCard();
                 
                 shipStats.Add(Warship);
             }

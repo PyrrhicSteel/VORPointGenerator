@@ -19,6 +19,9 @@
     <None Update="jsonFiles\gunRefrences.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="jsonFiles\missileRefrences.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="jsonFiles\shipRefrences.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

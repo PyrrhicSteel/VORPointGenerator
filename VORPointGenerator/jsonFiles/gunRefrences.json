@@ -499,8 +499,133 @@
       "fireRate": 10,
       "attackAir": false,
       "originCountry": "JP"
+    },
+    {
+      "id": 51,
+      "name": "12.7 cm/50 Type 3",
+      "calibre": 127,
+      "maxRange": 18380,
+      "armorPenetration": 200,
+      "fireRate": 5,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 52,
+      "name": "15 cm/48 Tbts KC/36",
+      "calibre": 150,
+      "maxRange": 25700,
+      "armorPenetration": 160, // CITATION NEEDED
+      "fireRate": 7,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 53,
+      "name": "120 mm/45 OTO 1926",
+      "calibre": 120,
+      "maxRange": 15500,
+      "armorPenetration": 120, // CITATION NEEDED
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 54,
+      "name": "10 cm/65 Type 98",
+      "calibre": 100,
+      "maxRange": 19500,
+      "armorPenetration": 150,
+      "fireRate": 19,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 55,
+      "name": "40 cm/45 Type 94",
+      "calibre": 460,
+      "maxRange": 42030,
+      "armorPenetration": 864,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "JP"
+    },
+    {
+      "id": 56,
+      "name": "15.5 cm/60 3rd Year Type",
+      "calibre": 155,
+      "maxRange": 27400,
+      "armorPenetration": 108,
+      "fireRate": 5,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 56,
+      "name": "20 cm/50 3rd Year Type",
+      "calibre": 200,
+      "maxRange": 28000,
+      "armorPenetration": 230, //CITATION NEEDED
+      "fireRate": 3,
+      "attackAir": false,
+      "originCountry": "JP"
+    },
+    {
+      "id": 57,
+      "name": "12 cm/45 10th Year Type",
+      "calibre": 120,
+      "maxRange": 16000,
+      "armorPenetration": 108,
+      "fireRate": 8,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 58,
+      "name": "12 cm/45 10th Year Type",
+      "calibre": 120,
+      "maxRange": 16000,
+      "armorPenetration": 108,
+      "fireRate": 8,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+
+
+
+
+
+
+    // MODERN WEAPONS
+    {
+      "id": 10000,
+      "name": "5-in/62 Mark 45 Mod 2",
+      "calibre": 127,
+      "maxRange": 23130,
+      "armorPenetration": 108, //CITATION NEEDED
+      "fireRate": 16,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10001,
+      "name": "20mm M61 Vulcan",
+      "calibre": 20,
+      "maxRange": 1490,
+      "armorPenetration": 13,
+      "fireRate": 4500,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10002,
+      "name": "25mm/87 Bushmaster",
+      "calibre": 25,
+      "maxRange": 2457,
+      "armorPenetration": 40, //CITATION NEEDED
+      "fireRate": 200,
+      "attackAir": true,
+      "originCountry": "USA"
     }
-
-
   ]
 }

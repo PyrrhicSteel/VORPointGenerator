@@ -75,12 +75,40 @@
     {
       "id": 8,
       "name": "61 cm Model 1",
-      "torpWarheadSize": 490, //340 kg TNT
-      "torpRange": 40000,
-      "torpSpeed": 38,
+      "torpWarheadSize": 490, //490 kg TNT
+      "torpRange": 20000,
+      "torpSpeed": 50,
       "torpGuidance": 0,
       "orginCountry": "JP"
-    }
+    },
+    {
+      "id": 8,
+      "name": "53.3 cm Si 270/533.4 x 72 \"M\"",
+      "torpWarheadSize": 270, //270 kg TNT
+      "torpRange": 12000,
+      "torpSpeed": 29,
+      "torpGuidance": 0,
+      "orginCountry": "ITA"
+    },
 
+    //MODERN WEAPONS
+    {
+      "id": 10000,
+      "name": "Mk 54 Torpedo",
+      "torpWarheadSize": 51, //44 kg PBXN
+      "torpRange": 9144,
+      "torpSpeed": 40,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "USA"
+    },
+    {
+      "id": 10001,
+      "name": "RUM-139 VL-ASROC (Mk 54)",
+      "torpWarheadSize": 51, //44 kg PBXN
+      "torpRange": 31144,
+      "torpSpeed": 40,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "USA"
+    }
   ]
 }
