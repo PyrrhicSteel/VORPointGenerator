@@ -568,8 +568,7 @@
           "name": "250 kg Type 99 No. 25",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 428, // 250 kg TNP
-          "diveBomb": true
+          "bombWarheadSize": 428 // 250 kg TNP
         }
       ]
     },
@@ -603,11 +602,43 @@
           "bombWarheadSize": 11
         }
       ]
+    },
+
+
+
+
+
+
+    {
+      "name": "MH-60S Seahawk",
+      "countryOfOrigin": "USA",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 1890,
+      "weight": 6895,
+      "rateOfClimb": 9,
+      "serviceCieling": 3700,
+      "cameo": "mh-60-seahawk.jpg",
+      "artist": "嘉志",
+      "artLink": "pixiv.net/en/artworks/77513514",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10000,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
     }
-
-
-
-
 
   ]
 }

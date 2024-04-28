@@ -213,12 +213,12 @@ namespace VORPointGenerator
                 if (countryOfOrigin.Equals("USA"))
                 {
                     flagDirectory = flagDirectory + "usa.png";
-                    Console.WriteLine(flagDirectory);
+                    //Console.WriteLine(flagDirectory);
                 }
                 if (countryOfOrigin.Equals("JPN"))
                 {
                     flagDirectory = flagDirectory + "jpn.png";
-                    Console.WriteLine(flagDirectory);
+                    //Console.WriteLine(flagDirectory);
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -400);
@@ -495,7 +495,7 @@ namespace VORPointGenerator
             // TODO: Draw the cameo image
             if (cameo.Length > 0)
             {
-                String cameoDirectory = workingDirectory + "\\images\\src\\ships\\" + cameo;
+                String cameoDirectory = workingDirectory + "\\images\\src\\planes\\" + cameo;
 
                 try
                 {
