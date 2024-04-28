@@ -610,7 +610,16 @@
       "attackAir": true,
       "originCountry": "JP"
     },
-
+    {
+      "id": 61,
+      "name": "320 mm/44 Model 1936",
+      "calibre": 320,
+      "maxRange": 29400,
+      "armorPenetration": 380, // CITATION NEEDED
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
 
 
 

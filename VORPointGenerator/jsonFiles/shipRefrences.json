@@ -954,7 +954,68 @@
       ]
     },
 
-    // TODO: Ru-class Andrea Doria
+    // Ru-class battleships
+    {
+      "name": "Ru-Class Battlehip (Andrea Doria)",
+      "carrier": false,
+      "speed": 21,
+      "displacement": 28882,
+      "horsepower": 75000,
+      "beltThickness": 214,
+      "length": 187,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "cameo": "ru.jpg",
+      "artist": "和屋",
+      "artLink": "pixiv.net/en/artworks/45947847",
+      "batteries": [
+        {
+          "gunRefrenceID": 61,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 61,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 20,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 34,
+          "turretCount": 10,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ru-class Bayern
     // TODO: Ru-class Bretange
     // TODO: Ru-class Conte di Cavour
@@ -962,7 +1023,7 @@
     {
       "name": "Ru-Class Battlehip (Gangut)",
       "carrier": false,
-      "speed": 28,
+      "speed": 24,
       "displacement": 24400,
       "horsepower": 52000,
       "beltThickness": 136,

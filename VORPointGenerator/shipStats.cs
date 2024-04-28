@@ -231,6 +231,27 @@ namespace VORPointGenerator
                 Console.WriteLine("Failed to find image!");
             }
 
+            // Get faction flag in
+            if(shipFaction.Length > 0 && !shipFaction.Equals("ABYSSAL")) {
+                String flagDirectory = workingDirectory + "\\images\\src\\flags\\";
+                if(shipFaction.Equals("UNITED STATES")){
+                    flagDirectory = flagDirectory + "usa.png";
+                    Console.WriteLine(flagDirectory);
+                }
+
+                PointF flagPoint = new PointF(width - 2000, -400);
+                try
+                {
+                    Image newImage = Image.FromFile(flagDirectory);
+                    cardGraphics.DrawImage(newImage, flagPoint.X, flagPoint.Y, 2000, 1000);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Failed to find flag image!");
+                }
+            }
+
             //Name
             PointF startPoint = new PointF(5, 10);
             cardGraphics.DrawString(name, h2, foregroundColor, startPoint);
