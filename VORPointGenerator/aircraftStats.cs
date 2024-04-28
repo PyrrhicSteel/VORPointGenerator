@@ -15,6 +15,8 @@ namespace VORPointGenerator
         public int maxEnergy { get; set; }
         public int cost { get; set; }
 
+        public bool steelHull { get; set; }
+
         public int spottingRange { get; set; } = 15;
 
         public List<batteryStats> gunStats { get; set; } = new List<batteryStats>();
@@ -23,7 +25,14 @@ namespace VORPointGenerator
         public List<torpedoStats> torpedoStats { get; set; } = new List<torpedoStats>();
         public List<missileStats> missileStats { get; set; } = new List<missileStats>();
 
+        public List<specialAbility> specialAbilities { get; set; } = new List<specialAbility>();
+        public double abilityWeight = 1.0;
+
         public int pointValue { get; set; }
+
+        public string cameo { get; set; } = string.Empty;
+        public string artist { get; set; } = string.Empty;
+        public string artLink { get; set; } = string.Empty;
 
         public string printStats()
         {
@@ -99,7 +108,22 @@ namespace VORPointGenerator
                 cost = cost + (int)((Math.Round(Math.Pow((double)(planecount * i.rocketVolleys * i.rocketPower * i.rocketAtk * 0.1), (1 + (i.rocketAcc / 50))))));
             }
 
-            // TODO: Anti-ship missiles
+            // Anti-ship missiles
+            foreach (var i in missileStats)
+            {
+                int correctedRange = i.mslRange;
+                if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
+                int missileStats = (int)Math.Round((planecount * i.mslTurrets * i.mslsPerTurret * i.mslEvasion) * Math.Pow((double)(correctedRange * i.mslPower * i.mslAOE), (1 + (i.mslAcc / 75))));
+
+                //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
+
+                cost = cost + missileStats;
+            }
+
+            if (steelHull == true)
+            {
+                cost = (int)((double)cost * 0.5);
+            }
 
             // round point value to 5
             //Console.WriteLine(cost);
@@ -113,6 +137,8 @@ namespace VORPointGenerator
             int height = 1600;
             var card = new Bitmap(width, height);
 
+            int statblockWidth = 1100;
+
             Graphics cardGraphics = Graphics.FromImage(card);
 
             // Replace printstats with a series of custom, colored fonts
@@ -124,11 +150,23 @@ namespace VORPointGenerator
             Color baseColor = Color.Black; //TODO: use styles based on faction
             Color textColor = Color.LightGray;
 
+            Color atkColor = System.Drawing.ColorTranslator.FromHtml("#571C1D"); // Red
+            Color rngColor = System.Drawing.ColorTranslator.FromHtml("#1D571C"); // Green
+            Color powColor = System.Drawing.ColorTranslator.FromHtml("#57561C"); // Gold
+            Color accColor = System.Drawing.ColorTranslator.FromHtml("#1c1d57"); // Blue
+            Color aoeColor = System.Drawing.ColorTranslator.FromHtml("#561C57"); // Purple
+            Color evaColor = System.Drawing.ColorTranslator.FromHtml("#1C5756"); // Teal
+
+            Brush atkBrush = new SolidBrush(atkColor);
+            Brush rngBrush = new SolidBrush(rngColor);
+            Brush powBrush = new SolidBrush(powColor);
+            Brush accBrush = new SolidBrush(accColor);
+            Brush aoeBrush = new SolidBrush(aoeColor);
+            Brush evaBrush = new SolidBrush(evaColor);
 
             Color white = Color.White;
 
             Pen graphicsPen = new Pen(textColor, 10);
-
 
             //set background color
             SolidBrush backgroundColor = new SolidBrush(baseColor);
@@ -139,12 +177,14 @@ namespace VORPointGenerator
             Font h3 = new Font("Trajan Pro", 36, FontStyle.Bold);
             Font h4 = new Font("Trajan Pro", 30, FontStyle.Bold);
             Font textFont = new Font("Trajan Pro", 24, FontStyle.Bold);
+            Font descFont = new Font("Corbel", 18);
 
-            int h1Margin = 70;
-            int h2Margin = 58;
-            int h3Margin = 46;
-            int h4Margin = 40;
-            int textFontMargin = 34;
+            int h1Margin = 74;
+            int h2Margin = 62;
+            int h3Margin = 50;
+            int h4Margin = 46;
+            int textFontMargin = 44;
+            int descFontMargin = 30;
 
             SolidBrush foregroundColor = new SolidBrush(white);
 
@@ -152,11 +192,11 @@ namespace VORPointGenerator
             cardGraphics.FillRectangle(backgroundColor, 0, 0, width, height);
 
             // Try to get an image in
-            workingDirectory = workingDirectory + "\\images\\src\\bknd3.jpg";
+            String bkndDirectory = workingDirectory + "\\images\\src\\bknd2.jpg";
             //Console.WriteLine(workingDirectory);
             try
             {
-                Image newImage = Image.FromFile(workingDirectory);
+                Image newImage = Image.FromFile(bkndDirectory);
                 cardGraphics.DrawImage(newImage, 0, 0, width, height);
 
             }
@@ -165,17 +205,46 @@ namespace VORPointGenerator
                 Console.WriteLine("Failed to find image!");
             }
 
+            // Get faction flag in
+            if (countryOfOrigin.Length > 0 && !countryOfOrigin.Equals("ABYSSAL"))
+            {
+                String flagDirectory = workingDirectory + "\\images\\src\\flags\\";
+                
+                if (countryOfOrigin.Equals("USA"))
+                {
+                    flagDirectory = flagDirectory + "usa.png";
+                    Console.WriteLine(flagDirectory);
+                }
+                if (countryOfOrigin.Equals("JPN"))
+                {
+                    flagDirectory = flagDirectory + "jpn.png";
+                    Console.WriteLine(flagDirectory);
+                }
+
+                PointF flagPoint = new PointF(width - 2000, -400);
+                try
+                {
+                    Image newImage = Image.FromFile(flagDirectory);
+                    cardGraphics.DrawImage(newImage, flagPoint.X, flagPoint.Y, 2000, 1000);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Failed to find flag image!");
+                }
+            }
+
             //Name
             PointF startPoint = new PointF(5, 10);
             cardGraphics.DrawString(name, h2, foregroundColor, startPoint);
 
             //Point Value in top left corner
-            PointF leftPoint = new PointF(width - 130, 55);
+            PointF leftPoint = new PointF(width - 200, 55);
             cardGraphics.DrawString(pointValue.ToString(), h1, foregroundColor, leftPoint);
 
-            //Integrity
-            leftPoint = leftPoint + new Size(-1175, 30);
-            cardGraphics.DrawString("AIRCRAFT", h4, foregroundColor, leftPoint);
+            // Integrity
+            leftPoint = leftPoint + new Size(-1075, 50);
+            cardGraphics.DrawString("INTEGRITY", h4, foregroundColor, leftPoint);
 
             leftPoint = leftPoint + new Size(-20, h4Margin + 15);
             int pointX = (int)leftPoint.X;
@@ -186,9 +255,11 @@ namespace VORPointGenerator
             cardGraphics.DrawRectangle(graphicsPen, hpBox);
             cardGraphics.FillRectangle(foregroundColor, hpBox);
 
+            PointF cameoPoint = leftPoint; // save leftPoint for drawing later
+
 
             leftPoint = leftPoint + new Size(100, 325);
-            cardGraphics.DrawString("/ " + planecount, textFont, foregroundColor, leftPoint);
+            cardGraphics.DrawString("/ " + planecount, h2, foregroundColor, leftPoint);
 
             // Faction and class
             startPoint = startPoint + new Size(0, h1Margin);
@@ -205,11 +276,62 @@ namespace VORPointGenerator
             cardGraphics.DrawString("WEAPONS:", h3, foregroundColor, startPoint);
 
             startPoint = startPoint + new Size(0, h3Margin);
+
+            // Draw Stat Columns
+            leftPoint = startPoint;
+            leftPoint.X = leftPoint.X + 165;
+            leftPoint.Y = leftPoint.Y - 5;
+            pointX = (int)leftPoint.X;
+            pointY = (int)leftPoint.Y;
+
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(atkBrush, hpBox);
+
+            leftPoint.X = leftPoint.X + 160;
+            pointX = (int)leftPoint.X;
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(rngBrush, hpBox);
+
+            leftPoint.X = leftPoint.X + 160;
+            pointX = (int)leftPoint.X;
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(powBrush, hpBox);
+
+            leftPoint.X = leftPoint.X + 160;
+            pointX = (int)leftPoint.X;
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(accBrush, hpBox);
+
+            leftPoint.X = leftPoint.X + 155;
+            pointX = (int)leftPoint.X;
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(aoeBrush, hpBox);
+
+            leftPoint.X = leftPoint.X + 155;
+            pointX = (int)leftPoint.X;
+            hpBox = new Rectangle(pointX, pointY, 110, 1200);
+            cardGraphics.FillRectangle(evaBrush, hpBox);
+
+
             cardGraphics.DrawString("\tATK\tRNG\tPOW\tACC\tAOE\tEVA", h4, foregroundColor, startPoint);
 
             foreach (var i in gunStats)
             {
+                // move point
                 startPoint = startPoint + new Size(0, h4Margin);
+
+                // draw background box
+                leftPoint = startPoint;
+                leftPoint.X = leftPoint.X - 2;
+                leftPoint.Y = leftPoint.Y - 8;
+
+                pointX = (int)leftPoint.X;
+                pointY = (int)leftPoint.Y;
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+
+                cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+                // draw weapon title
                 string weaponTitle;
                 if (i.attackAir == true) { weaponTitle = i.name + " (GUN) (D/P)"; }
                 else { weaponTitle = i.name + " (GUN)"; }
@@ -222,7 +344,21 @@ namespace VORPointGenerator
 
             foreach (var i in bombStats)
             {
+                // move point
                 startPoint = startPoint + new Size(0, h4Margin);
+
+                // draw background box
+                leftPoint = startPoint;
+                leftPoint.X = leftPoint.X - 2;
+                leftPoint.Y = leftPoint.Y - 8;
+
+                pointX = (int)leftPoint.X;
+                pointY = (int)leftPoint.Y;
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+
+                cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+                // draw weapon title
                 if (i.diveBomb) cardGraphics.DrawString(i.name + " (BOMB) (DIVE)", textFont, foregroundColor, startPoint);
                 else cardGraphics.DrawString(i.name + " (BOMB)", textFont, foregroundColor, startPoint);
 
@@ -233,7 +369,21 @@ namespace VORPointGenerator
 
             foreach (var i in rocketStats)
             {
+                // move point
                 startPoint = startPoint + new Size(0, h4Margin);
+
+                // draw background box
+                leftPoint = startPoint;
+                leftPoint.X = leftPoint.X - 2;
+                leftPoint.Y = leftPoint.Y - 8;
+
+                pointX = (int)leftPoint.X;
+                pointY = (int)leftPoint.Y;
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+
+                cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+                // draw weapon title
                 cardGraphics.DrawString(i.name + " (RKT)", textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
@@ -243,7 +393,21 @@ namespace VORPointGenerator
 
             foreach (var i in torpedoStats)
             {
+                // move point
                 startPoint = startPoint + new Size(0, h4Margin);
+
+                // draw background box
+                leftPoint = startPoint;
+                leftPoint.X = leftPoint.X - 2;
+                leftPoint.Y = leftPoint.Y - 8;
+
+                pointX = (int)leftPoint.X;
+                pointY = (int)leftPoint.Y;
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+
+                cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+                // draw weapon title
                 cardGraphics.DrawString(i.name + " (TORP)", textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
@@ -253,8 +417,21 @@ namespace VORPointGenerator
 
             foreach (var i in missileStats)
             {
+                // move point
                 startPoint = startPoint + new Size(0, h4Margin);
 
+                // draw background box
+                leftPoint = startPoint;
+                leftPoint.X = leftPoint.X - 2;
+                leftPoint.Y = leftPoint.Y - 8;
+
+                pointX = (int)leftPoint.X;
+                pointY = (int)leftPoint.Y;
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+
+                cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+                // draw weapon title
                 string weaponTitle;
                 if (i.attackAir == true) { weaponTitle = i.name + " (MSL) (D/P)"; }
                 else { weaponTitle = i.name + " (MSL)"; }
@@ -265,15 +442,91 @@ namespace VORPointGenerator
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
-            // TODO: add any special abilities, if available
-            //if (!String.IsNullOrEmpty(ability))
-            //{
-            //    startPoint = startPoint + new Size(0, h4Margin);
-            //    cardGraphics.DrawString("ABILITIES:", h4, foregroundColor, startPoint);
-            //
-            //    startPoint = startPoint + new Size(0, h4Margin);
-            //}
+            //Add ability box
+            leftPoint = startPoint + new Size(0, h4Margin);
+            leftPoint.X = 2;
 
+            pointX = (int)leftPoint.X;
+            pointY = (int)leftPoint.Y;
+            hpBox = new Rectangle(pointX, pointY, statblockWidth, 1000);
+
+
+            cardGraphics.DrawRectangle(graphicsPen, hpBox);
+            cardGraphics.FillRectangle(backgroundColor, hpBox);
+
+
+            // add any special abilities, if available
+
+            if (specialAbilities.Count > 0)
+            {
+                startPoint = startPoint + new Size(0, h4Margin + 4);
+                // cardGraphics.DrawString("ABILITIES:", h4, foregroundColor, startPoint);
+
+                // startPoint = startPoint + new Size(0, h4Margin);
+                foreach (var i in specialAbilities)
+                {
+                    cardGraphics.DrawString(i.name, textFont, foregroundColor, startPoint);
+                    startPoint = startPoint + new Size(0, textFontMargin);
+                    cardGraphics.DrawString(i.description, descFont, foregroundColor, startPoint);
+                    startPoint = startPoint + new Size(0, descFontMargin);
+                }
+            }
+
+            // Draw the ship's cameo (1430 x 870 images)
+            width = 870;
+            height = 1430;
+
+            cameoPoint = cameoPoint + new Size(420, 0);
+            String cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericShipImage.jpg";
+
+
+            // Draw background image
+            try
+            {
+                Image newImage = Image.FromFile(cameoBkndDirectory);
+                cardGraphics.DrawImage(newImage, cameoPoint.X, cameoPoint.Y, width, height);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Failed to find image!");
+            }
+
+            // TODO: Draw the cameo image
+            if (cameo.Length > 0)
+            {
+                String cameoDirectory = workingDirectory + "\\images\\src\\ships\\" + cameo;
+
+                try
+                {
+                    Image newImage = Image.FromFile(cameoDirectory);
+                    cardGraphics.DrawImage(newImage, cameoPoint.X, cameoPoint.Y, width, height);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(cameoDirectory);
+                    Console.WriteLine("Failed to find cameo image!");
+                }
+            }
+
+            // Draw the outline
+            pointX = (int)cameoPoint.X;
+            pointY = (int)cameoPoint.Y;
+            Rectangle cameoBox = new Rectangle(pointX, pointY, width, height);
+
+            cardGraphics.DrawRectangle(graphicsPen, cameoBox);
+
+            // Credit the artist
+            cameoPoint = cameoPoint + new Size(10, 1350);
+            if (cameo.Length > 0)
+            {
+                cardGraphics.DrawString("Artist: " + artist, textFont, foregroundColor, cameoPoint);
+                cameoPoint = cameoPoint + new Size(0, textFontMargin);
+
+                cardGraphics.DrawString(artLink, textFont, foregroundColor, cameoPoint);
+                cameoPoint = cameoPoint + new Size(0, textFontMargin);
+            }
 
             //save the card
             //var curentDirectory = Directory.GetCurrentDirectory();

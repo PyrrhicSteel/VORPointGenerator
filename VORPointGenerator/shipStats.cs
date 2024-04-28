@@ -188,11 +188,9 @@ namespace VORPointGenerator
             Brush aoeBrush = new SolidBrush(aoeColor);
             Brush evaBrush = new SolidBrush(evaColor);
 
-
             Color white = Color.White;
 
             Pen graphicsPen = new Pen(textColor, 10);
-
 
             //set background color
             SolidBrush backgroundColor = new SolidBrush(baseColor);
@@ -236,7 +234,30 @@ namespace VORPointGenerator
                 String flagDirectory = workingDirectory + "\\images\\src\\flags\\";
                 if(shipFaction.Equals("UNITED STATES")){
                     flagDirectory = flagDirectory + "usa.png";
-                    Console.WriteLine(flagDirectory);
+                }
+                if (shipFaction.Equals("CANADA"))
+                {
+                    flagDirectory = flagDirectory + "can.png";
+                }
+                if (shipFaction.Equals("GERMANY"))
+                {
+                    flagDirectory = flagDirectory + "ger.png";
+                }
+                if (shipFaction.Equals("ITALY"))
+                {
+                    flagDirectory = flagDirectory + "ita.png";
+                }
+                if (shipFaction.Equals("JAPAN"))
+                {
+                    flagDirectory = flagDirectory + "jpn.png";
+                }
+                if (shipFaction.Equals("RUSSIA"))
+                {
+                    flagDirectory = flagDirectory + "rus.png";
+                }
+                if (shipFaction.Equals("UNITED KINGDOM"))
+                {
+                    flagDirectory = flagDirectory + "uk.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -400);
@@ -424,8 +445,7 @@ namespace VORPointGenerator
             cardGraphics.FillRectangle(backgroundColor, hpBox);
 
 
-            // TODO: add any special abilities, if available
-            //Console.WriteLine(name + ": " + specialAbilities.Count);
+            // add any special abilities, if available
 
             if (specialAbilities.Count > 0)
             {

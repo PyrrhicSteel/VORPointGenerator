@@ -261,7 +261,7 @@ namespace VORPointGenerator
 
                     Warship.torpedoBatteries.Add(t);
                 }
-                //TODO: missile stats
+                // missile stats
                 foreach (var j in i.missiles)
                 {
                     missileStats m = new missileStats();
@@ -347,6 +347,10 @@ namespace VORPointGenerator
                 Aircraft.energyGain = (int)Math.Round(Math.Pow(((double)TWRatio * i.rateOfClimb * i.rateOfClimb * 0.0196210657), 0.5)); 
                 Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 250000));
 
+
+                Aircraft.cameo = i.cameo;
+                Aircraft.artist = i.artist;
+                Aircraft.artLink = i.artLink;
                 //batteries
                 foreach (var j in i.gunRefrences)
                 {
@@ -432,7 +436,7 @@ namespace VORPointGenerator
                     torpedoStats t = new torpedoStats();
                     torpedoRefrence tRef = new torpedoRefrence();
 
-                    Console.WriteLine(i.name); 
+                    //Console.WriteLine(i.name); 
 
                     int torpFireControl = 0;
 
@@ -461,6 +465,18 @@ namespace VORPointGenerator
                 }
                 //TODO: Add missiles
 
+
+                // Console.WriteLine(i.name + ": " + i.specialAbilities.Count);
+                foreach (var j in i.specialAbilities)
+                {
+                    // TODO: Investigate this
+                    specialAbility s = new specialAbility();
+                    s.name = j.name;
+                    s.description = j.description;
+                    Aircraft.specialAbilities.Add(s);
+                }
+
+                Aircraft.abilityWeight = i.abilityWeight;
                 // Calculate cost
                 Aircraft.calculatePointValue();
 

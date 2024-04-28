@@ -338,6 +338,276 @@
           "diveBomb": true
         }
       ]
+    },
+    {
+      "name": "A7M Reppū 'Sam'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 174,
+      "thrust": 1800,
+      "weight": 3226,
+      "rateOfClimb": 16,
+      "serviceCieling": 10900,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 60,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ]
+    },
+    {
+      "name": "D3A 'Val'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Dive Bomber",
+      "numPlanes": 20,
+      "speed": 120,
+      "thrust": 1200,
+      "weight": 2570,
+      "rateOfClimb": 9,
+      "serviceCieling": 10500,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 kg Type 99 No. 25",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 428, // 250 kg TNP
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "B7A Ryusei 'Grace'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Dive Bomber",
+      "numPlanes": 20,
+      "speed": 158,
+      "thrust": 1250,
+      "weight": 3810,
+      "rateOfClimb": 10,
+      "serviceCieling": 11250,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 60,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 kg Type 99 No. 25",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 428, // 250 kg TNP
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "B5N 'Kate'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 105,
+      "thrust": 970,
+      "weight": 2279,
+      "rateOfClimb": 7,
+      "serviceCieling": 8260,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "name": "B6N Tenzan 'Jill'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 133,
+      "thrust": 1680,
+      "weight": 3010,
+      "rateOfClimb": 8,
+      "serviceCieling": 9040,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 11,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "name": "B4Y 'Jean'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 77,
+      "thrust": 700,
+      "weight": 2000,
+      "rateOfClimb": 8,
+      "serviceCieling": 6000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "name": "D4Y Suisei 'Judy'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Dive Bomber",
+      "numPlanes": 20,
+      "speed": 153,
+      "thrust": 1400,
+      "weight": 2440,
+      "rateOfClimb": 14,
+      "serviceCieling": 10700,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "500 kg Type 2 No. 50",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 850, // 500 kg TNP
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "E16A Zuiun 'Paul'",
+      "countryOfOrigin": "JPN",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 121,
+      "thrust": 895,
+      "weight": 2945,
+      "rateOfClimb": 10,
+      "serviceCieling": 10000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 60,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 kg Type 99 No. 25",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 428, // 250 kg TNP
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "E8N 'Dave'",
+      "countryOfOrigin": "JPN",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 300,
+      "thrust": 460,
+      "weight": 1320,
+      "rateOfClimb": 8,
+      "serviceCieling": 10000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "30 kg Type 99",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 11
+        }
+      ]
     }
+
+
+
+
+
   ]
 }

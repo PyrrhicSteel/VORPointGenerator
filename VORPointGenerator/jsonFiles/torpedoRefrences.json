@@ -82,7 +82,7 @@
       "orginCountry": "JP"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "53.3 cm Si 270/533.4 x 72 \"M\"",
       "torpWarheadSize": 270, //270 kg TNT
       "torpRange": 12000,
@@ -90,6 +90,28 @@
       "torpGuidance": 0,
       "orginCountry": "ITA"
     },
+    {
+      "id": 10,
+      "name": "45 cm Type 91 Mod 3",
+      "torpWarheadSize": 240, //240 kg TNT
+      "torpRange": 2000,
+      "torpSpeed": 43,
+      "torpGuidance": 0,
+      "orginCountry": "JP"
+    },
+    {
+      "id": 11,
+      "name": "45 cm Type 91 Mod 7",
+      "torpWarheadSize": 420, //420 kg TNT
+      "torpRange": 2000,
+      "torpSpeed": 43,
+      "torpGuidance": 0,
+      "orginCountry": "JP"
+    },
+
+
+
+
 
     //MODERN WEAPONS
     {

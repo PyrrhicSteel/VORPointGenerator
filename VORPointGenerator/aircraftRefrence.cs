@@ -24,5 +24,13 @@ namespace VORPointGenerator
         public List<torpedoBatRefrence>  torpedoBatRefrences { get; set; } = new List<torpedoBatRefrence>();
         public List<rocketRefrence> rocketRefrences { get; set; } = new List<rocketRefrence>();
 
+
+        public List<specialAbility> specialAbilities { get; set; } = new List<specialAbility>();
+        public double abilityWeight { get; set; } = 1.0;
+
+        // cameo Art
+        public string cameo = string.Empty;
+        public string artist = string.Empty;
+        public string artLink = string.Empty;
     }
 }
