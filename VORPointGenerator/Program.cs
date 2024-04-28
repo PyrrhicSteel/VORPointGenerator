@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Xml.Linq;
 
 namespace VORPointGenerator
 {
@@ -27,7 +28,8 @@ namespace VORPointGenerator
 
             shipStatList? shipStatList;
 
-
+            // String workingDirectory = Directory.GetCurrentDirectory();
+            // Console.WriteLine(workingDirectory);
 
 
 
@@ -134,6 +136,13 @@ namespace VORPointGenerator
                 Warship.maxSpeed = (int)Math.Round((double)i.speed / 4);
                 Warship.maneuverability = (int)Math.Round((double)i.horsepower / (i.displacement * 1.5));
                 // Warship.health = (int)Math.Round((double)i.displacement / 1500); //TODO: add a non-linear decay element to prevent hp values from getting too silly
+                
+                if(Warship.maneuverability + 2 > Warship.maxSpeed)
+                {
+                    double newManeuverability = (Warship.maxSpeed / 3) * 2;
+                    Warship.maneuverability = (int)Math.Round(newManeuverability);
+                }
+
 
                 // alternate health implementation
                 double displacement = i.displacement;
@@ -157,6 +166,9 @@ namespace VORPointGenerator
                 Warship.shipFaction = i.shipFaction;
                 Warship.hullCode = i.hullCode;
 
+                Warship.cameo = i.cameo;
+                Warship.artist = i.artist;
+                Warship.artLink = i.artLink;
                 // battery stats
                 foreach (var j in i.batteries)
                 {
@@ -295,8 +307,16 @@ namespace VORPointGenerator
 
                 //TODO: depth charges
 
+                // Console.WriteLine(i.name + ": " + i.specialAbilities.Count);
+                foreach (var j in i.specialAbilities)
+                {
+                    // TODO: Investigate this
+                    specialAbility s = new specialAbility();
+                    s.name = j.name;
+                    s.description = j.description;
+                    Warship.specialAbilities.Add(s);
+                }
 
-                Warship.ability = i.specialAbility;
                 Warship.abilityWeight = i.abilityWeight;
 
                 Warship.calculatePointValue();
@@ -400,6 +420,8 @@ namespace VORPointGenerator
                     int bombGuidance = 0;
                     if(j.laserGuidance == true) { bombGuidance ++; }
 
+                    bomb.diveBomb = j.diveBomb;
+
                     bomb.accuracy = bombGuidance;
 
                     Aircraft.bombStats.Add(bomb);
@@ -437,11 +459,16 @@ namespace VORPointGenerator
 
                     Aircraft.torpedoStats.Add(t);
                 }
-                //TODO: Calculate cost
+                //TODO: Add missiles
+
+                // Calculate cost
                 Aircraft.calculatePointValue();
 
-                //add aircraft to stuff
-                Console.WriteLine(Aircraft.printStats());
+                // Generate a stat card for the 
+                Aircraft.generateStatCard();
+
+                //
+                //Console.WriteLine(Aircraft.printStats());
 
                 aircraftStats.Add(Aircraft);
             }

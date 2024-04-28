@@ -1,10 +1,10 @@
 {
   "aircraftRefrences": [
+    //USA
     {
-      "id": 1,
       "name": "F4U Corsair",
       "countryOfOrigin": "USA",
-      "type": "Fighter",
+      "type": "Carrier Fighter",
       "numPlanes": 20,
       "speed": 199,
       "thrust": 2380,
@@ -29,10 +29,36 @@
       ]
     },
     {
-      "id": 2,
+      "name": "F4F Wildcat",
+      "countryOfOrigin": "USA",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 148,
+      "thrust": 1200,
+      "weight": 2226,
+      "rateOfClimb": 12,
+      "serviceCieling": 12000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M30, 100 lb.",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 102,
+          "diveBomb": true
+        }
+      ]
+    },
+    {
       "name": "F2A Buffalo",
       "countryOfOrigin": "USA",
-      "type": "Fighter",
+      "type": "Carrier Fighter",
       "numPlanes": 20,
       "speed": 143,
       "thrust": 1200,
@@ -51,15 +77,75 @@
           "name": "AN-M57, 250 lb.",
           "number": 2,
           "bombVolleySize": 2,
-          "bombWarheadSize": 129
+          "bombWarheadSize": 129,
+          "diveBomb": true
         }
       ]
     },
     {
-      "id": 3,
+      "name": "F6F Hellcat",
+      "countryOfOrigin": "USA",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 174,
+      "thrust": 2200,
+      "weight": 4190,
+      "rateOfClimb": 13,
+      "serviceCieling": 22000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        },
+        {
+          "gunRefrenceID": 23,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M30, 100 lb.",
+          "number": 3,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 102,
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "F8F Bearcat",
+      "countryOfOrigin": "USA",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 203,
+      "thrust": 2250,
+      "weight": 3470,
+      "rateOfClimb": 23,
+      "serviceCieling": 12400,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 23,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ],
+      "rocketRefrences": [
+        {
+          "rocketName": "Tiny Tim",
+          "rocketNumber": 2,
+          "rocketVolleySize": 1,
+          "rocketMaxRange": 1500, // check this
+          "rocketWarheadSize": 68,
+          "railDropped": true
+        }
+      ]
+    },
+    {
       "name": "SB2C Helldiver",
       "countryOfOrigin": "USA",
-      "type": "Dive Bomber",
+      "type": "Carrier Dive Bomber",
       "numPlanes": 20,
       "speed": 132,
       "thrust": 1900,
@@ -93,15 +179,15 @@
           "name": "AN-M66, 2000 lb.",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 499
+          "bombWarheadSize": 499,
+          "diveBomb": true
         }
       ]
     },
     {
-      "id": 4,
       "name": "SBD Dauntless",
       "countryOfOrigin": "USA",
-      "type": "Dive Bomber",
+      "type": "Carrier Dive Bomber",
       "numPlanes": 20,
       "speed": 113,
       "thrust": 1200,
@@ -125,15 +211,15 @@
           "name": "AN-M65, 1000 lb.",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 252
+          "bombWarheadSize": 252,
+          "diveBomb": true
         }
       ]
     },
     {
-      "id": 5,
       "name": "TBD Devastator",
       "countryOfOrigin": "USA",
-      "type": "Torpedo Bomber",
+      "type": "Carrier Torpedo Bomber",
       "numPlanes": 20,
       "speed": 92,
       "thrust": 900,
@@ -162,7 +248,6 @@
       ]
     },
     {
-      "id": 6,
       "name": "OS2U Kingfisher",
       "countryOfOrigin": "USA",
       "type": "Observation Floatplane",
@@ -190,6 +275,67 @@
           "number": 1,
           "bombVolleySize": 2,
           "bombWarheadSize": 102
+        }
+      ]
+    },
+
+    //JAPAN
+    {
+      "name": "A5M 'Claude'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 120,
+      "thrust": 710,
+      "weight": 1216,
+      "rateOfClimb": 13,
+      "serviceCieling": 9800,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "30 kg Type 99",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 11,
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "A6M Zero 'Zeke'",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 148,
+      "thrust": 950,
+      "weight": 1680,
+      "rateOfClimb": 16,
+      "serviceCieling": 10000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 59,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 60,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "60 kg Type 99",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 51, // 30 kg TNP
+          "diveBomb": true
         }
       ]
     }

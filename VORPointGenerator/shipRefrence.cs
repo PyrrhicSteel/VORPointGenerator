@@ -29,10 +29,15 @@ namespace VORPointGenerator
         public int depthChargeLauncherNumber { get; set; } = 0;
         public int depthChargeLauncherRange { get; set; } = 1;// projector range in yards. 1 for no projector.
 
-        public string specialAbility { get; set; } = string.Empty;
+        public List<specialAbility> specialAbilities { get; set; } = new List<specialAbility>();
         public double abilityWeight { get; set; } = 1.0;
 
         public string shipFaction { get; set; } = string.Empty;
         public string hullCode { get; set; } = string.Empty;
+
+        // cameo Art
+        public string cameo = string.Empty;
+        public string artist = string.Empty;
+        public string artLink = string.Empty;
     }
 }

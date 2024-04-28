@@ -11,7 +11,7 @@ namespace VORPointGenerator
         public string type { get; set; } = string.Empty;
         public string name { get; set; } = string.Empty;
         public string countryOfOrigin { get; set; } = string.Empty;
-        public int id { get; set; }
+        //public int id { get; set; }
         public int numPlanes { get; set; }
         public int speed { get; set; } // max speed in meters per second
         public double thrust { get; set; } // in hp

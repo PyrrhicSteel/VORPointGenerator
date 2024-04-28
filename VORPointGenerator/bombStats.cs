@@ -15,6 +15,7 @@ namespace VORPointGenerator
         public int accuracy { get; set; }
         //TODO: add range increase in case of modern guided bombs
         public int range { get; set; } = 1;
+        public bool diveBomb { get; set; }
 
     }
 }

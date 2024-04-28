@@ -590,7 +590,26 @@
       "attackAir": true,
       "originCountry": "JP"
     },
-
+    {
+      "id": 59,
+      "name": "Type 97 Aircraft Machine Gun",
+      "calibre": 8,
+      "maxRange": 600, //CITATION NEEDED
+      "armorPenetration": 10,
+      "fireRate": 700,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+    {
+      "id": 60,
+      "name": "Type 99-1 Mk. 3 Cannon",
+      "calibre": 20,
+      "maxRange": 800, //CITATION NEEDED
+      "armorPenetration": 30,
+      "fireRate": 520,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
 
 
 
