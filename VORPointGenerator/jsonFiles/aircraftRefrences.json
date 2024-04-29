@@ -11,6 +11,9 @@
       "weight": 4238,
       "rateOfClimb": 22,
       "serviceCieling": 12600,
+      "cameo": "f4u-corsair.png",
+      "artist": "鹿ビスケット",
+      "artLink": "pixiv.net/en/artworks/111954646",
       "gunRefrences": [
         {
           "gunRefrenceID": 7,
@@ -38,6 +41,9 @@
       "weight": 2226,
       "rateOfClimb": 12,
       "serviceCieling": 12000,
+      "cameo": "f4f-wildcat.png",
+      "artist": "Jura Cambri",
+      "artLink": "pixiv.net/en/artworks/110510710",
       "gunRefrences": [
         {
           "gunRefrenceID": 7,
@@ -92,6 +98,9 @@
       "weight": 4190,
       "rateOfClimb": 13,
       "serviceCieling": 22000,
+      "cameo": "f6f-hellcat.png",
+      "artist": "常盤仙渓",
+      "artLink": "pixiv.net/en/artworks/110221714",
       "gunRefrences": [
         {
           "gunRefrenceID": 7,
@@ -124,6 +133,9 @@
       "weight": 3470,
       "rateOfClimb": 23,
       "serviceCieling": 12400,
+      "cameo": "f8f-bearcat.jpg",
+      "artist": "ナカイケイラ",
+      "artLink": "pixiv.net/en/artworks/118186660",
       "gunRefrences": [
         {
           "gunRefrenceID": 23,
@@ -152,6 +164,9 @@
       "weight": 4784,
       "rateOfClimb": 9,
       "serviceCieling": 8900,
+      "cameo": "sb2c-helldiver.jpg",
+      "artist": "ES饺子",
+      "artLink": "pixiv.net/en/artworks/81391272",
       "gunRefrences": [
         {
           "gunRefrenceID": 23,

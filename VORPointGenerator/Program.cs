@@ -287,7 +287,8 @@ namespace VORPointGenerator
                     if (mRef.inertialGuidance) mslFireCtrl += 3;
                     if (mRef.attackAir) mslFireCtrl += 3;
 
-                    Console.WriteLine(mRef.name);
+                    //Console.WriteLine(mRef.name);
+
                     m.name = mRef.name;
                     m.mslPower = (int)Math.Round((double)mRef.mslWarheadSize / 50);
                     m.mslTurrets = j.turretCount;
