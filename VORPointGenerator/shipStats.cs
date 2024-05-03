@@ -202,6 +202,7 @@ namespace VORPointGenerator
             Font h4 = new Font("Trajan Pro", 30, FontStyle.Bold);
             Font textFont = new Font("Trajan Pro", 24, FontStyle.Bold);
             Font descFont = new Font("Corbel", 18);
+            Font descFontTitle = new Font("Corbel", 22, FontStyle.Bold);
 
             int h1Margin = 74;
             int h2Margin = 62;
@@ -455,10 +456,14 @@ namespace VORPointGenerator
                 // startPoint = startPoint + new Size(0, h4Margin);
                 foreach(var i in specialAbilities)
                 {
-                    cardGraphics.DrawString(i.name, textFont, foregroundColor, startPoint);
-                    startPoint = startPoint + new Size(0, textFontMargin);
-                    cardGraphics.DrawString(i.description, descFont, foregroundColor, startPoint);
+                    cardGraphics.DrawString(i.name, descFontTitle, foregroundColor, startPoint);
                     startPoint = startPoint + new Size(0, descFontMargin);
+                    if(i.description.Length > 0)
+                    {
+                        cardGraphics.DrawString(i.description, descFont, foregroundColor, startPoint);
+                        startPoint = startPoint + new Size(0, descFontMargin * i.numLines);
+                    }
+                    startPoint = startPoint + new Size(0, 5);
                 }
             }
 

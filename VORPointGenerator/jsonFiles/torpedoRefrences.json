@@ -61,7 +61,7 @@
       "torpRange": 3000,
       "torpSpeed": 29,
       "torpGuidance": 0,
-      "orginCountry": "USSR"
+      "orginCountry": "RUS"
     },
     {
       "id": 7,
@@ -101,12 +101,12 @@
     },
     {
       "id": 11,
-      "name": "45 cm Type 91 Mod 7",
-      "torpWarheadSize": 420, //420 kg TNT
-      "torpRange": 2000,
-      "torpSpeed": 43,
+      "name": "533 mm 53-27",
+      "torpWarheadSize": 265, //420 kg TNT
+      "torpRange": 3700,
+      "torpSpeed": 45,
       "torpGuidance": 0,
-      "orginCountry": "JP"
+      "orginCountry": "RUS"
     },
 
 

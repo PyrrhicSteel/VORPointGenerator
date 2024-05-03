@@ -209,6 +209,9 @@
       "weight": 2905,
       "rateOfClimb": 9,
       "serviceCieling": 7780,
+      "cameo": "sbd-dauntless.jpg",
+      "artist": "potudamu hisou",
+      "artLink": "danbooru.donmai.us/posts/7129414",
       "gunRefrences": [
         {
           "gunRefrenceID": 7,
@@ -241,6 +244,9 @@
       "weight": 4213,
       "rateOfClimb": 4,
       "serviceCieling": 5900,
+      "cameo": "tbd-devastator.jpg",
+      "artist": "jura cambri",
+      "artLink": "twitter.com/canbri2/status/1561995680918294529",
       "gunRefrences": [
         {
           "gunRefrenceID": 24,
@@ -272,6 +278,9 @@
       "weight": 1513,
       "rateOfClimb": 5,
       "serviceCieling": 5500,
+      "cameo": "os2u-kingfisher.jpg",
+      "artist": "六羽田トモエ",
+      "artLink": "twitter.com/6thbody/status/1738928095615451212",
       "gunRefrences": [
         {
           "gunRefrenceID": 24,
@@ -305,6 +314,9 @@
       "weight": 1216,
       "rateOfClimb": 13,
       "serviceCieling": 9800,
+      "cameo": "a5m.jpg",
+      "artist": "ぽるさす",
+      "artLink": "twitter.com/ilves_tomo/status/1021814666270392320",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -332,6 +344,9 @@
       "weight": 1680,
       "rateOfClimb": 16,
       "serviceCieling": 10000,
+      "cameo": "a6m-zero.jpg",
+      "artist": "TimmyYen",
+      "artLink": "twitter.com/TimmyYen/status/1274201660684775424",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -364,6 +379,9 @@
       "weight": 3226,
       "rateOfClimb": 16,
       "serviceCieling": 10900,
+      "cameo": "a7m-reppu.png",
+      "artist": "harumiya hiro",
+      "artLink": "pixiv.net/artworks/74792014",
       "gunRefrences": [
         {
           "gunRefrenceID": 60,
@@ -382,6 +400,9 @@
       "weight": 2570,
       "rateOfClimb": 9,
       "serviceCieling": 10500,
+      "cameo": "d3a.jpg",
+      "artist": "ベロベロマン",
+      "artLink": "pixiv.net/en/artworks/69400720",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -414,6 +435,9 @@
       "weight": 3810,
       "rateOfClimb": 10,
       "serviceCieling": 11250,
+      "cameo": "b7a-ryusei.png",
+      "artist": "JsnGoat",
+      "artLink": "pixiv.net/en/artworks/59468506",
       "gunRefrences": [
         {
           "gunRefrenceID": 60,
@@ -446,6 +470,9 @@
       "weight": 2279,
       "rateOfClimb": 7,
       "serviceCieling": 8260,
+      "cameo": "b5n.png",
+      "artist": "春宮ひろ",
+      "artLink": "pixiv.net/en/artworks/68519516",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -477,6 +504,9 @@
       "weight": 3010,
       "rateOfClimb": 8,
       "serviceCieling": 9040,
+      "cameo": "b6n-tenzan.jpg",
+      "artist": "neko (yanshoujie)",
+      "artLink": "pixiv.net/en/artworks/78465098",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -534,6 +564,9 @@
       "weight": 2440,
       "rateOfClimb": 14,
       "serviceCieling": 10700,
+      "cameo": "d4y-suisei.jpg",
+      "artist": "Erica",
+      "artLink": "pixiv.net/en/artworks/41519309",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -566,6 +599,9 @@
       "weight": 2945,
       "rateOfClimb": 10,
       "serviceCieling": 10000,
+      "cameo": "e16a-zuiun.jpg",
+      "artist": "茶原",
+      "artLink": "pixiv.net/en/artworks/64961169",
       "gunRefrences": [
         {
           "gunRefrenceID": 60,
@@ -597,6 +633,9 @@
       "weight": 1320,
       "rateOfClimb": 8,
       "serviceCieling": 10000,
+      "cameo": "e8n.png",
+      "artist": "kitsuneno denpachi",
+      "artLink": "danbooru.donmai.us/posts/2196032",
       "gunRefrences": [
         {
           "gunRefrenceID": 59,
@@ -618,6 +657,12 @@
         }
       ]
     },
+
+    // UK
+
+    // GERMANY
+    // FRANCE
+    // ITALY
 
 
 
@@ -652,8 +697,16 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
+      ],
+      "specialAbilities": [
+
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
       ]
     }
+
 
   ]
 }

@@ -428,7 +428,7 @@
       "armorPenetration": 352,
       "fireRate": 2,
       "attackAir": false,
-      "originCountry": "USSR"
+      "originCountry": "RUS"
     },
     {
       "id": 44,
@@ -438,7 +438,7 @@
       "armorPenetration": 127, // CITATION NEEDED
       "fireRate": 7,
       "attackAir": false,
-      "originCountry": "USSR"
+      "originCountry": "RUS"
     },
     {
       "id": 45,
@@ -448,7 +448,7 @@
       "armorPenetration": 50, // CITATION NEEDED
       "fireRate": 12,
       "attackAir": true,
-      "originCountry": "USSR"
+      "originCountry": "RUS"
     },
     {
       "id": 46,
@@ -620,7 +620,26 @@
       "attackAir": false,
       "originCountry": "ITA"
     },
-    
+    {
+      "id": 62,
+      "name": "130 mm/50 B13 Pattern 1936",
+      "calibre": 130,
+      "maxRange": 25597,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 10,
+      "attackAir": false,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 63,
+      "name": "45 mm/46 21-K",
+      "calibre": 45,
+      "maxRange": 9200,
+      "armorPenetration": 20, // CITATION NEEDED
+      "fireRate": 30,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
 
 
 

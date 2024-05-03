@@ -1073,7 +1073,6 @@
     // TODO: Ru-class Tegetthoff
     // TODO: Ru-class Fuso
     // TODO: Ru-class Nagato
-    // TODO: Ru-class Yamato
     {
       "name": "Ru-Class Battlehip (Yamato)",
       "carrier": false,
@@ -1687,7 +1686,13 @@
           "torpsPerTurret": 4,
           "torpReloads": 0
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
     // TODO: I-class C-class
     // TODO: I-class Town
@@ -1751,12 +1756,128 @@
           "torpsPerTurret": 4,
           "torpReloads": 0
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
-    // TODO: Na-class Leningrad
+    {
+      "name": "Na-class Destroyer (Leningrad-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 40,
+      "displacement": 2350,
+      "horsepower": 66000,
+      "beltThickness": 20,
+      "length": 128,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "na.jpg",
+      "artist": "ninimo nimo",
+      "artLink": "seiga.nicovideo.jp/seiga/im6990601",
+      "batteries": [
+        {
+          "gunRefrenceID": 62,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 45,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 7,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 11,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     // TODO: Na-class Type 1924
 
-    // TODO: Ni-class Shiratsuyu
+    {
+      "name": "Ni-class Destroyer (Shiratsuyu)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 34,
+      "displacement": 1685,
+      "horsepower": 42000,
+      "beltThickness": 20,
+      "length": 107,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     {
       "name": "Ni-class Destroyer (Type 1936A)",
       "hasSonar": true,
@@ -1802,7 +1923,13 @@
           "torpsPerTurret": 4,
           "torpReloads": 0
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
 
     // TODO: Ro-class Allen M. Sumner
@@ -1849,14 +1976,66 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "torpRefrenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
-    // TODO: Ro-class Yugumo
+    {
+      "name": "Ro-class Destroyer (Yogumo-Class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 2077,
+      "horsepower": 52000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 119,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "ro.jpg",
+      "artist": "林ノハル",
+      "artLink": "pixiv.net/en/artworks/70816380",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
 
     {
       "name": "Ha-Class Destroyer (Fubuki)",
@@ -1894,9 +2073,65 @@
           "torpsPerTurret": 3,
           "torpReloads": 1
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
-    // TODO: Ha-class Asashio
+    {
+      "name": "Ha-Class Destroyer (Asashio)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 35,
+      "displacement": 2370,
+      "horsepower": 50000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 115,
+      "aircraftCount": 0,
+      "depthChargeLauncherNumber": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 14,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     {
       "name": "Ha-Class Destroyer (Akizuki)",
       "hasSonar": true,
@@ -1934,22 +2169,151 @@
           "torpsPerTurret": 4,
           "torpReloads": 1
         }
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
     },
 
     // TODO: USA
     // USA CARRIERS
+    {
+      "name": "USS Intrepid (CV-11)",
+      "carrier": true,
+      "speed": 33,
+      "displacement": 27100,
+      "horsepower": 150000,
+      "beltThickness": 74,
+      "length": 270,
+      "aircraftCount": 100,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CV",
+      "cameo": "ussIntrepid.jpg", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
+      "artist": "TimmyYen",
+      "artLink": "twitter.com/TimmyYen/status/1305885629360685057",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 8,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 46,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ],
+      "specialAbilities": [
+        {
+          "name": "Air and Space",
+          "description": "All allied jets within 15\" of Intrepid gain 3 ACC. If a jet is within 12\" of Intrepid, Intrepid gains 3 ACC."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // USA BATTLESHIPS
     // USA HEAVY CRUISERS
     // USA LIGHT CRUISERS
     // USA LIGHT CARRIERS
     // USA DESTROYERS
+    {
+      "name": "USS Johnston (DD-557)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 2050,
+      "horsepower": 60000,
+      "beltThickness": 20,
+      "length": 112,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "DD",
+      "cameo": "ussjohnston.jpg",
+      "artist": "Ron",
+      "artLink": "pixiv.net/en/artworks/116006229",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 5,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 7,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Fighting Ship",
+          "description": "Johnston gains +1 ACC and +1 EVA for every enemy ship within 9\"."
+        }
+      ],
+      "abilityWeight": 1.25
+    },
 
     // TODO: MODERN USA
     // USA CVN
     // USA DDG
     {
-      "name": "USS Cole (DDG-67)", // TODO: Add special ability
+      "name": "USS Cole (DDG-67)",
       "hasSonar": true,
       "carrier": false,
       "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
@@ -2006,12 +2370,12 @@
         }
       ],
       "torpedoes": [
-        {
-          "torpRefrenceID": 10000,
-          "turretCount": 2,
-          "torpsPerTurret": 3,
-          "torpReloads": 0
-        },
+        //      {
+        //        "torpRefrenceID": 10000, // Removed to reduce weapon clutter
+        //        "turretCount": 2,
+        //        "torpsPerTurret": 3,
+        //        "torpReloads": 0
+        //      },
         {
           "torpRefrenceID": 10001,
           "turretCount": 30,
@@ -2040,11 +2404,17 @@
       ],
       "specialAbilities": [
         {
-          "name": "Jamming 8",
-          "description": "If the attacker does not have direct vision on this unit or any of its allies within 8\", that unit gains 6 evasion. \nThis ability does not stack with other units' jamming abilities."
-
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Desperate Valor",
+          "description": "Cole cannot take more than 4 damage from one attack."
         }
-      ]
+      ],
+      "abilityWeight": 1.2
     }
 
     // TODO: JAPAN
@@ -2088,5 +2458,18 @@
     // ITALY DESTROYERS
 
     //TODO: MINOR/MODERN NATIONS
+
+    // CANADA
+    // TAIWAN
+    // PRC
+    // SOUTH KOREA
+    // INDONESIA
+    // SINGAPORE
+    // AUSTRALIA
+    // HOLLAND
+    // SWEDEN
+    // INDIA
+    // PHILLIPINES
+    // 
   ]
 }

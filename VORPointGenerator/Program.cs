@@ -216,9 +216,10 @@ namespace VORPointGenerator
                     if (j.radarRangeFinder) { fireControl++; }
                     if (j.radarBlindFire) { fireControl++; }
                     if (j.mechanicalComputer) { fireControl++; }
-                    if (j.digitalComputer) { fireControl++; }
+                    if (j.digitalComputer) { fireControl+=2; }
                     if (j.airburstFuses) { fireControl++; }
                     if (j.radarFuses) { fireControl++; }
+                    if (j.CWISTracking) { fireControl+=3; }
                     if (j.poorShellQuaility) { fireControl--; }
                     statBlock.accuracy = fireControl + ((j.gunsPerTurret - 1) * -1);
 
@@ -296,7 +297,7 @@ namespace VORPointGenerator
                     m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
                     m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
                     m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
-                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 100));
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 50));
 
                     m.attackAir = mRef.attackAir;
 
