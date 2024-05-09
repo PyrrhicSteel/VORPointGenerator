@@ -628,7 +628,7 @@
       "countryOfOrigin": "JPN",
       "type": "Observation Floatplane",
       "numPlanes": 4,
-      "speed": 300,
+      "speed": 83,
       "thrust": 460,
       "weight": 1320,
       "rateOfClimb": 8,
@@ -661,8 +661,179 @@
     // UK
 
     // GERMANY
+    {
+      "name": "Ar 196",
+      "countryOfOrigin": "GER",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 92,
+      "thrust": 1050,
+      "weight": 2990,
+      "rateOfClimb": 6,
+      "serviceCieling": 7010,
+      "cameo": "ar196.png",
+      "artist": "harumiya hiro",
+      "artLink": "pixiv.net/en/artworks/69478825",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 64,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 65,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 66,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "SC50",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 27
+        }
+      ]
+    },
+
+    {
+      "name": "Ju 87",
+      "countryOfOrigin": "GER",
+      "type": "Carrier Dive Bomber",
+      "numPlanes": 20,
+      "speed": 113,
+      "thrust": 1400,
+      "weight": 3900,
+      "rateOfClimb": 4, // TODO: CONFIRM THIS
+      "serviceCieling": 7300,
+      "cameo": "ju87.png",
+      "artist": "安倍泰師",
+      "artLink": "pixiv.net/en/artworks/75462537",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 65,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 64,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "SC250",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 307, // 130 kg TNP
+          "diveBomb": true
+        },
+        {
+          "name": "SC50",
+          "number": 2,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 27,
+          "diveBomb": true
+        }
+      ]
+    },
+
+    {
+      "name": "BF 109T",
+      "countryOfOrigin": "GER",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 178,
+      "thrust": 1455,
+      "weight": 2247,
+      "rateOfClimb": 20, // TODO: CONFIRM THIS
+      "serviceCieling": 12000,
+      "cameo": "bf109.jpg",
+      "artist": "neko (yanshoujie)",
+      "artLink": "pixiv.net/en/artworks/79622961",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 67,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 68,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "SC50",
+          "number": 2,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 27,
+          "diveBomb": true
+        }
+      ]
+    },
+
+    {
+      "name": "Fi 167",
+      "countryOfOrigin": "GER",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 90,
+      "thrust": 1100,
+      "weight": 2806,
+      "rateOfClimb": 3, // CITATION NEEDED
+      "serviceCieling": 8200,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 65,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 66,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 12,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
     // FRANCE
     // ITALY
+
+
+    // OTHER
+    {
+      "name": "Fokker C.VII-W",
+      "countryOfOrigin": "NL",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 44,
+      "thrust": 225,
+      "weight": 1102,
+      "rateOfClimb": 2,
+      "serviceCieling": 3600,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ]
+    },
 
 
 
@@ -699,14 +870,222 @@
         }
       ],
       "specialAbilities": [
-
         {
           "name": "Countermeasures 2"
         }
         //TODO: Subhunting ability
       ]
+    },
+    {
+      "name": "F/A-18F Super Hornet", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "serviceCieling": 52300,
+      "cameo": "fa-18f.jpg",
+      "artist": "amisu",
+      "artLink": "danbooru.donmai.us/posts/1038566?q=f-18_hornet+",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "Mk 82",
+          "number": 1,
+          "bombVolleySize": 4,
+          "bombWarheadSize": 220, // CITATION NEEDED
+          "diveBomb": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "F/A-18E Super Hornet", // (Role: Anti-air aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "serviceCieling": 52300,
+      "cameo": "fa-18e.jpg",
+      "artist": "ES饺子",
+      "artLink": "pixiv.net/en/artworks/78769667",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "EA-18G Growler", // (EWAR)
+      "countryOfOrigin": "USA",
+      "type": "Jet EW Aircraft",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "serviceCieling": 52300,
+      "cameo": "ea-18g.jpg",
+      "artist": "mick",
+      "artLink": "pixiv.net/en/artworks/56675869",
+      "steelHull": true,
+      "missiles": [
+        {
+          "missileRefrenceID": 8,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        },
+        {
+          "name": "Jamming 4"
+        },
+        {
+          "name": "Home on Jam",
+          "description": "AGM-88 attacks ignore the 'Jamming' ability"
+        }
+      ],
+      "abilityWeight": 1.25
+    },
+    {
+      "name": "F-35C Lighting II",
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 548,
+      "thrust": 16784, // weight (14552 kg) * thrust-to-weight ratio (1.07)  
+      "weight": 15686,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "serviceCieling": 15000,
+      "cameo": "f-35c.jpg",
+      "artist": "Yenさん",
+      "artLink": "pixiv.net/en/artworks/89731379",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 9,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+    {
+      "name": "E-2C Hawkeye",
+      "countryOfOrigin": "USA",
+      "type": "Carrier AEW Aircraft",
+      "numPlanes": 4,
+      "speed": 180,
+      "thrust": 10200,
+      "weight": 40200,
+      "rateOfClimb": 10, // CITATION NEEDED
+      "serviceCieling": 10600,
+      "steelHull": true,
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 60"
+        }
+      ],
+      "abilityWeight": 1.4
     }
-
 
   ]
 }

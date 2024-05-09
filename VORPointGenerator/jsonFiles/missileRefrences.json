@@ -39,6 +39,77 @@
       "seaSkimming": false,
       "inertialGuidance": true,
       "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 4,
+      "name": "RIM-162 ESSM",
+      "mslWarheadSize": 66, //explosive type not specified, assumed 39 kg PBXN
+      "mslRange": 50004,
+      "mslSpeed": 1372,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 5,
+      "name": "RIM-116 Rolling Airframe Missile",
+      "mslWarheadSize": 19, //explosive type not specified, assumed 11.3 kg PBXN
+      "mslRange": 9000,
+      "mslSpeed": 686,
+      "seaSkimming": false,
+      "infraredGuidance": true,
+      "arhGuidance": true,
+      "cwis": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 6,
+      "name": "AIM-9X Sidewinder",
+      "mslWarheadSize": 10,
+      "mslRange": 35400,
+      "mslSpeed": 876,
+      "infraredGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 7,
+      "name": "AIM-120 AMRAAM",
+      "mslWarheadSize": 20,
+      "mslRange": 160000,
+      "mslSpeed": 1372,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 8,
+      "name": "AGM-88 HARM",
+      "mslWarheadSize": 114, //explosive type not specified, assumed 68 kg PBXN
+      "mslRange": 80000,
+      "mslSpeed": 987,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "homeOnJam": true,
+      "antiRadiation": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 9,
+      "name": "GBU-53/B StormBreaker",
+      "mslWarheadSize": 80, //explosive type not specified, assumed 48 kg PBXN
+      "mslRange": 74000,
+      "mslSpeed": 400,
+      "arhGuidance": true,
+      "infraredGuidance": true,
+      "inertialGuidance": true,
+      "gpsGuidance": true,
       "orginCountry": "USA"
     }
   ]

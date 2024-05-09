@@ -111,10 +111,13 @@ namespace VORPointGenerator
             // Anti-ship missiles
             foreach (var i in missileStats)
             {
+                double missileBias = 0.0005;
+                
                 int correctedRange = i.mslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
-                int missileStats = (int)Math.Round((planecount * i.mslTurrets * i.mslsPerTurret * i.mslEvasion) * Math.Pow((double)(correctedRange * i.mslPower * i.mslAOE), (1 + (i.mslAcc / 75))));
-
+                int corrMslPwr = i.mslPower;
+                if (i.mslPower == 0) corrMslPwr = 1;
+                int missileStats = (int)Math.Round((planecount * i.mslTurrets * i.mslsPerTurret * i.mslEvasion) * Math.Pow((double)(correctedRange * corrMslPwr * i.mslAOE * missileBias), (1 + (i.mslAcc / 75))));
                 //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
 
                 cost = cost + missileStats;
@@ -122,11 +125,12 @@ namespace VORPointGenerator
 
             if (steelHull == true)
             {
-                cost = (int)((double)cost * 0.5);
+                cost = (int)((double)cost * 0.3);
             }
 
             // round point value to 5
             //Console.WriteLine(cost);
+            cost = (int)(cost * abilityWeight);
             pointValue = (int)Math.Round(((double)(cost) / 5)) * 5;
             if (pointValue == 0) { pointValue = 5; }
         }
@@ -216,10 +220,29 @@ namespace VORPointGenerator
                     flagDirectory = flagDirectory + "usa.png";
                     //Console.WriteLine(flagDirectory);
                 }
+                if (countryOfOrigin.Equals("CAN"))
+                {
+                    flagDirectory = flagDirectory + "can.png";
+                }
+                if (countryOfOrigin.Equals("GER"))
+                {
+                    flagDirectory = flagDirectory + "ger.png";
+                }
+                if (countryOfOrigin.Equals("ITA"))
+                {
+                    flagDirectory = flagDirectory + "ita.png";
+                }
                 if (countryOfOrigin.Equals("JPN"))
                 {
                     flagDirectory = flagDirectory + "jpn.png";
-                    //Console.WriteLine(flagDirectory);
+                }
+                if (countryOfOrigin.Equals("RUS"))
+                {
+                    flagDirectory = flagDirectory + "rus.png";
+                }
+                if (countryOfOrigin.Equals("UK"))
+                {
+                    flagDirectory = flagDirectory + "uk.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -400);
@@ -536,9 +559,13 @@ namespace VORPointGenerator
             //save the card
             //var curentDirectory = Directory.GetCurrentDirectory();
             String opPath = @"C:\Outputs\VorCardOutputs\planes\";
-            opPath = opPath + name + ".jpeg";
+            string safeName = name;
+            
+            // remove file-dangerous characters from the name of the aircraft before publishing file
+            sanitizeString s = new sanitizeString();
+            safeName = s.sanitize(safeName);
+            opPath = opPath + safeName + ".jpeg";
 
-            //Console.WriteLine(opPath);
             try
             {
                 //File.Create(opPath);
@@ -546,8 +573,9 @@ namespace VORPointGenerator
             }
             catch (Exception e)
             {
-                Console.WriteLine("Failed to write ship!");
+                Console.WriteLine("Failed to write aircraft!");
                 Console.WriteLine(e);
+
             }
 
 

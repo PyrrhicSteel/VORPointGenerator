@@ -23,7 +23,7 @@ namespace VORPointGenerator
         public List<bombRefrence> bombRefrences { get; set; } = new List<bombRefrence>();
         public List<torpedoBatRefrence>  torpedoBatRefrences { get; set; } = new List<torpedoBatRefrence>();
         public List<rocketRefrence> rocketRefrences { get; set; } = new List<rocketRefrence>();
-
+        public List<missileBatRefrence> missiles { get; set; } = new List<missileBatRefrence>();
 
         public List<specialAbility> specialAbilities { get; set; } = new List<specialAbility>();
         public double abilityWeight { get; set; } = 1.0;

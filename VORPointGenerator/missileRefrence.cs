@@ -22,8 +22,10 @@ namespace VORPointGenerator
         public bool gpsGuidance { get; set; } = false;
         public bool inertialGuidance { get; set; } = false;
         public bool sarhGuidance { get; set; } = false;
-
-
+        public bool infraredGuidance { get; set; } = false;
+        public bool cwis {  get; set; } = false;
+        public bool homeOnJam { get; set; } = false;
+        public bool antiRadiation { get; set; } = false;
 
     }
 

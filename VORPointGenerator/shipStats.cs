@@ -148,11 +148,11 @@ namespace VORPointGenerator
 
             if (steelHull == true)
             {
-                baseStats = (int)((double)baseStats * 0.5);
-                attackStats = (int)((double)attackStats * 0.5);
+                baseStats = (int)((double)baseStats * 0.3);
+                attackStats = (int)((double)attackStats * 0.3);
             }
-            pointValue = (int)Math.Round(((double)(baseStats + attackStats) / 2 / 5)) * 5;
-            
+            pointValue = baseStats + attackStats ;
+            pointValue = (int)Math.Round(((double)(pointValue * abilityWeight) / 2 / 5)) * 5;
         }
         // Generate PNG files for this ship
         public void generateStatCard()
@@ -526,7 +526,7 @@ namespace VORPointGenerator
             //save the card
             //var curentDirectory = Directory.GetCurrentDirectory();
             String opPath = @"C:\Outputs\VorCardOutputs\ships\";
-            opPath = opPath + name + ".jpeg";
+            opPath = opPath + shipFaction + " " + name + ".jpeg";
 
             //Console.WriteLine(opPath);
             try

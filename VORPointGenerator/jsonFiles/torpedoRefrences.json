@@ -108,6 +108,15 @@
       "torpGuidance": 0,
       "orginCountry": "RUS"
     },
+    {
+      "id": 12,
+      "name": "LT F5b",
+      "torpWarheadSize": 210, //180 kg TNT mix
+      "torpRange": 2000,
+      "torpSpeed": 40,
+      "torpGuidance": 0,
+      "orginCountry": "GER"
+    },
 
 
 

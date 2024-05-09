@@ -74,16 +74,11 @@ namespace VORPointGenerator
                 Environment.Exit(1);
             }
 
-            // quick debug
-            foreach (var i in missileRefrences)
-            {
-                Console.Write(i.name + ": " + i.id + ", ");
-            }
-
             Console.WriteLine("\nWEAPONS READ SUCESSFUL\n");
 
             // Read Warships
-            Console.WriteLine("READING WARSHIP REFRENCE...");
+            Console.WriteLine("\n\t-\t-\t-\n\n" +
+                "READING WARSHIP REFRENCE...");
 
             try
             {
@@ -105,7 +100,8 @@ namespace VORPointGenerator
             Console.WriteLine("\nWARSHIPS READ SUCCESSFUL\n");
 
             // Read Aircraft
-            Console.WriteLine("READING AIRCRAFT REFRENCE...");
+            Console.WriteLine("\n\t-\t-\t-\n\n" +
+                "READING AIRCRAFT REFRENCE...");
 
             try
             {
@@ -128,7 +124,8 @@ namespace VORPointGenerator
 
 
 
-            Console.WriteLine("GENERATING SHIP STATCARDS...");
+            Console.WriteLine("\n\t-\t-\t-\n\n" +
+                "GENERATING SHIP STATCARDS...");
             foreach (var i in shipRefrences)
             {
                 shipStats Warship = new shipStats();
@@ -156,8 +153,9 @@ namespace VORPointGenerator
                 Warship.armor = (int)Math.Round((double)i.beltThickness / 35);
                 Warship.evasion = (int)Math.Round((double)((i.length / 50) * -1) + Warship.maneuverability);
                 if (i.hasSonar == true) { Warship.sonarRange = 10; }
-                if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 25)); }
+                if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 20)); }
                 else { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 4)); }
+                if(i.carrier == true && i.steelHull == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 15)); }
                 Warship.submarine = i.submarine;
                 Warship.carrier = i.carrier;
                 Warship.steelHull = i.steelHull;
@@ -286,7 +284,12 @@ namespace VORPointGenerator
                     if (mRef.arhGuidance) mslFireCtrl += 3;
                     if (mRef.gpsGuidance) mslFireCtrl += 3;
                     if (mRef.inertialGuidance) mslFireCtrl += 3;
+                    if (mRef.infraredGuidance) mslFireCtrl += 3;
                     if (mRef.attackAir) mslFireCtrl += 3;
+                    if (mRef.cwis) mslFireCtrl += 6;
+                    if (mRef.homeOnJam) mslFireCtrl += 8;
+                    if (mRef.antiRadiation) mslFireCtrl += 8;
+
 
                     //Console.WriteLine(mRef.name);
 
@@ -342,14 +345,44 @@ namespace VORPointGenerator
                 Aircraft.type = i.type;
                 Aircraft.countryOfOrigin = i.countryOfOrigin;
                 Aircraft.planecount = i.numPlanes;
-                Aircraft.move = (int)Math.Round(((double)i.speed / 7));
+                Aircraft.move = (int)Math.Round(((double)i.speed / 7));  // old
+
+                double speed = i.speed;
+                //Aircraft.move = (int)Math.Round(((double)i.speed / 30));
+                Aircraft.move = 0;
+                while (speed > 10)
+                {
+                    speed = speed * 0.85;
+                    Aircraft.move++;
+                }
+
                 double TWRatio = ((double)i.thrust / (double)i.weight);
-                //Console.WriteLine(TWRatio);
+
                 //TODO: final values feel wonky, adjust bias number as needed once more aircraft have been added
-                Aircraft.energyGain = (int)Math.Round(Math.Pow(((double)TWRatio * i.rateOfClimb * i.rateOfClimb * 0.0196210657), 0.5)); 
+                
+                Aircraft.energyGain = (int)Math.Round(Math.Pow(((double)TWRatio * i.rateOfClimb * i.rateOfClimb * 0.0196210657), 0.5));
+                if (Aircraft.energyGain > 5)
+                {
+                    double gainEnergy = TWRatio * i.rateOfClimb * i.rateOfClimb;
+                    Aircraft.energyGain = (int)(TWRatio * i.rateOfClimb * i.rateOfClimb * 0.000002);
+                    while (gainEnergy > 10)
+                    {
+                        gainEnergy = gainEnergy * 0.2;
+                        Aircraft.energyGain++;
+                    }
+                }
+
                 Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 250000));
-
-
+                if (Aircraft.maxEnergy > 20)
+                {
+                    Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 1500000));
+                    double energyMax = i.speed * i.serviceCieling;
+                    while (energyMax > 10)
+                    {
+                        energyMax = energyMax * 0.1;
+                        Aircraft.maxEnergy++;
+                    }
+                }
                 Aircraft.cameo = i.cameo;
                 Aircraft.artist = i.artist;
                 Aircraft.artLink = i.artLink;
@@ -465,8 +498,49 @@ namespace VORPointGenerator
 
                     Aircraft.torpedoStats.Add(t);
                 }
-                //TODO: Add missiles
 
+                // Add missiles
+                foreach (var j in i.missiles)
+                {
+                    missileStats m = new missileStats();
+                    missileRefrence mRef = new missileRefrence();
+
+                    int mslFireCtrl = 0;
+
+                    foreach (var z in missileRefrences)
+                    {
+                        if (z.id == j.missileRefrenceID)
+                        {
+                            mRef = z;
+                        }
+                    }
+
+                    if (j.dataLink) mslFireCtrl += 3;
+                    if (mRef.sarhGuidance) mslFireCtrl += 3;
+                    if (mRef.arhGuidance) mslFireCtrl += 3;
+                    if (mRef.gpsGuidance) mslFireCtrl += 3;
+                    if (mRef.inertialGuidance) mslFireCtrl += 3;
+                    if (mRef.infraredGuidance) mslFireCtrl += 3;
+                    if (mRef.attackAir) mslFireCtrl += 3;
+                    if (mRef.cwis) mslFireCtrl += 6;
+
+                    //Console.WriteLine(mRef.name);
+
+                    m.name = mRef.name;
+                    m.mslPower = (int)Math.Round((double)mRef.mslWarheadSize / 50);
+                    m.mslTurrets = j.turretCount;
+                    m.mslsPerTurret = j.missilesPerTurret;
+                    m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
+                    m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
+                    m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 50));
+
+                    m.attackAir = mRef.attackAir;
+
+                    if (mRef.seaSkimming) m.mslEvasion++;
+
+                    Aircraft.missileStats.Add(m);
+                }
 
                 // Console.WriteLine(i.name + ": " + i.specialAbilities.Count);
                 foreach (var j in i.specialAbilities)

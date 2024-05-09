@@ -603,7 +603,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Bismark)",
+      "name": "Ta-Class Fast Battlehip (Bismarck)",
       "carrier": false,
       "speed": 30,
       "displacement": 41700,
@@ -1388,16 +1388,93 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "torpRefrenceID": 7,
           "turretCount": 4,
           "torpsPerTurret": 2,
           "torpReloads": 0
         }
       ]
     },
-    // TODO: Ho-class Omaha (us) (10)
+    {
+      "name": "Ho-Class Light Cruiser (Omaha-class)",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 7050,
+      "horsepower": 90000,
+      "beltThickness": 57,
+      "length": 170,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 75,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 75,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 76,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ]
+    },
 
-    // TODO: He-class Java (nl)
+    {
+      "name": "He-Class Light Cruiser (Java)",
+      "carrier": false,
+      "speed": 31,
+      "displacement": 6669, // nice
+      "horsepower": 73000,
+      "beltThickness": 60,
+      "length": 155,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 74,
+          "turretCount": 10,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    },
     {
       "name": "He-Class Light Cruiser (Brooklyn)",
       "carrier": false,
@@ -1499,7 +1576,56 @@
     // TODO: To-class Konigsberg (ger) (3)
     // TODO: To-class Kirov (ussr) (6)
     // TODO: To-class La Galissonniere (fr) (6)
-    // TODO: To-class Condottieri (ity) (12)
+    {
+      "name": "To-class Light Cruiser (Condottieri-class)",
+      "carrier": false,
+      "speed": 37,
+      "displacement": 6467,
+      "horsepower": 95000,
+      "beltThickness": 26, // CITATION NEEDED
+      "length": 169,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 72,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 73,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 35,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 74,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 9,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: To-class Almirante Cevera (spn) (3)
 
     // TODO: Tsu-class Bogatyr (ussr) (4)
@@ -1552,7 +1678,55 @@
         }
       ]
     },
-    // TODO: Tsu-class Dido (uk) (16)
+    {
+      "name": "Tsu-class Light Cruiser (Dido-class)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 6718,
+      "horsepower": 75000,
+      "beltThickness": 58, // CITATION NEEDED
+      "length": 156,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "cameo": "tsu.jpg",
+      "artist": "ninjin zoo",
+      "artLink": "pixiv.net/en/artworks/46334903",
+      "batteries": [
+        {
+          "gunRefrenceID": 38,
+          "turretCount": 5,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 71,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Tsu-class Capitani Romani (ity) (4)
 
     {
@@ -1644,7 +1818,54 @@
 
     // TODO: I-class Admiralen
     // TODO: I-class Benson
-    // TODO: I-class Clemson
+    {
+      "name": "I-class Destroyer (Clemson-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1215,
+      "horsepower": 27600,
+      "beltThickness": 10,
+      "length": 95,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "i.jpg",
+      "artist": "林ノハル",
+      "artLink": "pixiv.net/en/artworks/70816380",
+      "batteries": [
+        {
+          "gunRefrenceID": 69,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 70,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 3,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     {
       "name": "I-class Destroyer (Mahan-class)",
       "hasSonar": true,
@@ -2240,7 +2461,7 @@
           "description": "All allied jets within 15\" of Intrepid gain 3 ACC. If a jet is within 12\" of Intrepid, Intrepid gains 3 ACC."
         }
       ],
-      "abilityWeight": 1.2
+      "abilityWeight": 1.1
     },
     // USA BATTLESHIPS
     // USA HEAVY CRUISERS
@@ -2302,7 +2523,7 @@
           "name": "Smoke"
         },
         {
-          "name": "Fighting Ship",
+          "name": "A Fighting Ship",
           "description": "Johnston gains +1 ACC and +1 EVA for every enemy ship within 9\"."
         }
       ],
@@ -2311,6 +2532,79 @@
 
     // TODO: MODERN USA
     // USA CVN
+    {
+      "name": "USS Ronald Reagan (CVN-76)",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
+      "displacement": 101400,
+      "horsepower": 260000,
+      "beltThickness": 100, // "Unknown" for obvious reasons
+      "length": 333,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 90,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CVN",
+      "steelHull": true,
+      "cameo": "nimitzClass.jpg",
+      "artist": "ES饺子",
+      "artLink": "pixiv.net/en/artworks/88533198",
+      "batteries": [
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10002,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 4,
+          "turretCount": 1,
+          "missilesPerTurret": 8,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 5,
+          "turretCount": 1,
+          "missilesPerTurret": 30,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Bastion of Defiance",
+          "description": "Non-US Allied Units within 12\" of Regan gain 2 EVA"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     // USA DDG
     {
       "name": "USS Cole (DDG-67)",
@@ -2415,15 +2709,169 @@
         }
       ],
       "abilityWeight": 1.2
-    }
+    },
 
     // TODO: JAPAN
     // JAPAN CARRIERS
+    {
+      "name": "JS Zuikaku",
+      "carrier": true,
+      "speed": 35,
+      "displacement": 25675,
+      "horsepower": 160000,
+      "beltThickness": 125,
+      "length": 258,
+      "aircraftCount": 72,
+      "shipFaction": "Japan",
+      "hullCode": "CV",
+      "cameo": "jsZuikaku.jpg",
+      "artist": "木蘭",
+      "artLink": "pixiv.net/en/artworks/84924551",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "To The Last",
+          "description": "If another Aircraft Carrier is in your fleet, Zuikaku gains 5 evasion."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // JAPAN BATTLESHIPS
+    {
+      "name": "JS Kirishima",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 36600,
+      "horsepower": 136000,
+      "beltThickness": 106,
+      "length": 222,
+      "aircraftCount": 3,
+      "shipFaction": "JAPAN",
+      "hullCode": "BB",
+      "cameo": "jsKirishima.png",
+      "artist": "ただのサボテン",
+      "artLink": "pixiv.net/en/artworks/53966084",
+      "batteries": [
+        {
+          "gunRefrenceID": 25,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 26,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 59,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Calculated Punch",
+          "description": "When attacking enemy battleships, add +4 POW to Kirishima’s attack, but reduce \nthe result of that roll by one damage."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // JAPAN HEAVY CRUISERS
     // JAPAN LIGHT CRUISERS
     // JAPAN LIGHT CARRIERS
     // JAPAN DESTROYERS
+    {
+      "name": "JS Shigure",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 34,
+      "displacement": 1685,
+      "horsepower": 42000,
+      "beltThickness": 20,
+      "length": 107,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "JAPAN",
+      "hullCode": "DD",
+      "cameo": "shigure.jpg",
+      "artist": "ねヴぇ",
+      "artLink": "pixiv.net/en/artworks/97439481",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Dark Luck",
+          "description": "Whenever an allied ship sinks, place that ship's figure on Shigure's card. \nShigure gains +2 EVA for every figure on her card."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
 
     // TODO: UK
     // UK CARRIERS
@@ -2435,7 +2883,131 @@
 
     // TODO: GERMANY
     // GERMANY CARRIERS
+    {
+      "name": "Graf Zeppelin",
+      "carrier": true,
+      "speed": 34,
+      "displacement": 19000,
+      "horsepower": 200000,
+      "beltThickness": 72,
+      "length": 263,
+      "aircraftCount": 42,
+      "shipFaction": "GERMANY",
+      "hullCode": "CV",
+      "cameo": "grafZeppelin.jpg",
+      "artist": "Stu_dts",
+      "artLink": "pixiv.net/en/artworks/55958871",
+      "batteries": [
+        {
+          "gunRefrenceID": 16,
+          "turretCount": 16,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 11,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 28,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Surface Raider",
+          "description": "When attacking a unit with a lower cost then Graf Zeppelin, attack with +1 ACC."
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     // GERMANY BATTLESHIPS
+    {
+      "name": "Bismarck",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 41700,
+      "horsepower": 148120,
+      "beltThickness": 268,
+      "length": 251,
+      "aircraftCount": 4,
+      "shipFaction": "GERMANY",
+      "hullCode": "BB",
+      "cameo": "bismarck.jpg",
+      "artist": "stu dts",
+      "artLink": "pixiv.net/en/artworks/55609646",
+      "batteries": [
+        {
+          "gunRefrenceID": 27,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 16,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 20,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 4,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Terror of the Seas",
+          "description": "If Bismarck is the only battleships in your fleet, all of your other ships gain +1 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    }
     // GERMANY HEAVY CRUISERS
     // GERMANY LIGHT CRUISERS
     // GERMANY LIGHT CARRIERS

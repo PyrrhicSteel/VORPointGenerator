@@ -640,7 +640,146 @@
       "attackAir": true,
       "originCountry": "RUS"
     },
-
+    {
+      "id": 64,
+      "name": "MG 81",
+      "calibre": 8,
+      "maxRange": 1400,
+      "armorPenetration": 1, // CITATION NEEDED
+      "fireRate": 1600,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 65,
+      "name": "MG 17",
+      "calibre": 8,
+      "maxRange": 1400,
+      "armorPenetration": 1, // CITATION NEEDED
+      "fireRate": 1200,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 66,
+      "name": "MG FF",
+      "calibre": 20,
+      "maxRange": 1400,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 1200,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 67,
+      "name": "MG 131",
+      "calibre": 13,
+      "maxRange": 1800,
+      "armorPenetration": 2, // CITATION NEEDED
+      "fireRate": 900,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 68,
+      "name": "MG 151/20",
+      "calibre": 20,
+      "maxRange": 1200,
+      "armorPenetration": 10, // CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 69,
+      "name": "4-in/50-cal",
+      "calibre": 102,
+      "maxRange": 17920,
+      "armorPenetration": 76,
+      "fireRate": 8,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "id": 70,
+      "name": "3-in/23-cal",
+      "calibre": 76,
+      "maxRange": 9144,
+      "armorPenetration": 40,
+      "fireRate": 9,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 71,
+      "name": "Vickers .50",
+      "calibre": 12,
+      "maxRange": 1800,
+      "armorPenetration": 2,
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "id": 72,
+      "name": "152mm/55 M1926",
+      "calibre": 152,
+      "maxRange": 28400,
+      "armorPenetration": 86, // CITATION NEEDED
+      "fireRate": 4,
+      "attackAir": false,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 73,
+      "name": "10 cm/50 Skoda K10",
+      "calibre": 100,
+      "maxRange": 15240,
+      "armorPenetration": 60, // CITATION NEEDED
+      "fireRate": 10,
+      "attackAir": false,
+      "originCountry": "AUST"
+    },
+    {
+      "id": 74,
+      "name": "Breda Model 31",
+      "calibre": 13,
+      "maxRange": 2000,
+      "armorPenetration": 5, // CITATION NEEDED
+      "fireRate": 400,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 74,
+      "name": "Bofors 15 cm/50 Mark 6",
+      "calibre": 150,
+      "maxRange": 21214,
+      "armorPenetration": 213, // CITATION NEEDED
+      "fireRate": 8,
+      "attackAir": false,
+      "originCountry": "NL"
+    },
+    {
+      "id": 75,
+      "name": "6-in/53 Mark 12",
+      "calibre": 152,
+      "maxRange": 23774,
+      "armorPenetration": 102,
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "id": 76,
+      "name": "3-in/50 Mark 6",
+      "calibre": 762,
+      "maxRange": 13350,
+      "armorPenetration": 40, // CITATION NEEDED
+      "fireRate": 20,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
 
 
 
@@ -672,6 +811,16 @@
       "maxRange": 2457,
       "armorPenetration": 40, //CITATION NEEDED
       "fireRate": 200,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10003,
+      "name": "25mm GAU-22A Equalizer",
+      "calibre": 25,
+      "maxRange": 3660,
+      "armorPenetration": 40,
+      "fireRate": 3300,
       "attackAir": true,
       "originCountry": "USA"
     }
