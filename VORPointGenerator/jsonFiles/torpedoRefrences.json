@@ -48,7 +48,7 @@
     {
       "id": 5,
       "name": "53.3 cm G7a T1",
-      "torpWarheadSize": 600, //617 kg Hexanite I can't find a good conversion, so CITATION NEEDED
+      "torpWarheadSize": 600, //617 kg Hexanite. I can't find a good conversion, so CITATION NEEDED
       "torpRange": 15300,
       "torpSpeed": 30,
       "torpGuidance": 0,

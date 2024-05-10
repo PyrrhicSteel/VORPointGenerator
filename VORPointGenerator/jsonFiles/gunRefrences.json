@@ -780,7 +780,36 @@
       "attackAir": true,
       "originCountry": "USA"
     },
-
+    {
+      "id": 77,
+      "name": "38 cm SK L/45",
+      "calibre": 380,
+      "maxRange": 23200,
+      "armorPenetration": 390,
+      "fireRate": 3,
+      "attackAir": false,
+      "originCountry": "GER"
+    },
+    {
+      "id": 78,
+      "name": "15 cm/45 SK L/45",
+      "calibre": 150,
+      "maxRange": 17600,
+      "armorPenetration": 213,
+      "fireRate": 7,
+      "attackAir": false,
+      "originCountry": "GER"
+    },
+    {
+      "id": 79,
+      "name": "8.8 cm SK L/45",
+      "calibre": 88,
+      "maxRange": 14100,
+      "armorPenetration": 42, // CITATION NEEDED
+      "fireRate": 15,
+      "attackAir": false,
+      "originCountry": "GER"
+    },
 
 
     // MODERN WEAPONS

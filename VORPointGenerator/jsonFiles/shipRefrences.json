@@ -1017,6 +1017,54 @@
       ]
     },
     // TODO: Ru-class Bayern
+    {
+      "name": "Ru-Class Battlehip (Bayern)", // TODO: Finish
+      "carrier": false,
+      "speed": 21,
+      "displacement": 28080,
+      "horsepower": 35000,
+      "beltThickness": 235,
+      "length": 180,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "cameo": "ru.jpg",
+      "artist": "和屋",
+      "artLink": "pixiv.net/en/artworks/45947847",
+      "batteries": [
+        {
+          "gunRefrenceID": 77,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 61,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 79,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5, //CITATION NEEDED
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ru-class Bretange
     // TODO: Ru-class Conte di Cavour
     // TODO: Ru-class Espana
@@ -1240,7 +1288,54 @@
     },
     // TODO: Ri-class New Orleans
 
-    // TODO: Ne-class Mogami
+    {
+      "name": "Ne-Class Heavy Cruiser (Mogami)",
+      "carrier": false,
+      "speed": 37,
+      "displacement": 10980, // stat of 8500 tons empty weight is doctored data for treaties
+      "horsepower": 152000,
+      "beltThickness": 87,
+      "length": 201,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "cameo": "ne.jpg",
+      "artist": "POKImari ",
+      "artLink": "twitter.com/POKImari02",
+      "batteries": [
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 5,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 4,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ne-class Myoko
     // TODO: Ne-class Deutschland
     {
