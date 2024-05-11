@@ -261,7 +261,7 @@ namespace VORPointGenerator
                     flagDirectory = flagDirectory + "uk.png";
                 }
 
-                PointF flagPoint = new PointF(width - 2000, -400);
+                PointF flagPoint = new PointF(width - 2000, -300);
                 try
                 {
                     Image newImage = Image.FromFile(flagDirectory);
@@ -306,17 +306,39 @@ namespace VORPointGenerator
             cardGraphics.DrawString(shipFaction + "\t" + hullCode, textFont, foregroundColor, startPoint);
 
             // Base Stats
-            String statblock = "SPEED\t\t " + maxSpeed + "\nMANEUVER\t" + maneuverability + 
-                "\nEVASION\t" + evasion + "\nARMOR\t" + armor + "\nSPOTTING\t" + spottingRange
-                + "\nSONAR\t" + sonarRange + "\nAircraft\t" + numAircraft;
-            startPoint = startPoint + new Size(0, (h4Margin*2));
+            String statblock = "SPEED\t\t " + maxSpeed; 
+            startPoint = startPoint + new Size(0, (h4Margin * 2));
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "MANEUVER\t" + maneuverability;
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "EVASION\t" + evasion;
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "ARMOR\t\t" + armor;
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "SPOTTING\t" + spottingRange;
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "SONAR\t\t" + sonarRange;
+            cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
+
+            startPoint = startPoint + new Size(0, (h4Margin + 5));
+            statblock = "AIRCRAFT\t" + numAircraft;
             cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
 
             //Start Drawing Weapons
-            startPoint = startPoint + new Size(0, h4Margin * 9);
+            startPoint = startPoint + new Size(0, h4Margin * 2);
             cardGraphics.DrawString("WEAPONS:", h3, foregroundColor, startPoint);
 
-            startPoint = startPoint + new Size(0, h3Margin);
+            startPoint = startPoint + new Size(0, h4Margin);
 
             // Draw Stat Columns
             leftPoint = startPoint;
