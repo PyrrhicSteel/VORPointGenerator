@@ -2558,7 +2558,130 @@
       ],
       "abilityWeight": 1.1
     },
+
     // USA BATTLESHIPS
+    {
+      "name": "USS Iowa (BB-61)",
+      "carrier": false,
+      "speed": 36,
+      "displacement": 48880,
+      "horsepower": 212000,
+      "beltThickness": 272,
+      "length": 270,
+      "aircraftCount": 3,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "BB",
+      "cameo": "ussIowa.jpg", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
+      "artist": "キヨナッツ",
+      "artLink": "pixiv.net/en/artworks/82900017",
+      "batteries": [
+        {
+          "gunRefrenceID": 31,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 19,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 52,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "The Last Battleship",
+          "description": "Other ships in Iowa's Division gain +2 ACC"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "USS Wisconson (BB-64)",
+      "carrier": false,
+      "speed": 36,
+      "displacement": 48880,
+      "horsepower": 212000,
+      "beltThickness": 272,
+      "length": 270,
+      "aircraftCount": 3,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "gunRefrenceID": 31,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 20,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 49,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Temper, Temper",
+          "description": "Start the game with one 'TEMPER' Marker. After taking damage from a ship, place the \n'TEMPER' Marker on the attacking ship. The 'TEMPER' Marker remains on that ship until \nWisconson sinks, or the ship sinks, where the 'TEMPER' Marker will be returned to Wisconson. \nWisconson gains +2 ACC in attacks against a ship with the TEMPER marker."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
     // USA HEAVY CRUISERS
     // USA LIGHT CRUISERS
     // USA LIGHT CARRIERS
@@ -2692,6 +2815,9 @@
         },
         {
           "name": "Countermeasures 4"
+        },
+        {
+          "name": "Angled Deck"
         },
         {
           "name": "Bastion of Defiance",

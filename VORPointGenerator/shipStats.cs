@@ -201,7 +201,7 @@ namespace VORPointGenerator
             Font h3 = new Font("Trajan Pro", 36, FontStyle.Bold);
             Font h4 = new Font("Trajan Pro", 30, FontStyle.Bold);
             Font textFont = new Font("Trajan Pro", 24, FontStyle.Bold);
-            Font descFont = new Font("Corbel", 18);
+            Font descFont = new Font("Corbel", 20);
             Font descFontTitle = new Font("Corbel", 22, FontStyle.Bold);
 
             int h1Margin = 74;

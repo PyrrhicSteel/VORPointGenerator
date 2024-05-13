@@ -244,8 +244,12 @@ namespace VORPointGenerator
                 {
                     flagDirectory = flagDirectory + "uk.png";
                 }
+                if (countryOfOrigin.Equals("NL"))
+                {
+                    flagDirectory = flagDirectory + "neth.png";
+                }
 
-                PointF flagPoint = new PointF(width - 2000, -400);
+                PointF flagPoint = new PointF(width - 2000, -300);
                 try
                 {
                     Image newImage = Image.FromFile(flagDirectory);
