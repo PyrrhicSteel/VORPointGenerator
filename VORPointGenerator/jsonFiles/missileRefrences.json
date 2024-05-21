@@ -75,6 +75,7 @@
       "mslSpeed": 876,
       "infraredGuidance": true,
       "attackAir": true,
+      "sra2a": true, // short range air to air
       "orginCountry": "USA"
     },
     {
@@ -111,6 +112,20 @@
       "inertialGuidance": true,
       "gpsGuidance": true,
       "orginCountry": "USA"
-    }
+    },
+    {
+      "id": 10,
+      "name": "RIM-161 SM-3",
+      "mslWarheadSize": 20, // No warhead, killing agent is purely kenetic
+      "mslRange": 1200000,
+      "mslSpeed": 4500,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
   ]
 }

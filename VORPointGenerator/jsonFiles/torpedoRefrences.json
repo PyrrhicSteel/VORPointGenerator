@@ -140,6 +140,15 @@
       "torpSpeed": 40,
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "USA"
-    }
+    },
+    {
+      "id": 10002,
+      "name": "Mk 46 Torpedo",
+      "torpWarheadSize": 51, //44 kg PBXN
+      "torpRange": 7300,
+      "torpSpeed": 45,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "USA"
+    },
   ]
 }

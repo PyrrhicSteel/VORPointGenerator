@@ -26,6 +26,7 @@ namespace VORPointGenerator
         public bool cwis {  get; set; } = false;
         public bool homeOnJam { get; set; } = false;
         public bool antiRadiation { get; set; } = false;
+        public bool sra2a { get; set; } = false; // short range air-to-air missiles
 
     }
 

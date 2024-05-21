@@ -657,7 +657,35 @@
         }
       ]
     },
-
+    {
+      "name": "E13A 'Jake'",
+      "countryOfOrigin": "JPN",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 104,
+      "thrust": 1060,
+      "weight": 1320,
+      "rateOfClimb": 8,
+      "serviceCieling": 10000,
+      "cameo": "e13a.jpg",
+      "artist": "HJL",
+      "artLink": "pixiv.net/en/artworks/61336193",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 80,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 kg Type 99 No. 25",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 428 // 250 kg TNP
+        }
+      ]
+    },
     // UK
 
     // GERMANY
@@ -954,7 +982,7 @@
         {
           "missileRefrenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 4,
+          "missilesPerTurret": 8,
           "dataLink": true
         },
         {
@@ -1022,7 +1050,7 @@
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
-      "speed": 548,
+      "speed": 549,
       "thrust": 16784, // weight (14552 kg) * thrust-to-weight ratio (1.07)  
       "weight": 15686,
       "rateOfClimb": 257, // CITATION NEEDED (probably classified)
@@ -1042,13 +1070,13 @@
         {
           "missileRefrenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 2,
+          "missilesPerTurret": 4,
           "dataLink": true
         },
         {
           "missileRefrenceID": 9,
           "turretCount": 1,
-          "missilesPerTurret": 2,
+          "missilesPerTurret": 4,
           "dataLink": true
         }
       ],
@@ -1085,7 +1113,43 @@
         }
       ],
       "abilityWeight": 1.4
-    }
+    },
+     
+
+    // JAPANESE AIRCRAFT
+    {
+      "name": "Mitsubishi H-60",
+      "countryOfOrigin": "JPN",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 1800,
+      "weight": 6895,
+      "rateOfClimb": 9,
+      "serviceCieling": 5790,
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10005, // CITATION NEEDED
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10002,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
 
   ]
 }

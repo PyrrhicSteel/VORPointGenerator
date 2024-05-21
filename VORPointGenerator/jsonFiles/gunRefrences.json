@@ -254,7 +254,7 @@
       "id": 26,
       "name": "15 cm/50 41st Year Type",
       "calibre": 152,
-      "maxRange": 2100,
+      "maxRange": 21000,
       "armorPenetration": 120, // CITATION NEEDED
       "fireRate": 6,
       "attackAir": true,
@@ -695,7 +695,7 @@
       "name": "4-in/50-cal",
       "calibre": 102,
       "maxRange": 17920,
-      "armorPenetration": 76,
+      "armorPenetration": 56,
       "fireRate": 8,
       "attackAir": false,
       "originCountry": "USA"
@@ -810,6 +810,36 @@
       "attackAir": false,
       "originCountry": "GER"
     },
+    {
+      "id": 80,
+      "name": "7.7 mm Type 92",
+      "calibre": 8,
+      "maxRange": 1400,
+      "armorPenetration": 3, // CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": false,
+      "originCountry": "JP"
+    },
+    {
+      "id": 81,
+      "name": "6-in/50 BL Mark XXIII",
+      "calibre": 152,
+      "maxRange": 23300,
+      "armorPenetration": 76,
+      "fireRate": 8,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 82,
+      "name": "4-in/45 QF Mark XVI",
+      "calibre": 102,
+      "maxRange": 11890,
+      "armorPenetration": 56, // CITATION NEEDED
+      "fireRate": 20,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
 
 
     // MODERN WEAPONS
@@ -829,7 +859,7 @@
       "calibre": 20,
       "maxRange": 1490,
       "armorPenetration": 13,
-      "fireRate": 4500,
+      "fireRate": 6000,
       "attackAir": true,
       "originCountry": "USA"
     },
@@ -852,6 +882,26 @@
       "fireRate": 3300,
       "attackAir": true,
       "originCountry": "USA"
+    },
+    {
+      "id": 10004,
+      "name": "Otobreda 127/54 Compact",
+      "calibre": 127,
+      "maxRange": 23130,
+      "armorPenetration": 108, //CITATION NEEDED
+      "fireRate": 40,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 10005,
+      "name": "Sumitomo Type 74",
+      "calibre": 8,
+      "maxRange": 1000,
+      "armorPenetration": 1, //CITATION NEEDED
+      "fireRate": 1000,
+      "attackAir": true,
+      "originCountry": "JP"
     }
   ]
 }

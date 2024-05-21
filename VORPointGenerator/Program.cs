@@ -217,7 +217,7 @@ namespace VORPointGenerator
                     if (j.digitalComputer) { fireControl+=2; }
                     if (j.airburstFuses) { fireControl++; }
                     if (j.radarFuses) { fireControl++; }
-                    if (j.CWISTracking) { fireControl+=3; }
+                    if (j.CWISTracking) { fireControl+=6; }
                     if (j.poorShellQuaility) { fireControl--; }
                     statBlock.accuracy = fireControl + ((j.gunsPerTurret - 1) * -1);
 
@@ -286,7 +286,7 @@ namespace VORPointGenerator
                     if (mRef.inertialGuidance) mslFireCtrl += 3;
                     if (mRef.infraredGuidance) mslFireCtrl += 3;
                     if (mRef.attackAir) mslFireCtrl += 3;
-                    if (mRef.cwis) mslFireCtrl += 6;
+                    if (mRef.cwis) mslFireCtrl += 12;
                     if (mRef.homeOnJam) mslFireCtrl += 8;
                     if (mRef.antiRadiation) mslFireCtrl += 8;
 
@@ -300,7 +300,7 @@ namespace VORPointGenerator
                     m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
                     m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
                     m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
-                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 50));
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 25));
 
                     m.attackAir = mRef.attackAir;
 
@@ -348,12 +348,16 @@ namespace VORPointGenerator
                 Aircraft.move = (int)Math.Round(((double)i.speed / 7));  // old
 
                 double speed = i.speed;
-                //Aircraft.move = (int)Math.Round(((double)i.speed / 30));
-                Aircraft.move = 0;
-                while (speed > 10)
+                Aircraft.move = (int)Math.Round(((double)i.speed / 20));
+
+                if (Aircraft.move > 10)
                 {
-                    speed = speed * 0.85;
-                    Aircraft.move++;
+                    Aircraft.move = 0;
+                    while (speed > 10)
+                    {
+                        speed = speed * 0.8;
+                        Aircraft.move++;
+                    }
                 }
 
                 double TWRatio = ((double)i.thrust / (double)i.weight);
@@ -375,13 +379,17 @@ namespace VORPointGenerator
                 Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 250000));
                 if (Aircraft.maxEnergy > 20)
                 {
+                    Console.WriteLine(Aircraft.name + ": " + Aircraft.maxEnergy + " Recalcuating Energy");
+
+
                     Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 1500000));
                     double energyMax = i.speed * i.serviceCieling;
-                    while (energyMax > 10)
+                    while (energyMax > 20)
                     {
-                        energyMax = energyMax * 0.1;
+                        energyMax = energyMax * 0.4;
                         Aircraft.maxEnergy++;
                     }
+                    Console.WriteLine("New energy: " + Aircraft.maxEnergy);
                 }
                 Aircraft.cameo = i.cameo;
                 Aircraft.artist = i.artist;
@@ -408,7 +416,14 @@ namespace VORPointGenerator
                     statBlock.power = (int)Math.Round(((double)batteryGun.armorPenetration / 50));
                     statBlock.range = (int)Math.Round(((double)batteryGun.maxRange / 1750));
 
-                    //TODO: have very high rofs increase accuracy
+                    // have very high rofs increase accuracy
+                    int b = batteryGun.fireRate;
+                    while (b > 10) //TINKER WITH THIS A BUNCH
+                    {
+                        b = (b / 10);
+                        fireControl++;
+                    }
+
                     if (j.localOpticalDirector) { fireControl++; }
                     if (j.localRadarDirector) { fireControl++; }
                     if (j.opticalDirector) { fireControl++; }
@@ -522,7 +537,8 @@ namespace VORPointGenerator
                     if (mRef.inertialGuidance) mslFireCtrl += 3;
                     if (mRef.infraredGuidance) mslFireCtrl += 3;
                     if (mRef.attackAir) mslFireCtrl += 3;
-                    if (mRef.cwis) mslFireCtrl += 6;
+                    if (mRef.cwis) mslFireCtrl += 12;
+                    if (mRef.sra2a) mslFireCtrl += 9;
 
                     //Console.WriteLine(mRef.name);
 
@@ -533,7 +549,7 @@ namespace VORPointGenerator
                     m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
                     m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
                     m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
-                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 50));
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 25));
 
                     m.attackAir = mRef.attackAir;
 
