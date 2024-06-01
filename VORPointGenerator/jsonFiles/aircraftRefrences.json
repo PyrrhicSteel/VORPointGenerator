@@ -682,11 +682,212 @@
           "name": "250 kg Type 99 No. 25",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 428 // 250 kg TNP
+          "bombWarheadSize": 188 // 250 kg TNP
         }
       ]
     },
     // UK
+    {
+      "name": "Supermarine Walrus",
+      "countryOfOrigin": "UK",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 60,
+      "thrust": 750,
+      "weight": 4900,
+      "rateOfClimb": 5,
+      "serviceCieling": 5600,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 lb GP Bomb",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 190 //CITATION NEEDED
+        }
+      ]
+    },
+    {
+      "name": "Grumman Martlet",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 148,
+      "thrust": 1200,
+      "weight": 2226,
+      "rateOfClimb": 12,
+      "serviceCieling": 12000,
+      "cameo": "f4f-wildcat.png",
+      "artist": "Jura Cambri",
+      "artLink": "pixiv.net/en/artworks/110510710",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "AN-M30, 100 lb.",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 102,
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "F4U Corsair",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 199,
+      "thrust": 2380,
+      "weight": 4238,
+      "rateOfClimb": 22,
+      "serviceCieling": 12600,
+      "cameo": "f4u-corsair.png",
+      "artist": "鹿ビスケット",
+      "artLink": "pixiv.net/en/artworks/111954646",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 6
+        }
+      ],
+      "rocketRefrences": [
+        {
+          "rocketName": "HVAR",
+          "rocketNumber": 8,
+          "rocketVolleySize": 2,
+          "rocketMaxRange": 1500, // check this
+          "rocketWarheadSize": 8
+        }
+      ]
+    },
+    {
+      "name": "Supermarine Seafire",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 160,
+      "thrust": 1585,
+      "weight": 2412,
+      "rateOfClimb": 17,
+      "serviceCieling": 11000,
+      "cameo": "supermarineSeafire.jpg",
+      "artist": "空のカケラ",
+      "artLink": "pixiv.net/en/artworks/97280159",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 23,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 lb GP Bomb",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 190 //CITATION NEEDED
+        }
+      ]
+    },
+    {
+      "name": "Fairey Fulmar",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 160,
+      "thrust": 1300,
+      "weight": 3182,
+      "rateOfClimb": 6,
+      "serviceCieling": 8300,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 23,
+          "turretCount": 0,
+          "gunsPerTurret": 8
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 lb GP Bomb",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 190 //CITATION NEEDED
+        }
+      ]
+    },
+    {
+      "name": "Fairey Swordfish",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Torpedo Bomber",
+      "cameo": "faireySwordfish.jpg",
+      "artist": "ブンチャとイモン",
+      "artLink": "pixiv.net/en/artworks/5610230",
+      "numPlanes": 20,
+      "speed": 64,
+      "thrust": 690,
+      "weight": 1903,
+      "rateOfClimb": 4,
+      "serviceCieling": 5000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 14,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "name": "Fairey Barracuda ",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 107,
+      "thrust": 1640,
+      "weight": 4241,
+      "rateOfClimb": 4,
+      "serviceCieling": 4900,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 14,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
 
     // GERMANY
     {
@@ -840,6 +1041,32 @@
       ]
     },
     // FRANCE
+    {
+      "name": "Loire 130",
+      "countryOfOrigin": "FRA",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 61,
+      "thrust": 720,
+      "weight": 2050,
+      "rateOfClimb": 1,
+      "serviceCieling": 6000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 91,
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "75 kg GP",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 55
+        }
+      ]
+    },
     // ITALY
 
 
@@ -925,20 +1152,11 @@
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
-        {
-          "name": "Mk 82",
-          "number": 1,
-          "bombVolleySize": 4,
-          "bombWarheadSize": 220, // CITATION NEEDED
-          "diveBomb": true
-        }
-      ],
       "missiles": [
         {
           "missileRefrenceID": 1,
           "turretCount": 1,
-          "missilesPerTurret": 2,
+          "missilesPerTurret": 4,
           "dataLink": true
         },
         {
@@ -1147,9 +1365,86 @@
         {
           "name": "Countermeasures 2"
         }
-        //TODO: Subhunting ability
+        // TODO: Subhunting ability
       ]
     },
+
+    // TODO: BRITISH AIRCRAFT
+    {
+      "name": "Joint Combat Aircraft (F-35B)",
+      "countryOfOrigin": "UK",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "serviceCieling": 15000,
+      "cameo": "f-35c.jpg",
+      "artist": "mawaru",
+      "artLink": "x.com/rnawaru/status/1045797474412052481",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 13,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 9,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+
+    {
+      "name": "Merlin HM1",
+      "countryOfOrigin": "UK",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 2100,
+      "weight": 10500,
+      "rateOfClimb": 9,
+      "serviceCieling": 4575,
+      "steelHull": true,
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10003,
+          "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    }
 
   ]
 }

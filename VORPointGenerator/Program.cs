@@ -290,7 +290,6 @@ namespace VORPointGenerator
                     if (mRef.homeOnJam) mslFireCtrl += 8;
                     if (mRef.antiRadiation) mslFireCtrl += 8;
 
-
                     //Console.WriteLine(mRef.name);
 
                     m.name = mRef.name;
@@ -305,6 +304,8 @@ namespace VORPointGenerator
                     m.attackAir = mRef.attackAir;
 
                     if(mRef.seaSkimming) m.mslEvasion++;
+
+                    while(m.mslAOE > m.mslRange) m.mslAOE--; m.mslAcc++;
 
                     Warship.missileBatteries.Add(m);
                 }

@@ -224,7 +224,7 @@
       "id": 23,
       "name": "HS.404 (AN/M2 20mm Hispano)",
       "calibre": 20,
-      "maxRange": 6500,
+      "maxRange": 4000, // INACCURIATE, NERFED FROM 6500 FOR BALANCE
       "armorPenetration": 10, // CITATION NEEDED
       "fireRate": 600,
       "attackAir": true,
@@ -840,6 +840,121 @@
       "attackAir": true,
       "originCountry": "UK"
     },
+    {
+      "id": 83,
+      "name": "DShK 1938",
+      "calibre": 13,
+      "maxRange": 2000,
+      "armorPenetration": 2, // CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 84,
+      "name": "16-in/45 Mark I",
+      "calibre": 406,
+      "maxRange": 34750,
+      "armorPenetration": 366, 
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 85,
+      "name": "15-in Mark I",
+      "calibre": 381,
+      "maxRange": 29720,
+      "armorPenetration": 406, 
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 86,
+      "name": "15-in Mark I",
+      "calibre": 381,
+      "maxRange": 29720,
+      "armorPenetration": 406, 
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 87,
+      "name": "12-pdr 20cwt QF HA Mark I",
+      "calibre": 381,
+      "maxRange": 29720,
+      "armorPenetration": 406, 
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 88,
+      "name": "12-pdr 20cwt QF HA Mark I",
+      "calibre": 381,
+      "maxRange": 29720,
+      "armorPenetration": 406, 
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 89,
+      "name": "Vickers K Machine Gun",
+      "calibre": 8,
+      "maxRange": 1200,
+      "armorPenetration": 1, // CITATION NEEDED 
+      "fireRate": 1200,
+      "attackAir": false,
+      "originCountry": "UK"
+    },
+    {
+      "id": 90,
+      "name": "15 cm/53",
+      "calibre": 150,
+      "maxRange": 25969,
+      "armorPenetration": 213, // CITATION NEEDED
+      "fireRate": 15,
+      "attackAir": true,
+      "originCountry": "NL"
+    },
+    {
+      "id": 91,
+      "name": "Darne Machine Gun",
+      "calibre": 8,
+      "maxRange": 500,
+      "armorPenetration": 1, // CITATION NEEDED
+      "fireRate": 1200,
+      "attackAir": true,
+      "originCountry": "FRA"
+    },
+    {
+      "id": 91,
+      "name": "12.7 cm/45 SK C/34",
+      "calibre": 127,
+      "maxRange": 17400,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 18,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 92,
+      "name": "8 cm/40 3rd Year Type",
+      "calibre": 80,
+      "maxRange": 10800,
+      "armorPenetration": 42, // CITATION NEEDED
+      "fireRate": 20,
+      "attackAir": true,
+      "originCountry": "JP"
+    },
+
+
+
+
+
 
 
     // MODERN WEAPONS
@@ -902,6 +1017,46 @@
       "fireRate": 1000,
       "attackAir": true,
       "originCountry": "JP"
+    },
+    {
+      "id": 10006,
+      "name": "Bofors 57 mm L/70",
+      "calibre": 57,
+      "maxRange": 17000,
+      "armorPenetration": 60, //CITATION NEEDED
+      "fireRate": 220,
+      "attackAir": true,
+      "originCountry": "SE"
+    },
+    {
+      "id": 10007,
+      "name": "30mm MK 44 Bushmaster II",
+      "calibre": 30,
+      "maxRange": 3000,
+      "armorPenetration": 50, //CITATION NEEDED
+      "fireRate": 200,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10008,
+      "name": "OTO Melara 76 mm",
+      "calibre": 76,
+      "maxRange": 20000, // SAPOMER round. VULCANO round is 40000
+      "armorPenetration": 95, //CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 10009,
+      "name": "20 mm modele F2 gun",
+      "calibre": 76,
+      "maxRange": 1500,
+      "armorPenetration": 50, //CITATION NEEDED
+      "fireRate": 900,
+      "attackAir": true,
+      "originCountry": "FRA"
     }
   ]
 }

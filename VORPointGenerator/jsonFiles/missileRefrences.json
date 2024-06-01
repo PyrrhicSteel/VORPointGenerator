@@ -127,5 +127,89 @@
       "attackAir": true,
       "orginCountry": "USA"
     },
+    {
+      "id": 11,
+      "name": "Naval Strike Missile",
+      "mslWarheadSize": 120,
+      "mslRange": 250000,
+      "mslSpeed": 316,
+      "seaSkimming": true,
+      "infraredGuidance": true,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "NOR"
+    },
+    {
+      "id": 12,
+      "name": "AGM-144L Hellfire",
+      "mslWarheadSize": 8,
+      "mslRange": 11000,
+      "mslSpeed": 444,
+      "infraredGuidance": true,
+      "attackAir": false,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 13,
+      "name": "ASRAAM",
+      "mslWarheadSize": 10,
+      "mslRange": 25000,
+      "mslSpeed": 1029,
+      "infraredGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": true,
+      "sra2a": true,
+      "orginCountry": "UK"
+    },
+    {
+      "id": 14,
+      "name": "Type 13 SSM-2 AShM",
+      "mslWarheadSize": 258, // CITATION NEEDED 
+      "mslRange": 400000,
+      "mslSpeed": 467,
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "orginCountry": "JP"
+    },
+    {
+      "id": 15,
+      "name": "RIM-174 Standard ERAM SM-6",
+      "mslWarheadSize": 64, 
+      "mslRange": 240000,
+      "mslSpeed": 1200,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "gpsGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 16,
+      "name": "Aster 30",
+      "mslWarheadSize": 15, 
+      "mslRange": 240000,
+      "mslSpeed": 1400,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": true,
+      "orginCountry": "FRA"
+    },
+    {
+      "id": 17,
+      "name": "Exocet",
+      "mslWarheadSize": 165, 
+      "mslRange": 40000,
+      "mslSpeed": 319,
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "orginCountry": "FRA"
+    }
   ]
 }

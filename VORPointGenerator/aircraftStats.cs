@@ -111,7 +111,7 @@ namespace VORPointGenerator
             // Anti-ship missiles
             foreach (var i in missileStats)
             {
-                double missileBias = 0.0005;
+                double missileBias = 0.0001;
                 
                 int correctedRange = i.mslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
@@ -247,6 +247,10 @@ namespace VORPointGenerator
                 if (countryOfOrigin.Equals("NL"))
                 {
                     flagDirectory = flagDirectory + "neth.png";
+                }
+                if (countryOfOrigin.Equals("FRA"))
+                {
+                    flagDirectory = flagDirectory + "fra.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -300);

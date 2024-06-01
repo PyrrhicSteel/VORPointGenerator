@@ -260,6 +260,14 @@ namespace VORPointGenerator
                 {
                     flagDirectory = flagDirectory + "uk.png";
                 }
+                if (shipFaction.Equals("NETHERLANDS"))
+                {
+                    flagDirectory = flagDirectory + "neth.png";
+                }
+                if (shipFaction.Equals("FRANCE"))
+                {
+                    flagDirectory = flagDirectory + "fra.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
@@ -306,7 +314,7 @@ namespace VORPointGenerator
             cardGraphics.DrawString(shipFaction + "\t" + hullCode, textFont, foregroundColor, startPoint);
 
             // Base Stats
-            String statblock = "SPEED\t\t " + maxSpeed; 
+            String statblock = "SPEED\t\t" + maxSpeed; 
             startPoint = startPoint + new Size(0, (h4Margin * 2));
             cardGraphics.DrawString(statblock, h4, foregroundColor, startPoint);
 
@@ -338,7 +346,7 @@ namespace VORPointGenerator
             startPoint = startPoint + new Size(0, h4Margin * 2);
             cardGraphics.DrawString("WEAPONS:", h3, foregroundColor, startPoint);
 
-            startPoint = startPoint + new Size(0, h4Margin);
+            startPoint = startPoint + new Size(0, h4Margin + 10);
 
             // Draw Stat Columns
             leftPoint = startPoint;
@@ -381,7 +389,7 @@ namespace VORPointGenerator
             foreach (var i in gunBatteries)
             {
                 //move point
-                startPoint = startPoint + new Size(0, h4Margin);
+                startPoint = startPoint + new Size(0, h4Margin + 6);
 
                 //draw background box
                 leftPoint = startPoint;
@@ -390,7 +398,7 @@ namespace VORPointGenerator
 
                 pointX = (int)leftPoint.X;
                 pointY = (int)leftPoint.Y;
-                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 6);
 
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
@@ -407,7 +415,7 @@ namespace VORPointGenerator
 
             foreach (var i in torpedoBatteries)
             {
-                startPoint = startPoint + new Size(0, h4Margin);
+                startPoint = startPoint + new Size(0, h4Margin + 6);
 
                 //draw background box
                 leftPoint = startPoint;
@@ -416,7 +424,7 @@ namespace VORPointGenerator
 
                 pointX = (int)leftPoint.X;
                 pointY = (int)leftPoint.Y;
-                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 6);
 
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
@@ -430,7 +438,7 @@ namespace VORPointGenerator
 
             foreach (var i in missileBatteries)
             {
-                startPoint = startPoint + new Size(0, h4Margin);
+                startPoint = startPoint + new Size(0, h4Margin + 6);
 
                 //draw background box
                 leftPoint = startPoint;
@@ -439,7 +447,7 @@ namespace VORPointGenerator
 
                 pointX = (int)leftPoint.X;
                 pointY = (int)leftPoint.Y;
-                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 2);
+                hpBox = new Rectangle(pointX, pointY, statblockWidth, textFontMargin + 6);
 
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
@@ -456,7 +464,7 @@ namespace VORPointGenerator
             }
 
             //Add ability box
-            leftPoint = startPoint + new Size(0, h4Margin);
+            leftPoint = startPoint + new Size(0, h4Margin + 6);
             leftPoint.X = 2;
 
             pointX = (int)leftPoint.X;
@@ -472,7 +480,7 @@ namespace VORPointGenerator
 
             if (specialAbilities.Count > 0)
             {
-                startPoint = startPoint + new Size(0, h4Margin + 4);
+                startPoint = startPoint + new Size(0, h4Margin + 6);
                 // cardGraphics.DrawString("ABILITIES:", h4, foregroundColor, startPoint);
 
                 // startPoint = startPoint + new Size(0, h4Margin);
@@ -549,6 +557,8 @@ namespace VORPointGenerator
             //var curentDirectory = Directory.GetCurrentDirectory();
             String opPath = @"C:\Outputs\VorCardOutputs\ships\";
             opPath = opPath + shipFaction + " " + name + ".jpeg";
+
+            
 
             //Console.WriteLine(opPath);
             try

@@ -117,7 +117,24 @@
       "torpGuidance": 0,
       "orginCountry": "GER"
     },
-
+    {
+      "id": 13,
+      "name": "24.5-inch Mark I",
+      "torpWarheadSize": 337, //340 kg TNT
+      "torpRange": 18300,
+      "torpSpeed": 30,
+      "torpGuidance": 0,
+      "orginCountry": "UK"
+    },
+    {
+      "id": 14,
+      "name": "18-inch Mark XII",
+      "torpWarheadSize": 176, //176 kg TNT
+      "torpRange": 3500,
+      "torpSpeed": 37,
+      "torpGuidance": 0,
+      "orginCountry": "UK"
+    },
 
 
 
@@ -150,5 +167,32 @@
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "USA"
     },
+    {
+      "id": 10003,
+      "name": "Sting Ray",
+      "torpWarheadSize": 79, //44 kg PBXN
+      "torpRange": 12000,
+      "torpSpeed": 45,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "UK"
+    },
+    {
+      "id": 10004,
+      "name": "Type 12", // TODO: FIND A BETTER SOURCE FOR THIS WEAPON
+      "torpWarheadSize": 79, // CITATION NEEDED
+      "torpRange": 12000, // CITATION NEEDED
+      "torpSpeed": 45, // CITATION NEEDED
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "JP"
+    },
+    {
+      "id": 10005,
+      "name": "MU90 Impact", 
+      "torpWarheadSize": 59, // 32.7 PBX shaped charge
+      "torpRange": 10000, 
+      "torpSpeed": 29,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "FRA"
+    }
   ]
 }
