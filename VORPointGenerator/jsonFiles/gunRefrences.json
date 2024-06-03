@@ -404,8 +404,8 @@
       "id": 41,
       "name": "100 mm/45 Modele 1930",
       "calibre": 100,
-      "maxRange": 26474,
-      "armorPenetration": 122,
+      "maxRange": 15900,
+      "armorPenetration": 95, // CITATION NEEDED
       "fireRate": 5,
       "attackAir": true,
       "originCountry": "FR"
@@ -1057,6 +1057,26 @@
       "fireRate": 900,
       "attackAir": true,
       "originCountry": "FRA"
+    },
+    {
+      "id": 10010,
+      "name": "FN MAG",
+      "calibre": 8,
+      "maxRange": 1800,
+      "armorPenetration": 1, //CITATION NEEDED
+      "fireRate": 1000,
+      "attackAir": true,
+      "originCountry": "BE"
+    },
+    {
+      "id": 10011,
+      "name": "HELIOS", // 60 KW Laser
+      "calibre": 1, // ITS A LASER
+      "maxRange": 5000, // CITATION NEEDED
+      "armorPenetration": 30, // Arbitrary number to give it power 1
+      "fireRate": 3600, // 60 Hz lol
+      "attackAir": true,
+      "originCountry": "USA"
     }
   ]
 }

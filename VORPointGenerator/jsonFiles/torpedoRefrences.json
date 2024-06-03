@@ -193,6 +193,15 @@
       "torpSpeed": 29,
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "FRA"
+    },
+    {
+      "id": 10006,
+      "name": "53.3 cm L4", 
+      "torpWarheadSize": 270, // 150 HBX shaped charge
+      "torpRange": 5000, 
+      "torpSpeed": 30,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "FRA"
     }
   ]
 }

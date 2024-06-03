@@ -1275,14 +1275,6 @@
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         }
-      ],
-      "torpedoes": [
-        {
-          "torpRefrenceID": 8,
-          "turretCount": 2,
-          "torpsPerTurret": 4,
-          "torpReloads": 0
-        }
       ]
     },
     // TODO: Ru-class New York
@@ -2119,6 +2111,29 @@
     // TODO: Nu-class Casablanca
     // TODO: Nu-class Bouge
     // TODO: Nu-class Independance
+    {
+      "name": "Nu-Class Light Carrier (Independance)",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 32,
+      "displacement": 11000,
+      "horsepower": 100000,
+      "beltThickness": 98, //CITATION NEEDED
+      "length": 189,
+      "aircraftCount": 45,
+      "depthChargeLauncherNumber": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CVL",
+      "batteries": [
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 13,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    },
     // TODO: Nu-class Colossus
     // TODO: Nu-class Ruler
     // TODO: Nu-class Taiyo
@@ -3385,7 +3400,39 @@
       "abilityWeight": 1.1
     },
     // USA LIGHT CARRIERS
-    
+    {
+      "name": "USS Langley (CVL-27)",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 32,
+      "displacement": 11000,
+      "horsepower": 100000,
+      "beltThickness": 98, //CITATION NEEDED
+      "length": 189,
+      "aircraftCount": 45,
+      "depthChargeLauncherNumber": 0,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CVL",
+      "cameo": "ussLangley.jpg",
+      "artist": "ゾンビモグラ",
+      "artLink": "pixiv.net/en/artworks/112704582",
+      "batteries": [
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 13,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "La Fayette",
+          "description": "For the sake of fleet building and abilities, Langley's nationality can be considered either \nUS or French. Aircraft gain +2 EVA from AA reaction fire from Battleships."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // USA DESTROYERS
     {
       "name": "USS Johnston (DD-557)",
@@ -3443,7 +3490,7 @@
         },
         {
           "name": "A Fighting Ship",
-          "description": "Johnston gains +1 ACC and +1 EVA for every enemy ship within 9\"."
+          "description": "Johnston gains +1 ACC and +2 EVA for every enemy ship within 9\"."
         }
       ],
       "abilityWeight": 1.25
@@ -3821,12 +3868,6 @@
         }
       ],
       "torpedoes": [
-        //      {
-        //        "torpRefrenceID": 10000, // Removed to reduce weapon clutter
-        //        "turretCount": 2,
-        //        "torpsPerTurret": 3,
-        //        "torpReloads": 0
-        //      },
         {
           "torpRefrenceID": 10001,
           "turretCount": 30,
@@ -3867,6 +3908,111 @@
       ],
       "abilityWeight": 1.2
     },
+    {
+      "name": "USS Preble (DDG-88)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
+      "displacement": 6800,
+      "horsepower": 19570,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 154,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "UNITED STATES",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "ussPreble.jpg",
+      "artist": "David Oakes",
+      "artLink": "artstation.com/david_oakes",
+      "batteries": [
+        {
+          "gunRefrenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10011,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "opticalDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10002,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10001,
+          "turretCount": 10,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 18,
+          "turretCount": 40,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 3,
+          "turretCount": 40,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Pacific Patriot",
+          "description": "Gain +1 ACC for every allied ship within 8\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
     // USA CG
     {
       "name": "USS Shiloh (CG-67)",
@@ -4103,6 +4249,71 @@
       "abilityWeight": 1.1
     },
     // JAPAN BATTLESHIPS
+    {
+      "name": "Js Yamato",
+      "carrier": false,
+      "speed": 27,
+      "displacement": 69988,
+      "horsepower": 150000,
+      "beltThickness": 380,
+      "length": 263,
+      "aircraftCount": 7,
+      "shipFaction": "JAPAN",
+      "hullCode": "BB",
+      "cameo": "jsYamato.jpg",
+      "artist": "ナガサワ　トウゴ",
+      "artLink": "pixiv.net/en/artworks/85641206",
+      "batteries": [
+        {
+          "gunRefrenceID": 55,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+        },
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 8,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Star of the Combined Fleet",
+          "description": "Allied Japanese ships within 12\" of Yamato gain +1 ACC"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    
     {
       "name": "JS Kirishima",
       "carrier": false,
@@ -4480,6 +4691,117 @@
       ],
       "abilityWeight": 1.1
     },
+
+    {
+      "name": "JS Tenryuu",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 3948,
+      "horsepower": 51000,
+      "beltThickness": 51,
+      "length": 142,
+      "aircraftCount": 2, // actually 1, but increased by 1 so she can carry a floatplane
+      "shipFaction": "JAPAN",
+      "hullCode": "CL",
+      "cameo": "jsTenryuu.png",
+      "artist": "ものく",
+      "artLink": "pixiv.net/en/artworks/87712766",
+      "batteries": [
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 92,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 3,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Destroyer Leader", 
+          "description": "All Allied DD's within 8\" gain +1 EVA and +1 ACC."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
+      "name": "JS Tatsuta",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 3948,
+      "horsepower": 51000,
+      "beltThickness": 51,
+      "length": 142,
+      "aircraftCount": 2, // actually 1, but increased by 1 so she can carry a floatplane
+      "shipFaction": "JAPAN",
+      "hullCode": "CL",
+      "cameo": "jsTatsuta.png",
+      "artist": "ただのサボテン",
+      "artLink": "pixiv.net/en/artworks/77630049",
+      "batteries": [
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 92,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 3,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Deadly Serenity", 
+          "description": "In Ramming attacks, Tatsua gains +5 ARM and +5 POW."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
     // JAPAN LIGHT CARRIERS
     {
       "name": "JS Ryuujou",
@@ -4703,6 +5025,65 @@
       ],
       "abilityWeight": 1.15
     },
+    {
+      "name": "JS Kasumi",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 35,
+      "displacement": 2370,
+      "horsepower": 50000,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 115,
+      "aircraftCount": 0,
+      "depthChargeLauncherNumber": 2,
+      "shipFaction": "JAPAN",
+      "cameo": "jsKasumi.jpg",
+      "artist": "ふじ",
+      "artLink": "pixiv.net/en/artworks/116371943",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 14,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Charging Forward",
+          "description": "If the closest allied ship has more than 4 hazard markers, gain +2 ACC and +1 POW"
+        }
+      ],
+      "abilityWeight": 1.15
+    },
+
     // JAPAN MISSILE DESTROYERS
     {
       "name": "JS Kongou (DDG-173)",
@@ -5729,6 +6110,68 @@
     // TODO: ITALY
     // ITALY CARRIERS
     // ITALY BATTLESHIPS
+    {
+      "name": "Italia",
+      "carrier": false,
+      "speed": 30,
+      "displacement": 40723,
+      "horsepower": 128200,
+      "beltThickness": 294,
+      "length": 238,
+      "aircraftCount": 2,
+      "shipFaction": "ITALY",
+      "hullCode": "BB",
+      "cameo": "Littorio.png",
+      "artist": "でるた",
+      "artLink": "www.pixiv.net/en/artworks/59803207",
+      "batteries": [
+        {
+          "gunRefrenceID": 32,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "poorShellQuality": true
+        },
+        {
+          "gunRefrenceID": 33,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 34,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 35,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 20,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Dependable Lictor",
+          "description": "Gain +1 ARM for every enemy aircraft within 15\" of Italia."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // ITALY HEAVY CRUISERS
     // ITALY LIGHT CRUISERS
     // ITALY LIGHT CARRIERS

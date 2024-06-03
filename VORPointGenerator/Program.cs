@@ -289,6 +289,7 @@ namespace VORPointGenerator
                     if (mRef.cwis) mslFireCtrl += 12;
                     if (mRef.homeOnJam) mslFireCtrl += 8;
                     if (mRef.antiRadiation) mslFireCtrl += 8;
+                    if (mRef.dataLinkSwarm) mslFireCtrl += 10;
 
                     //Console.WriteLine(mRef.name);
 
@@ -303,9 +304,10 @@ namespace VORPointGenerator
 
                     m.attackAir = mRef.attackAir;
 
-                    if(mRef.seaSkimming) m.mslEvasion++;
+                    if (mRef.stealth) m.mslEvasion += 5;
+                    if (mRef.seaSkimming) m.mslEvasion += 3;
 
-                    while(m.mslAOE > m.mslRange) m.mslAOE--; m.mslAcc++;
+                    while (m.mslAOE > m.mslRange) m.mslAOE--; m.mslAcc++;
 
                     Warship.missileBatteries.Add(m);
                 }
@@ -531,15 +533,17 @@ namespace VORPointGenerator
                         }
                     }
 
-                    if (j.dataLink) mslFireCtrl += 3;
-                    if (mRef.sarhGuidance) mslFireCtrl += 3;
+                    if (j.dataLink) mslFireCtrl += 3; if (mRef.sarhGuidance) mslFireCtrl += 3;
                     if (mRef.arhGuidance) mslFireCtrl += 3;
                     if (mRef.gpsGuidance) mslFireCtrl += 3;
                     if (mRef.inertialGuidance) mslFireCtrl += 3;
                     if (mRef.infraredGuidance) mslFireCtrl += 3;
                     if (mRef.attackAir) mslFireCtrl += 3;
                     if (mRef.cwis) mslFireCtrl += 12;
-                    if (mRef.sra2a) mslFireCtrl += 9;
+                    if (mRef.homeOnJam) mslFireCtrl += 8;
+                    if (mRef.antiRadiation) mslFireCtrl += 8;
+                    if (mRef.dataLinkSwarm) mslFireCtrl += 10;
+                    if (mRef.sra2a) mslFireCtrl += 10;
 
                     //Console.WriteLine(mRef.name);
 
@@ -554,7 +558,8 @@ namespace VORPointGenerator
 
                     m.attackAir = mRef.attackAir;
 
-                    if (mRef.seaSkimming) m.mslEvasion++;
+                    if (mRef.stealth) m.mslEvasion += 5;
+                    if (mRef.seaSkimming) m.mslEvasion += 3;
 
                     Aircraft.missileStats.Add(m);
                 }

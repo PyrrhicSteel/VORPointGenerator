@@ -583,7 +583,7 @@
         {
           "name": "500 kg Type 2 No. 50",
           "number": 1,
-          "bombVolleySize": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 850, // 500 kg TNP
           "diveBomb": true
         }
@@ -744,7 +744,7 @@
       ]
     },
     {
-      "name": "F4U Corsair",
+      "name": "Vought Corsair",
       "countryOfOrigin": "UK",
       "type": "Carrier Fighter",
       "numPlanes": 20,
@@ -1067,8 +1067,26 @@
         }
       ]
     },
-    // ITALY
 
+    // ITALY
+    {
+      "name": "IMAM Ro.43",
+      "countryOfOrigin": "ITA",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 83,
+      "thrust": 700,
+      "weight": 1776,
+      "rateOfClimb": 7,
+      "serviceCieling": 6000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 91,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ]
+    },
 
     // OTHER
     {
@@ -1094,7 +1112,7 @@
 
 
 
-
+    // MODERN USA
     {
       "name": "MH-60S Seahawk",
       "countryOfOrigin": "USA",
@@ -1434,6 +1452,44 @@
         {
           "torpRefrenceID": 10003,
           "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
+    // FRENCH Aircraft
+    {
+      "name": "NH90",
+      "countryOfOrigin": "FRA",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 83,
+      "thrust": 4834,
+      "weight": 6400,
+      "rateOfClimb": 8,
+      "serviceCieling": 6000,
+      "steelHull": true,
+      "cameo": "nh90.jpg",
+      "artist": "OnDaDoor",
+      "artLink": "pixiv.net/en/artworks/69295911",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10010, // CITATION NEEDED
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10006,
+          "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
         }

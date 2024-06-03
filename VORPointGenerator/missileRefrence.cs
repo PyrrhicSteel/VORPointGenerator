@@ -25,8 +25,11 @@ namespace VORPointGenerator
         public bool infraredGuidance { get; set; } = false;
         public bool cwis {  get; set; } = false;
         public bool homeOnJam { get; set; } = false;
+        public bool opticalGuidance { get; set; } = false;
+        public bool dataLinkSwarm { get; set; } = false; // Basically just the LRASM
         public bool antiRadiation { get; set; } = false;
         public bool sra2a { get; set; } = false; // short range air-to-air missiles
+        public bool stealth { get; set; } = false;
 
     }
 

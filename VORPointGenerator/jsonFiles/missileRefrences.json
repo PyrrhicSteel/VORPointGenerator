@@ -210,6 +210,22 @@
       "gpsGuidance": true,
       "inertialGuidance": true,
       "orginCountry": "FRA"
+    },
+    {
+      "id": 18,
+      "name": "LRASM",
+      "mslWarheadSize": 527, //explosive type not specified, assumed 450 kg PBXN 
+      "mslRange": 370000,
+      "mslSpeed": 493, // CITATION NEEDED
+      "seaSkimming": true,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "infraredGuidance": true,
+      "opticalGuidance": true,
+      "dataLinkSwarm": true,
+      "stealth": true,
+      "homeOnJam": true,
+      "orginCountry": "USA"
     }
   ]
 }

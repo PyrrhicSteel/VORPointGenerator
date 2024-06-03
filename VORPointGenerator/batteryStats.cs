@@ -20,6 +20,11 @@
                 accuracy++;
             }
 
+            if(range == 0)
+            {
+                range = 1;
+            }
+
         }
     }
 }

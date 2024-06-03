@@ -572,7 +572,7 @@ namespace VORPointGenerator
             // remove file-dangerous characters from the name of the aircraft before publishing file
             sanitizeString s = new sanitizeString();
             safeName = s.sanitize(safeName);
-            opPath = opPath + safeName + ".jpeg";
+            opPath = opPath + countryOfOrigin + " " + safeName + ".jpeg";
 
             try
             {
