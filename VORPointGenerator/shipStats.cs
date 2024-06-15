@@ -268,6 +268,14 @@ namespace VORPointGenerator
                 {
                     flagDirectory = flagDirectory + "fra.png";
                 }
+                if (shipFaction.Equals("AUSTRALIA"))
+                {
+                    flagDirectory = flagDirectory + "aus.png";
+                }
+                if (shipFaction.Equals("INDONESIA"))
+                {
+                    flagDirectory = flagDirectory + "idsa.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
@@ -311,7 +319,7 @@ namespace VORPointGenerator
 
             // Faction and class
             startPoint = startPoint + new Size(0, h1Margin);
-            cardGraphics.DrawString(shipFaction + "\t" + hullCode, textFont, foregroundColor, startPoint);
+            cardGraphics.DrawString(shipFaction + " \t" + hullCode, textFont, foregroundColor, startPoint);
 
             // Base Stats
             String statblock = "SPEED\t\t" + maxSpeed; 
@@ -556,7 +564,7 @@ namespace VORPointGenerator
             //save the card
             //var curentDirectory = Directory.GetCurrentDirectory();
             String opPath = @"C:\Outputs\VorCardOutputs\ships\";
-            opPath = opPath + shipFaction + " " + name + ".jpeg";
+            opPath = opPath + shipFaction + " " + hullCode + " " + name + ".jpeg";
 
             
 

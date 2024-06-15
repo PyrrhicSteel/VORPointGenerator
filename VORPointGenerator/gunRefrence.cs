@@ -9,6 +9,7 @@
         public int armorPenetration { get; set; }  // armor penetratin of side armor at 3660m, in mm
         public int fireRate { get; set; } // for adding to accuracy. in rounds per minute
         public bool attackAir { get; set; } = false;
+        public bool laser { get; set; } = false;
         public bool attackSea { get; set; } = true;
         public string orginCountry = string.Empty;
     }

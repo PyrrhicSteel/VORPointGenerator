@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "name": "40mm Bofors",
+      "name": "40mm Bofors L/60",
       "calibre": 40,
       "maxRange": 10180,
       "armorPenetration": 15,
@@ -950,7 +950,26 @@
       "attackAir": true,
       "originCountry": "JP"
     },
-
+    {
+      "id": 93,
+      "name": "37 mm/54 Breda",
+      "calibre": 37,
+      "maxRange": 4000,
+      "armorPenetration": 30, // CITATION NEEDED
+      "fireRate": 120,
+      "attackAir": true,
+      "originCountry": "ITY"
+    },
+    {
+      "id": 94,
+      "name": "16-in/45 Mark 1",
+      "calibre": 406,
+      "maxRange": 36210,
+      "armorPenetration": 655,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
 
 
 
@@ -1070,13 +1089,94 @@
     },
     {
       "id": 10011,
-      "name": "HELIOS", // 60 KW Laser
+      "name": "60 KW HELIOS", // 60 KW Laser
       "calibre": 1, // ITS A LASER
       "maxRange": 5000, // CITATION NEEDED
       "armorPenetration": 30, // Arbitrary number to give it power 1
       "fireRate": 3600, // 60 Hz lol
       "attackAir": true,
+      "laser": true,
       "originCountry": "USA"
+    },
+    {
+      "id": 10012,
+      "name": "155mm/60 Mk. 51 AGS",
+      "calibre": 155,
+      "maxRange": 40000, // Assumed ammunition is modified/reporpused M982 Excalibur rounds
+      "armorPenetration": 120, //CITATION NEEDED
+      "fireRate": 10,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10013,
+      "name": "GAU-8 Avenger",
+      "calibre": 30,
+      "maxRange": 3660, 
+      "armorPenetration": 76, //CITATION NEEDED
+      "fireRate": 3900,
+      "attackAir": true,
+      "originCountry": "USA"
+    },
+    {
+      "id": 10014,
+      "name": "100 mm/55 modele 1968 CADAM",
+      "calibre": 100,
+      "maxRange": 17260,
+      "armorPenetration": 95, //CITATION NEEDED
+      "fireRate": 78,
+      "attackAir": true,
+      "originCountry": "FRA"
+    },
+    {
+      "id": 10015,
+      "name": "AK-130",
+      "calibre": 130,
+      "maxRange": 23000,
+      "armorPenetration": 108, //CITATION NEEDED
+      "fireRate": 40,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 10016,
+      "name": "AK-630",
+      "calibre": 30,
+      "maxRange": 4000,
+      "armorPenetration": 60, //CITATION NEEDED
+      "fireRate": 5000,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 10017,
+      "name": "Rheinmetall GDM-008",
+      "calibre": 35,
+      "maxRange": 5000,
+      "armorPenetration": 75, //CITATION NEEDED
+      "fireRate": 1000,
+      "attackAir": true,
+      "originCountry": "CH"
+    },
+    {
+      "id": 10018,
+      "name": "Denel Land Systems GI-2",
+      "calibre": 20,
+      "maxRange": 1500,
+      "armorPenetration": 45, //CITATION NEEDED
+      "fireRate": 750,
+      "attackAir": true,
+      "originCountry": "SA"
+    },
+    {
+      "id": 10019,
+      "name": "GSh-6-30",
+      "calibre": 30,
+      "maxRange": 4000,
+      "armorPenetration": 60, //CITATION NEEDED
+      "fireRate": 6000,
+      "attackAir": true,
+      "originCountry": "RUS"
     }
   ]
 }

@@ -9,6 +9,7 @@
         public int power { get; set; }
         public int accuracy { get; set; }
         public bool attackAir { get; set; }
+        public bool laser { get; set; }
 
         //apply misc balance fixes
         internal void applyFixes()

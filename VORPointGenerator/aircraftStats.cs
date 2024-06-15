@@ -218,7 +218,6 @@ namespace VORPointGenerator
                 if (countryOfOrigin.Equals("USA"))
                 {
                     flagDirectory = flagDirectory + "usa.png";
-                    //Console.WriteLine(flagDirectory);
                 }
                 if (countryOfOrigin.Equals("CAN"))
                 {

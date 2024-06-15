@@ -226,6 +226,89 @@
       "stealth": true,
       "homeOnJam": true,
       "orginCountry": "USA"
+    },
+    {
+      "id": 19,
+      "name": "P-1000 Vulkan \"Sandbox\"",
+      "mslWarheadSize": 1680, //explosive type not specified, assumed 1000 kg PBXN 
+      "mslRange": 550000,
+      "mslSpeed": 1029,
+      "sarhGuidance": true,
+      "arhGuidance": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 20,
+      "name": "S-300F \"Grumble\"",
+      "mslWarheadSize": 150, //explosive type not specified, assumed 11.3 kg PBXN
+      "mslRange": 150000,
+      "mslSpeed": 2058,
+      "seaSkimming": false,
+      "sarhGuidance": true,
+      "arhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 21,
+      "name": "9K33 Osa \"Gecko\"",
+      "mslWarheadSize": 16,
+      "mslRange": 15000,
+      "mslSpeed": 1020,
+      "seaSkimming": false,
+      "opticalGuidance": true,
+      "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 22,
+      "name": "MBDA VL MICA",
+      "mslWarheadSize": 12,
+      "mslRange": 20000,
+      "mslSpeed": 1372,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "infraredGuidance": true,
+      "attackAir": true,
+      "orginCountry": "FRA"
+    },
+    {
+      "id": 23,
+      "name": "AGM-154C JSOW",
+      "mslWarheadSize": 144, //explosive type not specified, assumed 89 kg PBXN
+      "mslRange": 130000,
+      "mslSpeed": 500, // Glide bomb, assumed speed of launching aircraft
+      "infraredGuidance": true,
+      "inertialGuidance": true,
+      "gpsGuidance": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 24,
+      "name": "P-700 Granit \"Shipwreck\"",
+      "mslWarheadSize": 750,
+      "mslRange": 625000,
+      "mslSpeed": 857,
+      "seaSkimming": false,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "homeOnJam": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 25,
+      "name": "3K95 Kinzhal \"Gauntlet\"",
+      "mslWarheadSize": 15,
+      "mslRange": 12000,
+      "mslSpeed": 850,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
     }
+
   ]
 }

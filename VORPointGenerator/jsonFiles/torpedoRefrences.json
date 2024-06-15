@@ -202,6 +202,33 @@
       "torpSpeed": 30,
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "FRA"
+    },
+    {
+      "id": 10006,
+      "name": "533 mm SET-53", 
+      "torpWarheadSize": 100,
+      "torpRange": 14000, 
+      "torpSpeed": 29,
+      "torpGuidance": 6, // passive acoustic homing
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 10007,
+      "name": "AT-1", 
+      "torpWarheadSize": 160,
+      "torpRange": 5000, 
+      "torpSpeed": 27,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 10008,
+      "name": "A244-S", 
+      "torpWarheadSize": 81, // 45 HBX
+      "torpRange": 13500, 
+      "torpSpeed": 30,
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "ITA"
     }
   ]
 }

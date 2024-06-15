@@ -1279,7 +1279,57 @@
     },
     // TODO: Ru-class New York
     // TODO: Ru-class New Mexico
-    // TODO: Ru-class Colorado
+    {
+      "name": "Ru-Class Battlehip (Colorado)",
+      "carrier": false,
+      "speed": 21,
+      "displacement": 32600,
+      "horsepower": 28900,
+      "beltThickness": 263,
+      "length": 190,
+      "aircraftCount": 2, // CITATION NEEDED (???)
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "cameo": "ru.jpg",
+      "artist": "和屋",
+      "artLink": "pixiv.net/en/artworks/45947847",
+      "batteries": [
+        {
+          "gunRefrenceID": 94,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 14,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
 
 
     // ABYSSAL HEAVY CRUISERS
@@ -1919,7 +1969,7 @@
       "speed": 37,
       "displacement": 6467,
       "horsepower": 95000,
-      "beltThickness": 26, // CITATION NEEDED
+      "beltThickness": 91, 
       "length": 169,
       "aircraftCount": 4,
       "shipFaction": "ABYSSAL",
@@ -2110,7 +2160,6 @@
 
     // TODO: Nu-class Casablanca
     // TODO: Nu-class Bouge
-    // TODO: Nu-class Independance
     {
       "name": "Nu-Class Light Carrier (Independance)",
       "hasSonar": false,
@@ -2274,8 +2323,110 @@
       ],
       "abilityWeight": 1.05
     },
-
-    // TODO: I-class C-class
+    {
+      "name": "I-class Destroyer (Sims-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 37,
+      "displacement": 1570,
+      "horsepower": 51138,
+      "beltThickness": 10,
+      "length": 106,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "i.jpg",
+      "artist": "林ノハル",
+      "artLink": "pixiv.net/en/artworks/70816380",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 3,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
+    {
+      "name": "I-class Destroyer (Ca-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1710,
+      "horsepower": 40000,
+      "beltThickness": 10,
+      "length": 111,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "i.jpg",
+      "artist": "林ノハル",
+      "artLink": "pixiv.net/en/artworks/70816380",
+      "batteries": [
+        {
+          "gunRefrenceID": 11,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
     // TODO: I-class Town
     // TODO: I-class Churruca
     // TODO: I-class Soldati
@@ -3092,7 +3243,7 @@
       "specialAbilities": [
         {
           "name": "The Last Battleship",
-          "description": "Other ships in Iowa's Division gain +2 ACC"
+          "description": "Other ships in Iowa's Formation gain +2 ACC"
         }
       ],
       "abilityWeight": 1.1
@@ -3156,6 +3307,7 @@
       ],
       "abilityWeight": 1.1
     },
+
     {
       "name": "USS Washington (BB-56)",
       "carrier": false,
@@ -3218,6 +3370,7 @@
       ],
       "abilityWeight": 1.2
     },
+
     {
       "name": "USS South Dakota (BB-57)",
       "carrier": false,
@@ -3280,7 +3433,124 @@
       ],
       "abilityWeight": 1.1
     },
+
+    {
+      "name": "USS Colorado (BB-45)",
+      "carrier": false,
+      "speed": 21,
+      "displacement": 32600,
+      "horsepower": 28900,
+      "beltThickness": 263,
+      "length": 190,
+      "aircraftCount": 2, // CITATION NEEDED (???)
+      "shipFaction": "UNITED STATES",
+      "hullCode": "BB",
+      "cameo": "ussColorado.png", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
+      "artist": "あめおとこ",
+      "artLink": "pixiv.net/en/artworks/81940481",
+      "batteries": [
+        {
+          "gunRefrenceID": 94,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 14,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "The Gold Standard",
+          "description": "If another ship in your fleet has the same MAN and SPEED as Colorado, both that ship and \nColorado gain +1 ACC and +1 ARM."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // USA HEAVY CRUISERS
+    {
+      "name": "USS Houston (CA-30)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 9050,
+      "horsepower": 107000,
+      "beltThickness": 55,
+      "length": 182,
+      "aircraftCount": 4,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CA",
+      "cameo": "ussHouston.png",
+      "artist": "Redundant-cat",
+      "artLink": "pixiv.net/en/artworks/78325889",
+      "batteries": [
+        {
+          "gunRefrenceID": 4,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 6,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 20,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Flagship of the Asiatic Fleet",
+          "description": "Allied CLs and DDs within 8\" of Houston gain +1 EVA and +1 ACC."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // USA LIGHT CRUISERS
     {
       "name": "USS Little Rock (CL-92)",
@@ -3343,6 +3613,60 @@
       ],
       "abilityWeight": 1.05
     },
+
+    {
+      "name": "USS Honolulu (CL-48)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 9767,
+      "horsepower": 100000,
+      "beltThickness": 98,
+      "length": 180,
+      "aircraftCount": 4,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CL",
+      "cameo": "ussHonolulu.jpg",
+      "artist": "AlexZ",
+      "artLink": "pixiv.net/en/artworks/90134403",
+      "batteries": [
+        {
+          "gunRefrenceID": 49,
+          "turretCount": 5,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Memories of The Slot.",
+          "description": "When Honalulu is within an enemy's torpedo range, gain +3 ACC against that enemy."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
     {
       "name": "USS Atlanta (CL-51)",
       "carrier": false,
@@ -3491,6 +3815,72 @@
         {
           "name": "A Fighting Ship",
           "description": "Johnston gains +1 ACC and +2 EVA for every enemy ship within 9\"."
+        }
+      ],
+      "abilityWeight": 1.25
+    },
+
+    {
+      "name": "USS Heywood L. Edwards (DD-663)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 2050,
+      "horsepower": 60000,
+      "beltThickness": 20,
+      "length": 112,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "DD",
+      "cameo": "ussHeywoodLE.jpg",
+      "artist": "猫蝉",
+      "artLink": "pixiv.net/en/artworks/117358661",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 2,
+          "torpsPerTurret": 5,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "DesRon Leader",
+          "description": "Torpedo attacks from Edwards and allied ships within 6\" gain +1 POW against battleships."
+        },
+        {
+          "name": "Ariake",
+          "description": "For the sake of fleet building and abilities, Edwards's nationality can be considered either \nUS or Japanese."       
         }
       ],
       "abilityWeight": 1.25
@@ -3987,13 +4377,13 @@
       "missiles": [
         {
           "missileRefrenceID": 18,
-          "turretCount": 40,
+          "turretCount": 40, 
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
           "missileRefrenceID": 3,
-          "turretCount": 40,
+          "turretCount": 40, 
           "missilesPerTurret": 1,
           "dataLink": true
         }
@@ -4008,6 +4398,91 @@
         {
           "name": "Pacific Patriot",
           "description": "Gain +1 ACC for every allied ship within 8\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "USS Zumwalt (DDG-1000)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 34, 
+      "displacement": 14564,
+      "horsepower": 105000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 182,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "UNITED STATES",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "ussZumwalt.jpg",
+      "artist": "Ennuishao",
+      "artLink": "pixiv.net/en/artworks/105910384",
+      "batteries": [
+        {
+          "gunRefrenceID": 10002,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10007,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "opticalDirector": true,
+          "CWISTracking": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 2,
+          "turretCount": 20, // Number reduced due to "availability" (Price)
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 3,
+          "turretCount": 20, // Number reduced due to "availability" (Price)
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 10,
+          "turretCount": 20, // Number reduced due to "availability" (Price)
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 15,
+          "turretCount": 20, // Number reduced due to "availability" (Price)
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Stealth"
+        },
+        {
+          "name": "Pax Propter Vim",
+          "description": "If undamaged, Zumwalt gains +1 ACC, +1 EVA, and +1 POW."
         }
       ],
       "abilityWeight": 1.2
@@ -4243,7 +4718,138 @@
       "specialAbilities": [
         {
           "name": "To The Last",
-          "description": "If another Aircraft Carrier is in your fleet, Zuikaku gains 5 evasion."
+          "description": "If another Aircraft Carrier is in your fleet, Zuikaku gains +5 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
+      "name": "JS Akagi",
+      "carrier": true,
+      "speed": 32,
+      "displacement": 36500,
+      "horsepower": 133000,
+      "beltThickness": 111,
+      "length": 261,
+      "aircraftCount": 66,
+      "shipFaction": "JAPAN",
+      "hullCode": "CV",
+      "cameo": "jsAkagi.jpg",
+      "artist": "スレッド＝マンナン",
+      "artLink": "pixiv.net/en/artworks/81073717",
+      "batteries": [
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 14,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Pride of Carrier Divison 1",
+          "description": "When attacking a targets with two of Akagi's aircraft at the same time, add +1 ACC to each attack."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
+      "name": "JS Unryu",
+      "hasSonar": true,
+      "carrier": true,
+      "speed": 34,
+      "displacement": 20130,
+      "horsepower": 152000,
+      "beltThickness": 72,
+      "length": 227, 
+      "aircraftCount": 65,
+      "shipFaction": "JAPAN",
+      "hullCode": "CV",
+      "cameo": "jsUnryu.jpg",
+      "artist": "ゾンビモグラ",
+      "artLink": "pixiv.net/en/artworks/102455939",
+      "batteries": [
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 17,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Dragon of the Reformed Task Force",
+          "description": "If Unryu is the only carrier in your fleet, Unryu gains +3 ACC."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
+      "name": "JS Taihou",
+      "hasSonar": true,
+      "carrier": true,
+      "speed": 33,
+      "displacement": 29770,
+      "horsepower": 160000,
+      "beltThickness": 100,
+      "length": 261, 
+      "aircraftCount": 65,
+      "shipFaction": "JAPAN",
+      "hullCode": "CV",
+      "cameo": "jsTaihou.jpg",
+      "artist": "Erica",
+      "artLink": "pixiv.net/en/artworks/41519309",
+      "batteries": [
+        {
+          "gunRefrenceID": 54,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 17,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Defiant Phonix",
+          "description": "Gain +2 ARM if no allied warships are within 5\" of Taihou."
         }
       ],
       "abilityWeight": 1.1
@@ -4362,53 +4968,6 @@
         {
           "name": "Calculated Punch",
           "description": "When attacking enemy battleships, add +4 POW to Kirishima’s attack, but reduce \nthe result of that roll by one damage."
-        }
-      ],
-      "abilityWeight": 1.1
-    },
-
-    {
-      "name": "JS Akagi",
-      "carrier": true,
-      "speed": 32,
-      "displacement": 36500,
-      "horsepower": 133000,
-      "beltThickness": 111,
-      "length": 261,
-      "aircraftCount": 66,
-      "shipFaction": "JAPAN",
-      "hullCode": "CV",
-      "cameo": "jsAkagi.jpg",
-      "artist": "スレッド＝マンナン",
-      "artLink": "pixiv.net/en/artworks/81073717",
-      "batteries": [
-        {
-          "gunRefrenceID": 56,
-          "turretCount": 6,
-          "gunsPerTurret": 1,
-          "localOpticalDirector": true,
-          "opticalDirector": true,
-          "rangefinder": true
-        },
-        {
-          "gunRefrenceID": 8,
-          "turretCount": 8,
-          "gunsPerTurret": 2,
-          "localOpticalDirector": true,
-          "opticalDirector": true,
-          "airburstFuses": true
-        },
-        {
-          "gunRefrenceID": 9,
-          "turretCount": 14,
-          "gunsPerTurret": 2,
-          "localOpticalDirector": true
-        }
-      ],
-      "specialAbilities": [
-        {
-          "name": "Pride of Carrier Divison 1",
-          "description": "When attacking a targets with two of Akagi's aircraft at the same time, add +1 ACC to each attack."
         }
       ],
       "abilityWeight": 1.1
@@ -5235,7 +5794,6 @@
           "missilesPerTurret": 1,
           "dataLink": true
         }
-        
       ],
       "specialAbilities": [
         {
@@ -5303,6 +5861,7 @@
       ],
       "abilityWeight": 1.1
     },
+
     {
       "name": "HMS Victorious",
       "carrier": true,
@@ -5373,6 +5932,9 @@
       "aircraftCount": 0,
       "shipFaction": "UNITED KINGDOM",
       "hullCode": "BB",
+      "cameo": "hmsRodney.png",
+      "artist": "山田MOD",
+      "artLink": "pixiv.net/en/artworks/111814718",
       "batteries": [
         {
           "gunRefrenceID": 84,
@@ -5410,12 +5972,71 @@
       ],
       "specialAbilities": [
         {
-          "name": "Royal Avenger",
+          "name": "Just Pursuit",
           "description": "Rodney gains +1 ACC for every hazard marker (excluding fires and flooding) on her target."
         }
       ],
       "abilityWeight": 1.1
     },
+
+    {
+      "name": "HMS Nelson",
+      "carrier": false,
+      "speed": 23,
+      "displacement": 33300,
+      "horsepower": 45000,
+      "beltThickness": 273,
+      "length": 216,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "BB",
+      "cameo": "hmsNelson.jpg",
+      "artist": "京 (Kyo)",
+      "artLink": "pixiv.net/en/artworks/71166666",
+      "batteries": [
+        {
+          "gunRefrenceID": 84,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarDirector": true
+        },
+        {
+          "gunRefrenceID": 47,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 10,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "The Nelson Touch",
+          "description": "If an enemy is within 10\" of Nelson, gain +1 ACC.\nIf an enemy is within 8\" of Nelson, gain +2 ARM.\nIf an enemy is within 5\" of Nelson, gain +3 POW.\nIf an enemy is within 3\" of Nelson, gain +6 EVA.\n"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
     {
       "name": "HMS King George V",
       "carrier": false,
@@ -5948,7 +6569,7 @@
           "torpRefrenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 4,
-          "torpReloads": 1
+          "torpReloads": 0
         }
       ],
       "specialAbilities": [
@@ -5958,6 +6579,62 @@
         {
           "name": "Lessons of Wikinger",
           "description": "Z1 Gains +2 EVA if an aircraft is within 8\"."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "Z3 Max Schultz",
+      "carrier": false,
+      "speed": 36,
+      "displacement": 2223,
+      "horsepower": 69000,
+      "beltThickness": 268,
+      "length": 119,
+      "aircraftCount": 0,
+      "depthChargeLauncherNumber": 4,
+      "shipFaction": "GERMANY",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 91,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarDirector":true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke",
+        },
+        {
+          "name": "Max's Dicipline'",
+          "description": "Z3 Gains +3 ACC if in a formation of 3 or more ships."
         }
       ],
       "abilityWeight": 1.1
@@ -6035,7 +6712,7 @@
     // FRANCE DESTROYERS
     // FRANCE MODERN SHIPS
     {
-      "name": "Forbin (D620)",
+      "name": "Forbin (D 620)",
       "hasSonar": true,
       "carrier": false,
       "speed": 29,
@@ -6106,6 +6783,63 @@
       ],
       "abilityWeight": 1.15
     },
+    {
+      "name": "Floréal (F 730)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 20,
+      "displacement": 2600, 
+      "horsepower": 8820,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 94,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "FRANCE",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10014,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10009,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 17,  // Technically Exocets were removed,           
+          "turretCount": 1,         // but in light of the abyssal war 
+          "missilesPerTurret": 2    // we'll say they've been added again.
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Republican Guardian",
+          "description": "Gain +4 ACC when attacking ships of 4 INT or less."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
 
     // TODO: ITALY
     // ITALY CARRIERS
@@ -6174,6 +6908,74 @@
     },
     // ITALY HEAVY CRUISERS
     // ITALY LIGHT CRUISERS
+    {
+      "name": "Duca degli Abruzzi",
+      "carrier": false,
+      "speed": 37,
+      "displacement": 6467,
+      "horsepower": 95000,
+      "beltThickness": 91,
+      "length": 169,
+      "aircraftCount": 4,
+      "shipFaction": "ITALY",
+      "hullCode": "CL",
+      "cameo": "luigiDiSavoiaDucaDegliAbruzzi.png",
+      "artist": "redundant-cat",
+      "artLink": "pixiv.net/en/artworks/76788238",
+      "batteries": [
+        {
+          "gunRefrenceID": 72,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 72,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 73,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 93,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 12,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 9,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Flagship of the Marina Militare",
+          "description": "Italian and UK ships within 8\" of Duca degli Abruzzi gain +2 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // ITALY LIGHT CARRIERS
     // ITALY DESTROYERS
 
@@ -6297,17 +7099,386 @@
       ],
       "abilityWeight": 1.15
     },
-
+    // RUSSIAN MODERN WARSHIPS
+    {
+      "name": "Pyotr Velikiy (099)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 32,
+      "displacement": 24300,
+      "horsepower": 140000,
+      "beltThickness": 50, // Splinter plating. Slightly increased because reactor shielding
+      "length": 252,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 3, 
+      "shipFaction": "RUSSIA",
+      "hullCode": "CCGN",
+      "steelHull": true,
+      "cameo": "pytorVelikiny.jpg",
+      "artist": "たんぷ梨",
+      "artLink": "pixiv.net/en/artworks/57453415",
+      "batteries": [
+        {
+          "gunRefrenceID": 10015,
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10019,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10006,
+          "turretCount": 5,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 24,
+          "turretCount": 20,
+          "missilesPerTurret": 1
+        },
+        {
+          "missileRefrenceID": 25,
+          "turretCount": 8,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 20,
+          "turretCount": 6,
+          "missilesPerTurret": 8
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 4"
+        },
+      //  {
+      //   "name": "Countermeasures 4" // Can't prove that they have these, but they have to, right?
+      //  },
+        {
+          "name": "Emperess of the North",
+          "description": "If the Pyotr Velikiy is the most expensive ship on the table, all allied ships within 8\" of Pyotr Velikiy \ngain +2 ACC and +2 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "Varyag (011)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 32,
+      "displacement": 11490,
+      "horsepower": 121000,
+      "beltThickness": 30, // Splinter plating. Modeled just enough to block POW 0 weapons
+      "length": 186,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "RUSSIA",
+      "hullCode": "CG",
+      "steelHull": true,
+      //"cameo": "slavaClass.jpg",
+      //"artist": "KCME",
+      //"artLink": "pixiv.net/en/artworks/6378926",
+      "batteries": [
+        {
+          "gunRefrenceID": 10015,
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10016,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10006,
+          "turretCount": 10,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 19,
+          "turretCount": 8,
+          "missilesPerTurret": 2
+        },
+        {
+          "missileRefrenceID": 20,
+          "turretCount": 8,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 21,
+          "turretCount": 2,
+          "missilesPerTurret": 20
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 4"
+        },
+      //  {
+      //   "name": "Countermeasures 4" // Can't prove that they have these, but they have to, right?
+      //  },
+        {
+          "name": "The Viking of Vladivostok",
+          "description": "Gain +2 EVA and +2 ARM if no allies are within 8\"."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
 
     //TODO: MINOR/MODERN NATIONS
 
     // CANADA
+    {
+      "name": "HMCS Haida",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 37,
+      "displacement": 1959,
+      "horsepower": 44000,
+      "beltThickness": 10,
+      "length": 115,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "CANADA",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 10,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarDirector": true,
+          "airburstFuses": true,
+          "radarFuses": true,
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 1,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "The Fightingest Ship of the RCN",
+          "description": "For every Allied ship within 6\" of Hadia, gain +1 ACC."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // TAIWAN
     // PRC
     // SOUTH KOREA
     // INDONESIA
+    {
+      "name": "KRI Raden Eddy Martadinata (331)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 28,
+      "displacement": 3900,
+      "horsepower": 26820,
+      "beltThickness": 10,
+      "length": 105,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "INDONESIA",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10008,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10017,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "opticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "radarRangeFinder": true,
+          "CWISTracking": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 10018,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10008,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 17,
+          "turretCount": 4,
+          "missilesPerTurret": 2
+        },
+        {
+          "missileRefrenceID": 22,
+          "turretCount": 2,
+          "missilesPerTurret": 6,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Surabaya Survivor",
+          "description": "Gain +1 EVA and +1 POW for every enemy within 12\" of Martadinata."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // SINGAPORE
     // AUSTRALIA
+    {
+      "name": "HMAS Perth (D29)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 7040,
+      "horsepower": 72000,
+      "beltThickness": 57,
+      "length": 171,
+      "aircraftCount": 0,
+      "shipFaction": "AUSTRALIA",
+      "hullCode": "CL",
+      "cameo": "hmasPerth.jpg",
+      "artist": "YeFan 葉凡",
+      "artLink": "pixiv.net/en/artworks/78203807",
+      "batteries": [
+        {
+          "gunRefrenceID": 81,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarDirector": true
+        },
+        {
+          "gunRefrenceID": 82,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 71,
+          "turretCount": 3,
+          "gunsPerTurret":4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Amphion",
+          "description": "For the sake of fleet building and abilities, Perth's nationality can be considered either \nAustralian or United Kingdom. Gain +1 EVA for every ship of unique nationality in your fleet."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // NETHERLANDS
     {
       "name": "HNLMS De Ruyter",

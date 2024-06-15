@@ -362,8 +362,8 @@
       "bombRefrences": [
         {
           "name": "60 kg Type 99",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 51, // 30 kg TNP
           "diveBomb": true
         }
@@ -453,8 +453,8 @@
       "bombRefrences": [
         {
           "name": "250 kg Type 99 No. 25",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 428, // 250 kg TNP
           "diveBomb": true
         }
@@ -796,8 +796,8 @@
       "bombRefrences": [
         {
           "name": "250 lb GP Bomb",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
       ]
@@ -1161,7 +1161,7 @@
       "serviceCieling": 52300,
       "cameo": "fa-18f.jpg",
       "artist": "amisu",
-      "artLink": "danbooru.donmai.us/posts/1038566?q=f-18_hornet+",
+      "artLink": "danbooru.donmai.us/posts/1038566",
       "steelHull": true,
       "gunRefrences": [
         {
@@ -1348,9 +1348,57 @@
           "name": "Radar 60"
         }
       ],
-      "abilityWeight": 1.4
+      "abilityWeight": 15 // Radar range / 4
     },
      
+    {
+      "name": "A-10C Thunderbolt II",
+      "countryOfOrigin": "USA",
+      "type": "Land-Based Jet Attacker",
+      "numPlanes": 4,
+      "speed": 196,
+      "thrust": 5320, // weight (11321 kg) * thrust-to-weight ratio (0.47)  
+      "weight": 11321,
+      "rateOfClimb": 30,
+      "serviceCieling": 13700,
+      "cameo": "a-10c.jpg",
+      "artist": "Zephyr",
+      "artLink": "pixiv.net/en/artworks/47122246",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10013,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "Mark 84 2000 lb.",
+          "number": 8,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 890,
+          "diveBomb": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 3"
+        },
+        {
+          "name": "Survivable",
+          "description": "If attacked by weapons of POW 0, gain +4 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
 
     // JAPANESE AIRCRAFT
     {
@@ -1500,7 +1548,86 @@
         }
         //TODO: Subhunting ability
       ]
+    },
+
+
+    // RUSSIAN AIRCRAFT
+    {
+      "name": "Ka-27",
+      "countryOfOrigin": "RUS",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 4460,
+      "weight": 6500,
+      "rateOfClimb": 9, // CITATION NEEDED
+      "serviceCieling": 5000,
+      "steelHull": true,
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10007,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
+
+    // MINOR NATIONS
+    // CANADA
+    {
+      "name": "CF-188 Hornet", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "CAN",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 11395, // weight (10455 kg) * thrust-to-weight ratio (1.09)  
+      "weight": 10455,
+      "rateOfClimb": 250,
+      "serviceCieling": 15000,
+      "cameo": "cf-188.jpg",
+      "artist": "Bartol Rendulić",
+      "artLink": "bartoleum.artstation.com/projects/KarKo",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 23,
+          "turretCount": 1,
+          "missilesPerTurret": 6,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
     }
+
+
 
   ]
 }

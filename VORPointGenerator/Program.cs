@@ -154,7 +154,7 @@ namespace VORPointGenerator
                 Warship.evasion = (int)Math.Round((double)((i.length / 50) * -1) + Warship.maneuverability);
                 if (i.hasSonar == true) { Warship.sonarRange = 10; }
                 if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 20)); }
-                else { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 4)); }
+                else { Warship.numAircraft = (int)Math.Round((((double)i.aircraftCount + 1) / 4)); }
                 if(i.carrier == true && i.steelHull == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 15)); }
                 Warship.submarine = i.submarine;
                 Warship.carrier = i.carrier;
@@ -217,8 +217,9 @@ namespace VORPointGenerator
                     if (j.digitalComputer) { fireControl+=2; }
                     if (j.airburstFuses) { fireControl++; }
                     if (j.radarFuses) { fireControl++; }
-                    if (j.CWISTracking) { fireControl+=6; }
+                    if (j.CWISTracking) { fireControl+=10; }
                     if (j.poorShellQuaility) { fireControl--; }
+                    if (batteryGun.laser) { fireControl += 10; }
                     statBlock.accuracy = fireControl + ((j.gunsPerTurret - 1) * -1);
 
                     statBlock.applyFixes();
@@ -279,17 +280,19 @@ namespace VORPointGenerator
                     }
 
 
-                    if (j.dataLink) mslFireCtrl+=3;
+                    if (j.dataLink) mslFireCtrl+=2;
                     if (mRef.sarhGuidance) mslFireCtrl += 3;
                     if (mRef.arhGuidance) mslFireCtrl += 3;
-                    if (mRef.gpsGuidance) mslFireCtrl += 3;
-                    if (mRef.inertialGuidance) mslFireCtrl += 3;
-                    if (mRef.infraredGuidance) mslFireCtrl += 3;
-                    if (mRef.attackAir) mslFireCtrl += 3;
-                    if (mRef.cwis) mslFireCtrl += 12;
-                    if (mRef.homeOnJam) mslFireCtrl += 8;
-                    if (mRef.antiRadiation) mslFireCtrl += 8;
-                    if (mRef.dataLinkSwarm) mslFireCtrl += 10;
+                    if (mRef.gpsGuidance) mslFireCtrl += 2;
+                    if (mRef.inertialGuidance) mslFireCtrl += 2;
+                    if (mRef.infraredGuidance) mslFireCtrl += 2;
+                    if (mRef.opticalGuidance) mslFireCtrl += 2;
+                    if (mRef.attackAir) mslFireCtrl += 2;
+                    if (mRef.cwis) mslFireCtrl += 6;
+                    if (mRef.homeOnJam) mslFireCtrl += 4;
+                    if (mRef.antiRadiation) mslFireCtrl += 4;
+                    if (mRef.dataLinkSwarm) mslFireCtrl += 3;
+                    if (mRef.sra2a) mslFireCtrl += 5;
 
                     //Console.WriteLine(mRef.name);
 
@@ -300,7 +303,7 @@ namespace VORPointGenerator
                     m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
                     m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
                     m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
-                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 25));
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 75));
 
                     m.attackAir = mRef.attackAir;
 
@@ -394,9 +397,11 @@ namespace VORPointGenerator
                     }
                     Console.WriteLine("New energy: " + Aircraft.maxEnergy);
                 }
+
                 Aircraft.cameo = i.cameo;
                 Aircraft.artist = i.artist;
                 Aircraft.artLink = i.artLink;
+
                 //batteries
                 foreach (var j in i.gunRefrences)
                 {
@@ -439,7 +444,16 @@ namespace VORPointGenerator
                     if (j.airburstFuses) { fireControl++; }
                     if (j.radarFuses) { fireControl++; }
                     if (j.poorShellQuaility) { fireControl--; }
-                    statBlock.accuracy = fireControl + ((j.gunsPerTurret - 1) / 2 * -1);
+
+                    // reduce number of guns, but increase accuracy
+                    while (statBlock.gunsPerTurret > 1)
+                    {
+                        statBlock.gunsPerTurret --;
+                        fireControl++;
+                    }
+
+
+                    statBlock.accuracy = fireControl + ((statBlock.gunsPerTurret - 1) / 2 * -1);
 
                     statBlock.applyFixes();
 
@@ -533,17 +547,19 @@ namespace VORPointGenerator
                         }
                     }
 
-                    if (j.dataLink) mslFireCtrl += 3; if (mRef.sarhGuidance) mslFireCtrl += 3;
+                    if (j.dataLink) mslFireCtrl += 2;
+                    if (mRef.sarhGuidance) mslFireCtrl += 3;
                     if (mRef.arhGuidance) mslFireCtrl += 3;
-                    if (mRef.gpsGuidance) mslFireCtrl += 3;
-                    if (mRef.inertialGuidance) mslFireCtrl += 3;
-                    if (mRef.infraredGuidance) mslFireCtrl += 3;
-                    if (mRef.attackAir) mslFireCtrl += 3;
-                    if (mRef.cwis) mslFireCtrl += 12;
-                    if (mRef.homeOnJam) mslFireCtrl += 8;
-                    if (mRef.antiRadiation) mslFireCtrl += 8;
-                    if (mRef.dataLinkSwarm) mslFireCtrl += 10;
-                    if (mRef.sra2a) mslFireCtrl += 10;
+                    if (mRef.gpsGuidance) mslFireCtrl += 2;
+                    if (mRef.inertialGuidance) mslFireCtrl += 2;
+                    if (mRef.infraredGuidance) mslFireCtrl += 2;
+                    if (mRef.opticalGuidance) mslFireCtrl += 2;
+                    if (mRef.attackAir) mslFireCtrl += 2;
+                    if (mRef.cwis) mslFireCtrl += 6;
+                    if (mRef.homeOnJam) mslFireCtrl += 4;
+                    if (mRef.antiRadiation) mslFireCtrl += 4;
+                    if (mRef.dataLinkSwarm) mslFireCtrl += 3;
+                    if (mRef.sra2a) mslFireCtrl += 5;
 
                     //Console.WriteLine(mRef.name);
 
@@ -554,7 +570,7 @@ namespace VORPointGenerator
                     m.mslRange = (int)Math.Round(((double)mRef.mslRange / 1500));
                     m.mslAcc = mslFireCtrl - (int)Math.Round((double)mRef.mslSpeed / 500);
                     m.mslAOE = (int)Math.Round((double)mRef.mslSpeed / 100) + mslFireCtrl;
-                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 25));
+                    m.mslEvasion = (int)Math.Round(((double)mRef.mslSpeed / 75));
 
                     m.attackAir = mRef.attackAir;
 
