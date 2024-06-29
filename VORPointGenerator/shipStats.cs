@@ -276,6 +276,10 @@ namespace VORPointGenerator
                 {
                     flagDirectory = flagDirectory + "idsa.png";
                 }
+                if (shipFaction.Equals("UNITED NATIONS"))
+                {
+                    flagDirectory = flagDirectory + "un.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
@@ -286,7 +290,7 @@ namespace VORPointGenerator
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Failed to find flag image!");
+                    Console.WriteLine(name + ": Failed to find flag image!");
                 }
             }
 
@@ -522,7 +526,7 @@ namespace VORPointGenerator
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Failed to find image!");
+                Console.WriteLine( name + ": Failed to find image!");
             }
 
             // TODO: Draw the cameo image
@@ -538,7 +542,7 @@ namespace VORPointGenerator
                 catch (Exception ex)
                 {
                     Console.WriteLine(cameoDirectory);
-                    Console.WriteLine("Failed to find cameo image!");
+                    Console.WriteLine(name + ": Failed to find cameo image!");
                 }
             }
 
