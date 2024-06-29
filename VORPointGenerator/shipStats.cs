@@ -149,7 +149,7 @@ namespace VORPointGenerator
             if (steelHull == true)
             {
                 baseStats = (int)((double)baseStats * 0.5);
-                attackStats = (int)((double)attackStats * 0.3);
+                attackStats = (int)((double)attackStats * 0.25);
             }
             pointValue = baseStats + attackStats ;
             pointValue = (int)Math.Round(((double)(pointValue * abilityWeight) / 2 / 5)) * 5;
