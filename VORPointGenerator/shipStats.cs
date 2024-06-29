@@ -86,7 +86,7 @@ namespace VORPointGenerator
             // Tune these values for balancing
             double gunBias = 0.4;
             double torpBias = 0.05;
-            double mslBias = 0.0005;
+            double mslBias = 0.00075;
 
             int aircraftCVbias = 100;
             int aircraftFloatBias = 50;
@@ -148,7 +148,7 @@ namespace VORPointGenerator
 
             if (steelHull == true)
             {
-                baseStats = (int)((double)baseStats * 0.3);
+                baseStats = (int)((double)baseStats * 0.5);
                 attackStats = (int)((double)attackStats * 0.3);
             }
             pointValue = baseStats + attackStats ;

@@ -229,6 +229,15 @@
       "torpSpeed": 30,
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "ITA"
+    },
+    {
+      "id": 10009,
+      "name": "Paket-NK", 
+      "torpWarheadSize": 79, // CITATION NEEDED
+      "torpRange": 5000, // CITATION NEEDED
+      "torpSpeed": 45, // CITATION NEEDED
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "RUS"
     }
   ]
 }

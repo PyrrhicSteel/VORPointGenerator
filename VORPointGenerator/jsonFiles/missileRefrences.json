@@ -308,6 +308,113 @@
       "sarhGuidance": true,
       "attackAir": true,
       "orginCountry": "RUS"
+    },
+    {
+      "id": 26,
+      "name": "9M337 Sosna-R",
+      "mslWarheadSize": 5,
+      "mslRange": 10000,
+      "mslSpeed": 892,
+      "seaSkimming": false,
+      "opticalGuidance": true,
+      "sarhGuidance": true,
+      "cwis": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 27,
+      "name": "9M96",
+      "mslWarheadSize": 24,
+      "mslRange": 40000,
+      "mslSpeed": 1800,
+      "seaSkimming": false,
+      "sarhGuidance": true,
+      "arhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 28,
+      "name": "3M54-1 Kalibr \"Sizzler\"",
+      "mslWarheadSize": 500,
+      "mslRange": 1400000,
+      "mslSpeed": 1029,
+      "seaSkimming": true,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 29,
+      "name": "3M22 Zircon",
+      "mslWarheadSize": 500, // Kenetic Warhead
+      "mslRange": 1000000,
+      "mslSpeed": 2058, // Mach 6 in the terminal phase
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 30,
+      "name": "R-77M2",
+      "mslWarheadSize": 8, 
+      "mslRange": 40000,
+      "mslSpeed": 858,
+      "infraredGuidance": true,
+      "attackAir": true,
+      "sra2a": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 31,
+      "name": "Kh-35",
+      "mslWarheadSize": 145, 
+      "mslRange": 300000,
+      "mslSpeed": 292, 
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 32,
+      "name": "Kh-55 \"Kent\"",
+      "mslWarheadSize": 400, 
+      "mslRange": 600000,
+      "mslSpeed": 206, 
+      "seaSkimming": true,
+      "infraredGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 33,
+      "name": "Kh-32",
+      "mslWarheadSize": 500, 
+      "mslRange": 1000000,
+      "mslSpeed": 1200, 
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 34,
+      "name": "Kh-15",
+      "mslWarheadSize": 150, 
+      "mslRange": 300000,
+      "mslSpeed": 1715, 
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
     }
 
   ]

@@ -1149,6 +1149,7 @@
         //TODO: Subhunting ability
       ]
     },
+
     {
       "name": "F/A-18F Super Hornet", // (Role: Anti-ship aircraft)
       "countryOfOrigin": "USA",
@@ -1158,7 +1159,7 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 52300,
+      "serviceCieling": 15000,
       "cameo": "fa-18f.jpg",
       "artist": "amisu",
       "artLink": "danbooru.donmai.us/posts/1038566",
@@ -1202,7 +1203,7 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 52300,
+      "serviceCieling": 15000,
       "cameo": "fa-18e.jpg",
       "artist": "ES饺子",
       "artLink": "pixiv.net/en/artworks/78769667",
@@ -1246,7 +1247,7 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 52300,
+      "serviceCieling": 15000,
       "cameo": "ea-18g.jpg",
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/56675869",
@@ -1579,6 +1580,178 @@
       ]
     },
 
+    {
+      "name": "MiG-29K 'Fulcrum-D'", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "RUS",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 611,
+      "thrust": 11760, // weight (12000 kg) * thrust-to-weight ratio (0.98)  
+      "weight": 12000,
+      "rateOfClimb": 330,
+      "serviceCieling": 17500,
+      "cameo": "mig-29k.jpg",
+      "artist": "R T",
+      "artLink": "artstation.com/artwork/ell3YY",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10021,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 30,
+          "turretCount": 1,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 31,
+          "turretCount": 1,
+          "missilesPerTurret": 4
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
+      "name": "Tupolev Tu-95MSM 'Bear'",
+      "countryOfOrigin": "RUS",
+      "type": "Land-Based Bomber",
+      "numPlanes": 4,
+      "speed": 257,
+      "thrust": 60000,  
+      "weight": 90000,
+      "rateOfClimb": 10,
+      "serviceCieling": 13716,
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10022,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 32,
+          "turretCount": 1,
+          "missilesPerTurret": 14
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 2
+    },
+
+    {
+      "name": "Tu-22M 'Backfire'", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "RUS",
+      "type": "Land-Based Jet Bomber",
+      "numPlanes": 4,
+      "speed": 645,
+      "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
+      "weight": 58000,
+      "rateOfClimb": 15,
+      "serviceCieling": 13300,
+      "cameo": "tu-22m.jpg",
+      "artist": "ツバサ❏Art Book Ch",
+      "artLink": "pixiv.net/en/artworks/20041640",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10022,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 33,
+          "turretCount": 1,
+          "missilesPerTurret": 3
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 20"
+        }
+      ],
+      "abilityWeight": 2
+    },
+
+    {
+      "name": "Tu-160 'Blackjack'", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "RUS",
+      "type": "Land-Based Jet Bomber",
+      "numPlanes": 4,
+      "speed": 645,
+      "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
+      "weight": 58000,
+      "rateOfClimb": 15,
+      "serviceCieling": 13300,
+      "cameo": "tu-160.jpg",
+      "artist": "ツバサ❏Art Book Ch",
+      "artLink": "pixiv.net/en/artworks/430167",
+      "steelHull": true,
+      "missiles": [
+        {
+          "missileRefrenceID": 34,
+          "turretCount": 2,
+          "missilesPerTurret": 12
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 20"
+        }
+      ],
+      "abilityWeight": 2
+    },
+
+    {
+      "name": "Beriev A-50U 'Mainstay'",
+      "countryOfOrigin": "RUS",
+      "type": "Land-Based AEW Jet Aircraft",
+      "numPlanes": 4,
+      "speed": 252,
+      "thrust": 18900, // weight (58000 kg) * thrust-to-weight ratio (0.252)  
+      "weight": 75000,
+      "rateOfClimb": 10,
+      "serviceCieling": 12000,
+      "steelHull": true,
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 72"
+        }
+      ],
+      "abilityWeight": 18 // Radar range divided by 4
+    },
 
     // MINOR NATIONS
     // CANADA
@@ -1625,9 +1798,41 @@
         }
       ],
       "abilityWeight": 1.1
+    },
+
+    {
+      "name": "CH-148 Cyclone",
+      "countryOfOrigin": "CANADA",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 84,
+      "thrust": 6000,
+      "weight": 7076,
+      "rateOfClimb": 9,
+      "serviceCieling": 4600,
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10002,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
     }
-
-
 
   ]
 }

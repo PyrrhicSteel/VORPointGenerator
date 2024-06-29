@@ -2151,7 +2151,8 @@
           "torpsPerTurret": 4,
           "torpReloads": 2
         }
-      ]
+      ],
+      "abilityWeight": 0.6
     },
     // TODO: Chi-class Peyk-i Sevket
 
@@ -2323,6 +2324,7 @@
       ],
       "abilityWeight": 1.05
     },
+
     {
       "name": "I-class Destroyer (Sims-class)",
       "hasSonar": true,
@@ -2372,6 +2374,7 @@
       ],
       "abilityWeight": 1.05
     },
+
     {
       "name": "I-class Destroyer (Ca-class)",
       "hasSonar": true,
@@ -2435,6 +2438,47 @@
     // TODO: I-class Goteborg
     // TODO: I-class Orfey
     // TODO: I-class Storozhevoy
+    {
+      "name": "I-class Destroyer (Raubtier-class)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 34,
+      "displacement": 933,
+      "horsepower": 23000,
+      "beltThickness": 10,
+      "length": 93,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "DD",
+      "cameo": "i.jpg",
+      "artist": "林ノハル",
+      "artLink": "pixiv.net/en/artworks/70816380",
+      "batteries": [
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 3,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 5,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
 
     // TODO: Na-class Aigle
     // TODO: Na-class Akizuki
@@ -2551,7 +2595,6 @@
       ],
       "abilityWeight": 1.05
     },
-    // TODO: Na-class Type 1924
 
     {
       "name": "Ni-class Destroyer (Shiratsuyu)",
@@ -3182,7 +3225,7 @@
           "description": "If Hornet is carrying no aircraft, gain +6 ARM."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     // USA BATTLESHIPS
@@ -3305,7 +3348,7 @@
           "description": "Start the game with one 'TEMPER' Marker. After taking damage from a ship, place the \n'TEMPER' Marker on the attacking ship. The 'TEMPER' Marker remains on that ship until \nWisconson sinks, or the ship sinks, where the 'TEMPER' Marker will be returned to Wisconson. \nWisconson gains +2 ACC in attacks against a ship with the TEMPER marker."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -3431,7 +3474,7 @@
           "description": "Gain +1 ARM for every hazard marker on South Dakota."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.28
     },
 
     {
@@ -3490,7 +3533,7 @@
           "description": "If another ship in your fleet has the same MAN and SPEED as Colorado, both that ship and \nColorado gain +1 ACC and +1 ARM."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // USA HEAVY CRUISERS
     {
@@ -3549,7 +3592,7 @@
           "description": "Allied CLs and DDs within 8\" of Houston gain +1 EVA and +1 ACC."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // USA LIGHT CRUISERS
     {
@@ -3611,7 +3654,7 @@
           "description": "Gain +3 EVA if within 3\" of a coastline."
         }
       ],
-      "abilityWeight": 1.05
+      "abilityWeight": 1.1
     },
 
     {
@@ -3664,7 +3707,7 @@
           "description": "When Honalulu is within an enemy's torpedo range, gain +3 ACC against that enemy."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -3721,7 +3764,7 @@
           "description": "Gain +3 ACC when attacking enemy aircraft during the ATTACK phase."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // USA LIGHT CARRIERS
     {
@@ -3817,7 +3860,7 @@
           "description": "Johnston gains +1 ACC and +2 EVA for every enemy ship within 9\"."
         }
       ],
-      "abilityWeight": 1.25
+      "abilityWeight": 1.3
     },
 
     {
@@ -3883,7 +3926,7 @@
           "description": "For the sake of fleet building and abilities, Edwards's nationality can be considered either \nUS or Japanese."       
         }
       ],
-      "abilityWeight": 1.25
+      "abilityWeight": 1.35
     },
     {
       "name": "USS Cassin Young (DD-793)",
@@ -3941,7 +3984,7 @@
           "description": "When attacked by aircraft, gain +2 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     {
       "name": "USS Laffey (DD-724)",
@@ -3997,7 +4040,7 @@
           "description": "When hit, roll twice on the damage table and use the least severe roll."
         }
       ],
-      "abilityWeight": 1.25
+      "abilityWeight": 1.35
     },
 
     {
@@ -4054,7 +4097,7 @@
           "description": "Gain +1 ACC when within 3\" of an ally that has lost half or more of its integrity."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -4116,7 +4159,7 @@
           "description": "When attacked by enemies within 6\" of Samuel B Roberts, gain +4 EVA."
         }
       ],
-      "abilityWeight": 1.25
+      "abilityWeight": 1.35
     },
     
 
@@ -4196,7 +4239,7 @@
           "description": "Non-US Allied Units within 12\" of Regan gain +2 EVA"
         }
       ],
-      "abilityWeight": 1.05
+      "abilityWeight": 1.15
     },
 
     // USA DDG
@@ -4293,10 +4336,10 @@
         },
         {
           "name": "Desperate Valor",
-          "description": "Cole cannot take more than 2 damage from one attack."
+          "description": "Cole cannot take more than 2 damage from one attack. \nRemove twice as many hazards in damage control."
         }
       ],
-      "abilityWeight": 1.2
+      "abilityWeight": 1.3
     },
     {
       "name": "USS Preble (DDG-88)",
@@ -4397,7 +4440,7 @@
         },
         {
           "name": "Pacific Patriot",
-          "description": "Gain +1 ACC for every allied ship within 8\"."
+          "description": "Gain +1 ACC for every allied ship within 5\"."
         }
       ],
       "abilityWeight": 1.2
@@ -4420,6 +4463,18 @@
       "artist": "Ennuishao",
       "artLink": "pixiv.net/en/artworks/105910384",
       "batteries": [
+        {
+          "gunRefrenceID": 10012,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
         {
           "gunRefrenceID": 10002,
           "turretCount": 2,
@@ -4677,7 +4732,7 @@
           "description": "If you have an Australian ship in your fleet, Canberra and the closest Australian ship both gain \n+1 EVA and +1 ACC."
         }
       ],
-      "abilityWeight": 1.2
+      "abilityWeight": 1.3
     },
 
 
@@ -4721,7 +4776,7 @@
           "description": "If another Aircraft Carrier is in your fleet, Zuikaku gains +5 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -4768,7 +4823,7 @@
           "description": "When attacking a targets with two of Akagi's aircraft at the same time, add +1 ACC to each attack."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -4810,7 +4865,7 @@
           "description": "If Unryu is the only carrier in your fleet, Unryu gains +3 ACC."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -4852,7 +4907,7 @@
           "description": "Gain +2 ARM if no allied warships are within 5\" of Taihou."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // JAPAN BATTLESHIPS
     {
@@ -4917,7 +4972,7 @@
           "description": "Allied Japanese ships within 12\" of Yamato gain +1 ACC"
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.15
     },
     
     {
@@ -4970,7 +5025,7 @@
           "description": "When attacking enemy battleships, add +4 POW to Kirishima’s attack, but reduce \nthe result of that roll by one damage."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // JAPAN HEAVY CRUISERS
     {
@@ -5028,7 +5083,7 @@
           "description": "Aircraft Launched by Tone have a spotting range of 18 inches, instead of 15."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -5086,7 +5141,7 @@
           "description": "Chikuma gains +2 ACC when attacking enemy carriers."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -5151,7 +5206,7 @@
           "description": "If an enemy has the most expensive ship in the battlefield, Ships within 5\" of Atago gain +1 POW."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     // JAPAN LIGHT CRUISERS
@@ -5199,7 +5254,7 @@
           "description": "Instant torpedo attacks gain +2 ACC."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 0.65
     },
 
     {
@@ -5248,7 +5303,7 @@
           "description": "Gain +1 ACC and +1 EVA for every friendly Destroyer or Frigate within 12\"."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -5303,7 +5358,7 @@
           "description": "All Allied DD's within 8\" gain +1 EVA and +1 ACC."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -5402,7 +5457,7 @@
           "description": "Ryuujou's aircraft gain +3 EVA when within 10\" of any transport."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // JAPAN DESTROYERS
 
@@ -5467,7 +5522,7 @@
           "description": "Whenever an allied ship sinks, place that ship's figure on Shigure's card. \nShigure gains +2 EVA for every figure on her card."
         }
       ],
-      "abilityWeight": 1.2
+      "abilityWeight": 1.3
     },
 
     {
@@ -5525,7 +5580,7 @@
           "description": "If within 3\" of a friendly carrier, gain +5 EVA"
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.25
     },
     {
       "name": "JS Sazanami",
@@ -5582,7 +5637,7 @@
           "description": "Sazanami gains +3 ACC if within 8\" of an allied steelHulled unit."
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.25
     },
     {
       "name": "JS Kasumi",
@@ -5640,7 +5695,7 @@
           "description": "If the closest allied ship has more than 4 hazard markers, gain +2 ACC and +1 POW"
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.25
     },
 
     // JAPAN MISSILE DESTROYERS
@@ -5859,7 +5914,7 @@
           "description": "Ark Royale's aircraft gain +3 EVA against warships that have no allies within 6\"."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -5918,7 +5973,7 @@
           "description": "Victorious can be deployed with US Aircraft. If a US Carrier is also in your fleet, then both Victorius \nand the US Carrier gain +1 ARM."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // UK BATTLESHIPS
     {
@@ -5976,7 +6031,7 @@
           "description": "Rodney gains +1 ACC for every hazard marker (excluding fires and flooding) on her target."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -6034,7 +6089,7 @@
           "description": "If an enemy is within 10\" of Nelson, gain +1 ACC.\nIf an enemy is within 8\" of Nelson, gain +2 ARM.\nIf an enemy is within 5\" of Nelson, gain +3 POW.\nIf an enemy is within 3\" of Nelson, gain +6 EVA.\n"
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     {
@@ -6094,7 +6149,7 @@
           "description": "Friendly battleships within 5\" of KGV gain +1 ARMOR."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     {
       "name": "HMS Warspite",
@@ -6150,7 +6205,7 @@
           "description": "Gain +2 ACC when attacking enemies greater then 14\" away from Warspite."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // UK HEAVY CRUISERS
     // UK LIGHT CRUISERS
@@ -6212,7 +6267,7 @@
           "description": "Gain +2 EVA against torpedo attacks."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // UK LIGHT CARRIERS
     // UK DESTROYERS
@@ -6270,7 +6325,7 @@
           "description": "When attacked by a BB, tread damage rolls as if Cossack has 5 armor."
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.25
     },
     {
       "name": "HMS Javelin",
@@ -6329,7 +6384,7 @@
           "description": "Gain +1 ACC against enemies with 5 or less integrity. Gain +1 ARM when attacked by enemies with \n5 or less integrity."
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.25
     },
     // MODERN UK
     {
@@ -6389,9 +6444,94 @@
           "description": "All allied Steel-hulled ships within 9\" gain +2 EVA."
         }
       ],
-      "abilityWeight": 1.05
+      "abilityWeight": 1.15
     },
 
+    {
+      "name": "HMS Dragon (D35)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
+      "displacement": 8400,
+      "horsepower": 54000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 152,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "hmsDragon.png",
+      "artist": "緒方TANK",
+      "artLink": "pixiv.net/en/artworks/59812925",
+      "batteries": [
+        {
+          "gunRefrenceID": 10023,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 1001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10024,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 11,
+          "turretCount": 2, 
+          "missilesPerTurret": 4,
+          "dataLink": true
+        },  
+        {
+          "missileRefrenceID": 16,
+          "turretCount": 48, 
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Welsh Defiance",
+          "description": "When attacked by an enemy with higher INT than Dragon, gain +1 EVA."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
 
     // TODO: GERMANY
     // GERMANY CARRIERS
@@ -6448,7 +6588,7 @@
           "description": "When attacking a unit with a lower cost then Graf Zeppelin, attack with +1 ACC."
         }
       ],
-      "abilityWeight": 1.05
+      "abilityWeight": 1.15
     },
     // GERMANY BATTLESHIPS
     {
@@ -6518,7 +6658,7 @@
           "description": "If Bismarck is the only battleships in your fleet, all of your other ships gain +1 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // GERMANY HEAVY CRUISERS
     // GERMANY LIGHT CRUISERS
@@ -6530,7 +6670,7 @@
       "speed": 36,
       "displacement": 2223,
       "horsepower": 69000,
-      "beltThickness": 268,
+      "beltThickness": 10,
       "length": 119,
       "aircraftCount": 0,
       "depthChargeLauncherNumber": 4,
@@ -6581,7 +6721,7 @@
           "description": "Z1 Gains +2 EVA if an aircraft is within 8\"."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     {
       "name": "Z3 Max Schultz",
@@ -6589,7 +6729,7 @@
       "speed": 36,
       "displacement": 2223,
       "horsepower": 69000,
-      "beltThickness": 268,
+      "beltThickness": 10,
       "length": 119,
       "aircraftCount": 0,
       "depthChargeLauncherNumber": 4,
@@ -6637,7 +6777,7 @@
           "description": "Z3 Gains +3 ACC if in a formation of 3 or more ships."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
     // TODO: FRANCE
@@ -6704,7 +6844,7 @@
           "description": "If a Non-French Allied Unit is within 12\" of Richelieu, gain +2 ACC"
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // FRANCE HEAVY CRUISERS
     // FRANCE LIGHT CRUISERS
@@ -6781,7 +6921,7 @@
           "description": "If within 3\" of a friendly carrier, gain +5 EVA"
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.45
     },
     {
       "name": "Floréal (F 730)",
@@ -6838,7 +6978,7 @@
           "description": "Gain +4 ACC when attacking ships of 4 INT or less."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.3
     },
 
     // TODO: ITALY
@@ -6904,7 +7044,7 @@
           "description": "Gain +1 ARM for every enemy aircraft within 15\" of Italia."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.3
     },
     // ITALY HEAVY CRUISERS
     // ITALY LIGHT CRUISERS
@@ -6974,10 +7114,76 @@
           "description": "Italian and UK ships within 8\" of Duca degli Abruzzi gain +2 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.3
     },
     // ITALY LIGHT CARRIERS
     // ITALY DESTROYERS
+    {
+      "name": "Grecale",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 1640,
+      "horsepower": 44000,
+      "beltThickness": 10,
+      "length": 107,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "ITALY",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 53,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 53,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 36,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 35,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 9,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Breeze from the North-East",
+          "description": "Grecale gains +1 EVA for every friendly DD within 8\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
 
     // TODO: RUSSIA
     // RUSSIA CARRIERS (lol)
@@ -7034,7 +7240,7 @@
           "description": "Shore bombardments hit on a 5 instead of a 6."
         }
       ],
-      "abilityWeight": 1.05
+      "abilityWeight": 1.2
     },
     // RUSSIA HEAVY CRUISERS
     // RUSSIA LIGHT CRUISERS
@@ -7097,7 +7303,7 @@
           "description": "Gain +2 ARMOR against attacks from aircraft."
         }
       ],
-      "abilityWeight": 1.15
+      "abilityWeight": 1.35
     },
     // RUSSIAN MODERN WARSHIPS
     {
@@ -7178,7 +7384,7 @@
           "description": "If the Pyotr Velikiy is the most expensive ship on the table, all allied ships within 8\" of Pyotr Velikiy \ngain +2 ACC and +2 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     {
       "name": "Varyag (011)",
@@ -7258,9 +7464,181 @@
           "description": "Gain +2 EVA and +2 ARM if no allies are within 8\"."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
 
+    {
+      "name": "Admiral Golovko (456)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30,
+      "displacement": 4500,
+      "horsepower": 65400,
+      "beltThickness": 20, // Splinter plating.
+      "length": 135,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "RUSSIA",
+      "hullCode": "FFG",
+      "steelHull": true,
+      //"cameo": "slavaClass.jpg",
+      //"artist": "KCME",
+      //"artLink": "pixiv.net/en/artworks/6378926",
+      "batteries": [
+        {
+          "gunRefrenceID": 10015, 
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10020, 
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 10019,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10009,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 26,
+          "turretCount": 2,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 28,
+          "turretCount": 2,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 27,
+          "turretCount": 2,
+          "missilesPerTurret": 16
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 4"
+        },
+        {
+         "name": "Countermeasures 4"
+        },
+        {
+          "name": "Domesticlly Buit",
+          "description": "If you only have Russian units in your fleet, Admiral Golovko gains +2 EVA."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "Admiral Gorshkov (417)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30,
+      "displacement": 4500,
+      "horsepower": 65400,
+      "beltThickness": 20, // Splinter plating.
+      "length": 135,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "RUSSIA",
+      "hullCode": "FFG",
+      "steelHull": true,
+      //"cameo": "slavaClass.jpg",
+      //"artist": "KCME",
+      //"artLink": "pixiv.net/en/artworks/6378926",
+      "batteries": [
+        {
+          "gunRefrenceID": 10015, 
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10020, 
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 10019,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10009,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 26,
+          "turretCount": 2,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 29,
+          "turretCount": 2,
+          "missilesPerTurret": 8
+        },
+        {
+          "missileRefrenceID": 27,
+          "turretCount": 2,
+          "missilesPerTurret": 16
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 4"
+        },
+        {
+         "name": "Countermeasures 4"
+        },
+        {
+          "name": "The New Frigate",
+          "description": "Gain +1 ACC for every additional FFG in your fleet."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     //TODO: MINOR/MODERN NATIONS
 
     // CANADA
@@ -7326,6 +7704,84 @@
         }
       ],
       "abilityWeight": 1.2
+    },
+    {
+      "name": "HMCS Vancouver (FFH 331)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30,
+      "displacement": 3995, 
+      "horsepower": 53000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 134,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "CANADA",
+      "hullCode": "FFH",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10006,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10002,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 6
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 4,
+          "turretCount": 16,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 4"
+        },
+        {
+          "name": "Pacific Guardian",
+          "description": "Gain +1 EVA for every Japanese, American, or Australian ship within 8\"."
+        }
+      ],
+      "abilityWeight": 1.35
     },
     // TAIWAN
     // PRC
@@ -7413,7 +7869,7 @@
           "description": "Gain +1 EVA and +1 POW for every enemy within 12\" of Martadinata."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // SINGAPORE
     // AUSTRALIA
@@ -7434,21 +7890,23 @@
       "batteries": [
         {
           "gunRefrenceID": 81,
-          "turretCount": 2,
+          "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "radarDirector": true
+          "radarDirector": true,
+          "mechanicalComputer": true
         },
         {
           "gunRefrenceID": 82,
           "turretCount": 4,
-          "gunsPerTurret": 1,
+          "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "airburstFuses": true
+          "airburstFuses": true,
+          "mechanicalComputer": true
         },
         {
           "gunRefrenceID": 71,
@@ -7477,7 +7935,7 @@
           "description": "For the sake of fleet building and abilities, Perth's nationality can be considered either \nAustralian or United Kingdom. Gain +1 EVA for every ship of unique nationality in your fleet."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // NETHERLANDS
     {
@@ -7532,7 +7990,7 @@
           "description": "US, AUS, and UK Ships within 8\" of De Reuter gain +2 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 1.2
     },
     // SWEDEN
     // INDIA

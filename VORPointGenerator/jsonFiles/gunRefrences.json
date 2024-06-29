@@ -825,7 +825,7 @@
       "name": "6-in/50 BL Mark XXIII",
       "calibre": 152,
       "maxRange": 23300,
-      "armorPenetration": 76,
+      "armorPenetration": 152, // 76 MM @ 11430, buffed to bring in line with closer range data of other weapons
       "fireRate": 8,
       "attackAir": false,
       "originCountry": "UK"
@@ -835,7 +835,7 @@
       "name": "4-in/45 QF Mark XVI",
       "calibre": 102,
       "maxRange": 11890,
-      "armorPenetration": 56, // CITATION NEEDED
+      "armorPenetration": 60, // CITATION NEEDED
       "fireRate": 20,
       "attackAir": true,
       "originCountry": "UK"
@@ -1177,6 +1177,56 @@
       "fireRate": 6000,
       "attackAir": true,
       "originCountry": "RUS"
-    }
+    },
+    {
+      "id": 10020,
+      "name": "KPV",
+      "calibre": 15,
+      "maxRange": 4000,
+      "armorPenetration": 8,
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 10021,
+      "name": "GSh-30-1",
+      "calibre": 30,
+      "maxRange": 1800,
+      "armorPenetration": 30, //CITATION NEEDED
+      "fireRate": 1800,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 10022,
+      "name": "GSh-23",
+      "calibre": 23,
+      "maxRange": 1800,
+      "armorPenetration": 26, //CITATION NEEDED
+      "fireRate": 3400,
+      "attackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "id": 10023,
+      "name": "4.5-in/55 Mark 8",
+      "calibre": 114,
+      "maxRange": 27500,
+      "armorPenetration": 90, //CITATION NEEDED
+      "fireRate": 26,
+      "attackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "id": 10024,
+      "name": "Oerlikon KCB",
+      "calibre": 30,
+      "maxRange": 3000,
+      "armorPenetration": 50, //CITATION NEEDED
+      "fireRate": 600,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
   ]
 }

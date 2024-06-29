@@ -149,6 +149,7 @@ namespace VORPointGenerator
                     displacement = displacement * 0.5;
                     Warship.health++;
                 }
+                if (Warship.health == 1) Warship.health++;
 
                 Warship.armor = (int)Math.Round((double)i.beltThickness / 35);
                 Warship.evasion = (int)Math.Round((double)((i.length / 50) * -1) + Warship.maneuverability);
@@ -159,7 +160,6 @@ namespace VORPointGenerator
                 Warship.submarine = i.submarine;
                 Warship.carrier = i.carrier;
                 Warship.steelHull = i.steelHull;
-
 
                 Warship.shipFaction = i.shipFaction;
                 Warship.hullCode = i.hullCode;
@@ -392,7 +392,7 @@ namespace VORPointGenerator
                     double energyMax = i.speed * i.serviceCieling;
                     while (energyMax > 20)
                     {
-                        energyMax = energyMax * 0.4;
+                        energyMax = energyMax * 0.5;
                         Aircraft.maxEnergy++;
                     }
                     Console.WriteLine("New energy: " + Aircraft.maxEnergy);
