@@ -78,34 +78,34 @@ namespace VORPointGenerator
             if(energyGain == 0) energyGain = 1;
 
 
-            cost = (int)Math.Round((double)move * energyGain * maxEnergy * 0.08);
+            cost = (int)Math.Round((double)planecount * (double)move * energyGain * maxEnergy * 0.02);
             
             // guns
             //Console.WriteLine(cost);
             foreach (var i in gunStats) {
                 int gunsPerTurret = i.gunsPerTurret;
                 if (gunsPerTurret == 0) { gunsPerTurret = 1; }
-                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.turrets * gunsPerTurret * i.range * (i.power + 1) * 0.1), (1 + (i.accuracy / 50))));
+                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.turrets * gunsPerTurret * i.range * (i.power + 1) * 0.5), (1 + (i.accuracy / 50))));
             }
             
             // torpedoes
             //Console.WriteLine(cost);
             foreach (var i in torpedoStats) {
-                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.torpTurrets * i.torpsPerTurret * i.torpRange * i.torpPower * i.torpAOE * 0.05), (1 + (i.torpAcc / 50))));
+                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.torpTurrets * i.torpsPerTurret * i.torpRange * i.torpPower * i.torpAOE * 0.025), (1 + (i.torpAcc / 50))));
             }
 
             // bombs
             //Console.WriteLine(cost);
             foreach (var i in bombStats)
             {
-                cost = cost + (int)(Math.Round(Math.Pow((double)(planecount * i.power * i.range * i.atk * i.volleys * 0.05), (1 + (i.accuracy / 50)))));
+                cost = cost + (int)(Math.Round(Math.Pow((double)(planecount * i.power * i.range * i.atk * i.volleys * 0.025), (1 + (i.accuracy / 50)))));
             }
 
             // rockets
             //Console.WriteLine(cost);
             foreach (var i in rocketStats)
             {
-                cost = cost + (int)((Math.Round(Math.Pow((double)(planecount * i.rocketVolleys * i.rocketPower * i.rocketAtk * 0.1), (1 + (i.rocketAcc / 50))))));
+                cost = cost + (int)((Math.Round(Math.Pow((double)(planecount * i.rocketVolleys * i.rocketPower * i.rocketAtk * 0.05), (1 + (i.rocketAcc / 50))))));
             }
 
             // Anti-ship missiles
@@ -125,7 +125,7 @@ namespace VORPointGenerator
 
             if (steelHull == true)
             {
-                cost = (int)((double)cost * 0.3);
+                cost = (int)((double)cost * 0.1);
             }
 
             // round point value to 5
@@ -250,6 +250,10 @@ namespace VORPointGenerator
                 if (countryOfOrigin.Equals("FRA"))
                 {
                     flagDirectory = flagDirectory + "fra.png";
+                }
+                if (countryOfOrigin.Equals("SWE"))
+                {
+                    flagDirectory = flagDirectory + "swdn.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -300);

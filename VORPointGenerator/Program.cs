@@ -140,7 +140,6 @@ namespace VORPointGenerator
                     Warship.maneuverability = (int)Math.Round(newManeuverability);
                 }
 
-
                 // alternate health implementation
                 double displacement = i.displacement;
                 Warship.health = (int)Math.Round((double)i.displacement / 2000);
@@ -152,7 +151,8 @@ namespace VORPointGenerator
                 if (Warship.health == 1) Warship.health++;
 
                 Warship.armor = (int)Math.Round((double)i.beltThickness / 35);
-                Warship.evasion = (int)Math.Round((double)((i.length / 50) * -1) + Warship.maneuverability);
+                Warship.evasion = (int)Math.Round((double)((i.length / 25) * -1) + 5  + Warship.maneuverability);
+
                 if (i.hasSonar == true) { Warship.sonarRange = 10; }
                 if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 20)); }
                 else { Warship.numAircraft = (int)Math.Round((((double)i.aircraftCount + 1) / 4)); }
@@ -248,6 +248,7 @@ namespace VORPointGenerator
                     // increase torpfireControl if it is guided
                     if (j.torpedoDirector) { torpFireControl++; }
                     if (tRef.selfGuided) { torpFireControl = torpFireControl + 4; }
+                    torpFireControl = torpFireControl + tRef.torpGuidance;
 
                     t.name = tRef.name;
                     t.torpPower = (int)Math.Round((double)tRef.torpWarheadSize / 50);
@@ -518,6 +519,7 @@ namespace VORPointGenerator
                     // increase torpfireControl if it is guided
                     if (j.torpedoDirector) { torpFireControl++; }
                     if (tRef.selfGuided) { torpFireControl = torpFireControl + 4; }
+                    torpFireControl = torpFireControl + tRef.torpGuidance;
 
                     t.name = tRef.name;
                     t.torpPower = (int)Math.Round((double)tRef.torpWarheadSize / 50);

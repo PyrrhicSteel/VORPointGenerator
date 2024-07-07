@@ -54,8 +54,8 @@
       "bombRefrences": [
         {
           "name": "AN-M30, 100 lb.",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 102,
           "diveBomb": true
         }
@@ -1053,7 +1053,7 @@
       "serviceCieling": 6000,
       "gunRefrences": [
         {
-          "gunRefrenceID": 91,
+          "gunRefrenceID": 96,
           "turretCount": 2,
           "gunsPerTurret": 1
         }
@@ -1081,9 +1081,41 @@
       "serviceCieling": 6000,
       "gunRefrences": [
         {
-          "gunRefrenceID": 91,
+          "gunRefrenceID": 96,
           "turretCount": 1,
           "gunsPerTurret": 2
+        }
+      ]
+    },
+    {
+      "name": "Re.2001 OR Serie II",
+      "countryOfOrigin": "ITA",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 150,
+      "thrust": 1159,
+      "weight": 2495,
+      "rateOfClimb": 13, 
+      "serviceCieling": 11000,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 100,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 68,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "500 kg", // CAN'T FIND NAME 
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 450, // CITATION NEEDED
+          "diveBomb": true
         }
       ]
     },
@@ -1104,6 +1136,37 @@
           "gunRefrenceID": 30,
           "turretCount": 1,
           "gunsPerTurret": 1
+        }
+      ]
+    },
+    {
+      "name": "S9 Ospery",
+      "countryOfOrigin": "SWE",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 82,
+      "thrust": 1050,
+      "weight": 1148,
+      "rateOfClimb": 6,
+      "serviceCieling": 6900,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        },
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "250 kg",
+          "number": 1,
+          "bombVolleySize": 2,
+          "bombWarheadSize": 188
         }
       ]
     },
@@ -1273,7 +1336,7 @@
           "name": "Radar 30"
         },
         {
-          "name": "Jamming 4"
+          "name": "Jamming 8"
         },
         {
           "name": "Home on Jam",
@@ -1447,9 +1510,9 @@
       "weight": 14729,
       "rateOfClimb": 257, // CITATION NEEDED (probably classified)
       "serviceCieling": 15000,
-      "cameo": "f-35c.jpg",
-      "artist": "mawaru",
-      "artLink": "x.com/rnawaru/status/1045797474412052481",
+      "cameo": "f-35b.jpg",
+      "artist": "ITO DYNAMICS",
+      "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
       "gunRefrences": [
         {
@@ -1802,7 +1865,7 @@
 
     {
       "name": "CH-148 Cyclone",
-      "countryOfOrigin": "CANADA",
+      "countryOfOrigin": "CAN",
       "type": "Utility Maritime Helicopter",
       "numPlanes": 4,
       "speed": 84,

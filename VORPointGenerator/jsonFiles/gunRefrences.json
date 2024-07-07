@@ -294,7 +294,7 @@
       "id": 30,
       "name": "13.2mm Hotchkiss Modele 1929",
       "calibre": 13,
-      "maxRange": 7200,
+      "maxRange": 1800,
       "armorPenetration": 2, // CITATION NEEDED
       "fireRate": 250,
       "attackAir": true,
@@ -922,16 +922,6 @@
     },
     {
       "id": 91,
-      "name": "Darne Machine Gun",
-      "calibre": 8,
-      "maxRange": 500,
-      "armorPenetration": 1, // CITATION NEEDED
-      "fireRate": 1200,
-      "attackAir": true,
-      "originCountry": "FRA"
-    },
-    {
-      "id": 91,
       "name": "12.7 cm/45 SK C/34",
       "calibre": 127,
       "maxRange": 17400,
@@ -970,9 +960,66 @@
       "attackAir": false,
       "originCountry": "USA"
     },
-
-
-
+    {
+      "id": 95,
+      "name": "14-in/45 Mark 8",
+      "calibre": 356,
+      "maxRange": 31090,
+      "armorPenetration": 457,
+      "fireRate": 2,
+      "attackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "id": 96,
+      "name": "Darne Machine Gun",
+      "calibre": 8,
+      "maxRange": 500,
+      "armorPenetration": 1, // CITATION NEEDED
+      "fireRate": 1200,
+      "attackAir": true,
+      "originCountry": "FRA"
+    },
+    {
+      "id": 97,
+      "name": "7.5 cm/60 Model 1928",
+      "calibre": 75,
+      "maxRange": 16000,
+      "armorPenetration": 40, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "SE"
+    },
+    {
+      "id": 98,
+      "name": "15.2 cm/55 Model 1930",
+      "calibre": 152,
+      "maxRange": 24400,
+      "armorPenetration": 140, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": false,
+      "originCountry": "SE"
+    },
+    {
+      "id": 99,
+      "name": "25 mm akan L/64 Model 1932",
+      "calibre": 25,
+      "maxRange": 5400,
+      "armorPenetration": 5, // CITATION NEEDED
+      "fireRate": 180,
+      "attackAir": true,
+      "originCountry": "SE"
+    },
+    {
+      "id": 100,
+      "name": "Breda SADFAT",
+      "calibre": 13,
+      "maxRange": 1800,
+      "armorPenetration": 1, // CITATION NEEDED
+      "fireRate": 900,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
 
 
 

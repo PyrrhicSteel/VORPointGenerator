@@ -96,7 +96,7 @@ namespace VORPointGenerator
             int healthBias = 50;
             int spottingRangeBias = 2;
             int sonarRangeBias = 2;
-            int evasionBias = 20;
+            int evasionBias = 10;
             int armorBias = 30;
 
             baseStats = baseStats + (maxSpeed * speedBias);
@@ -275,6 +275,10 @@ namespace VORPointGenerator
                 if (shipFaction.Equals("INDONESIA"))
                 {
                     flagDirectory = flagDirectory + "idsa.png";
+                }
+                if (shipFaction.Equals("SWEDEN"))
+                {
+                    flagDirectory = flagDirectory + "swdn.png";
                 }
                 if (shipFaction.Equals("UNITED NATIONS"))
                 {
