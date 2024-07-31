@@ -558,7 +558,7 @@ namespace VORPointGenerator
             cardGraphics.DrawRectangle(graphicsPen, cameoBox);
 
             // Credit the artist
-            cameoPoint = cameoPoint + new Size(10, 1350);
+            cameoPoint = cameoPoint + new Size(10, 1340);
             if (cameo.Length > 0)
             {
                 cardGraphics.DrawString("Artist: " + artist, textFont, foregroundColor, cameoPoint);

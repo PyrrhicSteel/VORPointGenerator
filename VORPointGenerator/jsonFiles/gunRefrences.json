@@ -132,7 +132,7 @@
     },
     {
       "id": 14,
-      "name": "75mm/50 Modele 1922",
+      "name": "75 mm/50 Modele 1922",
       "calibre": 75,
       "maxRange": 14100,
       "armorPenetration": 40, // CITATION NEEDED
@@ -142,7 +142,7 @@
     },
     {
       "id": 15,
-      "name": "37mm/50 Modele 1925",
+      "name": "37 mm/50 Modele 1925",
       "calibre": 37,
       "maxRange": 7175,
       "armorPenetration": 20, // CITATION NEEDED
@@ -1020,7 +1020,16 @@
       "attackAir": true,
       "originCountry": "ITA"
     },
-
+    {
+      "id": 101,
+      "name": "138.6 mm/50 Modele 1929",
+      "calibre": 139,
+      "maxRange": 20000,
+      "armorPenetration": 127, // CITATION NEEDED
+      "fireRate": 12,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
 
 
     // MODERN WEAPONS
@@ -1274,6 +1283,36 @@
       "fireRate": 600,
       "attackAir": true,
       "originCountry": "ITA"
+    },
+    {
+      "id": 10025,
+      "name": "OTO 127/64 LW",
+      "calibre": 127,
+      "maxRange": 120000,
+      "armorPenetration": 108, //CITATION NEEDED
+      "fireRate": 32,
+      "attackAir": true,
+      "originCountry": "ITA"
+    },
+    {
+      "id": 10026,
+      "name": "BK27",
+      "calibre": 27,
+      "maxRange": 2500,
+      "armorPenetration": 50, //CITATION NEEDED
+      "fireRate": 1700,
+      "attackAir": true,
+      "originCountry": "GER"
+    },
+    {
+      "id": 10027,
+      "name": "AK-100",
+      "calibre": 100,
+      "maxRange": 20000,
+      "armorPenetration": 90, //CITATION NEEDED
+      "fireRate": 60,
+      "attackAir": true,
+      "originCountry": "RUS"
     },
   ]
 }

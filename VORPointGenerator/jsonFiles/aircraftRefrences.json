@@ -194,7 +194,7 @@
           "name": "AN-M66, 2000 lb.",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 499,
+          "bombWarheadSize": 772, // 428 kg torpex
           "diveBomb": true
         }
       ]
@@ -255,6 +255,40 @@
         },
         {
           "gunRefrenceID": 24,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 2,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
+    {
+      "name": "TBF Avenger",
+      "countryOfOrigin": "USA",
+      "type": "Carrier Torpedo Bomber",
+      "numPlanes": 20,
+      "speed": 124,
+      "thrust": 1700,
+      "weight": 7047,
+      "rateOfClimb": 6,
+      "serviceCieling": 6900,
+      "cameo": "tbfAvenger.jpg",
+      "artist": "鹿ビスケット",
+      "artLink": "pixiv.net/en/artworks/112706080",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "gunRefrenceID": 7,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
@@ -739,6 +773,38 @@
           "number": 1,
           "bombVolleySize": 2,
           "bombWarheadSize": 102,
+          "diveBomb": true
+        }
+      ]
+    },
+    {
+      "name": "Blackburn Suka",
+      "countryOfOrigin": "UK",
+      "type": "Carrier Dive Bomber",
+      "numPlanes": 20,
+      "speed": 100,
+      "thrust": 890,
+      "weight": 2493,
+      "rateOfClimb": 8,
+      "serviceCieling": 6200,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 24,
+          "turretCount": 0,
+          "gunsPerTurret": 4
+        },
+        {
+          "gunRefrenceID": 89,
+          "turretCount": 1,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "500 lb. Bomb",
+          "number": 1,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 230, // 500 lb bomb
           "diveBomb": true
         }
       ]
@@ -1410,6 +1476,10 @@
         },
         {
           "name": "Radar 60"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \ncarrier that launched it."
         }
       ],
       "abilityWeight": 15 // Radar range / 4
@@ -1463,6 +1533,37 @@
       ],
       "abilityWeight": 1.1
     },
+    {
+      "name": "B-1B Lancer", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Land-Based Jet Bomber",
+      "numPlanes": 2,
+      "speed": 429,
+      "thrust": 33094, // weight (87090 kg) * thrust-to-weight ratio (0.38)  
+      "weight": 87090,
+      "rateOfClimb": 28,
+      "serviceCieling": 18000,
+      "cameo": "b1b.png",
+      "artist": "ふゆのぶ",
+      "artLink": "pixiv.net/en/artworks/7382867",
+      "steelHull": true,
+      "missiles": [
+        {
+          "missileRefrenceID": 18,
+          "turretCount": 1,
+          "missilesPerTurret": 30
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 20"
+        }
+      ],
+      "abilityWeight": 2
+    },
 
     // JAPANESE AIRCRAFT
     {
@@ -1499,7 +1600,7 @@
       ]
     },
 
-    // TODO: BRITISH AIRCRAFT
+    // BRITISH AIRCRAFT
     {
       "name": "Joint Combat Aircraft (F-35B)",
       "countryOfOrigin": "UK",
@@ -1564,6 +1665,44 @@
         {
           "torpRefrenceID": 10003,
           "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
+    // GERMAN Aircraft
+    {
+      "name": "NH90",
+      "countryOfOrigin": "GER",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 83,
+      "thrust": 4834,
+      "weight": 6400,
+      "rateOfClimb": 8,
+      "serviceCieling": 6000,
+      "steelHull": true,
+      "cameo": "nh90.jpg",
+      "artist": "OnDaDoor",
+      "artLink": "pixiv.net/en/artworks/69295911",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10010, // CITATION NEEDED
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10006,
+          "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
@@ -1691,7 +1830,7 @@
       "name": "Tupolev Tu-95MSM 'Bear'",
       "countryOfOrigin": "RUS",
       "type": "Land-Based Bomber",
-      "numPlanes": 4,
+      "numPlanes": 2,
       "speed": 257,
       "thrust": 60000,  
       "weight": 90000,
@@ -1727,7 +1866,7 @@
       "name": "Tu-22M 'Backfire'", // (Role: Anti-ship aircraft)
       "countryOfOrigin": "RUS",
       "type": "Land-Based Jet Bomber",
-      "numPlanes": 4,
+      "numPlanes": 2,
       "speed": 645,
       "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
       "weight": 58000,
@@ -1766,7 +1905,7 @@
       "name": "Tu-160 'Blackjack'", // (Role: Anti-ship aircraft)
       "countryOfOrigin": "RUS",
       "type": "Land-Based Jet Bomber",
-      "numPlanes": 4,
+      "numPlanes": 2,
       "speed": 645,
       "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
       "weight": 58000,
@@ -1798,7 +1937,7 @@
       "name": "Beriev A-50U 'Mainstay'",
       "countryOfOrigin": "RUS",
       "type": "Land-Based AEW Jet Aircraft",
-      "numPlanes": 4,
+      "numPlanes": 2,
       "speed": 252,
       "thrust": 18900, // weight (58000 kg) * thrust-to-weight ratio (0.252)  
       "weight": 75000,
@@ -1811,6 +1950,10 @@
         },
         {
           "name": "Radar 72"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
         }
       ],
       "abilityWeight": 18 // Radar range divided by 4

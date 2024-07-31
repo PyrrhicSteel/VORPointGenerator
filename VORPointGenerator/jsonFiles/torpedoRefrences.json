@@ -204,7 +204,7 @@
       "orginCountry": "FRA"
     },
     {
-      "id": 10006,
+      "id": 10007,
       "name": "533 mm SET-53", 
       "torpWarheadSize": 100,
       "torpRange": 14000, 
@@ -213,7 +213,7 @@
       "orginCountry": "RUS"
     },
     {
-      "id": 10007,
+      "id": 10008,
       "name": "AT-1", 
       "torpWarheadSize": 160,
       "torpRange": 5000, 
@@ -222,7 +222,7 @@
       "orginCountry": "RUS"
     },
     {
-      "id": 10008,
+      "id": 10009,
       "name": "A244-S", 
       "torpWarheadSize": 81, // 45 HBX
       "torpRange": 13500, 
@@ -231,7 +231,7 @@
       "orginCountry": "ITA"
     },
     {
-      "id": 10009,
+      "id": 10010,
       "name": "Paket-NK", 
       "torpWarheadSize": 79, // CITATION NEEDED
       "torpRange": 5000, // CITATION NEEDED

@@ -554,6 +554,47 @@
         }
       ]
     },
+
+    {
+      "name": "Wo-Class Aircraft Carrier (Akagi)",
+      "carrier": true,
+      "speed": 32,
+      "displacement": 36500,
+      "horsepower": 133000,
+      "beltThickness": 111,
+      "length": 261,
+      "aircraftCount": 66,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CV",
+      "cameo": "wo.jpg",
+      "artist": "okinjo",
+      "artLink": "pixiv.net/en/artworks/52519690",
+      "batteries": [
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 14,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ]
+    },
+
     // ABYSSAL BATTLESHIPS
     {
       "name": "Ta-Class Fast Battlehip (Kongo)",
@@ -1426,7 +1467,59 @@
         }
       ]
     },
-    // TODO: Ri-class New Orleans
+    {
+      "name": "Ri-Class Heavy Cruiser (Pensacola)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 9100,
+      "horsepower": 107000,
+      "beltThickness": 52,
+      "length": 170,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "cameo": "ri.jpg",
+      "artist": "k-suwabe",
+      "artLink": "seiga.nicovideo.jp/seiga/im3548919",
+      "batteries": [
+        {
+          "gunRefrenceID": 4,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 4,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 5,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 6,
+          "turretCount": 4,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ]
+    },
 
     {
       "name": "Ne-Class Heavy Cruiser (Mogami)",
@@ -1646,6 +1739,9 @@
       "aircraftCount": 0,
       "shipFaction": "ABYSSAL",
       "hullCode": "CL",
+      "cameo": "ho.jpg",
+      "artist": "pectong",
+      "artLink": "danbooru.donmai.us/posts/1655625",
       "batteries": [
         {
           "gunRefrenceID": 47,
@@ -1693,6 +1789,9 @@
       "aircraftCount": 2,
       "shipFaction": "ABYSSAL",
       "hullCode": "CL",
+      "cameo": "ho.jpg",
+      "artist": "pectong",
+      "artLink": "danbooru.donmai.us/posts/1655625",
       "batteries": [
         {
           "gunRefrenceID": 75,
@@ -3112,6 +3211,41 @@
       "abilityWeight": 1.05
     },
 
+    // ABYSSAL TRANSPORTS
+    {
+      "name": "Wa-Class Transport Ship (Liberty-class)",
+      "carrier": false,
+      "speed": 12,
+      "displacement": 14245,
+      "horsepower": 2500,
+      "beltThickness": 10, // CITATION NEEDED
+      "length": 134,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "AP",
+      "batteries": [
+        {
+          "gunRefrenceID": 69,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Poor Compartmentalization",
+          "description": "Take double fire and flooding from all damage."
+        }
+      ],
+      "abilityWeight": 0.15
+    },
+
     // USA
     // USA CARRIERS
     {
@@ -3227,6 +3361,67 @@
       "abilityWeight": 1.2
     },
 
+    {
+      "name": "USS Saratoga (CV-3)",
+      "carrier": true,
+      "speed": 34,
+      "displacement": 36000,
+      "horsepower": 180000,
+      "beltThickness": 109,
+      "length": 270,
+      "aircraftCount": 90,
+      "shipFaction": "UNITED STATES",
+      "hullCode": "CV",
+      "cameo": "ussSaratoga.jpg",
+      "artist": "ナガサワ　トウゴ",
+      "artLink": "pixiv.net/en/artworks/80614723",
+      "batteries": [
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 1,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "radarRangeFinder": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 6,
+          "turretCount": 9,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 8,
+          "gunsPerTurret": 8,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Sister Sara",
+          "description": "When within 8\" of an allied carrier, both Saratoga and that carrier's aicraft gain +1 ACC and +1 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
     // USA BATTLESHIPS
     {
       "name": "USS Iowa (BB-61)",
@@ -3290,6 +3485,7 @@
       ],
       "abilityWeight": 1.1
     },
+
     {
       "name": "USS Wisconson (BB-64)",
       "carrier": false,
@@ -3407,7 +3603,7 @@
       "specialAbilities": [
         {
           "name": "Ching's Legacy",
-          "description": "When rolling damage for attacks from USS Washington, roll and additional damage die and drop \nthe lowest roll."
+          "description": "When rolling damage for attacks from USS Washington, roll and additional damage die and drop \nthe lowest roll. When undamaged, +2 ACC."
         }
       ],
       "abilityWeight": 1.2
@@ -4297,13 +4493,13 @@
       "missiles": [
         {
           "missileRefrenceID": 4,
-          "turretCount": 1,
+          "turretCount": 2,
           "missilesPerTurret": 8,
           "dataLink": true
         },
         {
           "missileRefrenceID": 5,
-          "turretCount": 1,
+          "turretCount": 2,
           "missilesPerTurret": 30,
           "dataLink": true
         }
@@ -4313,7 +4509,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Angled Deck"
@@ -4416,7 +4612,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Desperate Valor",
@@ -4520,7 +4716,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Pacific Patriot",
@@ -4614,7 +4810,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Stealth"
@@ -4715,7 +4911,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Interceptor",
@@ -4806,7 +5002,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Stealth"
@@ -5053,12 +5249,65 @@
       "specialAbilities": [
         {
           "name": "Star of the Combined Fleet",
-          "description": "Allied Japanese ships within 12\" of Yamato gain +1 ACC"
+          "description": "Allied Japanese ships within 12\" of Yamato gain +1 ACC."
         }
       ],
       "abilityWeight": 1.15
     },
-    
+    {
+      "name": "JS Nagato",
+      "carrier": false,
+      "speed": 25,
+      "displacement": 38510,
+      "horsepower": 80000,
+      "beltThickness": 290,
+      "length": 224,
+      "aircraftCount": 3,
+      "shipFaction": "JAPAN",
+      "hullCode": "BB",
+      "cameo": "jsNagato.jpg",
+      "artist": "Stu_dts",
+      "artLink": "pixiv.net/en/artworks/53122818",
+      "batteries": [
+        {
+          "gunRefrenceID": 55,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 50,
+          "turretCount": 18,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 98,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "1st Fleet Flagship",
+          "description": "Any ship in formation with Nagato gains +1 ACC and +2 ARM."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     {
       "name": "JS Kirishima",
       "carrier": false,
@@ -5666,6 +5915,7 @@
       ],
       "abilityWeight": 1.25
     },
+
     {
       "name": "JS Sazanami",
       "hasSonar": true,
@@ -5723,6 +5973,7 @@
       ],
       "abilityWeight": 1.25
     },
+
     {
       "name": "JS Kasumi",
       "hasSonar": true,
@@ -5780,6 +6031,70 @@
         }
       ],
       "abilityWeight": 1.25
+    },
+
+    {
+      "name": "JS Yuudachi",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 34,
+      "displacement": 1685,
+      "horsepower": 42000,
+      "beltThickness": 20,
+      "length": 108,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "JAPAN",
+      "hullCode": "DD",
+      "cameo": "jsYuudachi.jpg",
+      "artist": "進撃のなめこ",
+      "artLink": "pixiv.net/en/artworks/76198151",
+      "batteries": [
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 51,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Nightmare of Solomon",
+          "description": "Gain +1 ACC for every enemy ship within 11\"."
+        }
+      ],
+      "abilityWeight": 1.3
     },
 
     // JAPAN MISSILE DESTROYERS
@@ -5872,7 +6187,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Savior of Sasebo",
@@ -5911,6 +6226,16 @@
           "radarBlindFire": true,
           "radarFuses": true,
           "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true
         }
       ],
       "torpedoes": [
@@ -5932,6 +6257,12 @@
           "turretCount": 30,
           "missilesPerTurret": 1,
           "dataLink": true
+        },
+        {
+          "missileRefrenceID": 5,
+          "turretCount": 1,
+          "missilesPerTurret": 30,
+          "dataLink": true
         }
       ],
       "specialAbilities": [
@@ -5939,7 +6270,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Stealth"
@@ -6518,7 +6849,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Angled Deck"
@@ -6607,7 +6938,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Welsh Defiance",
@@ -6745,6 +7076,70 @@
       "abilityWeight": 1.2
     },
     // GERMANY HEAVY CRUISERS
+    {
+      "name": "Prinz Eugen",
+      "carrier": false,
+      "speed": 32,
+      "displacement": 16700,
+      "horsepower": 132000,
+      "beltThickness": 60,
+      "length": 213,
+      "aircraftCount": 3,
+      "shipFaction": "GERMANY",
+      "hullCode": "CA",
+      "cameo": "prinzEugen.jpg",
+      "artist": "tri",
+      "artLink": "pixiv.net/en/artworks/47565284",
+      "batteries": [
+        {
+          "gunRefrenceID": 46,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true
+        },
+        {
+          "gunRefrenceID": 17,
+          "turretCount": 12,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 18,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 19,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 4,
+          "turretCount": 4,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "The Prince's Luck",
+          "description": "Gain +1 EVA and +1 ACC if Prinz Eugen is within 8\" of an allied BB."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // GERMANY LIGHT CRUISERS
     // GERMANY LIGHT CARRIERS
     // GERMANY DESTROYERS
@@ -6863,6 +7258,78 @@
       ],
       "abilityWeight": 1.2
     },
+    // GERMAN MODERN WARSHIPS
+    {
+      "name": "Rheinland-Pfalz (F225)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 26,
+      "displacement": 2600, 
+      "horsepower": 33526,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 150,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, 
+      "shipFaction": "GERMANY",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10025,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10026,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 5,
+          "gunsPerTurret": 1,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "digitalComputer": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,             
+          "turretCount": 1,          
+          "missilesPerTurret": 4    
+        },
+        {
+          "missileRefrenceID": 5,
+          "turretCount": 2,
+          "missilesPerTurret": 30,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Fresh Frigate",
+          "description": "While undamaged, Rheinland-Pfalz gains +2 EVA."
+        }
+      ],
+      "abilityWeight": 1.3
+    },
 
     // TODO: FRANCE
     // FRANCE CARRIERS
@@ -6934,6 +7401,65 @@
     // FRANCE LIGHT CRUISERS
     // FRANCE LIGHT CARRIERS
     // FRANCE DESTROYERS
+    {
+      "name": "Mogador",
+      "carrier": false,
+      "speed": 39,
+      "displacement": 2950,
+      "horsepower": 92000,
+      "beltThickness": 20,
+      "length": 138,
+      "aircraftCount": 0,
+      "shipFaction": "FRANCE",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "gunRefrenceID": 101,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 15,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 14,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 1,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Contre-torpilleur",
+          "description": "Gain +1 ACC when attacking ships with equal or less INT then Mogador."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // FRANCE MODERN SHIPS
     {
       "name": "Forbin (D 620)",
@@ -6998,7 +7524,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "The Guardian Admiral",
@@ -7578,7 +8104,7 @@
           "name": "Jamming 4"
         },
       //  {
-      //   "name": "Countermeasures 4" // Can't prove that they have these, but they have to, right?
+      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
       //  },
         {
           "name": "Emperess of the North",
@@ -7630,7 +8156,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10006,
+          "torpRefrenceID": 10007,
           "turretCount": 10,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -7655,14 +8181,89 @@
       ],
       "specialAbilities": [
         {
-          "name": "Jamming 4"
+          "name": "Jamming 8"
         },
       //  {
-      //   "name": "Countermeasures 4" // Can't prove that they have these, but they have to, right?
+      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
       //  },
         {
           "name": "The Viking of Vladivostok",
           "description": "Gain +2 EVA and +2 ARM if no allies are within 8\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "Severomorsk (619)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 35,
+      "displacement": 6930,
+      "horsepower": 120000,
+      "beltThickness": 30, // Splinter plating. Modeled just enough to block POW 0 weapons
+      "length": 163,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "RUSSIA",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "severomorsk.jpg",
+      "artist": "しんしん（shinshin)",
+      "artLink": "pixiv.net/en/artworks/60677219",
+      "batteries": [
+        {
+          "gunRefrenceID": 10027,
+          "turretCount": 1,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10016,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10007,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 35,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 25,
+          "turretCount": 8,
+          "missilesPerTurret": 8
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+         "name": "Countermeasures 2"
+        },
+        {
+          "name": "Artic Guardian",
+          "description": "Gain +2 ACC if within 2\" of a coastline."
         }
       ],
       "abilityWeight": 1.2
@@ -7717,7 +8318,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10009,
+          "torpRefrenceID": 10010,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7745,7 +8346,7 @@
           "name": "Jamming 4"
         },
         {
-         "name": "Countermeasures 4"
+         "name": "Countermeasures 2"
         },
         {
           "name": "Domesticlly Buit",
@@ -7831,7 +8432,7 @@
           "name": "Jamming 4"
         },
         {
-         "name": "Countermeasures 4"
+         "name": "Countermeasures 2"
         },
         {
           "name": "The New Frigate",
@@ -7975,7 +8576,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Pacific Guardian",
@@ -8039,7 +8640,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10008,
+          "torpRefrenceID": 10009,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -8063,7 +8664,7 @@
           "name": "Jamming 8"
         },
         {
-          "name": "Countermeasures 4"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Surabaya Survivor",

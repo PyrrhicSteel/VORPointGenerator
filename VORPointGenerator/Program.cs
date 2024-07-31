@@ -139,6 +139,10 @@ namespace VORPointGenerator
                     double newManeuverability = (Warship.maxSpeed / 3) * 2;
                     Warship.maneuverability = (int)Math.Round(newManeuverability);
                 }
+                if(Warship.maneuverability < 1)
+                {
+                    Warship.maneuverability = 1;
+                }
 
                 // alternate health implementation
                 double displacement = i.displacement;
@@ -151,7 +155,7 @@ namespace VORPointGenerator
                 if (Warship.health == 1) Warship.health++;
 
                 Warship.armor = (int)Math.Round((double)i.beltThickness / 35);
-                Warship.evasion = (int)Math.Round((double)((i.length / 25) * -1) + 5  + Warship.maneuverability);
+                Warship.evasion = (int)Math.Round((double)((i.length / 35) * -1) + 2  + Warship.maneuverability);
 
                 if (i.hasSonar == true) { Warship.sonarRange = 10; }
                 if (i.carrier == true) { Warship.numAircraft = (int)Math.Round(((double)i.aircraftCount / 20)); }
@@ -352,10 +356,10 @@ namespace VORPointGenerator
                 Aircraft.type = i.type;
                 Aircraft.countryOfOrigin = i.countryOfOrigin;
                 Aircraft.planecount = i.numPlanes;
-                Aircraft.move = (int)Math.Round(((double)i.speed / 7));  // old
+                //.move = (int)Math.Round(((double)i.speed / 7));  // old
 
                 double speed = i.speed;
-                Aircraft.move = (int)Math.Round(((double)i.speed / 20));
+                Aircraft.move = (int)Math.Round((speed / 18));
 
                 if (Aircraft.move > 10)
                 {
@@ -474,7 +478,7 @@ namespace VORPointGenerator
 
                     int fireControl = 1;
 
-                    if (j.railDropped) { fireControl--; }
+                    if (j.railDropped) { fireControl-=2; }
 
                     rocket.rocketAcc = fireControl - j.rocketVolleySize;
 

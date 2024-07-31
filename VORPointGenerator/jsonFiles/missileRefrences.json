@@ -415,6 +415,18 @@
       "inertialGuidance": true,
       "attackAir": false,
       "orginCountry": "RUS"
+    },
+    {
+      "id": 35,
+      "name": "Metel Anti-Ship Complex \"Silex\"",
+      "mslWarheadSize": 150, 
+      "mslRange": 90000,
+      "mslSpeed": 290, 
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
     }
 
   ]
