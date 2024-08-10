@@ -2060,7 +2060,51 @@
     },
     // TODO: To-class Konigsberg (ger) (3)
     // TODO: To-class Kirov (ussr) (6)
-    // TODO: To-class La Galissonniere (fr) (6)
+    {
+      "name": "To-class Light Cruiser (La Galissonniere-class)",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 7600,
+      "horsepower": 84000,
+      "beltThickness": 84, 
+      "length": 179,
+      "aircraftCount": 4,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 40,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 102,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 6,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 1,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ]
+    },
     {
       "name": "To-class Light Cruiser (Condottieri-class)",
       "carrier": false,
@@ -4041,7 +4085,7 @@
       "specialAbilities": [
         {
           "name": "Air Defender",
-          "description": "Gain +3 ACC when attacking enemy aircraft during the ATTACK phase."
+          "description": "Gain +3 ACC in screening attacks for an allied ship."
         }
       ],
       "abilityWeight": 1.2
@@ -6097,6 +6141,58 @@
       "abilityWeight": 1.3
     },
 
+    // JAPAN HELICOPTER DESTROYERS
+    {
+      "name": "JS Izumo (DDH-183)",
+      "hasSonar": true,
+      "carrier": true,
+      "speed": 33, // "Greater than 30 knots"
+      "displacement": 19950,
+      "horsepower": 189500,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 248,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 28, 
+      "shipFaction": "JAPAN",
+      "hullCode": "DDH",
+      "steelHull": true,
+      "cameo": "jsIzumo.png",
+      "artist": "緒方TANK",
+      "artLink": "pixiv.net/en/artworks/49818107",
+      "batteries": [
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 5,
+          "turretCount": 2,
+          "missilesPerTurret": 11
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Ferocious Escort",
+          "description": "If within 8\" of a friendly transport or CV, Izumo's aircraft gain +2 EVA and +2 ACC."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // JAPAN MISSILE DESTROYERS
     {
       "name": "JS Kongou (DDG-173)",
@@ -6680,6 +6776,66 @@
         {
           "name": "Deft Maneuvering",
           "description": "Gain +2 EVA against torpedo attacks."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
+    {
+      "name": "HMS Belfast",
+      "carrier": false,
+      "speed": 32,
+      "displacement": 9100,
+      "horsepower": 75000,
+      "beltThickness": 87,
+      "length": 187,
+      "aircraftCount": 2,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 81,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true
+        },
+        {
+          "gunRefrenceID": 82,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 2,
+          "gunsPerTurret": 8,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 71,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "A Maid's Duty",
+          "description": "Gain +2 POW against BBs."
         }
       ],
       "abilityWeight": 1.2
@@ -7399,6 +7555,64 @@
     },
     // FRANCE HEAVY CRUISERS
     // FRANCE LIGHT CRUISERS
+    {
+      "name": "Glorie",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 7600,
+      "horsepower": 84000,
+      "beltThickness": 84, 
+      "length": 179,
+      "aircraftCount": 4,
+      "shipFaction": "FRANCE",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "gunRefrenceID": 40,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 102,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 2,
+          "turretCount": 6,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 3,
+          "turretCount": 16,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 1,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Death or Glory",
+          "description": "+2 ACC against enemies with more INT then Glorie." // TODO: Better ability
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // FRANCE LIGHT CARRIERS
     // FRANCE DESTROYERS
     {
@@ -8034,6 +8248,73 @@
     },
     // RUSSIAN MODERN WARSHIPS
     {
+      "name": "Admiral Kuznetsov",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 29,
+      "displacement": 42000,
+      "horsepower": 200000,
+      "beltThickness": 50, // Splinter plating. Slightly increased because reactor shielding
+      "length": 305,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 30, 
+      "shipFaction": "RUSSIA",
+      "hullCode": "CV",
+      "steelHull": true,
+      "cameo": "admiralKuznetsov.jpg",
+      "artist": "same",
+      "artLink": "pixiv.net/en/artworks/42414661",
+      "batteries": [
+        {
+          "gunRefrenceID": 10016,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10019,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 24,
+          "turretCount": 12,
+          "missilesPerTurret": 1
+        },
+        {
+          "missileRefrenceID": 25,
+          "turretCount": 24,
+          "missilesPerTurret": 8
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 4"
+        },
+      //  {
+      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
+      //  },
+        {
+          "name": "Rushed Deployment",
+          "description": "Admiral Kuznetsov starts the game with one of their aircraft launched."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
       "name": "Pyotr Velikiy (099)",
       "hasSonar": true,
       "carrier": false,
@@ -8076,7 +8357,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10006,
+          "torpRefrenceID": 10007,
           "turretCount": 5,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -8101,7 +8382,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Jamming 4"
+          "name": "Jamming 8"
         },
       //  {
       //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
@@ -8283,9 +8564,9 @@
       "shipFaction": "RUSSIA",
       "hullCode": "FFG",
       "steelHull": true,
-      //"cameo": "slavaClass.jpg",
-      //"artist": "KCME",
-      //"artLink": "pixiv.net/en/artworks/6378926",
+      "cameo": "admiralGorshkov.jpg",
+      "artist": "日向Hyuga’s zuiun",
+      "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
           "gunRefrenceID": 10015, 
@@ -8369,9 +8650,9 @@
       "shipFaction": "RUSSIA",
       "hullCode": "FFG",
       "steelHull": true,
-      //"cameo": "slavaClass.jpg",
-      //"artist": "KCME",
-      //"artLink": "pixiv.net/en/artworks/6378926",
+      "cameo": "admiralGorshkov.jpg",
+      "artist": "日向Hyuga’s zuiun",
+      "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
           "gunRefrenceID": 10015, 

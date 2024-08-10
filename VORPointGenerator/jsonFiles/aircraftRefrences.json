@@ -149,7 +149,7 @@
           "rocketNumber": 2,
           "rocketVolleySize": 1,
           "rocketMaxRange": 1500, // check this
-          "rocketWarheadSize": 68,
+          "rocketWarheadSize": 120, // 67 kg TNT, buffed by 1.8 for Torpex
           "railDropped": true
         }
       ]
@@ -185,7 +185,7 @@
           "rocketNumber": 2,
           "rocketVolleySize": 1,
           "rocketMaxRange": 1500, // check this
-          "rocketWarheadSize": 68,
+          "rocketWarheadSize": 120, // 67 kg TNT, buffed by 1.8 for Torpex
           "railDropped": true
         }
       ],
@@ -618,7 +618,7 @@
           "name": "500 kg Type 2 No. 50",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 850, // 500 kg TNP
+          "bombWarheadSize": 427, // 250 kg TNP
           "diveBomb": true
         }
       ]
@@ -1482,7 +1482,7 @@
           "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \ncarrier that launched it."
         }
       ],
-      "abilityWeight": 15 // Radar range / 4
+      "abilityWeight": 120 // Radar range X 2
     },
      
     {
@@ -1566,6 +1566,54 @@
     },
 
     // JAPANESE AIRCRAFT
+    {
+      "name": "F-35B",
+      "countryOfOrigin": "JPN",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "serviceCieling": 15000,
+      "cameo": "f-35bj.jpg",
+      "artist": "mick",
+      "artLink": "pixiv.net/en/artworks/117844088",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 8,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
     {
       "name": "Mitsubishi H-60",
       "countryOfOrigin": "JPN",
@@ -1827,6 +1875,50 @@
     },
 
     {
+      "name": "Su-33 'Flanker-D'", // (Role: Air Superiority Aircraft)
+      "countryOfOrigin": "RUS",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 744,
+      "thrust": 15272, // weight (18400 kg) * thrust-to-weight ratio (0.83)  
+      "weight": 18400,
+      "rateOfClimb": 246,
+      "serviceCieling": 17000,
+      "cameo": "Su-33.jpg",
+      "artist": "ﾏｸｰ",
+      "artLink": "pixiv.net/en/artworks/10213",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10021,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 36,
+          "turretCount": 1,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 37,
+          "turretCount": 1,
+          "missilesPerTurret": 8
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
       "name": "Tupolev Tu-95MSM 'Bear'",
       "countryOfOrigin": "RUS",
       "type": "Land-Based Bomber",
@@ -1956,7 +2048,7 @@
           "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
         }
       ],
-      "abilityWeight": 18 // Radar range divided by 4
+      "abilityWeight": 144 // Radar range X 2
     },
 
     // MINOR NATIONS

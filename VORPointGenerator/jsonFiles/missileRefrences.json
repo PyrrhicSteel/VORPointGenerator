@@ -125,6 +125,7 @@
       "gpsGuidance": true,
       "inertialGuidance": true,
       "attackAir": true,
+      "antiBallistic": true,
       "orginCountry": "USA"
     },
     {
@@ -213,7 +214,7 @@
     },
     {
       "id": 18,
-      "name": "LRASM",
+      "name": "AGM-158C LRASM",
       "mslWarheadSize": 527, //explosive type not specified, assumed 450 kg PBXN 
       "mslRange": 370000,
       "mslSpeed": 493, // CITATION NEEDED
@@ -359,7 +360,7 @@
     },
     {
       "id": 30,
-      "name": "R-77M2",
+      "name": "R-77M2 \"Adder\"",
       "mslWarheadSize": 8, 
       "mslRange": 40000,
       "mslSpeed": 858,
@@ -370,7 +371,7 @@
     },
     {
       "id": 31,
-      "name": "Kh-35",
+      "name": "Kh-35 \"Kayak\"",
       "mslWarheadSize": 145, 
       "mslRange": 300000,
       "mslSpeed": 292, 
@@ -406,7 +407,7 @@
     },
     {
       "id": 34,
-      "name": "Kh-15",
+      "name": "Kh-15 \"Kickback\"",
       "mslWarheadSize": 150, 
       "mslRange": 300000,
       "mslSpeed": 1715, 
@@ -426,6 +427,27 @@
       "arhGuidance": true,
       "inertialGuidance": true,
       "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 36,
+      "name": "R-73E \"Archer\"",
+      "mslWarheadSize": 7, 
+      "mslRange": 30000,
+      "mslSpeed": 858,
+      "infraredGuidance": true,
+      "attackAir": true,
+      "sra2a": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 37,
+      "name": "R-27ER \"Alamo\"",
+      "mslWarheadSize": 39,
+      "mslRange": 117000,
+      "mslSpeed": 1543,
+      "sarhGuidance": true,
+      "attackAir": true,
       "orginCountry": "RUS"
     }
 

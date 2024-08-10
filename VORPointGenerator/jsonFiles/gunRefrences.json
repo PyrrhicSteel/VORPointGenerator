@@ -1030,6 +1030,16 @@
       "attackAir": true,
       "originCountry": "FR"
     },
+     {
+      "id": 102,
+      "name": "90 mm/50 Modele 1926",
+      "calibre": 90,
+      "maxRange": 15440,
+      "armorPenetration": 50, // CITATION NEEDED
+      "fireRate": 15,
+      "attackAir": true,
+      "originCountry": "FR"
+    },
 
 
     // MODERN WEAPONS

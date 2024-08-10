@@ -85,8 +85,8 @@ namespace VORPointGenerator
 
             // Tune these values for balancing
             double gunBias = 0.4;
-            double torpBias = 0.05;
-            double mslBias = 0.00075;
+            double torpBias = 0.025;
+            double mslBias = 0.00065;
 
             int aircraftCVbias = 100;
             int aircraftFloatBias = 50;

@@ -297,7 +297,8 @@ namespace VORPointGenerator
                     if (mRef.homeOnJam) mslFireCtrl += 4;
                     if (mRef.antiRadiation) mslFireCtrl += 4;
                     if (mRef.dataLinkSwarm) mslFireCtrl += 3;
-                    if (mRef.sra2a) mslFireCtrl += 5;
+                    if (mRef.antiBallistic) mslFireCtrl += 3;
+                    if (mRef.sra2a) mslFireCtrl += 7;
 
                     //Console.WriteLine(mRef.name);
 
@@ -556,16 +557,17 @@ namespace VORPointGenerator
                     if (j.dataLink) mslFireCtrl += 2;
                     if (mRef.sarhGuidance) mslFireCtrl += 3;
                     if (mRef.arhGuidance) mslFireCtrl += 3;
-                    if (mRef.gpsGuidance) mslFireCtrl += 2;
-                    if (mRef.inertialGuidance) mslFireCtrl += 2;
-                    if (mRef.infraredGuidance) mslFireCtrl += 2;
-                    if (mRef.opticalGuidance) mslFireCtrl += 2;
-                    if (mRef.attackAir) mslFireCtrl += 2;
+                    if (mRef.gpsGuidance) mslFireCtrl += 3;
+                    if (mRef.inertialGuidance) mslFireCtrl += 3;
+                    if (mRef.infraredGuidance) mslFireCtrl += 3;
+                    if (mRef.opticalGuidance) mslFireCtrl += 3;
+                    if (mRef.attackAir) mslFireCtrl += 3;
                     if (mRef.cwis) mslFireCtrl += 6;
                     if (mRef.homeOnJam) mslFireCtrl += 4;
                     if (mRef.antiRadiation) mslFireCtrl += 4;
-                    if (mRef.dataLinkSwarm) mslFireCtrl += 3;
-                    if (mRef.sra2a) mslFireCtrl += 5;
+                    if (mRef.dataLinkSwarm) mslFireCtrl += 4;
+                    if (mRef.antiBallistic) mslFireCtrl += 3;
+                    if (mRef.sra2a) mslFireCtrl += 7;
 
                     //Console.WriteLine(mRef.name);
 
@@ -580,7 +582,7 @@ namespace VORPointGenerator
 
                     m.attackAir = mRef.attackAir;
 
-                    if (mRef.stealth) m.mslEvasion += 5;
+                    if (mRef.stealth) m.mslEvasion += 8;
                     if (mRef.seaSkimming) m.mslEvasion += 3;
 
                     Aircraft.missileStats.Add(m);
