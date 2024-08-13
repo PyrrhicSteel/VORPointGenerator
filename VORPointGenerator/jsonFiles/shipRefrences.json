@@ -1258,7 +1258,53 @@
     },
     // TODO: Ru-class Revenge
     // TODO: Ru-class Tegetthoff
-    // TODO: Ru-class Fuso
+    {
+      "name": "Ru-Class Battlehip (Fusou)",
+      "carrier": false,
+      "speed": 25,
+      "displacement": 34700,
+      "horsepower": 75000,
+      "beltThickness": 224,
+      "length": 210,
+      "aircraftCount": 3,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "cameo": "ru.jpg",
+      "artist": "和屋",
+      "artLink": "pixiv.net/en/artworks/45947847",
+      "batteries": [
+        {
+          "gunRefrenceID": 25,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 26,
+          "turretCount": 14,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ]
+    },
     // TODO: Ru-class Nagato
     {
       "name": "Ru-Class Battlehip (Yamato)",
@@ -5348,6 +5394,60 @@
         {
           "name": "1st Fleet Flagship",
           "description": "Any ship in formation with Nagato gains +1 ACC and +2 ARM."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "JS Yamashiro",
+      "carrier": false,
+      "speed": 25,
+      "displacement": 34700,
+      "horsepower": 75000,
+      "beltThickness": 224,
+      "length": 210,
+      "aircraftCount": 3,
+      "shipFaction": "JAPAN",
+      "hullCode": "BB",
+      "cameo": "jsYamashiro.png",
+      "artist": "caiman-pool",
+      "artLink": "pixiv.net/en/artworks/102489477",
+      "batteries": [
+        {
+          "gunRefrenceID": 25,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 26,
+          "turretCount": 14,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Such Misfortune...",
+          "description": "If Yamashiro attacks a target with her primary battery and gets no hits, add a 'misfortune' marker \nto Yamashiro's card. +1 ACC for every 'misfortune' marker."
         }
       ],
       "abilityWeight": 1.2

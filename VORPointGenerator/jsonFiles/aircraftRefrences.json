@@ -1699,6 +1699,51 @@
     },
 
     {
+      "name": "Eurofighter Typhoon", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "UK",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 590,
+      "thrust": 12650, // weight (11000 kg) * thrust-to-weight ratio (1.15)  
+      "weight": 11000,
+      "rateOfClimb": 315,
+      "serviceCieling": 19812,
+      "cameo": "eurofighterTyphoon.jpg",
+      "artist": "ツバサ",
+      "artLink": "pixiv.net/en/artworks/148055",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10026,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 40,
+          "turretCount": 1,
+          "missilesPerTurret": 6,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 39,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.0
+    },
+
+    {
       "name": "Merlin HM1",
       "countryOfOrigin": "UK",
       "type": "Utility Maritime Helicopter",
@@ -1761,6 +1806,51 @@
         }
         //TODO: Subhunting ability
       ]
+    },
+
+    {
+      "name": "Eurofighter Typhoon", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "GER",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 590,
+      "thrust": 12650, // weight (11000 kg) * thrust-to-weight ratio (1.15)  
+      "weight": 11000,
+      "rateOfClimb": 315,
+      "serviceCieling": 19812,
+      "cameo": "eurofighterTyphoon.jpg",
+      "artist": "ツバサ",
+      "artLink": "pixiv.net/en/artworks/148055",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10026,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 38,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 39,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.0
     },
 
     // FRENCH Aircraft

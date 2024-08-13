@@ -449,7 +449,41 @@
       "sarhGuidance": true,
       "attackAir": true,
       "orginCountry": "RUS"
-    }
+    },
+    {
+      "id": 38,
+      "name": "Taurus KEPD-350",
+      "mslWarheadSize": 830, // 480 kg C3
+      "mslRange": 500000,
+      "mslSpeed": 323,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "seaSkimming": true,
+      "attackAir": false,
+      "orginCountry": "GER"
+    },
+    {
+      "id": 39,
+      "name": "IRIS-T",
+      "mslWarheadSize": 12,
+      "mslRange": 25000,
+      "mslSpeed": 1029,
+      "infraredGuidance": true,
+      "attackAir": true,
+      "sra2a": true, // short range air to air
+      "orginCountry": "GER"
+    },
+    {
+      "id": 40,
+      "name": "Brimstone II",
+      "mslWarheadSize": 9,
+      "mslRange": 60000,
+      "mslSpeed": 450,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "UK"
+    },
 
   ]
 }
