@@ -1237,10 +1237,6 @@
       ]
     },
 
-
-
-
-
     // MODERN USA
     {
       "name": "MH-60S Seahawk",
@@ -1890,7 +1886,43 @@
         //TODO: Subhunting ability
       ]
     },
-
+    // AUSTRALIAN AIRCRAFT
+    {
+      "name": "MH-60S Seahawk",
+      "countryOfOrigin": "AUS",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 1890,
+      "weight": 6895,
+      "rateOfClimb": 9,
+      "serviceCieling": 3700,
+      "cameo": "mh-60-seahawk.jpg",
+      "artist": "嘉志",
+      "artLink": "pixiv.net/en/artworks/77513514",
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10000,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
 
     // RUSSIAN AIRCRAFT
     {

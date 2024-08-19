@@ -260,7 +260,7 @@ namespace VORPointGenerator
                     t.torpsPerTurret = j.torpsPerTurret;
                     t.torpRange = (int)Math.Round(((double)tRef.torpRange / 1500));
                     t.torpAcc = torpFireControl;
-                    t.torpAOE = (int)Math.Round(((double)tRef.torpSpeed / 15)) + torpFireControl;
+                    t.torpAOE = (int)Math.Round(((double)tRef.torpSpeed / 15));
                     t.torpCharges = j.torpReloads;
 
 
@@ -481,7 +481,20 @@ namespace VORPointGenerator
 
                     if (j.railDropped) { fireControl-=2; }
 
+                    int totalRockets = j.rocketNumber * i.numPlanes;
+
+                    while (totalRockets > 40)
+                    {
+                        rocket.rocketVolleys = rocket.rocketVolleys / 2;
+                        fireControl += 2;
+
+                        Console.WriteLine("Looptest: " + Aircraft.name + " " + rocket.rocketVolleys);
+
+                        totalRockets = rocket.rocketAtk * rocket.rocketVolleys * i.numPlanes;
+                    }
+
                     rocket.rocketAcc = fireControl - j.rocketVolleySize;
+
 
                     Aircraft.rocketStats.Add(rocket);
                 }
@@ -532,7 +545,7 @@ namespace VORPointGenerator
                     t.torpsPerTurret = j.torpsPerTurret;
                     t.torpRange = (int)Math.Round(((double)tRef.torpRange / 1500));
                     t.torpAcc = torpFireControl;
-                    t.torpAOE = (int)Math.Round(((double)tRef.torpSpeed / 15)) + torpFireControl;
+                    t.torpAOE = (int)Math.Round(((double)tRef.torpSpeed / 15));
                     t.torpCharges = j.torpReloads;
 
                     Aircraft.torpedoStats.Add(t);

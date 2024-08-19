@@ -3570,7 +3570,7 @@
       "specialAbilities": [
         {
           "name": "The Last Battleship",
-          "description": "Other ships in Iowa's Formation gain +2 ACC"
+          "description": "Other ships in Iowa's Formation gain +2 ARM"
         }
       ],
       "abilityWeight": 1.1
@@ -5345,6 +5345,70 @@
       "abilityWeight": 1.15
     },
     {
+      "name": "JS Musashi",
+      "carrier": false,
+      "speed": 27,
+      "displacement": 69988,
+      "horsepower": 150000,
+      "beltThickness": 380,
+      "length": 263,
+      "aircraftCount": 7,
+      "shipFaction": "JAPAN",
+      "hullCode": "BB",
+      "cameo": "jsMusashi.jpg",
+      "artist": "YeFan 葉凡",
+      "artLink": "pixiv.net/en/artworks/117764068",
+      "batteries": [
+        {
+          "gunRefrenceID": 55,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+        },
+        {
+          "gunRefrenceID": 56,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 8,
+          "turretCount": 6,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 12,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "What it means to be a battleship",
+          "description": "For every hostile BB or BBV can attack JS Musashi, gain +1 ACC and +1 ARM."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
       "name": "JS Nagato",
       "carrier": false,
       "speed": 25,
@@ -5393,7 +5457,7 @@
       "specialAbilities": [
         {
           "name": "1st Fleet Flagship",
-          "description": "Any ship in formation with Nagato gains +1 ACC and +2 ARM."
+          "description": "Any ship in formation with Nagato gains +2 ACC."
         }
       ],
       "abilityWeight": 1.2
@@ -5932,6 +5996,44 @@
         {
           "name": "Prancing Dragon",
           "description": "Ryuujou's aircraft gain +3 EVA when within 10\" of any transport."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
+    {
+      "name": "JS Taiyou",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 21,
+      "displacement": 17830,
+      "horsepower": 25200,
+      "beltThickness": 3, //CITATION NEEDED
+      "length": 180,
+      "aircraftCount": 27,
+      "depthChargeLauncherNumber": 0,
+      "shipFaction": "JAPAN",
+      "hullCode": "CVE",
+      "batteries": [
+        {
+          "gunRefrenceID": 57,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Aren't they cute?",
+          "description": "Taiyou's aircraft gain +1 additional EVA from expended energy."
         }
       ],
       "abilityWeight": 1.2
@@ -7149,7 +7251,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 1001,
+          "gunRefrenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9116,6 +9218,75 @@
         {
           "name": "Amphion",
           "description": "For the sake of fleet building and abilities, Perth's nationality can be considered either \nAustralian or United Kingdom. Gain +1 EVA for every ship of unique nationality in your fleet."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "HMAS Stuart (FFH 153)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 27,
+      "displacement": 36000,
+      "horsepower": 46000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 118,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "AUSTRALIA",
+      "hullCode": "FFH",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10005,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 3,
+          "turretCount": 8,
+          "missilesPerTurret": 32,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "The Tartan Terror",
+          "description": "If within 8\" of a friendly damaged warship, gain +1 ACC. Friendly modern warships within 8\" of \nStewart gain +2 ARM."
         }
       ],
       "abilityWeight": 1.2

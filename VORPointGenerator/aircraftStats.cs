@@ -255,6 +255,10 @@ namespace VORPointGenerator
                 {
                     flagDirectory = flagDirectory + "swdn.png";
                 }
+                if (countryOfOrigin.Equals("AUS"))
+                {
+                    flagDirectory = flagDirectory + "aus.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
