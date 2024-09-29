@@ -32,5 +32,10 @@ namespace VORPointGenerator
         public string cameo = string.Empty;
         public string artist = string.Empty;
         public string artLink = string.Empty;
+
+        public string abyssalName = string.Empty;
+        public string abyssalCameo = string.Empty;
+        public string abyssalArtist = string.Empty;
+        public string abyssalArtLink = string.Empty;
     }
 }

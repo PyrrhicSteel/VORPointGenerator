@@ -3336,6 +3336,34 @@
       "abilityWeight": 0.15
     },
 
+    // ABYSSAL PAPER SHIPS
+    // TODO: Re-class Tillman IV CV Conversion (usa)
+    // TODO: Re-class Iowa 18"/47 BBV (usa)
+    // TDOD: Re-class Ise (not paper, I know)
+
+    // TODO: Ta-class Tillman III (usa)
+    // TODO: Ta-class Alsace (fr)
+    // TODO: Ta-class H-39 (ger)
+    // TODO: Ta-class Lion (uk)
+
+    // TODO: Ta-class Constellation (us)
+
+    // TODO: Ru-class Tillman IV (usa)
+    // TODO: Ru-class Montana (usa)
+    // TODO: Ru-class A-150 (jpn)
+    // TODO: Ru-class Sovetsky Soyuz (ussr)
+
+
+
+
+
+
+
+
+
+
+
+
     // USA
     // USA CARRIERS
     {
@@ -6343,6 +6371,68 @@
       "abilityWeight": 1.3
     },
 
+    {
+      "name": "JS Akizuki",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 2700,
+      "horsepower": 50000,
+      "beltThickness": 20,
+      "length": 134,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "JAPAN",
+      "hullCode": "DD",
+      "cameo": "jsAkizuki.jpg",
+      "artist": "ノナ",
+      "artLink": "pixiv.net/en/artworks/74843179",
+      "batteries": [
+        {
+          "gunRefrenceID": 54,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "gunRefrenceID": 9,
+          "turretCount": 35,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "gunRefrenceID": 30,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 8,
+          "turretCount": 1,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Protector of the Fleet",
+          "description": "Gain +1 ACC against aircraft for every enemy aircraft range of Akizuki's Type 98s."
+        }
+      ],
+      "abilityWeight": 1.25
+    },
+
     // JAPAN HELICOPTER DESTROYERS
     {
       "name": "JS Izumo (DDH-183)",
@@ -7155,6 +7245,65 @@
         {
           "name": "Relaxed Resiliency",
           "description": "Gain +1 ACC against enemies with 5 or less integrity. Gain +1 ARM when attacked by enemies with \n5 or less integrity."
+        }
+      ],
+      "abilityWeight": 1.25
+    },
+    {
+      "name": "HMS Jervis",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1690,
+      "horsepower": 44000,
+      "beltThickness": 10,
+      "length": 108,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "DD",
+      "cameo": "hmsJervis.jpg",
+      "artist": "ナガサワ　トウゴ",
+      "artLink": "pixiv.net/en/artworks/82166736",
+      "batteries": [
+        {
+          "gunRefrenceID": 10,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "gunRefrenceID": 12,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "gunRefrenceID": 71,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Lucky Jervis",
+          "description": "Jervis gains 1 'Luck' token every turn. Jervis can spend these Luck tokens to reroll any die related \nto Jervis that has already been rolled: damage control die, enemy hit markers, Jervis's own attack \ndie, damage die relating Jervis's attacks or attacks hitting Jervis, etc."
         }
       ],
       "abilityWeight": 1.25
@@ -9070,7 +9219,173 @@
     },
     // TAIWAN
     // PRC
+    {
+      "name": "Nanchang (101)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30,
+      "displacement": 11000,
+      "horsepower": 150000,
+      "beltThickness": 10,
+      "length": 180,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2,
+      "shipFaction": "PEOPLE'S REPUBLIC OF CHINA",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "type055.jpg",
+      "artist": "手绘狼群",
+      "artLink": "pixiv.net/en/artworks/93626007",
+      "batteries": [
+        {
+          "gunRefrenceID": 10015,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10017,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "opticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "radarRangeFinder": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10011,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 41,
+          "turretCount": 1,
+          "missilesPerTurret": 24
+        },
+        {
+          "missileRefrenceID": 42,
+          "turretCount": 1,
+          "missilesPerTurret": 50,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 43,
+          "turretCount": 1,
+          "missilesPerTurret": 50,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 44,
+          "turretCount": 1,
+          "missilesPerTurret": 12,
+          "dataLink": true
+        }
+
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Lead ship of the new PLAN",
+          "description": "For every CCP warship within 8\" of Nanchang, gain +1 ACC."
+        }
+      ],
+      "abilityWeight": 1.0 //TODO: Increase cost once more PLAN warships are added
+    },
+
     // SOUTH KOREA
+    {
+      "name": "ROKS Incheon (FFG-811)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30,
+      "displacement": 2300,
+      "horsepower": 80400,
+      "beltThickness": 10,
+      "length": 114,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "SOUTH KOREA",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "opticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "radarRangeFinder": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10013,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 5,
+          "turretCount": 1,
+          "missilesPerTurret": 21
+        },
+        {
+          "missileRefrenceID": 44,
+          "turretCount": 2,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Coastal Crusader",
+          "description": "If within 6\" of a friendly or hostile bombardment target, gain +3 EVA."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
     // INDONESIA
     {
       "name": "KRI Raden Eddy Martadinata (331)",
@@ -9223,11 +9538,100 @@
       "abilityWeight": 1.2
     },
     {
+      "name": "HMAS Hobart (DDG 39)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30, // "Over 28 knots..."
+      "displacement": 7000,
+      "horsepower": 62160,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 147,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "AUSTRALIA",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "gunRefrenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "gunRefrenceID": 10001,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "gunRefrenceID": 10002,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "torpRefrenceID": 10005,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 1,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "missileRefrenceID": 4,
+          "turretCount": 8,
+          "missilesPerTurret": 32,
+          "dataLink": true
+        },
+        {
+          "missileRefrenceID": 3,
+          "turretCount": 8,
+          "missilesPerTurret": 40,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Grow with Strength",
+          "description": "+1 ACC for every Australian ship within 12\" of Hobart."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
       "name": "HMAS Stuart (FFH 153)",
       "hasSonar": true,
       "carrier": false,
       "speed": 27,
-      "displacement": 36000,
+      "displacement": 3600,
       "horsepower": 46000,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 118,

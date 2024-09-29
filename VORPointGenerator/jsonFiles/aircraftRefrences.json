@@ -29,7 +29,8 @@
           "rocketMaxRange": 1500, // check this
           "rocketWarheadSize": 8
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Corsair Fighter"
     },
     {
       "name": "F4F Wildcat",
@@ -59,7 +60,8 @@
           "bombWarheadSize": 102,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Cat Fighter"
     },
     {
       "name": "F2A Buffalo",
@@ -86,7 +88,8 @@
           "bombWarheadSize": 129,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Buffalo Fighter"
     },
     {
       "name": "F6F Hellcat",
@@ -121,7 +124,8 @@
           "bombWarheadSize": 102,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Night Cat Fighter"
     },
     {
       "name": "F8F Bearcat",
@@ -152,7 +156,8 @@
           "rocketWarheadSize": 120, // 67 kg TNT, buffed by 1.8 for Torpex
           "railDropped": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Bear Cat Fighter"
     },
     {
       "name": "SB2C Helldiver",
@@ -197,7 +202,8 @@
           "bombWarheadSize": 772, // 428 kg torpex
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Hell Dive Bomber"
     },
     {
       "name": "SBD Dauntless",
@@ -232,7 +238,8 @@
           "bombWarheadSize": 252,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Dauntless Bomber"
     },
     {
       "name": "TBD Devastator",
@@ -266,7 +273,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Devistation Bomber"
     },
     {
       "name": "TBF Avenger",
@@ -300,7 +308,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Revenge Bomber"
     },
     {
       "name": "OS2U Kingfisher",
@@ -334,7 +343,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 102
         }
-      ]
+      ],
+      "abyssalName": "Abyssal King Fish Floatplane"
     },
 
     //JAPAN
@@ -366,7 +376,8 @@
           "bombWarheadSize": 11,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Claude Fighter"
     },
     {
       "name": "A6M Zero 'Zeke'",
@@ -401,7 +412,8 @@
           "bombWarheadSize": 51, // 30 kg TNP
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Zero Fighter"
     },
     {
       "name": "A7M Reppū 'Sam'",
@@ -422,7 +434,39 @@
           "turretCount": 0,
           "gunsPerTurret": 4
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Strong Wind Fighter"
+    },
+    {
+      "name": "J7W Shinden",
+      "countryOfOrigin": "JPN",
+      "type": "Carrier Fighter",
+      "numPlanes": 20,
+      "speed": 208,
+      "thrust": 1850,
+      "weight": 3645,
+      "rateOfClimb": 13,
+      "serviceCieling": 12000,
+      "cameo": "j7w-shinden.jpg",
+      "artist": "Yenさん",
+      "artLink": "pixiv.net/artworks/96390731",
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 103,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "bombRefrences": [
+        {
+          "name": "60 kg Type 99",
+          "number": 4,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 51, // 30 kg TNP
+          "diveBomb": true
+        }
+      ],
+      "abyssalName": "Abyssal Magnificent Lightning Fighter"
     },
     {
       "name": "D3A 'Val'",
@@ -457,7 +501,8 @@
           "bombWarheadSize": 428, // 250 kg TNP
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Val Bomber"
     },
     {
       "name": "B7A Ryusei 'Grace'",
@@ -492,7 +537,8 @@
           "bombWarheadSize": 428, // 250 kg TNP
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Shooting Star Bomber"
     },
     {
       "name": "B5N 'Kate'",
@@ -526,7 +572,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Kate Bomber"
     },
     {
       "name": "B6N Tenzan 'Jill'",
@@ -560,7 +607,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Heavenly Mountain Bomber"
     },
     {
       "name": "B4Y 'Jean'",
@@ -586,7 +634,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Jean Bomber"
     },
     {
       "name": "D4Y Suisei 'Judy'",
@@ -621,7 +670,8 @@
           "bombWarheadSize": 427, // 250 kg TNP
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Comet Bomber"
     },
     {
       "name": "E16A Zuiun 'Paul'",
@@ -655,7 +705,8 @@
           "bombVolleySize": 1,
           "bombWarheadSize": 428 // 250 kg TNP
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Auspicious Cloud Floatplane"
     },
     {
       "name": "E8N 'Dave'",
@@ -689,7 +740,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 11
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Dave Floatplane"
     },
     {
       "name": "E13A 'Jake'",
@@ -718,8 +770,10 @@
           "bombVolleySize": 1,
           "bombWarheadSize": 188 // 250 kg TNP
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Jake Floatplane"
     },
+
     // UK
     {
       "name": "Supermarine Walrus",
@@ -745,7 +799,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Walrus Floatplane"
     },
     {
       "name": "Grumman Martlet",
@@ -807,7 +862,8 @@
           "bombWarheadSize": 230, // 500 lb bomb
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Suka Bomber"
     },
     {
       "name": "Vought Corsair",
@@ -866,7 +922,8 @@
           "bombVolleySize": 1,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Sea Fire Fighter"
     },
     {
       "name": "Fairey Fulmar",
@@ -892,7 +949,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Fulmar Fighter"
     },
     {
       "name": "Fairey Swordfish",
@@ -926,10 +984,11 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Sword Fish Bomber"
     },
     {
-      "name": "Fairey Barracuda ",
+      "name": "Fairey Barracuda",
       "countryOfOrigin": "UK",
       "type": "Carrier Torpedo Bomber",
       "numPlanes": 20,
@@ -952,7 +1011,8 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Barracuda Bomber"
     },
 
     // GERMANY
@@ -993,7 +1053,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 27
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Ab 196 Floatplane"
     },
 
     {
@@ -1036,7 +1097,8 @@
           "bombWarheadSize": 27,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Stuka Bomber"
     },
 
     {
@@ -1072,7 +1134,8 @@
           "bombWarheadSize": 27,
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Knife Fighter"
     },
 
     {
@@ -1104,8 +1167,10 @@
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Fi 167 Bomber"
     },
+
     // FRANCE
     {
       "name": "Loire 130",
@@ -1131,7 +1196,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 55
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Loire Floatplane"
     },
 
     // ITALY
@@ -1151,12 +1217,13 @@
           "turretCount": 1,
           "gunsPerTurret": 2
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Romeo Floatplane"
     },
     {
       "name": "Re.2001 OR Serie II",
       "countryOfOrigin": "ITA",
-      "type": "Carrier Fighter",
+      "type": "Carrier Fighter-Bomber",
       "numPlanes": 20,
       "speed": 150,
       "thrust": 1159,
@@ -1183,7 +1250,8 @@
           "bombWarheadSize": 450, // CITATION NEEDED
           "diveBomb": true
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Falcon Fighter-Bomber"
     },
 
     // OTHER
@@ -1203,7 +1271,8 @@
           "turretCount": 1,
           "gunsPerTurret": 1
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Seven-W Floatplane"
     },
     {
       "name": "S9 Ospery",
@@ -1234,7 +1303,8 @@
           "bombVolleySize": 2,
           "bombWarheadSize": 188
         }
-      ]
+      ],
+      "abyssalName": "Abyssal Ospery Floatplane"
     },
 
     // MODERN USA
@@ -2172,6 +2242,37 @@
       ],
       "abilityWeight": 144 // Radar range X 2
     },
+    // PRC AIRCRAFT
+    {
+      "name": "Harbin Z-9",
+      "countryOfOrigin": "PRC",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 1890,
+      "weight": 6895,
+      "rateOfClimb": 9,
+      "serviceCieling": 3700,
+      "cameo": "harbinZ-9.png",
+      "artist": "hallelujah_zeng",
+      "artLink": "pixiv.net/en/artworks/107810925",
+      "steelHull": true,
+      "torpedoBatRefrences": [
+        {
+          "torpRefrenceID": 10012,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
 
     // MINOR NATIONS
     // CANADA
@@ -2252,7 +2353,43 @@
         }
         //TODO: Subhunting ability
       ]
+    },
+    // SOUTH KOREA
+    {
+      "name": "Mk.99A Super Lynx",
+      "countryOfOrigin": "KOR",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 90,
+      "thrust": 2534,
+      "weight": 7225,
+      "rateOfClimb": 9, // CITATION NEEDED
+      "serviceCieling": 4600, // CITATION NEEDED
+      "steelHull": true,
+      "gunRefrences": [
+        {
+          "gunRefrenceID": 10010,
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileRefrenceID": 45,
+          "turretCount": 1,
+          "missilesPerTurret": 4
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 20"
+        }
+        //TODO: Subhunting ability
+      ],
+      "abilityWeight": 1.1
     }
-
   ]
 }

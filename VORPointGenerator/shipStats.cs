@@ -84,20 +84,20 @@ namespace VORPointGenerator
             int attackStats = 0;
 
             // Tune these values for balancing
-            double gunBias = 0.4;
+            double gunBias = 0.3;
             double torpBias = 0.025;
             double mslBias = 0.00065;
 
-            int aircraftCVbias = 100;
+            int aircraftCVbias = 75;
             int aircraftFloatBias = 50;
 
             int speedBias = 10;
             int maneuverabilityBias = 10;
-            int healthBias = 50;
-            int spottingRangeBias = 2;
-            int sonarRangeBias = 2;
+            int healthBias = 60;
+            int spottingRangeBias = 1;
+            int sonarRangeBias = 1;
             int evasionBias = 10;
-            int armorBias = 30;
+            int armorBias = 150;
 
             baseStats = baseStats + (maxSpeed * speedBias);
             baseStats = baseStats + (maneuverability * maneuverabilityBias);
@@ -283,6 +283,14 @@ namespace VORPointGenerator
                 if (shipFaction.Equals("UNITED NATIONS"))
                 {
                     flagDirectory = flagDirectory + "un.png";
+                }
+                if (shipFaction.Equals("PEOPLE'S REPUBLIC OF CHINA"))
+                {
+                    flagDirectory = flagDirectory + "prc.png";
+                }
+                if (shipFaction.Equals("SOUTH KOREA"))
+                {
+                    flagDirectory = flagDirectory + "kor.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -300);

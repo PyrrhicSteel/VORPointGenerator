@@ -484,6 +484,68 @@
       "attackAir": false,
       "orginCountry": "UK"
     },
+    {
+      "id": 41,
+      "name": "HQ-10",
+      "mslWarheadSize": 3, 
+      "mslRange": 500,
+      "mslSpeed": 686, // CITATION NEEDED
+      "seaSkimming": false,
+      "infraredGuidance": true,
+      "opticalGuidance": true,
+      "cwis": true,
+      "attackAir": true,
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 42,
+      "name": "HQ-9B",
+      "mslWarheadSize": 150, //explosive type not specified, assumed 11.3 kg PBXN
+      "mslRange": 250000,
+      "mslSpeed": 1372,
+      "seaSkimming": false,
+      "sarhGuidance": true,
+      "arhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 43,
+      "name": "YJ-18",
+      "mslWarheadSize": 543, // 300 kg PBXN
+      "mslRange": 540000,
+      "mslSpeed": 1166,
+      "seaSkimming": true,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "attackAir": false,
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 44,
+      "name": "SSM-700K",
+      "mslWarheadSize": 420, // 250 kg PBXN
+      "mslRange": 180000,
+      "mslSpeed": 356,
+      "seaSkimming": true,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "homeOnJam": true,
+      "gpsGuidance": true,
+      "attackAir": false,
+      "orginCountry": "ROK"
+    },
+    {
+      "id": 45,
+      "name": "Sea Skua",
+      "mslWarheadSize": 90, // 50 kg RDX
+      "mslRange": 25000,
+      "mslSpeed": 343,
+      "sarhGuidance": true,
+      "attackAir": false,
+      "orginCountry": "UK"
+    },
 
   ]
 }

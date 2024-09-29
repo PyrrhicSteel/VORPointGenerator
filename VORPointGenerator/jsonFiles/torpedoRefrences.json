@@ -238,6 +238,33 @@
       "torpSpeed": 45, // CITATION NEEDED
       "torpGuidance": 6, // active/passive acoustic homing
       "orginCountry": "RUS"
+    },
+    {
+      "id": 10011,
+      "name": "Yu-7", 
+      "torpWarheadSize": 81, // 45 HBX
+      "torpRange": 14100, 
+      "torpSpeed": 45, 
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 10012,
+      "name": "ET52", 
+      "torpWarheadSize": 34,
+      "torpRange": 6000, 
+      "torpSpeed": 30, 
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 10013,
+      "name": "K745 Blue Shark", 
+      "torpWarheadSize": 34, // CITATION NEEDED
+      "torpRange": 19000, 
+      "torpSpeed": 45, 
+      "torpGuidance": 6, // active/passive acoustic homing
+      "orginCountry": "ROK"
     }
   ]
 }

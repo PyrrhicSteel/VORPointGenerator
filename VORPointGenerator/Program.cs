@@ -408,6 +408,11 @@ namespace VORPointGenerator
                 Aircraft.artist = i.artist;
                 Aircraft.artLink = i.artLink;
 
+                Aircraft.abyssalName = i.abyssalName;
+                Aircraft.abyssalCameo = i.abyssalCameo;
+                Aircraft.abyssalArtist = i.abyssalArtist;
+                Aircraft.abyssalArtLink = i.abyssalArtLink;
+
                 //batteries
                 foreach (var j in i.gunRefrences)
                 {
@@ -615,10 +620,15 @@ namespace VORPointGenerator
                 // Calculate cost
                 Aircraft.calculatePointValue();
 
-                // Generate a stat card for the 
-                Aircraft.generateStatCard();
+                // Generate a stat card for the normal aircraft
+                Aircraft.generateStatCard(Aircraft.name, Aircraft.countryOfOrigin, Aircraft.cameo, Aircraft.artist, Aircraft.artLink);
 
-                //
+                // Generate abyssal version of this statcard
+                if (Aircraft.abyssalName  != string.Empty)
+                {
+                    Aircraft.generateStatCard(Aircraft.abyssalName, "ABYSSAL", Aircraft.abyssalCameo, Aircraft.abyssalArtist, Aircraft.abyssalArtLink);
+                }
+
                 //Console.WriteLine(Aircraft.printStats());
 
                 aircraftStats.Add(Aircraft);

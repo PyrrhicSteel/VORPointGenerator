@@ -34,6 +34,11 @@ namespace VORPointGenerator
         public string artist { get; set; } = string.Empty;
         public string artLink { get; set; } = string.Empty;
 
+        public string abyssalName = string.Empty;
+        public string abyssalCameo = string.Empty;
+        public string abyssalArtist = string.Empty;
+        public string abyssalArtLink = string.Empty;
+
         public string printStats()
         {
             string output = string.Empty;
@@ -135,7 +140,7 @@ namespace VORPointGenerator
             if (pointValue == 0) { pointValue = 5; }
         }
 
-        public void generateStatCard()
+        public void generateStatCard(String name, String countryOfOrigin, String cameo, String artist, String artLink)
         {
             int width = 2000;
             int height = 1600;
@@ -258,6 +263,14 @@ namespace VORPointGenerator
                 if (countryOfOrigin.Equals("AUS"))
                 {
                     flagDirectory = flagDirectory + "aus.png";
+                }
+                if (countryOfOrigin.Equals("KOR"))
+                {
+                    flagDirectory = flagDirectory + "kor.png";
+                }
+                if (countryOfOrigin.Equals("PRC"))
+                {
+                    flagDirectory = flagDirectory + "prc.png";
                 }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
@@ -597,4 +610,7 @@ namespace VORPointGenerator
             return;
         }
     }
+
+    
+
 }

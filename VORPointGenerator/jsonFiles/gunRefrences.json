@@ -1030,7 +1030,7 @@
       "attackAir": true,
       "originCountry": "FR"
     },
-     {
+    {
       "id": 102,
       "name": "90 mm/50 Modele 1926",
       "calibre": 90,
@@ -1039,6 +1039,16 @@
       "fireRate": 15,
       "attackAir": true,
       "originCountry": "FR"
+    },
+    {
+      "id": 103,
+      "name": "30 mm Type 5",
+      "calibre": 30,
+      "maxRange": 3000,
+      "armorPenetration": 30, // CITATION NEEDED
+      "fireRate": 350,
+      "attackAir": true,
+      "originCountry": "JPN"
     },
 
 
@@ -1323,6 +1333,16 @@
       "fireRate": 60,
       "attackAir": true,
       "originCountry": "RUS"
+    },
+    {
+      "id": 10028,
+      "name": "H/PJ-11",
+      "calibre": 30,
+      "maxRange": 5000,
+      "armorPenetration": 76, //CITATION NEEDED
+      "fireRate": 5800,
+      "attackAir": true,
+      "originCountry": "PRC"
     },
   ]
 }
