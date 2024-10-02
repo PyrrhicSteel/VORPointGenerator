@@ -585,27 +585,33 @@ namespace VORPointGenerator
             }
 
             //save the card
-            //var curentDirectory = Directory.GetCurrentDirectory();
-            String opPath = @"C:\Outputs\VorCardOutputs\planes\";
-            string safeName = name;
-            
-            // remove file-dangerous characters from the name of the aircraft before publishing file
-            sanitizeString s = new sanitizeString();
-            safeName = s.sanitize(safeName);
-            opPath = opPath + countryOfOrigin + " " + safeName + ".jpeg";
+            String opPath;
+
+            // New way, saving to a custom directory in documents
+            string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            opPath = documents + @"\My Games\Valkyries of Ran\Aircraft";
 
             try
             {
-                //File.Create(opPath);
+                if (!Directory.Exists(opPath))
+                {
+                    Directory.CreateDirectory(opPath);
+                }
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("Failed to create Directory: " + opPath);
+            }
+            opPath = opPath + "\\" + countryOfOrigin + " " + type + " " + name + ".jpeg";
+            try
+            {
                 card.Save(opPath, ImageFormat.Jpeg);
             }
             catch (Exception e)
             {
-                Console.WriteLine("Failed to write aircraft!");
+                Console.WriteLine("Failed to write ship!");
                 Console.WriteLine(e);
-
             }
-
 
             return;
         }

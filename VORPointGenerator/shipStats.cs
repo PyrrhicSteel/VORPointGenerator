@@ -151,8 +151,11 @@ namespace VORPointGenerator
                 baseStats = (int)((double)baseStats * 0.5);
                 attackStats = (int)((double)attackStats * 0.25);
             }
+            
             pointValue = baseStats + attackStats ;
             pointValue = (int)Math.Round(((double)(pointValue * abilityWeight) / 2 / 5)) * 5;
+
+            Console.WriteLine(name + ":\n\t\t\t\t\tBASE - " + baseStats + "\tWEAPONS - " + attackStats + ",\tTOTAL - " + pointValue);
         }
         // Generate PNG files for this ship
         public void generateStatCard()
@@ -578,16 +581,26 @@ namespace VORPointGenerator
 
 
             //save the card
-            //var curentDirectory = Directory.GetCurrentDirectory();
-            String opPath = @"C:\Outputs\VorCardOutputs\ships\";
-            opPath = opPath + shipFaction + " " + hullCode + " " + name + ".jpeg";
+            String opPath;
 
-            
+            // New way, saving to a custom directory in documents
+            string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            opPath = documents + @"\My Games\Valkyries of Ran\Ships";
 
-            //Console.WriteLine(opPath);
             try
             {
-                //File.Create(opPath);
+                if (!Directory.Exists(opPath))
+                {
+                    Directory.CreateDirectory(opPath);
+                }
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("Failed to create Directory: " + opPath);
+            }
+            opPath = opPath + "\\" + shipFaction + " " + hullCode + " " + name + ".jpeg";
+            try
+            {
                 card.Save(opPath, ImageFormat.Jpeg);
             }
             catch (Exception e)
@@ -595,7 +608,6 @@ namespace VORPointGenerator
                 Console.WriteLine("Failed to write ship!");
                 Console.WriteLine(e);
             }
-
 
             return;
         }

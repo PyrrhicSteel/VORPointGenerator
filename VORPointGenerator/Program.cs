@@ -391,7 +391,7 @@ namespace VORPointGenerator
                 Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 250000));
                 if (Aircraft.maxEnergy > 20)
                 {
-                    Console.WriteLine(Aircraft.name + ": " + Aircraft.maxEnergy + " Recalcuating Energy");
+                    // Console.WriteLine(Aircraft.name + ": " + Aircraft.maxEnergy + " Recalcuating Energy");
 
 
                     Aircraft.maxEnergy = (int)Math.Round((((double)i.speed * i.serviceCieling) / 1500000));
@@ -401,7 +401,7 @@ namespace VORPointGenerator
                         energyMax = energyMax * 0.5;
                         Aircraft.maxEnergy++;
                     }
-                    Console.WriteLine("New energy: " + Aircraft.maxEnergy);
+                    // Console.WriteLine("New energy: " + Aircraft.maxEnergy);
                 }
 
                 Aircraft.cameo = i.cameo;
@@ -493,7 +493,7 @@ namespace VORPointGenerator
                         rocket.rocketVolleys = rocket.rocketVolleys / 2;
                         fireControl += 2;
 
-                        Console.WriteLine("Looptest: " + Aircraft.name + " " + rocket.rocketVolleys);
+                        // Console.WriteLine("Looptest: " + Aircraft.name + " " + rocket.rocketVolleys);
 
                         totalRockets = rocket.rocketAtk * rocket.rocketVolleys * i.numPlanes;
                     }
