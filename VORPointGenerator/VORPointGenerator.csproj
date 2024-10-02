@@ -19,544 +19,544 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="images\src\abybknd.png">
+    <None Update="Images\src\abybknd.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\bknd.jpg">
+    <None Update="Images\src\bknd.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\bknd2.jpg">
+    <None Update="Images\src\bknd2.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\bknd3.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\arg.png">
+    <None Update="Images\src\flags\arg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\aus.png">
+    <None Update="Images\src\flags\aus.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\belg.png">
+    <None Update="Images\src\flags\belg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\brzl.png">
+    <None Update="Images\src\flags\brzl.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\can.png">
+    <None Update="Images\src\flags\can.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\chil.png">
+    <None Update="Images\src\flags\chil.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\den.png">
+    <None Update="Images\src\flags\den.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\fin.png">
+    <None Update="Images\src\flags\fin.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\fra.png">
+    <None Update="Images\src\flags\fra.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\ger.png">
+    <None Update="Images\src\flags\ger.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\grc.png">
+    <None Update="Images\src\flags\grc.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\idsa.png">
+    <None Update="Images\src\flags\idsa.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\imd.png">
+    <None Update="Images\src\flags\imd.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\iran.png">
+    <None Update="Images\src\flags\iran.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\ire.png">
+    <None Update="Images\src\flags\ire.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\isrl.png">
+    <None Update="Images\src\flags\isrl.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\ita.png">
+    <None Update="Images\src\flags\ita.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\jpn.png">
+    <None Update="Images\src\flags\jpn.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\kor.png">
+    <None Update="Images\src\flags\kor.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\neth.png">
+    <None Update="Images\src\flags\neth.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\norw.png">
+    <None Update="Images\src\flags\norw.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\phil.png">
+    <None Update="Images\src\flags\phil.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\pol.png">
+    <None Update="Images\src\flags\pol.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\port.png">
+    <None Update="Images\src\flags\port.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\prc.png">
+    <None Update="Images\src\flags\prc.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\prk.png">
+    <None Update="Images\src\flags\prk.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\roc.png">
+    <None Update="Images\src\flags\roc.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\rus.png">
+    <None Update="Images\src\flags\rus.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\sarb.png">
+    <None Update="Images\src\flags\sarb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\sing.png">
+    <None Update="Images\src\flags\sing.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\spn.png">
+    <None Update="Images\src\flags\spn.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\swdn.png">
+    <None Update="Images\src\flags\swdn.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\trky.png">
+    <None Update="Images\src\flags\trky.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\uk.png">
+    <None Update="Images\src\flags\uk.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\un.png">
+    <None Update="Images\src\flags\un.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\usa.png">
+    <None Update="Images\src\flags\usa.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\flags\vtnm.png">
+    <None Update="Images\src\flags\vtnm.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\GenericShipImage.jpg">
+    <None Update="Images\src\GenericShipImage.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\a-10c.jpg">
+    <None Update="Images\src\planes\a-10c.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\a5m.jpg">
+    <None Update="Images\src\planes\a5m.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\a6m-zero.jpg">
+    <None Update="Images\src\planes\a6m-zero.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\a7m-reppu.png">
+    <None Update="Images\src\planes\a7m-reppu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\ar196.png">
+    <None Update="Images\src\planes\ar196.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\b1b.png">
+    <None Update="Images\src\planes\b1b.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\b5n.png">
+    <None Update="Images\src\planes\b5n.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\b6n-tenzan.jpg">
+    <None Update="Images\src\planes\b6n-tenzan.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\b7a-ryusei.png">
+    <None Update="Images\src\planes\b7a-ryusei.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\bf109.jpg">
+    <None Update="Images\src\planes\bf109.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\cf-188.jpg">
+    <None Update="Images\src\planes\cf-188.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\d3a.jpg">
+    <None Update="Images\src\planes\d3a.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\d4y-suisei.jpg">
+    <None Update="Images\src\planes\d4y-suisei.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\e13a.jpg">
+    <None Update="Images\src\planes\e13a.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\e16a-zuiun.jpg">
+    <None Update="Images\src\planes\e16a-zuiun.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\e8n.png">
+    <None Update="Images\src\planes\e8n.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\ea-18g.jpg">
+    <None Update="Images\src\planes\ea-18g.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f-35b.jpg">
+    <None Update="Images\src\planes\f-35b.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f-35bj.jpg">
+    <None Update="Images\src\planes\f-35bj.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f-35c.jpg">
+    <None Update="Images\src\planes\f-35c.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f-35c.png">
+    <None Update="Images\src\planes\f-35c.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f4f-wildcat.png">
+    <None Update="Images\src\planes\f4f-wildcat.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f4u-corsair.png">
+    <None Update="Images\src\planes\f4u-corsair.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f6f-hellcat.png">
+    <None Update="Images\src\planes\f6f-hellcat.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\planes\f6f_hellcat.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\f8f-bearcat.jpg">
+    <None Update="Images\src\planes\f8f-bearcat.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\fa-18e.jpg">
+    <None Update="Images\src\planes\fa-18e.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\fa-18f.jpg">
+    <None Update="Images\src\planes\fa-18f.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\faireySwordfish.jpg">
+    <None Update="Images\src\planes\faireySwordfish.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\harbinZ-9.png">
+    <None Update="Images\src\planes\harbinZ-9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\j7w-shinden.jpg">
+    <None Update="Images\src\planes\j7w-shinden.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\ju87.png">
+    <None Update="Images\src\planes\ju87.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\mh-60-seahawk.jpg">
+    <None Update="Images\src\planes\mh-60-seahawk.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\mig-29k.jpg">
+    <None Update="Images\src\planes\mig-29k.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\nh90.jpg">
+    <None Update="Images\src\planes\nh90.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\os2u-kingfisher.jpg">
+    <None Update="Images\src\planes\os2u-kingfisher.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\sb2c-helldiver.jpg">
+    <None Update="Images\src\planes\sb2c-helldiver.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\sbd-dauntless.jpg">
+    <None Update="Images\src\planes\sbd-dauntless.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\Su-33.jpg">
+    <None Update="Images\src\planes\Su-33.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\supermarineSeafire.jpg">
+    <None Update="Images\src\planes\supermarineSeafire.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\tbd-devastator.jpg">
+    <None Update="Images\src\planes\tbd-devastator.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\tbfAvenger.jpg">
+    <None Update="Images\src\planes\tbfAvenger.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\tu-160.jpg">
+    <None Update="Images\src\planes\tu-160.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\tu-22m.jpg">
+    <None Update="Images\src\planes\tu-22m.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\admiralGorshkov.jpg">
+    <None Update="Images\src\ships\admiralGorshkov.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\admiralKuznetsov.jpg">
+    <None Update="Images\src\ships\admiralKuznetsov.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\Aquila.png">
+    <None Update="Images\src\ships\Aquila.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\ships\ar196.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\bismarck.jpg">
+    <None Update="Images\src\ships\bismarck.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\chi.jpg">
+    <None Update="Images\src\ships\chi.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\planes\eurofighterTyphoon.jpg">
+    <None Update="Images\src\planes\eurofighterTyphoon.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\gangut.jpg">
+    <None Update="Images\src\ships\gangut.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\grafZeppelin.jpg">
+    <None Update="Images\src\ships\grafZeppelin.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmasPerth.jpg">
+    <None Update="Images\src\ships\hmasPerth.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsArkRoyale.png">
+    <None Update="Images\src\ships\hmsArkRoyale.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsDragon.png">
+    <None Update="Images\src\ships\hmsDragon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsJavelin.png">
+    <None Update="Images\src\ships\hmsJavelin.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsJervis.jpg">
+    <None Update="Images\src\ships\hmsJervis.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsNelson.jpg">
+    <None Update="Images\src\ships\hmsNelson.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsRodney.png">
+    <None Update="Images\src\ships\hmsRodney.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsVictorious.png">
+    <None Update="Images\src\ships\hmsVictorious.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hmsWarspite.jpg">
+    <None Update="Images\src\ships\hmsWarspite.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hnlmsDeRyuter.jpg">
+    <None Update="Images\src\ships\hnlmsDeRyuter.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ho.jpg">
+    <None Update="Images\src\ships\ho.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\hswmsGotland.jpg">
+    <None Update="Images\src\ships\hswmsGotland.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\i.jpg">
+    <None Update="Images\src\ships\i.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\ships\i.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsAkagi.jpg">
+    <None Update="Images\src\ships\jsAkagi.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\ships\jsAkazuki.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsAkizuki.jpg">
+    <None Update="Images\src\ships\jsAkizuki.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\ships\jsAtago.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsAtago.png">
+    <None Update="Images\src\ships\jsAtago.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsChikuma.jpg">
+    <None Update="Images\src\ships\jsChikuma.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsIzumo.png">
+    <None Update="Images\src\ships\jsIzumo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsKasumi.jpg">
+    <None Update="Images\src\ships\jsKasumi.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsKirishima.png">
+    <None Update="Images\src\ships\jsKirishima.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsKongouDDG.png">
+    <None Update="Images\src\ships\jsKongouDDG.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsMogamiFFM.jpg">
+    <None Update="Images\src\ships\jsMogamiFFM.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsMusashi.jpg">
+    <None Update="Images\src\ships\jsMusashi.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsNagato.jpg">
+    <None Update="Images\src\ships\jsNagato.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsNaka.jpg">
+    <None Update="Images\src\ships\jsNaka.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsRyuujou.jpg">
+    <None Update="Images\src\ships\jsRyuujou.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsSazanami.png">
+    <None Update="Images\src\ships\jsSazanami.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsTaihou.jpg">
+    <None Update="Images\src\ships\jsTaihou.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsTatsuta.png">
+    <None Update="Images\src\ships\jsTatsuta.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsTenryuu.png">
+    <None Update="Images\src\ships\jsTenryuu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsTone.jpg">
+    <None Update="Images\src\ships\jsTone.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsUnryu.jpg">
+    <None Update="Images\src\ships\jsUnryu.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsUshio.png">
+    <None Update="Images\src\ships\jsUshio.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsYamashiro.png">
+    <None Update="Images\src\ships\jsYamashiro.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsYamato.jpg">
+    <None Update="Images\src\ships\jsYamato.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsYuudachi.jpg">
+    <None Update="Images\src\ships\jsYuudachi.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\jsZuikaku.jpg">
+    <None Update="Images\src\ships\jsZuikaku.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\kiso.jpg">
+    <None Update="Images\src\ships\kiso.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\Littorio.png">
+    <None Update="Images\src\ships\Littorio.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\luigiDiSavoiaDucaDegliAbruzzi.png">
+    <None Update="Images\src\ships\luigiDiSavoiaDucaDegliAbruzzi.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\na.jpg">
+    <None Update="Images\src\ships\na.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ne.jpg">
+    <None Update="Images\src\ships\ne.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\nimitzClass.jpg">
+    <None Update="Images\src\ships\nimitzClass.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\prinzEugen.jpg">
+    <None Update="Images\src\ships\prinzEugen.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\pytorVelikiny.jpg">
+    <None Update="Images\src\ships\pytorVelikiny.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ri.jpg">
+    <None Update="Images\src\ships\ri.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\richelieu.png">
+    <None Update="Images\src\ships\richelieu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ro.jpg">
+    <None Update="Images\src\ships\ro.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ru.jpg">
+    <None Update="Images\src\ships\ru.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\severomorsk.jpg">
+    <None Update="Images\src\ships\severomorsk.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\shigure.jpg">
+    <None Update="Images\src\ships\shigure.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ta.jpg">
+    <None Update="Images\src\ships\ta.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\tashkent.png">
+    <None Update="Images\src\ships\tashkent.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\tsu.jpg">
+    <None Update="Images\src\ships\tsu.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\type055.jpg">
+    <None Update="Images\src\ships\type055.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussAtlanta.png">
+    <None Update="Images\src\ships\ussAtlanta.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussColorado.png">
+    <None Update="Images\src\ships\ussColorado.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussHeywoodLE.jpg">
+    <None Update="Images\src\ships\ussHeywoodLE.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussHonolulu.jpg">
+    <None Update="Images\src\ships\ussHonolulu.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussHornetCV-8.png">
+    <None Update="Images\src\ships\ussHornetCV-8.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussHouston.png">
+    <None Update="Images\src\ships\ussHouston.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussIndependence.jpg">
+    <None Update="Images\src\ships\ussIndependence.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussIntrepid.jpg">
+    <None Update="Images\src\ships\ussIntrepid.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussIowa.jpg">
+    <None Update="Images\src\ships\ussIowa.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussJohnston.jpg">
+    <None Update="Images\src\ships\ussJohnston.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussLangley.jpg">
+    <None Update="Images\src\ships\ussLangley.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussNevada.png">
+    <None Update="Images\src\ships\ussNevada.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussPreble.jpg">
+    <None Update="Images\src\ships\ussPreble.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussSamuelBRoberts.png">
+    <None Update="Images\src\ships\ussSamuelBRoberts.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussSaratoga.jpg">
+    <None Update="Images\src\ships\ussSaratoga.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussShiloh.png">
+    <None Update="Images\src\ships\ussShiloh.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussSouthDakota.jpg">
+    <None Update="Images\src\ships\ussSouthDakota.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussWashington.jpg">
+    <None Update="Images\src\ships\ussWashington.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\ussZumwalt.jpg">
+    <None Update="Images\src\ships\ussZumwalt.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\wo.jpg">
+    <None Update="Images\src\ships\wo.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="images\src\ships\z1.png">
+    <None Update="Images\src\ships\z1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="images\src\test.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="jsonFiles\aircraftRefrences.json">
+    <None Update="JsonFiles\aircraftRefrences.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="jsonFiles\gunRefrences.json">
+    <None Update="JsonFiles\gunRefrences.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="jsonFiles\missileRefrences.json">
+    <None Update="JsonFiles\missileRefrences.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="jsonFiles\shipRefrences.json">
+    <None Update="JsonFiles\shipRefrences.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="jsonFiles\torpedoRefrences.json">
+    <None Update="JsonFiles\torpedoRefrences.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

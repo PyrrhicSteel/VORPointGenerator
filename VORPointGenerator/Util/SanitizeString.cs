@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VORPointGenerator
+namespace VORPointGenerator.Util
 {
-    public class sanitizeString
+    public class SanitizeString
     {
         List<char> bannedChars = new List<char>() { '/', '>', '<', '\\', '|', '?', '*' };
-        public string sanitize(string tgt)
+        public string Sanitize(string tgt)
         {
             string fixedString = string.Empty;
             if (tgt == null)
