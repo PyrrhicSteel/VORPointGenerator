@@ -600,7 +600,7 @@ namespace VORPointGenerator
             {
                 Console.WriteLine("Failed to create Directory: " + opPath);
             }
-            opPath = opPath + "\\" + shipFaction + " " + hullCode + " " + name + ".jpeg";
+            opPath = opPath + "\\" + shipFaction + " " + hullCode + " " + safeName + ".jpeg";
             try
             {
                 card.Save(opPath, ImageFormat.Jpeg);
