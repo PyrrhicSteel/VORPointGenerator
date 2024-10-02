@@ -591,6 +591,8 @@ namespace VORPointGenerator
             string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             opPath = documents + @"\My Games\Valkyries of Ran\Aircraft";
 
+            string safeName = clean(name);
+
             try
             {
                 if (!Directory.Exists(opPath))
@@ -615,8 +617,20 @@ namespace VORPointGenerator
 
             return;
         }
+        private String clean(string s)
+        {
+            string output = s.Replace("\\", "");
+            output = output.Replace("/", "");
+            output = output.Replace("*", "");
+            output = output.Replace("\"", "");
+            output = output.Replace("<", "");
+            output = output.Replace(">", "");
+            output = output.Replace(".", "");
+            output = output.Replace(":", "");
+            output = output.Replace("|", "");
+            output = output.Replace("?", "");
+
+            return output;
+        }
     }
-
-    
-
 }
