@@ -1,146 +1,154 @@
 ﻿using System.Drawing.Imaging;
 using System.Drawing;
 using System;
+using VORPointGenerator.Data.Battery;
+using VORPointGenerator.Data.Bomb;
+using VORPointGenerator.Data.Missile;
+using VORPointGenerator.Data.Rocket;
+using VORPointGenerator.Data.Special;
+using VORPointGenerator.Data.Torpedo;
 
-namespace VORPointGenerator
+namespace VORPointGenerator.Data.Aircraft
 {
-    internal class aircraftStats
+    internal class AircraftStats
     {
-        public string name { get; set; } = string.Empty;
-        public string type { get; set; } = string.Empty;
-        public string countryOfOrigin { get; set; } = string.Empty;
-        public int planecount { get; set; }
-        public int move { get; set; }
-        public int energyGain { get; set; }
-        public int maxEnergy { get; set; }
-        public int cost { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Type { get; set; } = string.Empty;
+        public string CountryOfOrigin { get; set; } = string.Empty;
+        public int PlaneCount { get; set; }
+        public int Move { get; set; }
+        public int EnergyGain { get; set; }
+        public int MaxEnergy { get; set; }
+        public int Cost { get; set; }
 
-        public bool steelHull { get; set; }
+        public bool SteelHull { get; set; }
 
-        public int spottingRange { get; set; } = 15;
+        public int SpottingRange { get; set; } = 15;
 
-        public List<batteryStats> gunStats { get; set; } = new List<batteryStats>();
-        public List<rocketStats> rocketStats { get; set; } = new List<rocketStats>();
-        public List<bombStats> bombStats { get; set; } = new List<bombStats>();
-        public List<torpedoStats> torpedoStats { get; set; } = new List<torpedoStats>();
-        public List<missileStats> missileStats { get; set; } = new List<missileStats>();
+        public List<BatteryStats> GunStats { get; set; } = new List<BatteryStats>();
+        public List<RocketStats> RocketStats { get; set; } = new List<RocketStats>();
+        public List<BombStats> BombStats { get; set; } = new List<BombStats>();
+        public List<TorpedoStats> TorpedoStats { get; set; } = new List<TorpedoStats>();
+        public List<MissileStats> MissileStats { get; set; } = new List<MissileStats>();
 
-        public List<specialAbility> specialAbilities { get; set; } = new List<specialAbility>();
+        public List<SpecialAbility> SpecialAbilities { get; set; } = new List<SpecialAbility>();
         public double abilityWeight = 1.0;
 
-        public int pointValue { get; set; }
+        public int PointValue { get; set; }
 
-        public string cameo { get; set; } = string.Empty;
-        public string artist { get; set; } = string.Empty;
-        public string artLink { get; set; } = string.Empty;
+        public string Cameo { get; set; } = string.Empty;
+        public string Artist { get; set; } = string.Empty;
+        public string ArtLink { get; set; } = string.Empty;
 
         public string abyssalName = string.Empty;
         public string abyssalCameo = string.Empty;
         public string abyssalArtist = string.Empty;
         public string abyssalArtLink = string.Empty;
 
-        public string printStats()
+        public string PrintStats()
         {
             string output = string.Empty;
-            output = "Name: " + name;
-            output = output + "\n" + type + "\tCOST:\t" + pointValue;
+            output = "Name: " + Name;
+            output = output + "\n" + Type + "\tCOST:\t" + PointValue;
             //ADD TYPE, ADD COST
-            output = output + "\nAircraft: \t" + planecount + "\n";
-            output = output + "Move:\t" + move + "\tEnergy Gain:\t" + energyGain + "\tMax Energy:\t" + maxEnergy + "\tSpotting:\t" + spottingRange + "\n";
+            output = output + "\nAircraft: \t" + PlaneCount + "\n";
+            output = output + "Move:\t" + Move + "\tEnergy Gain:\t" + EnergyGain + "\tMax Energy:\t" + MaxEnergy + "\tSpotting:\t" + SpottingRange + "\n";
             output = output + "Weapons:";
-            foreach (var i in gunStats)
+            foreach (var i in GunStats)
             {
-                output = output + "\n" + i.name + ": " + i.turrets + " * " + i.gunsPerTurret +
-                    "\nRANGE:\t" + i.range + "\tPWR:\t" + i.power + "\tACC:\t" + i.accuracy;
+                output = output + "\n" + i.Name + ": " + i.Turrets + " * " + i.GunsPerTurret +
+                    "\nRANGE:\t" + i.Range + "\tPWR:\t" + i.Power + "\tACC:\t" + i.Accuracy;
             }
-            foreach (var i in rocketStats)
+            foreach (var i in RocketStats)
             {
-                output = output + "\nROCKET - " + i.name + ": " + i.rocketVolleys + " * " + i.rocketAtk +
-                    "\nRANGE:\t" + i.rocketRange + "\tPWR:\t" + i.rocketPower + "\tACC:\t" + i.rocketAcc;
+                output = output + "\nROCKET - " + i.Name + ": " + i.RocketVolleys + " * " + i.RocketAtk +
+                    "\nRANGE:\t" + i.RocketRange + "\tPWR:\t" + i.RocketPower + "\tACC:\t" + i.RocketAcc;
             }
-            foreach (var i in bombStats)
+            foreach (var i in BombStats)
             {
-                output = output + "\nBOMB - " + i.name + ": " + i.atk + " * " + i.volleys +
-                    "\nRANGE:\t1\tPWR:\t" + i.power + "\tACC:\t" + i.accuracy;
+                output = output + "\nBOMB - " + i.Name + ": " + i.Atk + " * " + i.Volleys +
+                    "\nRANGE:\t1\tPWR:\t" + i.Power + "\tACC:\t" + i.Accuracy;
             }
-            foreach (var i in torpedoStats)
+            foreach (var i in TorpedoStats)
             {
                 //output = output + "\nTORPEDO - " + i.name + ": " + i.torpTurrets;
-                output = output + "\nTORPEDO - " + i.name + ": " + i.torpTurrets +
-                    "\nRANGE:\t" + i.torpRange + "\tPWR:\t" + i.torpPower + "\tAOE:\t" + i.torpAOE + "\tACC:\t" + i.torpAcc;
+                output = output + "\nTORPEDO - " + i.Name + ": " + i.TorpTurrets +
+                    "\nRANGE:\t" + i.TorpRange + "\tPWR:\t" + i.TorpPower + "\tAOE:\t" + i.TorpAOE + "\tACC:\t" + i.TorpAcc;
 
             }
-            output = output + "\n";
+            output += "\n";
 
             return output;
         }
-        internal void calculatePointValue()
+        internal void CalculatePointValue()
         {
             //Console.WriteLine(cost);
-            
+
             // quick fix. might be moved to another method.
-            
-            if(energyGain == 0) energyGain = 1;
+
+            if (EnergyGain == 0) EnergyGain = 1;
 
 
-            cost = (int)Math.Round((double)planecount * (double)move * energyGain * maxEnergy * 0.02);
-            
+            Cost = (int)Math.Round(PlaneCount * (double)Move * EnergyGain * MaxEnergy * 0.02);
+
             // guns
             //Console.WriteLine(cost);
-            foreach (var i in gunStats) {
-                int gunsPerTurret = i.gunsPerTurret;
+            foreach (var i in GunStats)
+            {
+                int gunsPerTurret = i.GunsPerTurret;
                 if (gunsPerTurret == 0) { gunsPerTurret = 1; }
-                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.turrets * gunsPerTurret * i.range * (i.power + 1) * 0.5), (1 + (i.accuracy / 50))));
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.Turrets * gunsPerTurret * i.Range * (i.Power + 1) * 0.5), 1 + i.Accuracy / 50));
             }
-            
+
             // torpedoes
             //Console.WriteLine(cost);
-            foreach (var i in torpedoStats) {
-                cost = cost + (int)Math.Round(Math.Pow((double)(planecount * i.torpTurrets * i.torpsPerTurret * i.torpRange * i.torpPower * i.torpAOE * 0.025), (1 + (i.torpAcc / 50))));
+            foreach (var i in TorpedoStats)
+            {
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.TorpTurrets * i.TorpsPerTurret * i.TorpRange * i.TorpPower * i.TorpAOE * 0.025), 1 + i.TorpAcc / 50));
             }
 
             // bombs
             //Console.WriteLine(cost);
-            foreach (var i in bombStats)
+            foreach (var i in BombStats)
             {
-                cost = cost + (int)(Math.Round(Math.Pow((double)(planecount * i.power * i.range * i.atk * i.volleys * 0.025), (1 + (i.accuracy / 50)))));
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.Power * i.Range * i.Atk * i.Volleys * 0.025), 1 + i.Accuracy / 50));
             }
 
             // rockets
             //Console.WriteLine(cost);
-            foreach (var i in rocketStats)
+            foreach (var i in RocketStats)
             {
-                cost = cost + (int)((Math.Round(Math.Pow((double)(planecount * i.rocketVolleys * i.rocketPower * i.rocketAtk * 0.05), (1 + (i.rocketAcc / 50))))));
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.RocketVolleys * i.RocketPower * i.RocketAtk * 0.05), 1 + i.RocketAcc / 50));
             }
 
             // Anti-ship missiles
-            foreach (var i in missileStats)
+            foreach (var i in MissileStats)
             {
                 double missileBias = 0.0001;
-                
-                int correctedRange = i.mslRange;
+
+                int correctedRange = i.MslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
-                int corrMslPwr = i.mslPower;
-                if (i.mslPower == 0) corrMslPwr = 1;
-                int missileStats = (int)Math.Round((planecount * i.mslTurrets * i.mslsPerTurret * i.mslEvasion) * Math.Pow((double)(correctedRange * corrMslPwr * i.mslAOE * missileBias), (1 + (i.mslAcc / 75))));
+                int corrMslPwr = i.MslPower;
+                if (i.MslPower == 0) corrMslPwr = 1;
+                int missileStats = (int)Math.Round(PlaneCount * i.MslTurrets * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * corrMslPwr * i.MslAOE * missileBias), 1 + i.MslAcc / 75));
                 //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
 
-                cost = cost + missileStats;
+                Cost = Cost + missileStats;
             }
 
-            if (steelHull == true)
+            if (SteelHull == true)
             {
-                cost = (int)((double)cost * 0.1);
+                Cost = (int)(Cost * 0.1);
             }
 
             // round point value to 5
             //Console.WriteLine(cost);
-            cost = (int)(cost * abilityWeight);
-            pointValue = (int)Math.Round(((double)(cost) / 5)) * 5;
-            if (pointValue == 0) { pointValue = 5; }
+            Cost = (int)(Cost * abilityWeight);
+            PointValue = (int)Math.Round((double)Cost / 5) * 5;
+            if (PointValue == 0) { PointValue = 5; }
         }
 
-        public void generateStatCard(String name, String countryOfOrigin, String cameo, String artist, String artLink)
+        public void GenerateStatCard(string name, string countryOfOrigin, string cameo, string artist, string artLink)
         {
             int width = 2000;
             int height = 1600;
@@ -153,18 +161,18 @@ namespace VORPointGenerator
             // Replace printstats with a series of custom, colored fonts
             // String text = printStats();
 
-            String workingDirectory = Directory.GetCurrentDirectory();
+            string workingDirectory = Directory.GetCurrentDirectory();
 
 
             Color baseColor = Color.Black; //TODO: use styles based on faction
             Color textColor = Color.LightGray;
 
-            Color atkColor = System.Drawing.ColorTranslator.FromHtml("#571C1D"); // Red
-            Color rngColor = System.Drawing.ColorTranslator.FromHtml("#1D571C"); // Green
-            Color powColor = System.Drawing.ColorTranslator.FromHtml("#57561C"); // Gold
-            Color accColor = System.Drawing.ColorTranslator.FromHtml("#1c1d57"); // Blue
-            Color aoeColor = System.Drawing.ColorTranslator.FromHtml("#561C57"); // Purple
-            Color evaColor = System.Drawing.ColorTranslator.FromHtml("#1C5756"); // Teal
+            Color atkColor = ColorTranslator.FromHtml("#571C1D"); // Red
+            Color rngColor = ColorTranslator.FromHtml("#1D571C"); // Green
+            Color powColor = ColorTranslator.FromHtml("#57561C"); // Gold
+            Color accColor = ColorTranslator.FromHtml("#1c1d57"); // Blue
+            Color aoeColor = ColorTranslator.FromHtml("#561C57"); // Purple
+            Color evaColor = ColorTranslator.FromHtml("#1C5756"); // Teal
 
             Brush atkBrush = new SolidBrush(atkColor);
             Brush rngBrush = new SolidBrush(rngColor);
@@ -202,7 +210,7 @@ namespace VORPointGenerator
             cardGraphics.FillRectangle(backgroundColor, 0, 0, width, height);
 
             // Try to get an image in
-            String bkndDirectory = workingDirectory + "\\images\\src\\bknd2.jpg";
+            string bkndDirectory = workingDirectory + "\\images\\src\\bknd2.jpg";
             //Console.WriteLine(workingDirectory);
             try
             {
@@ -218,8 +226,8 @@ namespace VORPointGenerator
             // Get faction flag in
             if (countryOfOrigin.Length > 0 && !countryOfOrigin.Equals("ABYSSAL"))
             {
-                String flagDirectory = workingDirectory + "\\images\\src\\flags\\";
-                
+                string flagDirectory = workingDirectory + "\\images\\src\\flags\\";
+
                 if (countryOfOrigin.Equals("USA"))
                 {
                     flagDirectory = flagDirectory + "usa.png";
@@ -292,7 +300,7 @@ namespace VORPointGenerator
 
             //Point Value in top left corner
             PointF leftPoint = new PointF(width - 200, 55);
-            cardGraphics.DrawString(pointValue.ToString(), h1, foregroundColor, leftPoint);
+            cardGraphics.DrawString(PointValue.ToString(), h1, foregroundColor, leftPoint);
 
             // Integrity
             leftPoint = leftPoint + new Size(-1075, 50);
@@ -311,16 +319,16 @@ namespace VORPointGenerator
 
 
             leftPoint = leftPoint + new Size(100, 325);
-            cardGraphics.DrawString("/ " + planecount, h2, foregroundColor, leftPoint);
+            cardGraphics.DrawString("/ " + PlaneCount, h2, foregroundColor, leftPoint);
 
             // Faction and class
             startPoint = startPoint + new Size(0, h1Margin);
-            cardGraphics.DrawString(countryOfOrigin + "\t" + type, textFont, foregroundColor, startPoint);
+            cardGraphics.DrawString(countryOfOrigin + "\t" + Type, textFont, foregroundColor, startPoint);
 
             // Base Stats
-            String statblock = "SPEED\t\t " + move + "\nENERGY\t" + energyGain +
-                "\nMAX ENERGY\t" + maxEnergy + "\nSPOTTING\t" + spottingRange;
-            startPoint = startPoint + new Size(0, (h4Margin));
+            string statblock = "SPEED\t\t " + Move + "\nENERGY\t" + EnergyGain +
+                "\nMAX ENERGY\t" + MaxEnergy + "\nSPOTTING\t" + SpottingRange;
+            startPoint = startPoint + new Size(0, h4Margin);
             cardGraphics.DrawString(statblock, h3, foregroundColor, startPoint);
 
             //Start Drawing Weapons
@@ -367,7 +375,7 @@ namespace VORPointGenerator
 
             cardGraphics.DrawString("\tATK\tRNG\tPOW\tACC\tAOE\tEVA", h4, foregroundColor, startPoint);
 
-            foreach (var i in gunStats)
+            foreach (var i in GunStats)
             {
                 // move point
                 startPoint = startPoint + new Size(0, h4Margin);
@@ -385,16 +393,16 @@ namespace VORPointGenerator
 
                 // draw weapon title
                 string weaponTitle;
-                if (i.attackAir == true) { weaponTitle = i.name + " (GUN) (D/P)"; }
-                else { weaponTitle = i.name + " (GUN)"; }
+                if (i.AttackAir == true) { weaponTitle = i.Name + " (GUN) (D/P)"; }
+                else { weaponTitle = i.Name + " (GUN)"; }
                 cardGraphics.DrawString(weaponTitle, textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                String statBlock = "\t" + i.turrets + "x" + i.gunsPerTurret + "\t " + i.range + "\t " + i.power + "\t " + i.accuracy + "\t -\t -";
+                string statBlock = "\t" + i.Turrets + "x" + i.GunsPerTurret + "\t " + i.Range + "\t " + i.Power + "\t " + i.Accuracy + "\t -\t -";
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
-            foreach (var i in bombStats)
+            foreach (var i in BombStats)
             {
                 // move point
                 startPoint = startPoint + new Size(0, h4Margin);
@@ -411,15 +419,15 @@ namespace VORPointGenerator
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
                 // draw weapon title
-                if (i.diveBomb) cardGraphics.DrawString(i.name + " (BOMB) (DIVE)", textFont, foregroundColor, startPoint);
-                else cardGraphics.DrawString(i.name + " (BOMB)", textFont, foregroundColor, startPoint);
+                if (i.DiveBomb) cardGraphics.DrawString(i.Name + " (BOMB) (DIVE)", textFont, foregroundColor, startPoint);
+                else cardGraphics.DrawString(i.Name + " (BOMB)", textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                String statBlock = "\t" + i.atk + "x" + i.volleys + "\t " + i.range + "\t " + i.power + "\t " + i.accuracy + "\t - \t -";
+                string statBlock = "\t" + i.Atk + "x" + i.Volleys + "\t " + i.Range + "\t " + i.Power + "\t " + i.Accuracy + "\t - \t -";
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
-            foreach (var i in rocketStats)
+            foreach (var i in RocketStats)
             {
                 // move point
                 startPoint = startPoint + new Size(0, h4Margin);
@@ -436,14 +444,14 @@ namespace VORPointGenerator
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
                 // draw weapon title
-                cardGraphics.DrawString(i.name + " (RKT)", textFont, foregroundColor, startPoint);
+                cardGraphics.DrawString(i.Name + " (RKT)", textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                String statBlock = "\t" + i.rocketAtk + "x" + i.rocketVolleys + "\t " + i.rocketRange + "\t " + i.rocketPower + "\t " + i.rocketAcc + "\t - \t -";
+                string statBlock = "\t" + i.RocketAtk + "x" + i.RocketVolleys + "\t " + i.RocketRange + "\t " + i.RocketPower + "\t " + i.RocketAcc + "\t - \t -";
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
-            foreach (var i in torpedoStats)
+            foreach (var i in TorpedoStats)
             {
                 // move point
                 startPoint = startPoint + new Size(0, h4Margin);
@@ -460,14 +468,14 @@ namespace VORPointGenerator
                 cardGraphics.FillRectangle(backgroundColor, hpBox);
 
                 // draw weapon title
-                cardGraphics.DrawString(i.name + " (TORP)", textFont, foregroundColor, startPoint);
+                cardGraphics.DrawString(i.Name + " (TORP)", textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                String statBlock = "\t" + i.torpTurrets + "x" + i.torpsPerTurret + "\t " + i.torpRange + "\t " + i.torpPower + "\t " + i.torpAcc + "\t " + i.torpAOE + "\t -";
+                string statBlock = "\t" + i.TorpTurrets + "x" + i.TorpsPerTurret + "\t " + i.TorpRange + "\t " + i.TorpPower + "\t " + i.TorpAcc + "\t " + i.TorpAOE + "\t -";
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
-            foreach (var i in missileStats)
+            foreach (var i in MissileStats)
             {
                 // move point
                 startPoint = startPoint + new Size(0, h4Margin);
@@ -485,12 +493,12 @@ namespace VORPointGenerator
 
                 // draw weapon title
                 string weaponTitle;
-                if (i.attackAir == true) { weaponTitle = i.name + " (MSL) (D/P)"; }
-                else { weaponTitle = i.name + " (MSL)"; }
+                if (i.AttackAir == true) { weaponTitle = i.Name + " (MSL) (D/P)"; }
+                else { weaponTitle = i.Name + " (MSL)"; }
                 cardGraphics.DrawString(weaponTitle, textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                String statBlock = "\t" + i.mslTurrets + "x" + i.mslsPerTurret + "\t " + i.mslRange + "\t " + i.mslPower + "\t " + i.mslAcc + "\t " + i.mslAOE + "\t " + i.mslEvasion;
+                string statBlock = "\t" + i.MslTurrets + "x" + i.MslsPerTurret + "\t " + i.MslRange + "\t " + i.MslPower + "\t " + i.MslAcc + "\t " + i.MslAOE + "\t " + i.MslEvasion;
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
@@ -509,20 +517,20 @@ namespace VORPointGenerator
 
             // add any special abilities, if available
 
-            if (specialAbilities.Count > 0)
+            if (SpecialAbilities.Count > 0)
             {
                 startPoint = startPoint + new Size(0, h4Margin + 4);
                 // cardGraphics.DrawString("ABILITIES:", h4, foregroundColor, startPoint);
 
                 // startPoint = startPoint + new Size(0, h4Margin);
-                foreach (var i in specialAbilities)
+                foreach (var i in SpecialAbilities)
                 {
-                    cardGraphics.DrawString(i.name, descFontTitle, foregroundColor, startPoint);
+                    cardGraphics.DrawString(i.Name, descFontTitle, foregroundColor, startPoint);
                     startPoint = startPoint + new Size(0, descFontMargin);
-                    if (i.description.Length > 0)
+                    if (i.Description.Length > 0)
                     {
-                        cardGraphics.DrawString(i.description, descFont, foregroundColor, startPoint);
-                        startPoint = startPoint + new Size(0, descFontMargin * i.numLines);
+                        cardGraphics.DrawString(i.Description, descFont, foregroundColor, startPoint);
+                        startPoint = startPoint + new Size(0, descFontMargin * i.NumLines);
                     }
                     startPoint = startPoint + new Size(0, 5);
                 }
@@ -533,7 +541,7 @@ namespace VORPointGenerator
             height = 1430;
 
             cameoPoint = cameoPoint + new Size(420, 0);
-            String cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericShipImage.jpg";
+            string cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericShipImage.jpg";
 
 
             // Draw background image
@@ -551,7 +559,7 @@ namespace VORPointGenerator
             // TODO: Draw the cameo image
             if (cameo.Length > 0)
             {
-                String cameoDirectory = workingDirectory + "\\images\\src\\planes\\" + cameo;
+                string cameoDirectory = workingDirectory + "\\images\\src\\planes\\" + cameo;
 
                 try
                 {
@@ -585,7 +593,7 @@ namespace VORPointGenerator
             }
 
             //save the card
-            String opPath;
+            string opPath;
 
             // New way, saving to a custom directory in documents
             string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
@@ -604,8 +612,8 @@ namespace VORPointGenerator
             {
                 Console.WriteLine("Failed to create Directory: " + opPath);
             }
-            opPath = opPath + "\\" + countryOfOrigin + " " + type + " " + safeName + ".jpeg";
-            try
+                opPath = opPath + "\\" + countryOfOrigin + " " + type + " " + safeName + ".jpeg";
+                try
             {
                 card.Save(opPath, ImageFormat.Jpeg);
             }
@@ -614,8 +622,6 @@ namespace VORPointGenerator
                 Console.WriteLine("Failed to write ship!");
                 Console.WriteLine(e);
             }
-
-            return;
         }
         private String clean(string s)
         {

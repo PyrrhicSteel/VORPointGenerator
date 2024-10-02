@@ -1,16 +1,20 @@
-﻿/**
- * <summary>
- * used to pull gunrefrence data
- * </summary>
- **/
-
-namespace VORPointGenerator
+﻿ 
+namespace VORPointGenerator.Data.Battery
 {
-    public class batteryRefrence
+    /// <summary>
+    /// used to pull gunrefrence data
+    /// </summary>
+    public class BatteryReference
     {
-        public int gunRefrenceID { get; set; } // id for the gun
-        public int turretCount { get; set; }
-        public int gunsPerTurret { get; set; } // for subtracting from accuracy
+        /// <summary>
+        /// id for the gun
+        /// </summary>
+        public int GunReferenceID { get; set; }
+        public int TurretCount { get; set; }
+        /// <summary>
+        /// for subtracting from accuracy
+        /// </summary>
+        public int GunsPerTurret { get; set; } 
 
         // set of booleans to determine accuracy.
         // False by default so that more can be added 
