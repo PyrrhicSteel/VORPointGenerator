@@ -7,6 +7,7 @@ using VORPointGenerator.Data.Missile;
 using VORPointGenerator.Data.Rocket;
 using VORPointGenerator.Data.Special;
 using VORPointGenerator.Data.Torpedo;
+using VORPointGenerator.Util;
 
 namespace VORPointGenerator.Data.Aircraft
 {
@@ -598,8 +599,9 @@ namespace VORPointGenerator.Data.Aircraft
             // New way, saving to a custom directory in documents
             string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             opPath = documents + @"\My Games\Valkyries of Ran\Aircraft";
-
-            string safeName = clean(name);
+            
+            var san = new SanitizeString();
+            string safeName = san.Sanitize(Name);
 
             try
             {
@@ -612,7 +614,7 @@ namespace VORPointGenerator.Data.Aircraft
             {
                 Console.WriteLine("Failed to create Directory: " + opPath);
             }
-                opPath = opPath + "\\" + countryOfOrigin + " " + type + " " + safeName + ".jpeg";
+                opPath = opPath + "\\" + countryOfOrigin + " " + Type + " " + safeName + ".jpeg";
                 try
             {
                 card.Save(opPath, ImageFormat.Jpeg);
@@ -622,21 +624,6 @@ namespace VORPointGenerator.Data.Aircraft
                 Console.WriteLine("Failed to write ship!");
                 Console.WriteLine(e);
             }
-        }
-        private String clean(string s)
-        {
-            string output = s.Replace("\\", "");
-            output = output.Replace("/", "");
-            output = output.Replace("*", "");
-            output = output.Replace("\"", "");
-            output = output.Replace("<", "");
-            output = output.Replace(">", "");
-            output = output.Replace(".", "");
-            output = output.Replace(":", "");
-            output = output.Replace("|", "");
-            output = output.Replace("?", "");
-
-            return output;
         }
     }
 }

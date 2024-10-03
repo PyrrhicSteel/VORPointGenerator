@@ -1,1347 +1,1347 @@
 {
-  "gunRefrences": [
+  "GunRefrences": [
     {
-      "id": 1,
-      "name": "5-in/38-cal",
-      "calibre": 127,
-      "maxRange": 16070,
-      "armorPenetration": 127,
-      "fireRate": 17,
-      "attackAir": true,
+      "Id": 1,
+      "Name": "5-in/38-cal",
+      "Calibre": 127,
+      "MaxRange": 16070,
+      "ArmorPenetration": 127,
+      "FireRate": 17,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 2,
-      "name": "40mm Bofors L/60",
-      "calibre": 40,
-      "maxRange": 10180,
-      "armorPenetration": 15,
-      "fireRate": 85,
-      "attackAir": true,
+      "Id": 2,
+      "Name": "40mm Bofors L/60",
+      "Calibre": 40,
+      "MaxRange": 10180,
+      "ArmorPenetration": 15,
+      "FireRate": 85,
+      "AttackAir": true,
       "originCountry": "SE"
     },
     {
-      "id": 3,
-      "name": "20mm/70 Oerlikon",
-      "calibre": 20,
-      "maxRange": 4389,
-      "armorPenetration": 0,
-      "fireRate": 285,
-      "attackAir": true,
+      "Id": 3,
+      "Name": "20mm/70 Oerlikon",
+      "Calibre": 20,
+      "MaxRange": 4389,
+      "ArmorPenetration": 0,
+      "FireRate": 285,
+      "AttackAir": true,
       "originCountry": "SE"
     },
     {
-      "id": 4,
-      "name": "8-in/55-cal",
-      "calibre": 203,
-      "maxRange": 29131,
-      "armorPenetration": 254,
-      "fireRate": 4,
-      "attackAir": false,
+      "Id": 4,
+      "Name": "8-in/55-cal",
+      "Calibre": 203,
+      "MaxRange": 29131,
+      "ArmorPenetration": 254,
+      "FireRate": 4,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 5,
-      "name": "5-in/25-cal",
-      "calibre": 127,
-      "maxRange": 13259,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 17,
-      "attackAir": true,
+      "Id": 5,
+      "Name": "5-in/25-cal",
+      "Calibre": 127,
+      "MaxRange": 13259,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 17,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 6,
-      "name": "1.1-in/75-cal",
-      "calibre": 28,
-      "maxRange": 6767,
-      "armorPenetration": 0,
-      "fireRate": 100,
-      "attackAir": true,
+      "Id": 6,
+      "Name": "1.1-in/75-cal",
+      "Calibre": 28,
+      "MaxRange": 6767,
+      "ArmorPenetration": 0,
+      "FireRate": 100,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 7,
-      "name": ".50 M2 HB",
-      "calibre": 12,
-      "maxRange": 1800,
-      "armorPenetration": 2,
-      "fireRate": 525,
-      "attackAir": true,
+      "Id": 7,
+      "Name": ".50 M2 HB",
+      "Calibre": 12,
+      "MaxRange": 1800,
+      "ArmorPenetration": 2,
+      "FireRate": 525,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 8,
-      "name": "12.7 cm/40 Type 89",
-      "calibre": 127,
-      "maxRange": 14800,
-      "armorPenetration": 100, // CITATION NEEDED
-      "fireRate": 8,
-      "attackAir": true,
+      "Id": 8,
+      "Name": "12.7 cm/40 Type 89",
+      "Calibre": 127,
+      "MaxRange": 14800,
+      "ArmorPenetration": 100, // CITATION NEEDED
+      "FireRate": 8,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 9,
-      "name": "25 mm/60 Type 96",
-      "calibre": 25,
-      "maxRange": 6800,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 9,
+      "Name": "25 mm/60 Type 96",
+      "Calibre": 25,
+      "MaxRange": 6800,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 10,
-      "name": "4.7-in/40 QF Mark VIII",
-      "calibre": 120,
-      "maxRange": 14780,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": true,
+      "Id": 10,
+      "Name": "4.7-in/40 QF Mark VIII",
+      "Calibre": 120,
+      "MaxRange": 14780,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 11,
-      "name": "4.5-in/45 QF Marks I - V",
-      "calibre": 114,
-      "maxRange": 18970,
-      "armorPenetration": 63,
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 11,
+      "Name": "4.5-in/45 QF Marks I - V",
+      "Calibre": 114,
+      "MaxRange": 18970,
+      "ArmorPenetration": 63,
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 12,
-      "name": "2-pdr QF MK VIII",
-      "calibre": 40,
-      "maxRange": 4572,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 115,
-      "attackAir": true,
+      "Id": 12,
+      "Name": "2-pdr QF MK VIII",
+      "Calibre": 40,
+      "MaxRange": 4572,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 115,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 13,
-      "name": "155mm/50 Modele 1920",
-      "calibre": 155,
-      "maxRange": 25000,
-      "armorPenetration": 102, // CITATION NEEDED
-      "fireRate": 4,
-      "attackAir": false,
+      "Id": 13,
+      "Name": "155mm/50 Modele 1920",
+      "Calibre": 155,
+      "MaxRange": 25000,
+      "ArmorPenetration": 102, // CITATION NEEDED
+      "FireRate": 4,
+      "AttackAir": false,
       "originCountry": "FR"
     },
     {
-      "id": 14,
-      "name": "75 mm/50 Modele 1922",
-      "calibre": 75,
-      "maxRange": 14100,
-      "armorPenetration": 40, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 14,
+      "Name": "75 mm/50 Modele 1922",
+      "Calibre": 75,
+      "MaxRange": 14100,
+      "ArmorPenetration": 40, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 15,
-      "name": "37 mm/50 Modele 1925",
-      "calibre": 37,
-      "maxRange": 7175,
-      "armorPenetration": 20, // CITATION NEEDED
-      "fireRate": 20,
-      "attackAir": true,
+      "Id": 15,
+      "Name": "37 mm/50 Modele 1925",
+      "Calibre": 37,
+      "MaxRange": 7175,
+      "ArmorPenetration": 20, // CITATION NEEDED
+      "FireRate": 20,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 16,
-      "name": "15 cm SK C/28",
-      "calibre": 150,
-      "maxRange": 23000,
-      "armorPenetration": 213, // CITATION NEEDED
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 16,
+      "Name": "15 cm SK C/28",
+      "Calibre": 150,
+      "MaxRange": 23000,
+      "ArmorPenetration": 213, // CITATION NEEDED
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 17,
-      "name": "10.5 cm SK C/33",
-      "calibre": 105,
-      "maxRange": 17700,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 17,
-      "attackAir": true,
+      "Id": 17,
+      "Name": "10.5 cm SK C/33",
+      "Calibre": 105,
+      "MaxRange": 17700,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 17,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 18,
-      "name": "3.7 cm SK C/30",
-      "calibre": 37,
-      "maxRange": 8500,
-      "armorPenetration": 20, // CITATION NEEDED
-      "fireRate": 30,
-      "attackAir": true,
+      "Id": 18,
+      "Name": "3.7 cm SK C/30",
+      "Calibre": 37,
+      "MaxRange": 8500,
+      "ArmorPenetration": 20, // CITATION NEEDED
+      "FireRate": 30,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 19,
-      "name": "2 cm C/30",
-      "calibre": 20,
-      "maxRange": 4900,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 19,
+      "Name": "2 cm C/30",
+      "Calibre": 20,
+      "MaxRange": 4900,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 20,
-      "name": "135 mm/45 OTO 1937",
-      "calibre": 135,
-      "maxRange": 19600,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 20,
+      "Name": "135 mm/45 OTO 1937",
+      "Calibre": 135,
+      "MaxRange": 19600,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 21,
-      "name": "65 mm/64 OTO 1939",
-      "calibre": 65,
-      "maxRange": 7500,
-      "armorPenetration": 90, // CITATION NEEDED
-      "fireRate": 20,
-      "attackAir": true,
+      "Id": 21,
+      "Name": "65 mm/64 OTO 1939",
+      "Calibre": 65,
+      "MaxRange": 7500,
+      "ArmorPenetration": 90, // CITATION NEEDED
+      "FireRate": 20,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 22,
-      "name": "20 mm/65 OTO 1935",
-      "calibre": 20,
-      "maxRange": 2500,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 22,
+      "Name": "20 mm/65 OTO 1935",
+      "Calibre": 20,
+      "MaxRange": 2500,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 23,
-      "name": "HS.404 (AN/M2 20mm Hispano)",
-      "calibre": 20,
-      "maxRange": 4000, // INACCURIATE, NERFED FROM 6500 FOR BALANCE
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 23,
+      "Name": "HS.404 (AN/M2 20mm Hispano)",
+      "Calibre": 20,
+      "MaxRange": 4000, // INACCURIATE, NERFED FROM 6500 FOR BALANCE
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 24,
-      "name": "M1919 Browning",
-      "calibre": 8,
-      "maxRange": 1400,
-      "armorPenetration": 2, // CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 24,
+      "Name": "M1919 Browning",
+      "Calibre": 8,
+      "MaxRange": 1400,
+      "ArmorPenetration": 2, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 25,
-      "name": "36 cm/45 41st Year Type",
-      "calibre": 356,
-      "maxRange": 35450,
-      "armorPenetration": 500, // CITATION NEEDED
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 25,
+      "Name": "36 cm/45 41st Year Type",
+      "Calibre": 356,
+      "MaxRange": 35450,
+      "ArmorPenetration": 500, // CITATION NEEDED
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "JP"
     },
     {
-      "id": 26,
-      "name": "15 cm/50 41st Year Type",
-      "calibre": 152,
-      "maxRange": 21000,
-      "armorPenetration": 120, // CITATION NEEDED
-      "fireRate": 6,
-      "attackAir": true,
+      "Id": 26,
+      "Name": "15 cm/50 41st Year Type",
+      "Calibre": 152,
+      "MaxRange": 21000,
+      "ArmorPenetration": 120, // CITATION NEEDED
+      "FireRate": 6,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 27,
-      "name": "38 cm SK C/34",
-      "calibre": 380,
-      "maxRange": 36520,
-      "armorPenetration": 742,
-      "fireRate": 3,
-      "attackAir": false,
+      "Id": 27,
+      "Name": "38 cm SK C/34",
+      "Calibre": 380,
+      "MaxRange": 36520,
+      "ArmorPenetration": 742,
+      "FireRate": 3,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 28,
-      "name": "330mm/50 Modele 1931",
-      "calibre": 330,
-      "maxRange": 41700,
-      "armorPenetration": 713,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 28,
+      "Name": "330mm/50 Modele 1931",
+      "Calibre": 330,
+      "MaxRange": 41700,
+      "ArmorPenetration": 713,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "FR"
     },
     {
-      "id": 29,
-      "name": "130mm/45 Modele 1932",
-      "calibre": 130,
-      "maxRange": 20870,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 29,
+      "Name": "130mm/45 Modele 1932",
+      "Calibre": 130,
+      "MaxRange": 20870,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 30,
-      "name": "13.2mm Hotchkiss Modele 1929",
-      "calibre": 13,
-      "maxRange": 1800,
-      "armorPenetration": 2, // CITATION NEEDED
-      "fireRate": 250,
-      "attackAir": true,
+      "Id": 30,
+      "Name": "13.2mm Hotchkiss Modele 1929",
+      "Calibre": 13,
+      "MaxRange": 1800,
+      "ArmorPenetration": 2, // CITATION NEEDED
+      "FireRate": 250,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 31,
-      "name": "16-in/50 Mark 7",
-      "calibre": 406,
-      "maxRange": 38720,
-      "armorPenetration": 829,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 31,
+      "Name": "16-in/50 Mark 7",
+      "Calibre": 406,
+      "MaxRange": 38720,
+      "ArmorPenetration": 829,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 32,
-      "name": "381mm/50 Ansaldo M1939",
-      "calibre": 381,
-      "maxRange": 42800,
-      "armorPenetration": 814,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 32,
+      "Name": "381mm/50 Ansaldo M1939",
+      "Calibre": 381,
+      "MaxRange": 42800,
+      "ArmorPenetration": 814,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 33,
-      "name": "152mm/55 M1936",
-      "calibre": 152,
-      "maxRange": 25740,
-      "armorPenetration": 86,
-      "fireRate": 5,
-      "attackAir": false,
+      "Id": 33,
+      "Name": "152mm/55 M1936",
+      "Calibre": 152,
+      "MaxRange": 25740,
+      "ArmorPenetration": 86,
+      "FireRate": 5,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 34,
-      "name": "90mm/50 OTO M1939",
-      "calibre": 90,
-      "maxRange": 13000,
-      "armorPenetration": 50, //CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 34,
+      "Name": "90mm/50 OTO M1939",
+      "Calibre": 90,
+      "MaxRange": 13000,
+      "ArmorPenetration": 50, //CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 35,
-      "name": "37mm/54 M1934",
-      "calibre": 37,
-      "maxRange": 4000,
-      "armorPenetration": 3, //CITATION NEEDED
-      "fireRate": 90,
-      "attackAir": true,
+      "Id": 35,
+      "Name": "37mm/54 M1934",
+      "Calibre": 37,
+      "MaxRange": 4000,
+      "ArmorPenetration": 3, //CITATION NEEDED
+      "FireRate": 90,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 36,
-      "name": "20mm/65 Breda M1934",
-      "calibre": 20,
-      "maxRange": 2500,
-      "armorPenetration": 2, //CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 36,
+      "Name": "20mm/65 Breda M1934",
+      "Calibre": 20,
+      "MaxRange": 2500,
+      "ArmorPenetration": 2, //CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 37,
-      "name": "14-inch Mk VII",
-      "calibre": 356,
-      "maxRange": 35260,
-      "armorPenetration": 668,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 37,
+      "Name": "14-inch Mk VII",
+      "Calibre": 356,
+      "MaxRange": 35260,
+      "ArmorPenetration": 668,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 38,
-      "name": "5.25-in/50 QF Mk I",
-      "calibre": 134,
-      "maxRange": 23400,
-      "armorPenetration": 76,
-      "fireRate": 8,
-      "attackAir": true,
+      "Id": 38,
+      "Name": "5.25-in/50 QF Mk I",
+      "Calibre": 134,
+      "MaxRange": 23400,
+      "ArmorPenetration": 76,
+      "FireRate": 8,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 39,
-      "name": "380 mm/45 Modele 1935",
-      "calibre": 380,
-      "maxRange": 41700,
-      "armorPenetration": 748,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 39,
+      "Name": "380 mm/45 Modele 1935",
+      "Calibre": 380,
+      "MaxRange": 41700,
+      "ArmorPenetration": 748,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "FR"
     },
     {
-      "id": 40,
-      "name": "152 mm/55 Modele 1930",
-      "calibre": 152,
-      "maxRange": 26474,
-      "armorPenetration": 122,
-      "fireRate": 5,
-      "attackAir": true,
+      "Id": 40,
+      "Name": "152 mm/55 Modele 1930",
+      "Calibre": 152,
+      "MaxRange": 26474,
+      "ArmorPenetration": 122,
+      "FireRate": 5,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 41,
-      "name": "100 mm/45 Modele 1930",
-      "calibre": 100,
-      "maxRange": 15900,
-      "armorPenetration": 95, // CITATION NEEDED
-      "fireRate": 5,
-      "attackAir": true,
+      "Id": 41,
+      "Name": "100 mm/45 Modele 1930",
+      "Calibre": 100,
+      "MaxRange": 15900,
+      "ArmorPenetration": 95, // CITATION NEEDED
+      "FireRate": 5,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 42,
-      "name": "16-in/45 Mark 6",
-      "calibre": 406,
-      "maxRange": 36741,
-      "armorPenetration": 755,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 42,
+      "Name": "16-in/45 Mark 6",
+      "Calibre": 406,
+      "MaxRange": 36741,
+      "ArmorPenetration": 755,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 43,
-      "name": "12-in/52 Pattern 1907",
-      "calibre": 305,
-      "maxRange": 23300,
-      "armorPenetration": 352,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 43,
+      "Name": "12-in/52 Pattern 1907",
+      "Calibre": 305,
+      "MaxRange": 23300,
+      "ArmorPenetration": 352,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "RUS"
     },
     {
-      "id": 44,
-      "name": "120 mm/50 Pattern 1905",
-      "calibre": 120,
-      "maxRange": 23045,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 44,
+      "Name": "120 mm/50 Pattern 1905",
+      "Calibre": 120,
+      "MaxRange": 23045,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "RUS"
     },
     {
-      "id": 45,
-      "name": "76.2 mm/30 Pattern 1914/15",
-      "calibre": 76,
-      "maxRange": 9500,
-      "armorPenetration": 50, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 45,
+      "Name": "76.2 mm/30 Pattern 1914/15",
+      "Calibre": 76,
+      "MaxRange": 9500,
+      "ArmorPenetration": 50, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 46,
-      "name": "20.3 cm/60 SK C/34",
-      "calibre": 203,
-      "maxRange": 33500,
-      "armorPenetration": 240,
-      "fireRate": 5,
-      "attackAir": false,
+      "Id": 46,
+      "Name": "20.3 cm/60 SK C/34",
+      "Calibre": 203,
+      "MaxRange": 33500,
+      "ArmorPenetration": 240,
+      "FireRate": 5,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 47,
-      "name": "6-in/45 BL Mark XII",
-      "calibre": 152,
-      "maxRange": 19660,
-      "armorPenetration": 89,
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 47,
+      "Name": "6-in/45 BL Mark XII",
+      "Calibre": 152,
+      "MaxRange": 19660,
+      "ArmorPenetration": 89,
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 48,
-      "name": "QF 3-pdr QF Mark II",
-      "calibre": 47,
-      "maxRange": 5120,
-      "armorPenetration": 30, // CITATION NEEDED
-      "fireRate": 25,
-      "attackAir": true,
+      "Id": 48,
+      "Name": "QF 3-pdr QF Mark II",
+      "Calibre": 47,
+      "MaxRange": 5120,
+      "ArmorPenetration": 30, // CITATION NEEDED
+      "FireRate": 25,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 49,
-      "name": "6-in/47 Mk 16",
-      "calibre": 152,
-      "maxRange": 21946,
-      "armorPenetration": 180, // CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": false,
+      "Id": 49,
+      "Name": "6-in/47 Mk 16",
+      "Calibre": 152,
+      "MaxRange": 21946,
+      "ArmorPenetration": 180, // CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 50,
-      "name": "14 cm/50 3rd Year type",
-      "calibre": 140,
-      "maxRange": 20574,
-      "armorPenetration": 180, // CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": false,
+      "Id": 50,
+      "Name": "14 cm/50 3rd Year type",
+      "Calibre": 140,
+      "MaxRange": 20574,
+      "ArmorPenetration": 180, // CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": false,
       "originCountry": "JP"
     },
     {
-      "id": 51,
-      "name": "12.7 cm/50 Type 3",
-      "calibre": 127,
-      "maxRange": 18380,
-      "armorPenetration": 200,
-      "fireRate": 5,
-      "attackAir": true,
+      "Id": 51,
+      "Name": "12.7 cm/50 Type 3",
+      "Calibre": 127,
+      "MaxRange": 18380,
+      "ArmorPenetration": 200,
+      "FireRate": 5,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 52,
-      "name": "15 cm/48 Tbts KC/36",
-      "calibre": 150,
-      "maxRange": 25700,
-      "armorPenetration": 160, // CITATION NEEDED
-      "fireRate": 7,
-      "attackAir": true,
+      "Id": 52,
+      "Name": "15 cm/48 Tbts KC/36",
+      "Calibre": 150,
+      "MaxRange": 25700,
+      "ArmorPenetration": 160, // CITATION NEEDED
+      "FireRate": 7,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 53,
-      "name": "120 mm/45 OTO 1926",
-      "calibre": 120,
-      "maxRange": 15500,
-      "armorPenetration": 120, // CITATION NEEDED
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 53,
+      "Name": "120 mm/45 OTO 1926",
+      "Calibre": 120,
+      "MaxRange": 15500,
+      "ArmorPenetration": 120, // CITATION NEEDED
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 54,
-      "name": "10 cm/65 Type 98",
-      "calibre": 100,
-      "maxRange": 19500,
-      "armorPenetration": 150,
-      "fireRate": 19,
-      "attackAir": true,
+      "Id": 54,
+      "Name": "10 cm/65 Type 98",
+      "Calibre": 100,
+      "MaxRange": 19500,
+      "ArmorPenetration": 150,
+      "FireRate": 19,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 55,
-      "name": "40 cm/45 Type 94",
-      "calibre": 460,
-      "maxRange": 42030,
-      "armorPenetration": 864,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 55,
+      "Name": "40 cm/45 Type 94",
+      "Calibre": 460,
+      "MaxRange": 42030,
+      "ArmorPenetration": 864,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "JP"
     },
     {
-      "id": 56,
-      "name": "15.5 cm/60 3rd Year Type",
-      "calibre": 155,
-      "maxRange": 27400,
-      "armorPenetration": 108,
-      "fireRate": 5,
-      "attackAir": true,
+      "Id": 56,
+      "Name": "15.5 cm/60 3rd Year Type",
+      "Calibre": 155,
+      "MaxRange": 27400,
+      "ArmorPenetration": 108,
+      "FireRate": 5,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 56,
-      "name": "20 cm/50 3rd Year Type",
-      "calibre": 200,
-      "maxRange": 28000,
-      "armorPenetration": 230, //CITATION NEEDED
-      "fireRate": 3,
-      "attackAir": false,
+      "Id": 56,
+      "Name": "20 cm/50 3rd Year Type",
+      "Calibre": 200,
+      "MaxRange": 28000,
+      "ArmorPenetration": 230, //CITATION NEEDED
+      "FireRate": 3,
+      "AttackAir": false,
       "originCountry": "JP"
     },
     {
-      "id": 57,
-      "name": "12 cm/45 10th Year Type",
-      "calibre": 120,
-      "maxRange": 16000,
-      "armorPenetration": 108,
-      "fireRate": 8,
-      "attackAir": true,
+      "Id": 57,
+      "Name": "12 cm/45 10th Year Type",
+      "Calibre": 120,
+      "MaxRange": 16000,
+      "ArmorPenetration": 108,
+      "FireRate": 8,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 58,
-      "name": "12 cm/45 10th Year Type",
-      "calibre": 120,
-      "maxRange": 16000,
-      "armorPenetration": 108,
-      "fireRate": 8,
-      "attackAir": true,
+      "Id": 58,
+      "Name": "12 cm/45 10th Year Type",
+      "Calibre": 120,
+      "MaxRange": 16000,
+      "ArmorPenetration": 108,
+      "FireRate": 8,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 59,
-      "name": "Type 97 Aircraft Machine Gun",
-      "calibre": 8,
-      "maxRange": 600, //CITATION NEEDED
-      "armorPenetration": 10,
-      "fireRate": 700,
-      "attackAir": true,
+      "Id": 59,
+      "Name": "Type 97 Aircraft Machine Gun",
+      "Calibre": 8,
+      "MaxRange": 600, //CITATION NEEDED
+      "ArmorPenetration": 10,
+      "FireRate": 700,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 60,
-      "name": "Type 99-1 Mk. 3 Cannon",
-      "calibre": 20,
-      "maxRange": 800, //CITATION NEEDED
-      "armorPenetration": 30,
-      "fireRate": 520,
-      "attackAir": true,
+      "Id": 60,
+      "Name": "Type 99-1 Mk. 3 Cannon",
+      "Calibre": 20,
+      "MaxRange": 800, //CITATION NEEDED
+      "ArmorPenetration": 30,
+      "FireRate": 520,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 61,
-      "name": "320 mm/44 Model 1936",
-      "calibre": 320,
-      "maxRange": 29400,
-      "armorPenetration": 380, // CITATION NEEDED
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 61,
+      "Name": "320 mm/44 Model 1936",
+      "Calibre": 320,
+      "MaxRange": 29400,
+      "ArmorPenetration": 380, // CITATION NEEDED
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 62,
-      "name": "130 mm/50 B13 Pattern 1936",
-      "calibre": 130,
-      "maxRange": 25597,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": false,
+      "Id": 62,
+      "Name": "130 mm/50 B13 Pattern 1936",
+      "Calibre": 130,
+      "MaxRange": 25597,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": false,
       "originCountry": "RUS"
     },
     {
-      "id": 63,
-      "name": "45 mm/46 21-K",
-      "calibre": 45,
-      "maxRange": 9200,
-      "armorPenetration": 20, // CITATION NEEDED
-      "fireRate": 30,
-      "attackAir": true,
+      "Id": 63,
+      "Name": "45 mm/46 21-K",
+      "Calibre": 45,
+      "MaxRange": 9200,
+      "ArmorPenetration": 20, // CITATION NEEDED
+      "FireRate": 30,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 64,
-      "name": "MG 81",
-      "calibre": 8,
-      "maxRange": 1400,
-      "armorPenetration": 1, // CITATION NEEDED
-      "fireRate": 1600,
-      "attackAir": true,
+      "Id": 64,
+      "Name": "MG 81",
+      "Calibre": 8,
+      "MaxRange": 1400,
+      "ArmorPenetration": 1, // CITATION NEEDED
+      "FireRate": 1600,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 65,
-      "name": "MG 17",
-      "calibre": 8,
-      "maxRange": 1400,
-      "armorPenetration": 1, // CITATION NEEDED
-      "fireRate": 1200,
-      "attackAir": true,
+      "Id": 65,
+      "Name": "MG 17",
+      "Calibre": 8,
+      "MaxRange": 1400,
+      "ArmorPenetration": 1, // CITATION NEEDED
+      "FireRate": 1200,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 66,
-      "name": "MG FF",
-      "calibre": 20,
-      "maxRange": 1400,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 1200,
-      "attackAir": true,
+      "Id": 66,
+      "Name": "MG FF",
+      "Calibre": 20,
+      "MaxRange": 1400,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 1200,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 67,
-      "name": "MG 131",
-      "calibre": 13,
-      "maxRange": 1800,
-      "armorPenetration": 2, // CITATION NEEDED
-      "fireRate": 900,
-      "attackAir": true,
+      "Id": 67,
+      "Name": "MG 131",
+      "Calibre": 13,
+      "MaxRange": 1800,
+      "ArmorPenetration": 2, // CITATION NEEDED
+      "FireRate": 900,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 68,
-      "name": "MG 151/20",
-      "calibre": 20,
-      "maxRange": 1200,
-      "armorPenetration": 10, // CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 68,
+      "Name": "MG 151/20",
+      "Calibre": 20,
+      "MaxRange": 1200,
+      "ArmorPenetration": 10, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 69,
-      "name": "4-in/50-cal",
-      "calibre": 102,
-      "maxRange": 17920,
-      "armorPenetration": 56,
-      "fireRate": 8,
-      "attackAir": false,
+      "Id": 69,
+      "Name": "4-in/50-cal",
+      "Calibre": 102,
+      "MaxRange": 17920,
+      "ArmorPenetration": 56,
+      "FireRate": 8,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 70,
-      "name": "3-in/23-cal",
-      "calibre": 76,
-      "maxRange": 9144,
-      "armorPenetration": 40,
-      "fireRate": 9,
-      "attackAir": true,
+      "Id": 70,
+      "Name": "3-in/23-cal",
+      "Calibre": 76,
+      "MaxRange": 9144,
+      "ArmorPenetration": 40,
+      "FireRate": 9,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 71,
-      "name": "Vickers .50",
-      "calibre": 12,
-      "maxRange": 1800,
-      "armorPenetration": 2,
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 71,
+      "Name": "Vickers .50",
+      "Calibre": 12,
+      "MaxRange": 1800,
+      "ArmorPenetration": 2,
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 72,
-      "name": "152mm/55 M1926",
-      "calibre": 152,
-      "maxRange": 28400,
-      "armorPenetration": 86, // CITATION NEEDED
-      "fireRate": 4,
-      "attackAir": false,
+      "Id": 72,
+      "Name": "152mm/55 M1926",
+      "Calibre": 152,
+      "MaxRange": 28400,
+      "ArmorPenetration": 86, // CITATION NEEDED
+      "FireRate": 4,
+      "AttackAir": false,
       "originCountry": "ITA"
     },
     {
-      "id": 73,
-      "name": "10 cm/50 Skoda K10",
-      "calibre": 100,
-      "maxRange": 15240,
-      "armorPenetration": 60, // CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": false,
+      "Id": 73,
+      "Name": "10 cm/50 Skoda K10",
+      "Calibre": 100,
+      "MaxRange": 15240,
+      "ArmorPenetration": 60, // CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": false,
       "originCountry": "AUST"
     },
     {
-      "id": 74,
-      "name": "Breda Model 31",
-      "calibre": 13,
-      "maxRange": 2000,
-      "armorPenetration": 5, // CITATION NEEDED
-      "fireRate": 400,
-      "attackAir": true,
+      "Id": 74,
+      "Name": "Breda Model 31",
+      "Calibre": 13,
+      "MaxRange": 2000,
+      "ArmorPenetration": 5, // CITATION NEEDED
+      "FireRate": 400,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 74,
-      "name": "Bofors 15 cm/50 Mark 6",
-      "calibre": 150,
-      "maxRange": 21214,
-      "armorPenetration": 213, // CITATION NEEDED
-      "fireRate": 8,
-      "attackAir": false,
+      "Id": 74,
+      "Name": "Bofors 15 cm/50 Mark 6",
+      "Calibre": 150,
+      "MaxRange": 21214,
+      "ArmorPenetration": 213, // CITATION NEEDED
+      "FireRate": 8,
+      "AttackAir": false,
       "originCountry": "NL"
     },
     {
-      "id": 75,
-      "name": "6-in/53 Mark 12",
-      "calibre": 152,
-      "maxRange": 23774,
-      "armorPenetration": 102,
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 75,
+      "Name": "6-in/53 Mark 12",
+      "Calibre": 152,
+      "MaxRange": 23774,
+      "ArmorPenetration": 102,
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 76,
-      "name": "3-in/50 Mark 6",
-      "calibre": 762,
-      "maxRange": 13350,
-      "armorPenetration": 40, // CITATION NEEDED
-      "fireRate": 20,
-      "attackAir": true,
+      "Id": 76,
+      "Name": "3-in/50 Mark 6",
+      "Calibre": 762,
+      "MaxRange": 13350,
+      "ArmorPenetration": 40, // CITATION NEEDED
+      "FireRate": 20,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 77,
-      "name": "38 cm SK L/45",
-      "calibre": 380,
-      "maxRange": 23200,
-      "armorPenetration": 390,
-      "fireRate": 3,
-      "attackAir": false,
+      "Id": 77,
+      "Name": "38 cm SK L/45",
+      "Calibre": 380,
+      "MaxRange": 23200,
+      "ArmorPenetration": 390,
+      "FireRate": 3,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 78,
-      "name": "15 cm/45 SK L/45",
-      "calibre": 150,
-      "maxRange": 17600,
-      "armorPenetration": 213,
-      "fireRate": 7,
-      "attackAir": false,
+      "Id": 78,
+      "Name": "15 cm/45 SK L/45",
+      "Calibre": 150,
+      "MaxRange": 17600,
+      "ArmorPenetration": 213,
+      "FireRate": 7,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 79,
-      "name": "8.8 cm SK L/45",
-      "calibre": 88,
-      "maxRange": 14100,
-      "armorPenetration": 42, // CITATION NEEDED
-      "fireRate": 15,
-      "attackAir": false,
+      "Id": 79,
+      "Name": "8.8 cm SK L/45",
+      "Calibre": 88,
+      "MaxRange": 14100,
+      "ArmorPenetration": 42, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": false,
       "originCountry": "GER"
     },
     {
-      "id": 80,
-      "name": "7.7 mm Type 92",
-      "calibre": 8,
-      "maxRange": 1400,
-      "armorPenetration": 3, // CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": false,
+      "Id": 80,
+      "Name": "7.7 mm Type 92",
+      "Calibre": 8,
+      "MaxRange": 1400,
+      "ArmorPenetration": 3, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": false,
       "originCountry": "JP"
     },
     {
-      "id": 81,
-      "name": "6-in/50 BL Mark XXIII",
-      "calibre": 152,
-      "maxRange": 23300,
-      "armorPenetration": 152, // 76 MM @ 11430, buffed to bring in line with closer range data of other weapons
-      "fireRate": 8,
-      "attackAir": false,
+      "Id": 81,
+      "Name": "6-in/50 BL Mark XXIII",
+      "Calibre": 152,
+      "MaxRange": 23300,
+      "ArmorPenetration": 152, // 76 MM @ 11430, buffed to bring in line with closer range data of other weapons
+      "FireRate": 8,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 82,
-      "name": "4-in/45 QF Mark XVI",
-      "calibre": 102,
-      "maxRange": 11890,
-      "armorPenetration": 60, // CITATION NEEDED
-      "fireRate": 20,
-      "attackAir": true,
+      "Id": 82,
+      "Name": "4-in/45 QF Mark XVI",
+      "Calibre": 102,
+      "MaxRange": 11890,
+      "ArmorPenetration": 60, // CITATION NEEDED
+      "FireRate": 20,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 83,
-      "name": "DShK 1938",
-      "calibre": 13,
-      "maxRange": 2000,
-      "armorPenetration": 2, // CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 83,
+      "Name": "DShK 1938",
+      "Calibre": 13,
+      "MaxRange": 2000,
+      "ArmorPenetration": 2, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 84,
-      "name": "16-in/45 Mark I",
-      "calibre": 406,
-      "maxRange": 34750,
-      "armorPenetration": 366, 
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 84,
+      "Name": "16-in/45 Mark I",
+      "Calibre": 406,
+      "MaxRange": 34750,
+      "ArmorPenetration": 366, 
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 85,
-      "name": "15-in Mark I",
-      "calibre": 381,
-      "maxRange": 29720,
-      "armorPenetration": 406, 
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 85,
+      "Name": "15-in Mark I",
+      "Calibre": 381,
+      "MaxRange": 29720,
+      "ArmorPenetration": 406, 
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 86,
-      "name": "15-in Mark I",
-      "calibre": 381,
-      "maxRange": 29720,
-      "armorPenetration": 406, 
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 86,
+      "Name": "15-in Mark I",
+      "Calibre": 381,
+      "MaxRange": 29720,
+      "ArmorPenetration": 406, 
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 87,
-      "name": "12-pdr 20cwt QF HA Mark I",
-      "calibre": 381,
-      "maxRange": 29720,
-      "armorPenetration": 406, 
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 87,
+      "Name": "12-pdr 20cwt QF HA Mark I",
+      "Calibre": 381,
+      "MaxRange": 29720,
+      "ArmorPenetration": 406, 
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 88,
-      "name": "12-pdr 20cwt QF HA Mark I",
-      "calibre": 381,
-      "maxRange": 29720,
-      "armorPenetration": 406, 
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 88,
+      "Name": "12-pdr 20cwt QF HA Mark I",
+      "Calibre": 381,
+      "MaxRange": 29720,
+      "ArmorPenetration": 406, 
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 89,
-      "name": "Vickers K Machine Gun",
-      "calibre": 8,
-      "maxRange": 1200,
-      "armorPenetration": 1, // CITATION NEEDED 
-      "fireRate": 1200,
-      "attackAir": false,
+      "Id": 89,
+      "Name": "Vickers K Machine Gun",
+      "Calibre": 8,
+      "MaxRange": 1200,
+      "ArmorPenetration": 1, // CITATION NEEDED 
+      "FireRate": 1200,
+      "AttackAir": false,
       "originCountry": "UK"
     },
     {
-      "id": 90,
-      "name": "15 cm/53",
-      "calibre": 150,
-      "maxRange": 25969,
-      "armorPenetration": 213, // CITATION NEEDED
-      "fireRate": 15,
-      "attackAir": true,
+      "Id": 90,
+      "Name": "15 cm/53",
+      "Calibre": 150,
+      "MaxRange": 25969,
+      "ArmorPenetration": 213, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": true,
       "originCountry": "NL"
     },
     {
-      "id": 91,
-      "name": "12.7 cm/45 SK C/34",
-      "calibre": 127,
-      "maxRange": 17400,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 18,
-      "attackAir": true,
+      "Id": 91,
+      "Name": "12.7 cm/45 SK C/34",
+      "Calibre": 127,
+      "MaxRange": 17400,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 18,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 92,
-      "name": "8 cm/40 3rd Year Type",
-      "calibre": 80,
-      "maxRange": 10800,
-      "armorPenetration": 42, // CITATION NEEDED
-      "fireRate": 20,
-      "attackAir": true,
+      "Id": 92,
+      "Name": "8 cm/40 3rd Year Type",
+      "Calibre": 80,
+      "MaxRange": 10800,
+      "ArmorPenetration": 42, // CITATION NEEDED
+      "FireRate": 20,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 93,
-      "name": "37 mm/54 Breda",
-      "calibre": 37,
-      "maxRange": 4000,
-      "armorPenetration": 30, // CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 93,
+      "Name": "37 mm/54 Breda",
+      "Calibre": 37,
+      "MaxRange": 4000,
+      "ArmorPenetration": 30, // CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "ITY"
     },
     {
-      "id": 94,
-      "name": "16-in/45 Mark 1",
-      "calibre": 406,
-      "maxRange": 36210,
-      "armorPenetration": 655,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 94,
+      "Name": "16-in/45 Mark 1",
+      "Calibre": 406,
+      "MaxRange": 36210,
+      "ArmorPenetration": 655,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 95,
-      "name": "14-in/45 Mark 8",
-      "calibre": 356,
-      "maxRange": 31090,
-      "armorPenetration": 457,
-      "fireRate": 2,
-      "attackAir": false,
+      "Id": 95,
+      "Name": "14-in/45 Mark 8",
+      "Calibre": 356,
+      "MaxRange": 31090,
+      "ArmorPenetration": 457,
+      "FireRate": 2,
+      "AttackAir": false,
       "originCountry": "USA"
     },
     {
-      "id": 96,
-      "name": "Darne Machine Gun",
-      "calibre": 8,
-      "maxRange": 500,
-      "armorPenetration": 1, // CITATION NEEDED
-      "fireRate": 1200,
-      "attackAir": true,
+      "Id": 96,
+      "Name": "Darne Machine Gun",
+      "Calibre": 8,
+      "MaxRange": 500,
+      "ArmorPenetration": 1, // CITATION NEEDED
+      "FireRate": 1200,
+      "AttackAir": true,
       "originCountry": "FRA"
     },
     {
-      "id": 97,
-      "name": "7.5 cm/60 Model 1928",
-      "calibre": 75,
-      "maxRange": 16000,
-      "armorPenetration": 40, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 97,
+      "Name": "7.5 cm/60 Model 1928",
+      "Calibre": 75,
+      "MaxRange": 16000,
+      "ArmorPenetration": 40, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "SE"
     },
     {
-      "id": 98,
-      "name": "15.2 cm/55 Model 1930",
-      "calibre": 152,
-      "maxRange": 24400,
-      "armorPenetration": 140, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": false,
+      "Id": 98,
+      "Name": "15.2 cm/55 Model 1930",
+      "Calibre": 152,
+      "MaxRange": 24400,
+      "ArmorPenetration": 140, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": false,
       "originCountry": "SE"
     },
     {
-      "id": 99,
-      "name": "25 mm akan L/64 Model 1932",
-      "calibre": 25,
-      "maxRange": 5400,
-      "armorPenetration": 5, // CITATION NEEDED
-      "fireRate": 180,
-      "attackAir": true,
+      "Id": 99,
+      "Name": "25 mm akan L/64 Model 1932",
+      "Calibre": 25,
+      "MaxRange": 5400,
+      "ArmorPenetration": 5, // CITATION NEEDED
+      "FireRate": 180,
+      "AttackAir": true,
       "originCountry": "SE"
     },
     {
-      "id": 100,
-      "name": "Breda SADFAT",
-      "calibre": 13,
-      "maxRange": 1800,
-      "armorPenetration": 1, // CITATION NEEDED
-      "fireRate": 900,
-      "attackAir": true,
+      "Id": 100,
+      "Name": "Breda SADFAT",
+      "Calibre": 13,
+      "MaxRange": 1800,
+      "ArmorPenetration": 1, // CITATION NEEDED
+      "FireRate": 900,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 101,
-      "name": "138.6 mm/50 Modele 1929",
-      "calibre": 139,
-      "maxRange": 20000,
-      "armorPenetration": 127, // CITATION NEEDED
-      "fireRate": 12,
-      "attackAir": true,
+      "Id": 101,
+      "Name": "138.6 mm/50 Modele 1929",
+      "Calibre": 139,
+      "MaxRange": 20000,
+      "ArmorPenetration": 127, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 102,
-      "name": "90 mm/50 Modele 1926",
-      "calibre": 90,
-      "maxRange": 15440,
-      "armorPenetration": 50, // CITATION NEEDED
-      "fireRate": 15,
-      "attackAir": true,
+      "Id": 102,
+      "Name": "90 mm/50 Modele 1926",
+      "Calibre": 90,
+      "MaxRange": 15440,
+      "ArmorPenetration": 50, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": true,
       "originCountry": "FR"
     },
     {
-      "id": 103,
-      "name": "30 mm Type 5",
-      "calibre": 30,
-      "maxRange": 3000,
-      "armorPenetration": 30, // CITATION NEEDED
-      "fireRate": 350,
-      "attackAir": true,
+      "Id": 103,
+      "Name": "30 mm Type 5",
+      "Calibre": 30,
+      "MaxRange": 3000,
+      "ArmorPenetration": 30, // CITATION NEEDED
+      "FireRate": 350,
+      "AttackAir": true,
       "originCountry": "JPN"
     },
 
 
     // MODERN WEAPONS
     {
-      "id": 10000,
-      "name": "5-in/62 Mark 45 Mod 2",
-      "calibre": 127,
-      "maxRange": 23130,
-      "armorPenetration": 108, //CITATION NEEDED
-      "fireRate": 16,
-      "attackAir": true,
+      "Id": 10000,
+      "Name": "5-in/62 Mark 45 Mod 2",
+      "Calibre": 127,
+      "MaxRange": 23130,
+      "ArmorPenetration": 108, //CITATION NEEDED
+      "FireRate": 16,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10001,
-      "name": "20mm M61 Vulcan",
-      "calibre": 20,
-      "maxRange": 1490,
-      "armorPenetration": 13,
-      "fireRate": 6000,
-      "attackAir": true,
+      "Id": 10001,
+      "Name": "20mm M61 Vulcan",
+      "Calibre": 20,
+      "MaxRange": 1490,
+      "ArmorPenetration": 13,
+      "FireRate": 6000,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10002,
-      "name": "25mm/87 Bushmaster",
-      "calibre": 25,
-      "maxRange": 2457,
-      "armorPenetration": 40, //CITATION NEEDED
-      "fireRate": 200,
-      "attackAir": true,
+      "Id": 10002,
+      "Name": "25mm/87 Bushmaster",
+      "Calibre": 25,
+      "MaxRange": 2457,
+      "ArmorPenetration": 40, //CITATION NEEDED
+      "FireRate": 200,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10003,
-      "name": "25mm GAU-22A Equalizer",
-      "calibre": 25,
-      "maxRange": 3660,
-      "armorPenetration": 40,
-      "fireRate": 3300,
-      "attackAir": true,
+      "Id": 10003,
+      "Name": "25mm GAU-22A Equalizer",
+      "Calibre": 25,
+      "MaxRange": 3660,
+      "ArmorPenetration": 40,
+      "FireRate": 3300,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10004,
-      "name": "Otobreda 127/54 Compact",
-      "calibre": 127,
-      "maxRange": 23130,
-      "armorPenetration": 108, //CITATION NEEDED
-      "fireRate": 40,
-      "attackAir": true,
+      "Id": 10004,
+      "Name": "Otobreda 127/54 Compact",
+      "Calibre": 127,
+      "MaxRange": 23130,
+      "ArmorPenetration": 108, //CITATION NEEDED
+      "FireRate": 40,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 10005,
-      "name": "Sumitomo Type 74",
-      "calibre": 8,
-      "maxRange": 1000,
-      "armorPenetration": 1, //CITATION NEEDED
-      "fireRate": 1000,
-      "attackAir": true,
+      "Id": 10005,
+      "Name": "Sumitomo Type 74",
+      "Calibre": 8,
+      "MaxRange": 1000,
+      "ArmorPenetration": 1, //CITATION NEEDED
+      "FireRate": 1000,
+      "AttackAir": true,
       "originCountry": "JP"
     },
     {
-      "id": 10006,
-      "name": "Bofors 57 mm L/70",
-      "calibre": 57,
-      "maxRange": 17000,
-      "armorPenetration": 60, //CITATION NEEDED
-      "fireRate": 220,
-      "attackAir": true,
+      "Id": 10006,
+      "Name": "Bofors 57 mm L/70",
+      "Calibre": 57,
+      "MaxRange": 17000,
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 220,
+      "AttackAir": true,
       "originCountry": "SE"
     },
     {
-      "id": 10007,
-      "name": "30mm MK 44 Bushmaster II",
-      "calibre": 30,
-      "maxRange": 3000,
-      "armorPenetration": 50, //CITATION NEEDED
-      "fireRate": 200,
-      "attackAir": true,
+      "Id": 10007,
+      "Name": "30mm MK 44 Bushmaster II",
+      "Calibre": 30,
+      "MaxRange": 3000,
+      "ArmorPenetration": 50, //CITATION NEEDED
+      "FireRate": 200,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10008,
-      "name": "OTO Melara 76 mm",
-      "calibre": 76,
-      "maxRange": 20000, // SAPOMER round. VULCANO round is 40000
-      "armorPenetration": 95, //CITATION NEEDED
-      "fireRate": 120,
-      "attackAir": true,
+      "Id": 10008,
+      "Name": "OTO Melara 76 mm",
+      "Calibre": 76,
+      "MaxRange": 20000, // SAPOMER round. VULCANO round is 40000
+      "ArmorPenetration": 95, //CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 10009,
-      "name": "20 mm modele F2 gun",
-      "calibre": 76,
-      "maxRange": 1500,
-      "armorPenetration": 50, //CITATION NEEDED
-      "fireRate": 900,
-      "attackAir": true,
+      "Id": 10009,
+      "Name": "20 mm modele F2 gun",
+      "Calibre": 76,
+      "MaxRange": 1500,
+      "ArmorPenetration": 50, //CITATION NEEDED
+      "FireRate": 900,
+      "AttackAir": true,
       "originCountry": "FRA"
     },
     {
-      "id": 10010,
-      "name": "FN MAG",
-      "calibre": 8,
-      "maxRange": 1800,
-      "armorPenetration": 1, //CITATION NEEDED
-      "fireRate": 1000,
-      "attackAir": true,
+      "Id": 10010,
+      "Name": "FN MAG",
+      "Calibre": 8,
+      "MaxRange": 1800,
+      "ArmorPenetration": 1, //CITATION NEEDED
+      "FireRate": 1000,
+      "AttackAir": true,
       "originCountry": "BE"
     },
     {
-      "id": 10011,
-      "name": "60 KW HELIOS", // 60 KW Laser
-      "calibre": 1, // ITS A LASER
-      "maxRange": 5000, // CITATION NEEDED
-      "armorPenetration": 30, // Arbitrary number to give it power 1
-      "fireRate": 3600, // 60 Hz lol
-      "attackAir": true,
+      "Id": 10011,
+      "Name": "60 KW HELIOS", // 60 KW Laser
+      "Calibre": 1, // ITS A LASER
+      "MaxRange": 5000, // CITATION NEEDED
+      "ArmorPenetration": 30, // Arbitrary number to give it power 1
+      "FireRate": 3600, // 60 Hz lol
+      "AttackAir": true,
       "laser": true,
       "originCountry": "USA"
     },
     {
-      "id": 10012,
-      "name": "155mm/60 Mk. 51 AGS",
-      "calibre": 155,
-      "maxRange": 40000, // Assumed ammunition is modified/reporpused M982 Excalibur rounds
-      "armorPenetration": 120, //CITATION NEEDED
-      "fireRate": 10,
-      "attackAir": true,
+      "Id": 10012,
+      "Name": "155mm/60 Mk. 51 AGS",
+      "Calibre": 155,
+      "MaxRange": 40000, // Assumed ammunition is modified/reporpused M982 Excalibur rounds
+      "ArmorPenetration": 120, //CITATION NEEDED
+      "FireRate": 10,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10013,
-      "name": "GAU-8 Avenger",
-      "calibre": 30,
-      "maxRange": 3660, 
-      "armorPenetration": 76, //CITATION NEEDED
-      "fireRate": 3900,
-      "attackAir": true,
+      "Id": 10013,
+      "Name": "GAU-8 Avenger",
+      "Calibre": 30,
+      "MaxRange": 3660, 
+      "ArmorPenetration": 76, //CITATION NEEDED
+      "FireRate": 3900,
+      "AttackAir": true,
       "originCountry": "USA"
     },
     {
-      "id": 10014,
-      "name": "100 mm/55 modele 1968 CADAM",
-      "calibre": 100,
-      "maxRange": 17260,
-      "armorPenetration": 95, //CITATION NEEDED
-      "fireRate": 78,
-      "attackAir": true,
+      "Id": 10014,
+      "Name": "100 mm/55 modele 1968 CADAM",
+      "Calibre": 100,
+      "MaxRange": 17260,
+      "ArmorPenetration": 95, //CITATION NEEDED
+      "FireRate": 78,
+      "AttackAir": true,
       "originCountry": "FRA"
     },
     {
-      "id": 10015,
-      "name": "AK-130",
-      "calibre": 130,
-      "maxRange": 23000,
-      "armorPenetration": 108, //CITATION NEEDED
-      "fireRate": 40,
-      "attackAir": true,
+      "Id": 10015,
+      "Name": "AK-130",
+      "Calibre": 130,
+      "MaxRange": 23000,
+      "ArmorPenetration": 108, //CITATION NEEDED
+      "FireRate": 40,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10016,
-      "name": "AK-630",
-      "calibre": 30,
-      "maxRange": 4000,
-      "armorPenetration": 60, //CITATION NEEDED
-      "fireRate": 5000,
-      "attackAir": true,
+      "Id": 10016,
+      "Name": "AK-630",
+      "Calibre": 30,
+      "MaxRange": 4000,
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 5000,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10017,
-      "name": "Rheinmetall GDM-008",
-      "calibre": 35,
-      "maxRange": 5000,
-      "armorPenetration": 75, //CITATION NEEDED
-      "fireRate": 1000,
-      "attackAir": true,
+      "Id": 10017,
+      "Name": "Rheinmetall GDM-008",
+      "Calibre": 35,
+      "MaxRange": 5000,
+      "ArmorPenetration": 75, //CITATION NEEDED
+      "FireRate": 1000,
+      "AttackAir": true,
       "originCountry": "CH"
     },
     {
-      "id": 10018,
-      "name": "Denel Land Systems GI-2",
-      "calibre": 20,
-      "maxRange": 1500,
-      "armorPenetration": 45, //CITATION NEEDED
-      "fireRate": 750,
-      "attackAir": true,
+      "Id": 10018,
+      "Name": "Denel Land Systems GI-2",
+      "Calibre": 20,
+      "MaxRange": 1500,
+      "ArmorPenetration": 45, //CITATION NEEDED
+      "FireRate": 750,
+      "AttackAir": true,
       "originCountry": "SA"
     },
     {
-      "id": 10019,
-      "name": "GSh-6-30",
-      "calibre": 30,
-      "maxRange": 4000,
-      "armorPenetration": 60, //CITATION NEEDED
-      "fireRate": 6000,
-      "attackAir": true,
+      "Id": 10019,
+      "Name": "GSh-6-30",
+      "Calibre": 30,
+      "MaxRange": 4000,
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 6000,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10020,
-      "name": "KPV",
-      "calibre": 15,
-      "maxRange": 4000,
-      "armorPenetration": 8,
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 10020,
+      "Name": "KPV",
+      "Calibre": 15,
+      "MaxRange": 4000,
+      "ArmorPenetration": 8,
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10021,
-      "name": "GSh-30-1",
-      "calibre": 30,
-      "maxRange": 1800,
-      "armorPenetration": 30, //CITATION NEEDED
-      "fireRate": 1800,
-      "attackAir": true,
+      "Id": 10021,
+      "Name": "GSh-30-1",
+      "Calibre": 30,
+      "MaxRange": 1800,
+      "ArmorPenetration": 30, //CITATION NEEDED
+      "FireRate": 1800,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10022,
-      "name": "GSh-23",
-      "calibre": 23,
-      "maxRange": 1800,
-      "armorPenetration": 26, //CITATION NEEDED
-      "fireRate": 3400,
-      "attackAir": true,
+      "Id": 10022,
+      "Name": "GSh-23",
+      "Calibre": 23,
+      "MaxRange": 1800,
+      "ArmorPenetration": 26, //CITATION NEEDED
+      "FireRate": 3400,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10023,
-      "name": "4.5-in/55 Mark 8",
-      "calibre": 114,
-      "maxRange": 27500,
-      "armorPenetration": 90, //CITATION NEEDED
-      "fireRate": 26,
-      "attackAir": true,
+      "Id": 10023,
+      "Name": "4.5-in/55 Mark 8",
+      "Calibre": 114,
+      "MaxRange": 27500,
+      "ArmorPenetration": 90, //CITATION NEEDED
+      "FireRate": 26,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
-      "id": 10024,
-      "name": "Oerlikon KCB",
-      "calibre": 30,
-      "maxRange": 3000,
-      "armorPenetration": 50, //CITATION NEEDED
-      "fireRate": 600,
-      "attackAir": true,
+      "Id": 10024,
+      "Name": "Oerlikon KCB",
+      "Calibre": 30,
+      "MaxRange": 3000,
+      "ArmorPenetration": 50, //CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 10025,
-      "name": "OTO 127/64 LW",
-      "calibre": 127,
-      "maxRange": 120000,
-      "armorPenetration": 108, //CITATION NEEDED
-      "fireRate": 32,
-      "attackAir": true,
+      "Id": 10025,
+      "Name": "OTO 127/64 LW",
+      "Calibre": 127,
+      "MaxRange": 120000,
+      "ArmorPenetration": 108, //CITATION NEEDED
+      "FireRate": 32,
+      "AttackAir": true,
       "originCountry": "ITA"
     },
     {
-      "id": 10026,
-      "name": "Mauser BK-27",
-      "calibre": 27,
-      "maxRange": 2500,
-      "armorPenetration": 50, //CITATION NEEDED
-      "fireRate": 1700,
-      "attackAir": true,
+      "Id": 10026,
+      "Name": "Mauser BK-27",
+      "Calibre": 27,
+      "MaxRange": 2500,
+      "ArmorPenetration": 50, //CITATION NEEDED
+      "FireRate": 1700,
+      "AttackAir": true,
       "originCountry": "GER"
     },
     {
-      "id": 10027,
-      "name": "AK-100",
-      "calibre": 100,
-      "maxRange": 20000,
-      "armorPenetration": 90, //CITATION NEEDED
-      "fireRate": 60,
-      "attackAir": true,
+      "Id": 10027,
+      "Name": "AK-100",
+      "Calibre": 100,
+      "MaxRange": 20000,
+      "ArmorPenetration": 90, //CITATION NEEDED
+      "FireRate": 60,
+      "AttackAir": true,
       "originCountry": "RUS"
     },
     {
-      "id": 10028,
-      "name": "H/PJ-11",
-      "calibre": 30,
-      "maxRange": 5000,
-      "armorPenetration": 76, //CITATION NEEDED
-      "fireRate": 5800,
-      "attackAir": true,
+      "Id": 10028,
+      "Name": "H/PJ-11",
+      "Calibre": 30,
+      "MaxRange": 5000,
+      "ArmorPenetration": 76, //CITATION NEEDED
+      "FireRate": 5800,
+      "AttackAir": true,
       "originCountry": "PRC"
     },
   ]

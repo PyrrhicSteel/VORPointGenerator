@@ -10,18 +10,18 @@
       "thrust": 2380,
       "weight": 4238,
       "rateOfClimb": 22,
-      "serviceCieling": 12600,
+      "ServiceCeiling": 12600,
       "cameo": "f4u-corsair.png",
       "artist": "鹿ビスケット",
       "artLink": "pixiv.net/en/artworks/111954646",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 6
         }
       ],
-      "rocketRefrences": [
+      "rocketReferences": [
         {
           "rocketName": "HVAR",
           "rocketNumber": 8,
@@ -41,18 +41,18 @@
       "thrust": 1200,
       "weight": 2226,
       "rateOfClimb": 12,
-      "serviceCieling": 12000,
+      "ServiceCeiling": 12000,
       "cameo": "f4f-wildcat.png",
       "artist": "Jura Cambri",
       "artLink": "pixiv.net/en/artworks/110510710",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
           "number": 2,
@@ -72,15 +72,15 @@
       "thrust": 1200,
       "weight": 2146,
       "rateOfClimb": 12,
-      "serviceCieling": 10100,
-      "gunRefrences": [
+      "ServiceCeiling": 10100,
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M57, 250 lb.",
           "number": 2,
@@ -100,23 +100,23 @@
       "thrust": 2200,
       "weight": 4190,
       "rateOfClimb": 13,
-      "serviceCieling": 22000,
+      "ServiceCeiling": 22000,
       "cameo": "f6f-hellcat.png",
       "artist": "常盤仙渓",
       "artLink": "pixiv.net/en/artworks/110221714",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 4
         },
         {
-          "gunRefrenceID": 23,
+          "GunReferenceID": 23,
           "turretCount": 0,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
           "number": 3,
@@ -136,18 +136,18 @@
       "thrust": 2250,
       "weight": 3470,
       "rateOfClimb": 23,
-      "serviceCieling": 12400,
+      "ServiceCeiling": 12400,
       "cameo": "f8f-bearcat.jpg",
       "artist": "ナカイケイラ",
       "artLink": "pixiv.net/en/artworks/118186660",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 23,
+          "GunReferenceID": 23,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
       ],
-      "rocketRefrences": [
+      "rocketReferences": [
         {
           "rocketName": "Tiny Tim",
           "rocketNumber": 2,
@@ -168,23 +168,23 @@
       "thrust": 1900,
       "weight": 4784,
       "rateOfClimb": 9,
-      "serviceCieling": 8900,
+      "ServiceCeiling": 8900,
       "cameo": "sb2c-helldiver.jpg",
       "artist": "ES饺子",
       "artLink": "pixiv.net/en/artworks/81391272",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 23,
+          "GunReferenceID": 23,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
-      "rocketRefrences": [
+      "rocketReferences": [
         {
           "rocketName": "Tiny Tim",
           "rocketNumber": 2,
@@ -194,7 +194,7 @@
           "railDropped": true
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M66, 2000 lb.",
           "number": 1,
@@ -214,23 +214,23 @@
       "thrust": 1200,
       "weight": 2905,
       "rateOfClimb": 9,
-      "serviceCieling": 7780,
+      "ServiceCeiling": 7780,
       "cameo": "sbd-dauntless.jpg",
       "artist": "potudamu hisou",
       "artLink": "danbooru.donmai.us/posts/7129414",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M65, 1000 lb.",
           "number": 1,
@@ -250,23 +250,23 @@
       "thrust": 900,
       "weight": 4213,
       "rateOfClimb": 4,
-      "serviceCieling": 5900,
+      "ServiceCeiling": 5900,
       "cameo": "tbd-devastator.jpg",
       "artist": "jura cambri",
       "artLink": "twitter.com/canbri2/status/1561995680918294529",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 2,
           "turretCount": 1,
@@ -285,23 +285,23 @@
       "thrust": 1700,
       "weight": 7047,
       "rateOfClimb": 6,
-      "serviceCieling": 6900,
+      "ServiceCeiling": 6900,
       "cameo": "tbfAvenger.jpg",
       "artist": "鹿ビスケット",
       "artLink": "pixiv.net/en/artworks/112706080",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 2,
           "turretCount": 1,
@@ -320,23 +320,23 @@
       "thrust": 450,
       "weight": 1513,
       "rateOfClimb": 5,
-      "serviceCieling": 5500,
+      "ServiceCeiling": 5500,
       "cameo": "os2u-kingfisher.jpg",
       "artist": "六羽田トモエ",
       "artLink": "twitter.com/6thbody/status/1738928095615451212",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
           "number": 1,
@@ -357,18 +357,18 @@
       "thrust": 710,
       "weight": 1216,
       "rateOfClimb": 13,
-      "serviceCieling": 9800,
+      "ServiceCeiling": 9800,
       "cameo": "a5m.jpg",
       "artist": "ぽるさす",
       "artLink": "twitter.com/ilves_tomo/status/1021814666270392320",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "30 kg Type 99",
           "number": 1,
@@ -388,23 +388,23 @@
       "thrust": 950,
       "weight": 1680,
       "rateOfClimb": 16,
-      "serviceCieling": 10000,
+      "ServiceCeiling": 10000,
       "cameo": "a6m-zero.jpg",
       "artist": "TimmyYen",
       "artLink": "twitter.com/TimmyYen/status/1274201660684775424",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 60,
+          "GunReferenceID": 60,
           "turretCount": 0,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "60 kg Type 99",
           "number": 2,
@@ -424,13 +424,13 @@
       "thrust": 1800,
       "weight": 3226,
       "rateOfClimb": 16,
-      "serviceCieling": 10900,
+      "ServiceCeiling": 10900,
       "cameo": "a7m-reppu.png",
       "artist": "harumiya hiro",
       "artLink": "pixiv.net/artworks/74792014",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 60,
+          "GunReferenceID": 60,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
@@ -446,18 +446,18 @@
       "thrust": 1850,
       "weight": 3645,
       "rateOfClimb": 13,
-      "serviceCieling": 12000,
+      "ServiceCeiling": 12000,
       "cameo": "j7w-shinden.jpg",
       "artist": "Yenさん",
       "artLink": "pixiv.net/artworks/96390731",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 103,
+          "GunReferenceID": 103,
           "turretCount": 0,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "60 kg Type 99",
           "number": 4,
@@ -477,23 +477,23 @@
       "thrust": 1200,
       "weight": 2570,
       "rateOfClimb": 9,
-      "serviceCieling": 10500,
+      "ServiceCeiling": 10500,
       "cameo": "d3a.jpg",
       "artist": "ベロベロマン",
       "artLink": "pixiv.net/en/artworks/69400720",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 kg Type 99 No. 25",
           "number": 1,
@@ -513,23 +513,23 @@
       "thrust": 1250,
       "weight": 3810,
       "rateOfClimb": 10,
-      "serviceCieling": 11250,
+      "ServiceCeiling": 11250,
       "cameo": "b7a-ryusei.png",
       "artist": "JsnGoat",
       "artLink": "pixiv.net/en/artworks/59468506",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 60,
+          "GunReferenceID": 60,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 kg Type 99 No. 25",
           "number": 2,
@@ -549,23 +549,23 @@
       "thrust": 970,
       "weight": 2279,
       "rateOfClimb": 7,
-      "serviceCieling": 8260,
+      "ServiceCeiling": 8260,
       "cameo": "b5n.png",
       "artist": "春宮ひろ",
       "artLink": "pixiv.net/en/artworks/68519516",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10,
           "turretCount": 1,
@@ -584,23 +584,23 @@
       "thrust": 1680,
       "weight": 3010,
       "rateOfClimb": 8,
-      "serviceCieling": 9040,
+      "ServiceCeiling": 9040,
       "cameo": "b6n-tenzan.jpg",
       "artist": "neko (yanshoujie)",
       "artLink": "pixiv.net/en/artworks/78465098",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 11,
           "turretCount": 1,
@@ -619,15 +619,15 @@
       "thrust": 700,
       "weight": 2000,
       "rateOfClimb": 8,
-      "serviceCieling": 6000,
-      "gunRefrences": [
+      "ServiceCeiling": 6000,
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10,
           "turretCount": 1,
@@ -646,23 +646,23 @@
       "thrust": 1400,
       "weight": 2440,
       "rateOfClimb": 14,
-      "serviceCieling": 10700,
+      "ServiceCeiling": 10700,
       "cameo": "d4y-suisei.jpg",
       "artist": "Erica",
       "artLink": "pixiv.net/en/artworks/41519309",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "500 kg Type 2 No. 50",
           "number": 1,
@@ -682,23 +682,23 @@
       "thrust": 895,
       "weight": 2945,
       "rateOfClimb": 10,
-      "serviceCieling": 10000,
+      "ServiceCeiling": 10000,
       "cameo": "e16a-zuiun.jpg",
       "artist": "茶原",
       "artLink": "pixiv.net/en/artworks/64961169",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 60,
+          "GunReferenceID": 60,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 kg Type 99 No. 25",
           "number": 1,
@@ -717,23 +717,23 @@
       "thrust": 460,
       "weight": 1320,
       "rateOfClimb": 8,
-      "serviceCieling": 10000,
+      "ServiceCeiling": 10000,
       "cameo": "e8n.png",
       "artist": "kitsuneno denpachi",
       "artLink": "danbooru.donmai.us/posts/2196032",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 59,
+          "GunReferenceID": 59,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "30 kg Type 99",
           "number": 1,
@@ -752,18 +752,18 @@
       "thrust": 1060,
       "weight": 1320,
       "rateOfClimb": 8,
-      "serviceCieling": 10000,
+      "ServiceCeiling": 10000,
       "cameo": "e13a.jpg",
       "artist": "HJL",
       "artLink": "pixiv.net/en/artworks/61336193",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 80,
+          "GunReferenceID": 80,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 kg Type 99 No. 25",
           "number": 1,
@@ -784,15 +784,15 @@
       "thrust": 750,
       "weight": 4900,
       "rateOfClimb": 5,
-      "serviceCieling": 5600,
-      "gunRefrences": [
+      "ServiceCeiling": 5600,
+      "GunReferences": [
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 2,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 lb GP Bomb",
           "number": 1,
@@ -811,18 +811,18 @@
       "thrust": 1200,
       "weight": 2226,
       "rateOfClimb": 12,
-      "serviceCieling": 12000,
+      "ServiceCeiling": 12000,
       "cameo": "f4f-wildcat.png",
       "artist": "Jura Cambri",
       "artLink": "pixiv.net/en/artworks/110510710",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
           "number": 1,
@@ -841,20 +841,20 @@
       "thrust": 890,
       "weight": 2493,
       "rateOfClimb": 8,
-      "serviceCieling": 6200,
-      "gunRefrences": [
+      "ServiceCeiling": 6200,
+      "GunReferences": [
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 0,
           "gunsPerTurret": 4
         },
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "500 lb. Bomb",
           "number": 1,
@@ -874,18 +874,18 @@
       "thrust": 2380,
       "weight": 4238,
       "rateOfClimb": 22,
-      "serviceCieling": 12600,
+      "ServiceCeiling": 12600,
       "cameo": "f4u-corsair.png",
       "artist": "鹿ビスケット",
       "artLink": "pixiv.net/en/artworks/111954646",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 0,
           "gunsPerTurret": 6
         }
       ],
-      "rocketRefrences": [
+      "rocketReferences": [
         {
           "rocketName": "HVAR",
           "rocketNumber": 8,
@@ -904,18 +904,18 @@
       "thrust": 1585,
       "weight": 2412,
       "rateOfClimb": 17,
-      "serviceCieling": 11000,
+      "ServiceCeiling": 11000,
       "cameo": "supermarineSeafire.jpg",
       "artist": "空のカケラ",
       "artLink": "pixiv.net/en/artworks/97280159",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 23,
+          "GunReferenceID": 23,
           "turretCount": 0,
           "gunsPerTurret": 4
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 lb GP Bomb",
           "number": 2,
@@ -934,15 +934,15 @@
       "thrust": 1300,
       "weight": 3182,
       "rateOfClimb": 6,
-      "serviceCieling": 8300,
-      "gunRefrences": [
+      "ServiceCeiling": 8300,
+      "GunReferences": [
         {
-          "gunRefrenceID": 23,
+          "GunReferenceID": 23,
           "turretCount": 0,
           "gunsPerTurret": 8
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 lb GP Bomb",
           "number": 1,
@@ -964,20 +964,20 @@
       "thrust": 690,
       "weight": 1903,
       "rateOfClimb": 4,
-      "serviceCieling": 5000,
-      "gunRefrences": [
+      "ServiceCeiling": 5000,
+      "GunReferences": [
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 14,
           "turretCount": 1,
@@ -996,15 +996,15 @@
       "thrust": 1640,
       "weight": 4241,
       "rateOfClimb": 4,
-      "serviceCieling": 4900,
-      "gunRefrences": [
+      "ServiceCeiling": 4900,
+      "GunReferences": [
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 14,
           "turretCount": 1,
@@ -1025,28 +1025,28 @@
       "thrust": 1050,
       "weight": 2990,
       "rateOfClimb": 6,
-      "serviceCieling": 7010,
+      "ServiceCeiling": 7010,
       "cameo": "ar196.png",
       "artist": "harumiya hiro",
       "artLink": "pixiv.net/en/artworks/69478825",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 64,
+          "GunReferenceID": 64,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 65,
+          "GunReferenceID": 65,
           "turretCount": 1,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 66,
+          "GunReferenceID": 66,
           "turretCount": 0,
           "gunsPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "SC50",
           "number": 1,
@@ -1066,23 +1066,23 @@
       "thrust": 1400,
       "weight": 3900,
       "rateOfClimb": 4, // TODO: CONFIRM THIS
-      "serviceCieling": 7300,
+      "ServiceCeiling": 7300,
       "cameo": "ju87.png",
       "artist": "安倍泰師",
       "artLink": "pixiv.net/en/artworks/75462537",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 65,
+          "GunReferenceID": 65,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 64,
+          "GunReferenceID": 64,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "SC250",
           "number": 1,
@@ -1110,23 +1110,23 @@
       "thrust": 1455,
       "weight": 2247,
       "rateOfClimb": 20, // TODO: CONFIRM THIS
-      "serviceCieling": 12000,
+      "ServiceCeiling": 12000,
       "cameo": "bf109.jpg",
       "artist": "neko (yanshoujie)",
       "artLink": "pixiv.net/en/artworks/79622961",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 67,
+          "GunReferenceID": 67,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 68,
+          "GunReferenceID": 68,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "SC50",
           "number": 2,
@@ -1147,20 +1147,20 @@
       "thrust": 1100,
       "weight": 2806,
       "rateOfClimb": 3, // CITATION NEEDED
-      "serviceCieling": 8200,
-      "gunRefrences": [
+      "ServiceCeiling": 8200,
+      "GunReferences": [
         {
-          "gunRefrenceID": 65,
+          "GunReferenceID": 65,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 66,
+          "GunReferenceID": 66,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 12,
           "turretCount": 1,
@@ -1181,15 +1181,15 @@
       "thrust": 720,
       "weight": 2050,
       "rateOfClimb": 1,
-      "serviceCieling": 6000,
-      "gunRefrences": [
+      "ServiceCeiling": 6000,
+      "GunReferences": [
         {
-          "gunRefrenceID": 96,
+          "GunReferenceID": 96,
           "turretCount": 2,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "75 kg GP",
           "number": 1,
@@ -1210,10 +1210,10 @@
       "thrust": 700,
       "weight": 1776,
       "rateOfClimb": 7,
-      "serviceCieling": 6000,
-      "gunRefrences": [
+      "ServiceCeiling": 6000,
+      "GunReferences": [
         {
-          "gunRefrenceID": 96,
+          "GunReferenceID": 96,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
@@ -1229,20 +1229,20 @@
       "thrust": 1159,
       "weight": 2495,
       "rateOfClimb": 13, 
-      "serviceCieling": 11000,
-      "gunRefrences": [
+      "ServiceCeiling": 11000,
+      "GunReferences": [
         {
-          "gunRefrenceID": 100,
+          "GunReferenceID": 100,
           "turretCount": 0,
           "gunsPerTurret": 2
         },
         {
-          "gunRefrenceID": 68,
+          "GunReferenceID": 68,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "500 kg", // CAN'T FIND NAME 
           "number": 1,
@@ -1264,10 +1264,10 @@
       "thrust": 225,
       "weight": 1102,
       "rateOfClimb": 2,
-      "serviceCieling": 3600,
-      "gunRefrences": [
+      "ServiceCeiling": 3600,
+      "GunReferences": [
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
@@ -1283,20 +1283,20 @@
       "thrust": 1050,
       "weight": 1148,
       "rateOfClimb": 6,
-      "serviceCieling": 6900,
-      "gunRefrences": [
+      "ServiceCeiling": 6900,
+      "GunReferences": [
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 0,
           "gunsPerTurret": 1
         },
         {
-          "gunRefrenceID": 89,
+          "GunReferenceID": 89,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "250 kg",
           "number": 1,
@@ -1317,19 +1317,19 @@
       "thrust": 1890,
       "weight": 6895,
       "rateOfClimb": 9,
-      "serviceCieling": 3700,
+      "ServiceCeiling": 3700,
       "cameo": "mh-60-seahawk.jpg",
       "artist": "嘉志",
       "artLink": "pixiv.net/en/artworks/77513514",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10000,
           "turretCount": 2,
@@ -1354,27 +1354,27 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "fa-18f.jpg",
       "artist": "amisu",
       "artLink": "danbooru.donmai.us/posts/1038566",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "missileReferenceID": 1,
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -1398,27 +1398,27 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "fa-18e.jpg",
       "artist": "ES饺子",
       "artLink": "pixiv.net/en/artworks/78769667",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 7,
+          "missileReferenceID": 7,
           "turretCount": 1,
           "missilesPerTurret": 8,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -1442,20 +1442,20 @@
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
       "weight": 14552,
       "rateOfClimb": 228,
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "ea-18g.jpg",
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/56675869",
       "steelHull": true,
       "missiles": [
         {
-          "missileRefrenceID": 8,
+          "missileReferenceID": 8,
           "turretCount": 1,
           "missilesPerTurret": 2,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -1486,27 +1486,27 @@
       "thrust": 16784, // weight (14552 kg) * thrust-to-weight ratio (1.07)  
       "weight": 15686,
       "rateOfClimb": 257, // CITATION NEEDED (probably classified)
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "f-35c.jpg",
       "artist": "Yenさん",
       "artLink": "pixiv.net/en/artworks/89731379",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10003,
+          "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 7,
+          "missileReferenceID": 7,
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 9,
+          "missileReferenceID": 9,
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
@@ -1534,7 +1534,7 @@
       "thrust": 10200,
       "weight": 40200,
       "rateOfClimb": 10, // CITATION NEEDED
-      "serviceCieling": 10600,
+      "ServiceCeiling": 10600,
       "steelHull": true,
       "specialAbilities": [
         {
@@ -1560,26 +1560,26 @@
       "thrust": 5320, // weight (11321 kg) * thrust-to-weight ratio (0.47)  
       "weight": 11321,
       "rateOfClimb": 30,
-      "serviceCieling": 13700,
+      "ServiceCeiling": 13700,
       "cameo": "a-10c.jpg",
       "artist": "Zephyr",
       "artLink": "pixiv.net/en/artworks/47122246",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10013,
+          "GunReferenceID": 10013,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
       ],
-      "bombRefrences": [
+      "bombReferences": [
         {
           "name": "Mark 84 2000 lb.",
           "number": 8,
@@ -1608,14 +1608,14 @@
       "thrust": 33094, // weight (87090 kg) * thrust-to-weight ratio (0.38)  
       "weight": 87090,
       "rateOfClimb": 28,
-      "serviceCieling": 18000,
+      "ServiceCeiling": 18000,
       "cameo": "b1b.png",
       "artist": "ふゆのぶ",
       "artLink": "pixiv.net/en/artworks/7382867",
       "steelHull": true,
       "missiles": [
         {
-          "missileRefrenceID": 18,
+          "missileReferenceID": 18,
           "turretCount": 1,
           "missilesPerTurret": 30
         }
@@ -1641,27 +1641,27 @@
       "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
       "weight": 14729,
       "rateOfClimb": 257, // CITATION NEEDED (probably classified)
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "f-35bj.jpg",
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/117844088",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10003,
+          "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 7,
+          "missileReferenceID": 7,
           "turretCount": 1,
           "missilesPerTurret": 8,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2,
           "dataLink": true
@@ -1689,16 +1689,16 @@
       "thrust": 1800,
       "weight": 6895,
       "rateOfClimb": 9,
-      "serviceCieling": 5790,
+      "ServiceCeiling": 5790,
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10005, // CITATION NEEDED
+          "GunReferenceID": 10005, // CITATION NEEDED
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10002,
           "turretCount": 2,
@@ -1724,27 +1724,27 @@
       "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
       "weight": 14729,
       "rateOfClimb": 257, // CITATION NEEDED (probably classified)
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "f-35b.jpg",
       "artist": "ITO DYNAMICS",
       "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10003,
+          "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 13,
+          "missileReferenceID": 13,
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 9,
+          "missileReferenceID": 9,
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
@@ -1773,27 +1773,27 @@
       "thrust": 12650, // weight (11000 kg) * thrust-to-weight ratio (1.15)  
       "weight": 11000,
       "rateOfClimb": 315,
-      "serviceCieling": 19812,
+      "ServiceCeiling": 19812,
       "cameo": "eurofighterTyphoon.jpg",
       "artist": "ツバサ",
       "artLink": "pixiv.net/en/artworks/148055",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10026,
+          "GunReferenceID": 10026,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 40,
+          "missileReferenceID": 40,
           "turretCount": 1,
           "missilesPerTurret": 6,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 39,
+          "missileReferenceID": 39,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -1818,9 +1818,9 @@
       "thrust": 2100,
       "weight": 10500,
       "rateOfClimb": 9,
-      "serviceCieling": 4575,
+      "ServiceCeiling": 4575,
       "steelHull": true,
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10003,
           "turretCount": 4,
@@ -1846,19 +1846,19 @@
       "thrust": 4834,
       "weight": 6400,
       "rateOfClimb": 8,
-      "serviceCieling": 6000,
+      "ServiceCeiling": 6000,
       "steelHull": true,
       "cameo": "nh90.jpg",
       "artist": "OnDaDoor",
       "artLink": "pixiv.net/en/artworks/69295911",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10010, // CITATION NEEDED
+          "GunReferenceID": 10010, // CITATION NEEDED
           "turretCount": 2,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10006,
           "turretCount": 2,
@@ -1883,27 +1883,27 @@
       "thrust": 12650, // weight (11000 kg) * thrust-to-weight ratio (1.15)  
       "weight": 11000,
       "rateOfClimb": 315,
-      "serviceCieling": 19812,
+      "ServiceCeiling": 19812,
       "cameo": "eurofighterTyphoon.jpg",
       "artist": "ツバサ",
       "artLink": "pixiv.net/en/artworks/148055",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10026,
+          "GunReferenceID": 10026,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 38,
+          "missileReferenceID": 38,
           "turretCount": 1,
           "missilesPerTurret": 2,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 39,
+          "missileReferenceID": 39,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -1929,19 +1929,19 @@
       "thrust": 4834,
       "weight": 6400,
       "rateOfClimb": 8,
-      "serviceCieling": 6000,
+      "ServiceCeiling": 6000,
       "steelHull": true,
       "cameo": "nh90.jpg",
       "artist": "OnDaDoor",
       "artLink": "pixiv.net/en/artworks/69295911",
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10010, // CITATION NEEDED
+          "GunReferenceID": 10010, // CITATION NEEDED
           "turretCount": 2,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10006,
           "turretCount": 2,
@@ -1966,19 +1966,19 @@
       "thrust": 1890,
       "weight": 6895,
       "rateOfClimb": 9,
-      "serviceCieling": 3700,
+      "ServiceCeiling": 3700,
       "cameo": "mh-60-seahawk.jpg",
       "artist": "嘉志",
       "artLink": "pixiv.net/en/artworks/77513514",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10000,
           "turretCount": 2,
@@ -2004,9 +2004,9 @@
       "thrust": 4460,
       "weight": 6500,
       "rateOfClimb": 9, // CITATION NEEDED
-      "serviceCieling": 5000,
+      "ServiceCeiling": 5000,
       "steelHull": true,
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10007,
           "turretCount": 1,
@@ -2031,26 +2031,26 @@
       "thrust": 11760, // weight (12000 kg) * thrust-to-weight ratio (0.98)  
       "weight": 12000,
       "rateOfClimb": 330,
-      "serviceCieling": 17500,
+      "ServiceCeiling": 17500,
       "cameo": "mig-29k.jpg",
       "artist": "R T",
       "artLink": "artstation.com/artwork/ell3YY",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10021,
+          "GunReferenceID": 10021,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 30,
+          "missileReferenceID": 30,
           "turretCount": 1,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 31,
+          "missileReferenceID": 31,
           "turretCount": 1,
           "missilesPerTurret": 4
         }
@@ -2075,26 +2075,26 @@
       "thrust": 15272, // weight (18400 kg) * thrust-to-weight ratio (0.83)  
       "weight": 18400,
       "rateOfClimb": 246,
-      "serviceCieling": 17000,
+      "ServiceCeiling": 17000,
       "cameo": "Su-33.jpg",
       "artist": "ﾏｸｰ",
       "artLink": "pixiv.net/en/artworks/10213",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10021,
+          "GunReferenceID": 10021,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 36,
+          "missileReferenceID": 36,
           "turretCount": 1,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 37,
+          "missileReferenceID": 37,
           "turretCount": 1,
           "missilesPerTurret": 8
         }
@@ -2119,18 +2119,18 @@
       "thrust": 60000,  
       "weight": 90000,
       "rateOfClimb": 10,
-      "serviceCieling": 13716,
+      "ServiceCeiling": 13716,
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10022,
+          "GunReferenceID": 10022,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 32,
+          "missileReferenceID": 32,
           "turretCount": 1,
           "missilesPerTurret": 14
         }
@@ -2155,21 +2155,21 @@
       "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
       "weight": 58000,
       "rateOfClimb": 15,
-      "serviceCieling": 13300,
+      "ServiceCeiling": 13300,
       "cameo": "tu-22m.jpg",
       "artist": "ツバサ❏Art Book Ch",
       "artLink": "pixiv.net/en/artworks/20041640",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10022,
+          "GunReferenceID": 10022,
           "turretCount": 1,
           "gunsPerTurret": 2
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 33,
+          "missileReferenceID": 33,
           "turretCount": 1,
           "missilesPerTurret": 3
         }
@@ -2194,14 +2194,14 @@
       "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
       "weight": 58000,
       "rateOfClimb": 15,
-      "serviceCieling": 13300,
+      "ServiceCeiling": 13300,
       "cameo": "tu-160.jpg",
       "artist": "ツバサ❏Art Book Ch",
       "artLink": "pixiv.net/en/artworks/430167",
       "steelHull": true,
       "missiles": [
         {
-          "missileRefrenceID": 34,
+          "missileReferenceID": 34,
           "turretCount": 2,
           "missilesPerTurret": 12
         }
@@ -2226,7 +2226,7 @@
       "thrust": 18900, // weight (58000 kg) * thrust-to-weight ratio (0.252)  
       "weight": 75000,
       "rateOfClimb": 10,
-      "serviceCieling": 12000,
+      "ServiceCeiling": 12000,
       "steelHull": true,
       "specialAbilities": [
         {
@@ -2252,12 +2252,12 @@
       "thrust": 1890,
       "weight": 6895,
       "rateOfClimb": 9,
-      "serviceCieling": 3700,
+      "ServiceCeiling": 3700,
       "cameo": "harbinZ-9.png",
       "artist": "hallelujah_zeng",
       "artLink": "pixiv.net/en/artworks/107810925",
       "steelHull": true,
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10012,
           "turretCount": 2,
@@ -2285,27 +2285,27 @@
       "thrust": 11395, // weight (10455 kg) * thrust-to-weight ratio (1.09)  
       "weight": 10455,
       "rateOfClimb": 250,
-      "serviceCieling": 15000,
+      "ServiceCeiling": 15000,
       "cameo": "cf-188.jpg",
       "artist": "Bartol Rendulić",
       "artLink": "bartoleum.artstation.com/projects/KarKo",
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 23,
+          "missileReferenceID": 23,
           "turretCount": 1,
           "missilesPerTurret": 6,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 6,
+          "missileReferenceID": 6,
           "turretCount": 1,
           "missilesPerTurret": 2
         }
@@ -2330,16 +2330,16 @@
       "thrust": 6000,
       "weight": 7076,
       "rateOfClimb": 9,
-      "serviceCieling": 4600,
+      "ServiceCeiling": 4600,
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 1,
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatRefrences": [
+      "torpedoBatReferences": [
         {
           "torpRefrenceID": 10002,
           "turretCount": 2,
@@ -2364,18 +2364,18 @@
       "thrust": 2534,
       "weight": 7225,
       "rateOfClimb": 9, // CITATION NEEDED
-      "serviceCieling": 4600, // CITATION NEEDED
+      "ServiceCeiling": 4600, // CITATION NEEDED
       "steelHull": true,
-      "gunRefrences": [
+      "GunReferences": [
         {
-          "gunRefrenceID": 10010,
+          "GunReferenceID": 10010,
           "turretCount": 2,
           "gunsPerTurret": 1
         }
       ],
       "missiles": [
         {
-          "missileRefrenceID": 45,
+          "missileReferenceID": 45,
           "turretCount": 1,
           "missilesPerTurret": 4
         }

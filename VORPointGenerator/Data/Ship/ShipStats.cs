@@ -13,6 +13,7 @@ using VORPointGenerator.Data.Battery;
 using VORPointGenerator.Data.Missile;
 using VORPointGenerator.Data.Special;
 using VORPointGenerator.Data.Torpedo;
+using VORPointGenerator.Util;
 
 namespace VORPointGenerator.Data.Ship
 {
@@ -34,7 +35,6 @@ namespace VORPointGenerator.Data.Ship
         public List<BatteryStats> GunBatteries { get; set; } = new List<BatteryStats>();
         public List<TorpedoStats> TorpedoBatteries { get; set; } = new List<TorpedoStats>();
         public List<MissileStats> MissileBatteries { get; set; } = new List<MissileStats>();
-
         public List<SpecialAbility> SpecialAbilities { get; set; } = new List<SpecialAbility>();
 
         public int PointValue { get; set; }
@@ -595,7 +595,8 @@ namespace VORPointGenerator.Data.Ship
             string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             opPath = documents + @"\My Games\Valkyries of Ran\Ships";
 
-            string safeName = clean(name);
+            var san = new SanitizeString();
+            string safeName = san.Sanitize(Name);
 
             try
             {
@@ -608,7 +609,7 @@ namespace VORPointGenerator.Data.Ship
             {
                 Console.WriteLine("Failed to create Directory: " + opPath);
             }
-                opPath = opPath + "\\" + shipFaction + " " + hullCode + " " + safeName + ".jpeg";
+                opPath = opPath + "\\" + ShipFaction + " " + HullCode + " " + safeName + ".jpeg";
             try
             {
                 card.Save(opPath, ImageFormat.Jpeg);
@@ -618,21 +619,6 @@ namespace VORPointGenerator.Data.Ship
                 Console.WriteLine("Failed to write ship!");
                 Console.WriteLine(e);
             }
-        }
-        private String clean(string s)
-        {
-            string output = s.Replace("\\", "");
-            output = output.Replace("/", "");
-            output = output.Replace("*", "");
-            output = output.Replace("\"", "");
-            output = output.Replace("<", "");
-            output = output.Replace(">", "");
-            output = output.Replace(".", "");
-            output = output.Replace(":", "");
-            output = output.Replace("|", "");
-            output = output.Replace("?", "");
-
-            return output;
         }
     }
 }

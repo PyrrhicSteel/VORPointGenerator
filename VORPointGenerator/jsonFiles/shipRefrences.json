@@ -18,7 +18,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -30,7 +30,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -42,14 +42,14 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 46,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -74,7 +74,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 4,
+          "GunReferenceID": 4,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -83,7 +83,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -111,7 +111,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -123,14 +123,14 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 24,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -155,7 +155,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 18,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -167,14 +167,14 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 21,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 28,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -199,7 +199,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -207,7 +207,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -232,7 +232,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -241,7 +241,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -268,7 +268,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -277,7 +277,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -302,7 +302,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -331,7 +331,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 11,
+          "GunReferenceID": 11,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -342,7 +342,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 6,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -373,7 +373,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 11,
+          "GunReferenceID": 11,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -385,21 +385,21 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 5,
           "gunsPerTurret": 8,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 29,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -424,14 +424,14 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 13,
+          "GunReferenceID": 13,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 14,
+          "GunReferenceID": 14,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -440,7 +440,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 15,
+          "GunReferenceID": 15,
           "turretCount": 8,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -450,7 +450,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 1,
+          "TorpReferenceID": 1,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -474,7 +474,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 16,
+          "GunReferenceID": 16,
           "turretCount": 16,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -483,7 +483,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -493,13 +493,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 11,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 28,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -524,7 +524,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 20,
+          "GunReferenceID": 20,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -536,7 +536,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 21,
+          "GunReferenceID": 21,
           "turretCount": 12,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -547,7 +547,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 22,
+          "GunReferenceID": 22,
           "turretCount": 6,
           "gunsPerTurret": 6,
           "localOpticalDirector": true
@@ -571,7 +571,7 @@
       "artLink": "pixiv.net/en/artworks/52519690",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -579,7 +579,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -587,7 +587,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 14,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -612,7 +612,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 25,
+          "GunReferenceID": 25,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -620,21 +620,21 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 26,
+          "GunReferenceID": 26,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 59,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -658,7 +658,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 27,
+          "GunReferenceID": 27,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -666,14 +666,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 16,
+          "GunReferenceID": 16,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -682,13 +682,13 @@
 
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -697,7 +697,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -720,7 +720,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 28,
+          "GunReferenceID": 28,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -729,7 +729,7 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 29,
+          "GunReferenceID": 29,
           "turretCount": 3,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -738,7 +738,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 29,
+          "GunReferenceID": 29,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -747,13 +747,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 15,
+          "GunReferenceID": 15,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 32,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -777,7 +777,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 31,
+          "GunReferenceID": 31,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -789,7 +789,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -803,13 +803,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 10,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 49,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -832,7 +832,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 37,
+          "GunReferenceID": 37,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -842,7 +842,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 37,
+          "GunReferenceID": 37,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -852,7 +852,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 38,
+          "GunReferenceID": 38,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "opticalDirector": true,
@@ -863,20 +863,20 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 6,
           "gunsPerTurret": 8,
           "opticalDirector": true,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 36,
           "gunsPerTurret": 1
         }
@@ -898,7 +898,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 39,
+          "GunReferenceID": 39,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -908,7 +908,7 @@
           "poorShellQuality": true
         },
         {
-          "gunRefrenceID": 40,
+          "GunReferenceID": 40,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "opticalDirector": true,
@@ -917,7 +917,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 41,
+          "GunReferenceID": 41,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "opticalDirector": true,
@@ -926,13 +926,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 15,
+          "GunReferenceID": 15,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 36,
           "gunsPerTurret": 1
         }
@@ -954,7 +954,7 @@
       "artLink": "www.pixiv.net/en/artworks/45631448",
       "batteries": [
         {
-          "gunRefrenceID": 42,
+          "GunReferenceID": 42,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -966,7 +966,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -980,13 +980,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 19,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 67,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1011,7 +1011,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 61,
+          "GunReferenceID": 61,
           "turretCount": 2,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1019,7 +1019,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 61,
+          "GunReferenceID": 61,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1027,21 +1027,21 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 20,
+          "GunReferenceID": 20,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 34,
+          "GunReferenceID": 34,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -1049,7 +1049,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1073,7 +1073,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 77,
+          "GunReferenceID": 77,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1081,7 +1081,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 61,
+          "GunReferenceID": 61,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1089,7 +1089,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 79,
+          "GunReferenceID": 79,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1098,7 +1098,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5, //CITATION NEEDED
+          "TorpReferenceID": 5, //CITATION NEEDED
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1124,7 +1124,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 43,
+          "GunReferenceID": 43,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1132,14 +1132,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 44,
+          "GunReferenceID": 44,
           "turretCount": 16,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 45,
+          "GunReferenceID": 45,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1148,7 +1148,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1172,7 +1172,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 84,
+          "GunReferenceID": 84,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1181,14 +1181,14 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 47,
+          "GunReferenceID": 47,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1199,7 +1199,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1223,7 +1223,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 85,
+          "GunReferenceID": 85,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1232,14 +1232,14 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 47,
+          "GunReferenceID": 47,
           "turretCount": 12,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1249,7 +1249,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1274,7 +1274,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 25,
+          "GunReferenceID": 25,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1282,7 +1282,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 26,
+          "GunReferenceID": 26,
           "turretCount": 14,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1290,14 +1290,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1322,7 +1322,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 55,
+          "GunReferenceID": 55,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1332,7 +1332,7 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1342,7 +1342,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1350,13 +1350,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -1381,7 +1381,7 @@
       "artLink": "pixiv.net/en/artworks/45947847",
       "batteries": [
         {
-          "gunRefrenceID": 94,
+          "GunReferenceID": 94,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1393,7 +1393,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 14,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1409,7 +1409,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1436,7 +1436,7 @@
       "artLink": "seiga.nicovideo.jp/seiga/im3548919",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1444,7 +1444,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 57,
+          "GunReferenceID": 57,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1452,7 +1452,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -1484,7 +1484,7 @@
       "artLink": "seiga.nicovideo.jp/seiga/im3548919",
       "batteries": [
         {
-          "gunRefrenceID": 4,
+          "GunReferenceID": 4,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1496,7 +1496,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1506,7 +1506,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1529,7 +1529,7 @@
       "artLink": "seiga.nicovideo.jp/seiga/im3548919",
       "batteries": [
         {
-          "gunRefrenceID": 4,
+          "GunReferenceID": 4,
           "turretCount": 2,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1539,7 +1539,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 4,
+          "GunReferenceID": 4,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1549,7 +1549,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1559,7 +1559,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -1583,7 +1583,7 @@
       "artLink": "twitter.com/POKImari02",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 5,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1591,7 +1591,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1600,7 +1600,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1608,7 +1608,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 4,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -1633,7 +1633,7 @@
       "artLink": "twitter.com/POKImari02",
       "batteries": [
         {
-          "gunRefrenceID": 46,
+          "GunReferenceID": 46,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1643,7 +1643,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1653,13 +1653,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1667,7 +1667,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 4,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -1694,7 +1694,7 @@
       "artLink": "twitter.com/POKImari02",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -1703,7 +1703,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -1713,7 +1713,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -1721,7 +1721,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -1745,7 +1745,7 @@
       "artLink": "twitter.com/POKImari02",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1754,7 +1754,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 15,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -1790,7 +1790,7 @@
       "artLink": "danbooru.donmai.us/posts/1655625",
       "batteries": [
         {
-          "gunRefrenceID": 47,
+          "GunReferenceID": 47,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1800,7 +1800,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 48,
+          "GunReferenceID": 48,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1809,7 +1809,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 24,
+          "GunReferenceID": 24,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1817,7 +1817,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 4,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -1840,7 +1840,7 @@
       "artLink": "danbooru.donmai.us/posts/1655625",
       "batteries": [
         {
-          "gunRefrenceID": 75,
+          "GunReferenceID": 75,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1848,7 +1848,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 75,
+          "GunReferenceID": 75,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1856,7 +1856,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 76,
+          "GunReferenceID": 76,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1865,7 +1865,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -1886,7 +1886,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 74,
+          "GunReferenceID": 74,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1894,13 +1894,13 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1921,7 +1921,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 49,
+          "GunReferenceID": 49,
           "turretCount": 5,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1933,7 +1933,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -1943,7 +1943,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -1963,7 +1963,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 49,
+          "GunReferenceID": 49,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -1975,7 +1975,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -1985,13 +1985,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2012,7 +2012,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2020,7 +2020,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2029,13 +2029,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2043,7 +2043,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -2065,7 +2065,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 81,
+          "GunReferenceID": 81,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -2074,7 +2074,7 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 82,
+          "GunReferenceID": 82,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2083,13 +2083,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2097,7 +2097,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -2119,7 +2119,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 40,
+          "GunReferenceID": 40,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -2127,7 +2127,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 102,
+          "GunReferenceID": 102,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2136,7 +2136,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 6,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -2144,7 +2144,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 1,
+          "TorpReferenceID": 1,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -2164,7 +2164,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 72,
+          "GunReferenceID": 72,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2172,7 +2172,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 73,
+          "GunReferenceID": 73,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2180,13 +2180,13 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 35,
+          "GunReferenceID": 35,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 74,
+          "GunReferenceID": 74,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2194,7 +2194,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 9,
+          "TorpReferenceID": 9,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -2220,7 +2220,7 @@
       "artLink": "pixiv.net/en/artworks/46334903",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2230,7 +2230,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2238,7 +2238,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -2246,7 +2246,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2269,7 +2269,7 @@
       "artLink": "pixiv.net/en/artworks/46334903",
       "batteries": [
         {
-          "gunRefrenceID": 38,
+          "GunReferenceID": 38,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2279,13 +2279,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -2293,7 +2293,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -2318,7 +2318,7 @@
       "artLink": "pixiv.net/en/artworks/39182009",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2326,7 +2326,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
@@ -2334,7 +2334,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 10,
           "torpsPerTurret": 4,
           "torpReloads": 2
@@ -2364,7 +2364,7 @@
       "hullCode": "CVL",
       "batteries": [
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 13,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2391,7 +2391,7 @@
       "hullCode": "CVL",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2400,7 +2400,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2432,7 +2432,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 69,
+          "GunReferenceID": 69,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2440,7 +2440,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 70,
+          "GunReferenceID": 70,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2449,7 +2449,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 3,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2481,7 +2481,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2491,7 +2491,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2499,7 +2499,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 3,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2531,7 +2531,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2541,7 +2541,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2549,7 +2549,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 3,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2581,7 +2581,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 11,
+          "GunReferenceID": 11,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2591,13 +2591,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2605,7 +2605,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2644,7 +2644,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 3,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2654,7 +2654,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -2688,7 +2688,7 @@
       "artLink": "seiga.nicovideo.jp/seiga/im6990601",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2698,7 +2698,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2706,7 +2706,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 7,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2714,7 +2714,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2745,7 +2745,7 @@
       "artLink": "seiga.nicovideo.jp/seiga/im6990601",
       "batteries": [
         {
-          "gunRefrenceID": 62,
+          "GunReferenceID": 62,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2753,7 +2753,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 45,
+          "GunReferenceID": 45,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2762,7 +2762,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 7,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2770,7 +2770,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 11,
+          "TorpReferenceID": 11,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2799,7 +2799,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2808,7 +2808,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2817,7 +2817,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2827,7 +2827,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2855,7 +2855,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 52,
+          "GunReferenceID": 52,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -2864,7 +2864,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2872,7 +2872,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2880,7 +2880,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2912,7 +2912,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2922,13 +2922,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 3,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 11,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2936,7 +2936,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 5,
           "torpReloads": 0
@@ -2967,7 +2967,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -2977,13 +2977,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 11,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -2991,7 +2991,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 5,
           "torpReloads": 0
@@ -3024,7 +3024,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 52,
+          "GunReferenceID": 52,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3032,13 +3032,13 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -3046,7 +3046,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -3077,7 +3077,7 @@
       "artLink": "pixiv.net/en/artworks/70816380",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3085,7 +3085,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -3093,7 +3093,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -3123,7 +3123,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3131,7 +3131,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3139,7 +3139,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 3,
           "torpsPerTurret": 3,
           "torpReloads": 1
@@ -3167,7 +3167,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3176,13 +3176,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 14,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3190,7 +3190,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -3218,7 +3218,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 54,
+          "GunReferenceID": 54,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3227,7 +3227,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -3235,7 +3235,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 1,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -3263,7 +3263,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3273,13 +3273,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -3287,7 +3287,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 1,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -3315,13 +3315,13 @@
       "hullCode": "AP",
       "batteries": [
         {
-          "gunRefrenceID": 69,
+          "GunReferenceID": 69,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3339,7 +3339,54 @@
     // ABYSSAL PAPER SHIPS
     // TODO: Re-class Tillman IV CV Conversion (usa)
     // TODO: Re-class Iowa 18"/47 BBV (usa)
-    // TDOD: Re-class Ise (not paper, I know)
+    {
+      "name": "Re-Class Aviation Battlehip (Ise)",
+      "carrier": true,
+      "speed": 23,
+      "displacement": 39805,
+      "horsepower": 45000,
+      "beltThickness": 234,
+      "length": 220,
+      "aircraftCount": 22,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BBV",
+      "cameo": "re.jpg",
+      "artist": "メオ",
+      "artLink": "pixiv.net/en/artworks/48275678",
+      "batteries": [
+        {
+          "GunReferenceID": 25,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 51,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 31,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 11,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        }
+      ]
+    },
 
     // TODO: Wo-class Habakkuk (uk)
 
@@ -3384,7 +3431,7 @@
       "artLink": "pixiv.net/en/artworks/67468794",  //alt pic: twitter.com/TimmyYen/status/1305885629360685057
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3396,7 +3443,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3408,14 +3455,14 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 46,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3447,7 +3494,7 @@
       "artLink": "pixiv.net/en/artworks/110221714",  //alt pic: twitter.com/TimmyYen/status/1305885629360685057
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3459,13 +3506,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 24,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3485,7 +3532,7 @@
       "name": "USS Saratoga (CV-3)",
       "carrier": true,
       "speed": 34,
-      "displacement": 36000,
+      "Displacement": 36000,
       "horsepower": 180000,
       "beltThickness": 109,
       "length": 270,
@@ -3497,7 +3544,7 @@
       "artLink": "pixiv.net/en/artworks/80614723",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3509,7 +3556,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3521,13 +3568,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 9,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 8,
           "gunsPerTurret": 8,
           "localOpticalDirector": true
@@ -3559,7 +3606,7 @@
       "artLink": "pixiv.net/en/artworks/82900017",
       "batteries": [
         {
-          "gunRefrenceID": 31,
+          "GunReferenceID": 31,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -3571,7 +3618,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3585,13 +3632,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 19,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 52,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3619,7 +3666,7 @@
       "hullCode": "BB",
       "batteries": [
         {
-          "gunRefrenceID": 31,
+          "GunReferenceID": 31,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -3631,7 +3678,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3645,13 +3692,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 20,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 49,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3682,7 +3729,7 @@
       "artLink": "pixiv.net/en/artworks/102566638",
       "batteries": [
         {
-          "gunRefrenceID": 42,
+          "GunReferenceID": 42,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -3694,7 +3741,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3708,13 +3755,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 6,
+          "GunReferenceID": 6,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 18,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3745,7 +3792,7 @@
       "artLink": "www.pixiv.net/en/artworks/118312883",
       "batteries": [
         {
-          "gunRefrenceID": 42,
+          "GunReferenceID": 42,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -3757,7 +3804,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3771,13 +3818,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 19,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 67,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3808,7 +3855,7 @@
       "artLink": "pixiv.net/en/artworks/81940481",
       "batteries": [
         {
-          "gunRefrenceID": 94,
+          "GunReferenceID": 94,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3820,7 +3867,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 14,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3836,7 +3883,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -3867,7 +3914,7 @@
       "artLink": "pixiv.net/en/artworks/112050929",
       "batteries": [
         {
-          "gunRefrenceID": 95,
+          "GunReferenceID": 95,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3879,7 +3926,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 95,
+          "GunReferenceID": 95,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3891,7 +3938,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -3905,7 +3952,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -3913,7 +3960,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 40,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -3921,7 +3968,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -3952,7 +3999,7 @@
       "artLink": "pixiv.net/en/artworks/78325889",
       "batteries": [
         {
-          "gunRefrenceID": 4,
+          "GunReferenceID": 4,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -3964,7 +4011,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -3974,13 +4021,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 6,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4008,7 +4055,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 49,
+          "GunReferenceID": 49,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -4020,7 +4067,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4030,19 +4077,19 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4073,7 +4120,7 @@
       "artLink": "pixiv.net/en/artworks/90134403",
       "batteries": [
         {
-          "gunRefrenceID": 49,
+          "GunReferenceID": 49,
           "turretCount": 5,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -4085,7 +4132,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 5,
+          "GunReferenceID": 5,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4095,7 +4142,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4126,7 +4173,7 @@
       "artLink": "pixiv.net/en/artworks/80112130",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4136,7 +4183,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4144,7 +4191,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -4152,7 +4199,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -4185,7 +4232,7 @@
       "artLink": "pixiv.net/en/artworks/112704582",
       "batteries": [
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 13,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4219,7 +4266,7 @@
       "artLink": "pixiv.net/en/artworks/116006229",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4229,7 +4276,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4237,7 +4284,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 7,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4245,7 +4292,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -4281,7 +4328,7 @@
       "artLink": "pixiv.net/en/artworks/117358661",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4291,7 +4338,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4299,7 +4346,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4307,7 +4354,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 5,
           "torpReloads": 0
@@ -4343,7 +4390,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4353,7 +4400,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4361,7 +4408,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 7,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4369,7 +4416,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -4401,7 +4448,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4411,13 +4458,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 3,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 11,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4425,7 +4472,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 5,
           "torpReloads": 0
@@ -4458,7 +4505,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4468,13 +4515,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 11,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4482,7 +4529,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 2,
           "torpsPerTurret": 5,
           "torpReloads": 0
@@ -4518,7 +4565,7 @@
       "artLink": "pixiv.net/en/artworks/116788457",
       "batteries": [
         {
-          "gunRefrenceID": 1,
+          "GunReferenceID": 1,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4528,7 +4575,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -4536,7 +4583,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4544,7 +4591,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 1,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -4584,7 +4631,7 @@
       "artLink": "pixiv.net/en/artworks/88533198",
       "batteries": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4595,7 +4642,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4604,7 +4651,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4612,13 +4659,13 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 4,
+          "MissileReferenceID": 4,
           "turretCount": 2,
           "missilesPerTurret": 8,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 2,
           "missilesPerTurret": 30,
           "dataLink": true
@@ -4662,7 +4709,7 @@
       "artLink": "artstation.com/david_oakes",
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4674,7 +4721,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4685,7 +4732,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4694,7 +4741,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4702,7 +4749,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10001,
+          "TorpReferenceID": 10001,
           "turretCount": 30,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -4710,18 +4757,18 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 2,
+          "MissileReferenceID": 2,
           "turretCount": 30,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 30,
           "missilesPerTurret": 1,
           "dataLink": true
@@ -4760,7 +4807,7 @@
       "artLink": "artstation.com/david_oakes",
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4772,7 +4819,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4783,7 +4830,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10011,
+          "GunReferenceID": 10011,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4794,7 +4841,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4803,7 +4850,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -4811,7 +4858,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10001,
+          "TorpReferenceID": 10001,
           "turretCount": 10,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -4819,13 +4866,13 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 18,
+          "MissileReferenceID": 18,
           "turretCount": 40, 
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 40, 
           "missilesPerTurret": 1,
           "dataLink": true
@@ -4864,7 +4911,7 @@
       "artLink": "pixiv.net/en/artworks/105910384",
       "batteries": [
         {
-          "gunRefrenceID": 10012,
+          "GunReferenceID": 10012,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4876,7 +4923,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4888,7 +4935,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10007,
+          "GunReferenceID": 10007,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4901,25 +4948,25 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 2,
+          "MissileReferenceID": 2,
           "turretCount": 20, // Number reduced due to "availability" (Price)
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 20, // Number reduced due to "availability" (Price)
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 10,
+          "MissileReferenceID": 10,
           "turretCount": 20, // Number reduced due to "availability" (Price)
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 15,
+          "MissileReferenceID": 15,
           "turretCount": 20, // Number reduced due to "availability" (Price)
           "missilesPerTurret": 1,
           "dataLink": true
@@ -4963,7 +5010,7 @@
       "artLink": "pixiv.net/en/artworks/78527827",
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4975,7 +5022,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4986,7 +5033,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -4995,7 +5042,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5003,24 +5050,24 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 4,
+          "MissileReferenceID": 4,
           "turretCount": 88,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 2,
+          "MissileReferenceID": 2,
           "turretCount": 50,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 15,
+          "MissileReferenceID": 15,
           "turretCount": 50,
           "missilesPerTurret": 1,
           "dataLink": true
@@ -5060,7 +5107,7 @@
       "artLink": "pixiv.net/en/artworks/76131386",
       "batteries": [
         {
-          "gunRefrenceID": 10006,
+          "GunReferenceID": 10006,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5072,7 +5119,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5083,7 +5130,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10007,
+          "GunReferenceID": 10007,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5092,7 +5139,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5100,18 +5147,18 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 11,
+          "MissileReferenceID": 11,
           "turretCount": 4,
           "missilesPerTurret": 2
         },
         {
-          "missileRefrenceID": 12,
+          "MissileReferenceID": 12,
           "turretCount": 30,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 1,
           "missilesPerTurret": 30,
           "dataLink": true
@@ -5155,7 +5202,7 @@
       "artLink": "pixiv.net/en/artworks/84924551",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5163,7 +5210,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5195,7 +5242,7 @@
       "artLink": "pixiv.net/en/artworks/81073717",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5203,7 +5250,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5211,7 +5258,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 14,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5243,7 +5290,7 @@
       "artLink": "pixiv.net/en/artworks/102455939",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5252,7 +5299,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 17,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5285,7 +5332,7 @@
       "artLink": "pixiv.net/en/artworks/41519309",
       "batteries": [
         {
-          "gunRefrenceID": 54,
+          "GunReferenceID": 54,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5294,7 +5341,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 17,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5326,7 +5373,7 @@
       "artLink": "pixiv.net/en/artworks/85641206",
       "batteries": [
         {
-          "gunRefrenceID": 55,
+          "GunReferenceID": 55,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5336,7 +5383,7 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5346,7 +5393,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5354,13 +5401,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 8,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5390,7 +5437,7 @@
       "artLink": "pixiv.net/en/artworks/117764068",
       "batteries": [
         {
-          "gunRefrenceID": 55,
+          "GunReferenceID": 55,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5400,7 +5447,7 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -5410,7 +5457,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5418,13 +5465,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 12,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5454,7 +5501,7 @@
       "artLink": "pixiv.net/en/artworks/53122818",
       "batteries": [
         {
-          "gunRefrenceID": 55,
+          "GunReferenceID": 55,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5463,14 +5510,14 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 18,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5478,7 +5525,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 98,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5508,7 +5555,7 @@
       "artLink": "pixiv.net/en/artworks/102489477",
       "batteries": [
         {
-          "gunRefrenceID": 25,
+          "GunReferenceID": 25,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5516,7 +5563,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 26,
+          "GunReferenceID": 26,
           "turretCount": 14,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5524,14 +5571,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5562,7 +5609,7 @@
       "artLink": "pixiv.net/en/artworks/53966084",
       "batteries": [
         {
-          "gunRefrenceID": 25,
+          "GunReferenceID": 25,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -5570,21 +5617,21 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 26,
+          "GunReferenceID": 26,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 59,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5615,7 +5662,7 @@
       "artLink": "pixiv.net/en/artworks/81771360",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5624,7 +5671,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5634,7 +5681,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5642,7 +5689,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -5673,7 +5720,7 @@
       "artLink": "pixiv.net/en/artworks/43392789",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5682,7 +5729,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5692,7 +5739,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -5700,7 +5747,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -5732,7 +5779,7 @@
       "artLink": "pixiv.net/en/artworks/109649517",
       "batteries": [
         {
-          "gunRefrenceID": 56,
+          "GunReferenceID": 56,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5741,7 +5788,7 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -5751,13 +5798,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 20,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5765,7 +5812,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 4,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -5797,7 +5844,7 @@
       "artLink": "pixiv.net/en/artworks/79505094",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5805,7 +5852,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 3,
           "localOpticalDirector": true
@@ -5813,7 +5860,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 10,
           "torpsPerTurret": 4,
           "torpReloads": 2
@@ -5844,7 +5891,7 @@
       "artLink": "pixiv.net/en/artworks/47952842",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 7,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -5852,7 +5899,7 @@
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 92,
+          "GunReferenceID": 92,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5862,7 +5909,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 4,
           "torpsPerTurret": 2,
           "torpReloads": 1
@@ -5893,7 +5940,7 @@
       "artLink": "pixiv.net/en/artworks/87712766",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -5901,7 +5948,7 @@
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 92,
+          "GunReferenceID": 92,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5909,7 +5956,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5917,7 +5964,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 3,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -5948,7 +5995,7 @@
       "artLink": "pixiv.net/en/artworks/77630049",
       "batteries": [
         {
-          "gunRefrenceID": 50,
+          "GunReferenceID": 50,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -5956,7 +6003,7 @@
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 92,
+          "GunReferenceID": 92,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -5964,7 +6011,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -5972,7 +6019,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 3,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -6006,7 +6053,7 @@
       "artLink": "pixiv.net/en/artworks/117511194",
       "batteries": [
         {
-          "gunRefrenceID": 8,
+          "GunReferenceID": 8,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6015,7 +6062,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6046,7 +6093,7 @@
       "hullCode": "CVE",
       "batteries": [
         {
-          "gunRefrenceID": 57,
+          "GunReferenceID": 57,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6054,7 +6101,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -6088,7 +6135,7 @@
       "artLink": "pixiv.net/en/artworks/97439481",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6097,7 +6144,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6106,7 +6153,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6116,7 +6163,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -6152,7 +6199,7 @@
       "artLink": "pixiv.net/en/artworks/113544941",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6160,13 +6207,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 11,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -6174,7 +6221,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 3,
           "torpsPerTurret": 3,
           "torpReloads": 1
@@ -6210,7 +6257,7 @@
       "artLink": "pixiv.net/en/artworks/61701902",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6218,13 +6265,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 11,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 10,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -6232,7 +6279,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 3,
           "torpsPerTurret": 3,
           "torpReloads": 1
@@ -6268,7 +6315,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6277,13 +6324,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 14,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -6291,7 +6338,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -6327,7 +6374,7 @@
       "artLink": "pixiv.net/en/artworks/76198151",
       "batteries": [
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6336,7 +6383,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 51,
+          "GunReferenceID": 51,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6345,7 +6392,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6355,7 +6402,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -6391,7 +6438,7 @@
       "artLink": "pixiv.net/en/artworks/74843179",
       "batteries": [
         {
-          "gunRefrenceID": 54,
+          "GunReferenceID": 54,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6400,7 +6447,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 9,
+          "GunReferenceID": 9,
           "turretCount": 35,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6408,7 +6455,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6417,7 +6464,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 8,
+          "TorpReferenceID": 8,
           "turretCount": 1,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -6455,7 +6502,7 @@
       "artLink": "pixiv.net/en/artworks/49818107",
       "batteries": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6468,7 +6515,7 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 2,
           "missilesPerTurret": 11
         }
@@ -6507,7 +6554,7 @@
       "artLink": "pixiv.net/en/artworks/48812300",
       "batteries": [
         {
-          "gunRefrenceID": 10004,
+          "GunReferenceID": 10004,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6519,7 +6566,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6530,7 +6577,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6541,7 +6588,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10002,
+          "TorpReferenceID": 10002,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -6549,24 +6596,24 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 4,
+          "MissileReferenceID": 4,
           "turretCount": 40,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 40,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 10,
+          "MissileReferenceID": 10,
           "turretCount": 40,
           "missilesPerTurret": 1,
           "dataLink": true
@@ -6606,7 +6653,7 @@
       "artLink": "pixiv.net/en/artworks/113991191",
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6618,7 +6665,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6630,7 +6677,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10004,
+          "TorpReferenceID": 10004,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -6638,18 +6685,18 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 14,
+          "MissileReferenceID": 14,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 30,
           "missilesPerTurret": 1,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 1,
           "missilesPerTurret": 30,
           "dataLink": true
@@ -6691,7 +6738,7 @@
       "artLink": "pixiv.net/en/artworks/67886824",
       "batteries": [
         {
-          "gunRefrenceID": 11,
+          "GunReferenceID": 11,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6701,13 +6748,13 @@
 
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -6738,7 +6785,7 @@
       "artLink": "pixiv.net/en/artworks/92899067",
       "batteries": [
         {
-          "gunRefrenceID": 11,
+          "GunReferenceID": 11,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6748,25 +6795,25 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 6,
           "gunsPerTurret": 8,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 3,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 9,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 45,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -6797,7 +6844,7 @@
       "artLink": "pixiv.net/en/artworks/111814718",
       "batteries": [
         {
-          "gunRefrenceID": 84,
+          "GunReferenceID": 84,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -6806,14 +6853,14 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 47,
+          "GunReferenceID": 47,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6824,7 +6871,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -6855,7 +6902,7 @@
       "artLink": "pixiv.net/en/artworks/71166666",
       "batteries": [
         {
-          "gunRefrenceID": 84,
+          "GunReferenceID": 84,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -6864,14 +6911,14 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 47,
+          "GunReferenceID": 47,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -6882,7 +6929,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -6910,7 +6957,7 @@
       "hullCode": "BB",
       "batteries": [
         {
-          "gunRefrenceID": 37,
+          "GunReferenceID": 37,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -6920,7 +6967,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 37,
+          "GunReferenceID": 37,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6930,7 +6977,7 @@
           //"RadarBlindFire": true
         },
         {
-          "gunRefrenceID": 38,
+          "GunReferenceID": 38,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "opticalDirector": true,
@@ -6941,7 +6988,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 6,
           "gunsPerTurret": 8,
           "opticalDirector": true,
@@ -6972,7 +7019,7 @@
       "artLink": "pixiv.net/en/artworks/59788197",
       "batteries": [
         {
-          "gunRefrenceID": 85,
+          "GunReferenceID": 85,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -6981,7 +7028,7 @@
           "radarDirector": true
         },
         {
-          "gunRefrenceID": 82,
+          "GunReferenceID": 82,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -6992,13 +7039,13 @@
 
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7027,7 +7074,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 81,
+          "GunReferenceID": 81,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -7036,7 +7083,7 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 82,
+          "GunReferenceID": 82,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7045,14 +7092,14 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 48,
+          "GunReferenceID": 48,
           "turretCount": 4,
           "gunsPerTurret":1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 8,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7060,7 +7107,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7088,7 +7135,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 81,
+          "GunReferenceID": 81,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -7097,7 +7144,7 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 82,
+          "GunReferenceID": 82,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7106,13 +7153,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 2,
           "gunsPerTurret": 8,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7120,7 +7167,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -7151,7 +7198,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7161,13 +7208,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7175,7 +7222,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 1,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7210,7 +7257,7 @@
       "artLink": "pixiv.net/en/artworks/111736830",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7220,13 +7267,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7234,7 +7281,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7269,7 +7316,7 @@
       "artLink": "pixiv.net/en/artworks/82166736",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7279,13 +7326,13 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -7293,7 +7340,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7327,7 +7374,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 3,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7338,7 +7385,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10007,
+          "GunReferenceID": 10007,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7347,7 +7394,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7390,7 +7437,7 @@
       "artLink": "pixiv.net/en/artworks/59812925",
       "batteries": [
         {
-          "gunRefrenceID": 10023,
+          "GunReferenceID": 10023,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7402,7 +7449,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7413,7 +7460,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10024,
+          "GunReferenceID": 10024,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7422,7 +7469,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7430,13 +7477,13 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 11,
+          "MissileReferenceID": 11,
           "turretCount": 2, 
           "missilesPerTurret": 4,
           "dataLink": true
         },  
         {
-          "missileRefrenceID": 16,
+          "MissileReferenceID": 16,
           "turretCount": 48, 
           "missilesPerTurret": 1,
           "dataLink": true
@@ -7475,7 +7522,7 @@
       "artLink": "pixiv.net/en/artworks/55958871",
       "batteries": [
         {
-          "gunRefrenceID": 16,
+          "GunReferenceID": 16,
           "turretCount": 16,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7484,7 +7531,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7494,13 +7541,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 11,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 28,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7531,7 +7578,7 @@
       "artLink": "pixiv.net/en/artworks/55609646",
       "batteries": [
         {
-          "gunRefrenceID": 27,
+          "GunReferenceID": 27,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7539,14 +7586,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 16,
+          "GunReferenceID": 16,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7555,13 +7602,13 @@
 
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7570,7 +7617,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 4,
           "torpReloads": 1
@@ -7601,7 +7648,7 @@
       "artLink": "pixiv.net/en/artworks/47565284",
       "batteries": [
         {
-          "gunRefrenceID": 46,
+          "GunReferenceID": 46,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7611,7 +7658,7 @@
           "radarRangeFinder": true
         },
         {
-          "gunRefrenceID": 17,
+          "GunReferenceID": 17,
           "turretCount": 12,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7621,13 +7668,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7635,7 +7682,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 4,
+          "TorpReferenceID": 4,
           "turretCount": 4,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -7669,7 +7716,7 @@
       "artLink": "pixiv.net/en/artworks/74634215",
       "batteries": [
         {
-          "gunRefrenceID": 91,
+          "GunReferenceID": 91,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7679,13 +7726,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7694,7 +7741,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7725,7 +7772,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 91,
+          "GunReferenceID": 91,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7735,13 +7782,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 18,
+          "GunReferenceID": 18,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 19,
+          "GunReferenceID": 19,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7750,7 +7797,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -7784,7 +7831,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10025,
+          "GunReferenceID": 10025,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "opticalDirector": true,
@@ -7795,7 +7842,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10026,
+          "GunReferenceID": 10026,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7804,7 +7851,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 5,
           "gunsPerTurret": 1,
           "opticalDirector": true,
@@ -7814,12 +7861,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,             
+          "MissileReferenceID": 1,             
           "turretCount": 1,          
           "missilesPerTurret": 4    
         },
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 2,
           "missilesPerTurret": 30,
           "dataLink": true
@@ -7859,7 +7906,7 @@
       "artLink": "www.pixiv.net/en/artworks/64971805",
       "batteries": [
         {
-          "gunRefrenceID": 39,
+          "GunReferenceID": 39,
           "turretCount": 2,
           "gunsPerTurret": 4,
           "localOpticalDirector": true,
@@ -7869,7 +7916,7 @@
           "poorShellQuality": true
         },
         {
-          "gunRefrenceID": 40,
+          "GunReferenceID": 40,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "opticalDirector": true,
@@ -7878,7 +7925,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 41,
+          "GunReferenceID": 41,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "opticalDirector": true,
@@ -7887,13 +7934,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 14,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 48,
           "gunsPerTurret": 1
         }
@@ -7921,7 +7968,7 @@
       "hullCode": "CL",
       "batteries": [
         {
-          "gunRefrenceID": 40,
+          "GunReferenceID": 40,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -7929,7 +7976,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 102,
+          "GunReferenceID": 102,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7938,13 +7985,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 6,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 16,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7952,7 +7999,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 1,
+          "TorpReferenceID": 1,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -7981,7 +8028,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 101,
+          "GunReferenceID": 101,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7991,7 +8038,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 15,
+          "GunReferenceID": 15,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "opticalDirector": true,
@@ -7999,13 +8046,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 30,
+          "GunReferenceID": 30,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 14,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
@@ -8013,7 +8060,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 1,
+          "TorpReferenceID": 1,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -8044,7 +8091,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10008,
+          "GunReferenceID": 10008,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8056,7 +8103,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10009,
+          "GunReferenceID": 10009,
           "turretCount": 3,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8067,7 +8114,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10005,
+          "TorpReferenceID": 10005,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 3
@@ -8075,12 +8122,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 17,
+          "MissileReferenceID": 17,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 16,
+          "MissileReferenceID": 16,
           "turretCount": 48,
           "missilesPerTurret": 1,
           "dataLink": true
@@ -8116,7 +8163,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10014,
+          "GunReferenceID": 10014,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "opticalDirector": true,
@@ -8127,7 +8174,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10009,
+          "GunReferenceID": 10009,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8138,7 +8185,7 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 17,  // Technically Exocets were removed,           
+          "MissileReferenceID": 17,  // Technically Exocets were removed,           
           "turretCount": 1,         // but in light of the abyssal war 
           "missilesPerTurret": 2    // we'll say they've been added again.
         }
@@ -8176,7 +8223,7 @@
       "artLink": "pixiv.net/en/artworks/59098875",
       "batteries": [
         {
-          "gunRefrenceID": 20,
+          "GunReferenceID": 20,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8187,7 +8234,7 @@
           "radarFuses": true
         },
         {
-          "gunRefrenceID": 21,
+          "GunReferenceID": 21,
           "turretCount": 12,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8197,7 +8244,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 22,
+          "GunReferenceID": 22,
           "turretCount": 6,
           "gunsPerTurret": 6,
           "localOpticalDirector": true
@@ -8228,7 +8275,7 @@
       "artLink": "www.pixiv.net/en/artworks/59803207",
       "batteries": [
         {
-          "gunRefrenceID": 32,
+          "GunReferenceID": 32,
           "turretCount": 3,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -8238,7 +8285,7 @@
           "poorShellQuality": true
         },
         {
-          "gunRefrenceID": 33,
+          "GunReferenceID": 33,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8246,7 +8293,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 34,
+          "GunReferenceID": 34,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8254,13 +8301,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 35,
+          "GunReferenceID": 35,
           "turretCount": 10,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 20,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -8292,7 +8339,7 @@
       "artLink": "pixiv.net/en/artworks/76788238",
       "batteries": [
         {
-          "gunRefrenceID": 72,
+          "GunReferenceID": 72,
           "turretCount": 2,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -8300,7 +8347,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 72,
+          "GunReferenceID": 72,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8308,7 +8355,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 73,
+          "GunReferenceID": 73,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8316,13 +8363,13 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 93,
+          "GunReferenceID": 93,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 12,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -8330,7 +8377,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 9,
+          "TorpReferenceID": 9,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -8361,7 +8408,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 53,
+          "GunReferenceID": 53,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8370,7 +8417,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 53,
+          "GunReferenceID": 53,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8379,14 +8426,14 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 35,
+          "GunReferenceID": 35,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8395,7 +8442,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 9,
+          "TorpReferenceID": 9,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -8428,7 +8475,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 53,
+          "GunReferenceID": 53,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8437,7 +8484,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 53,
+          "GunReferenceID": 53,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8446,14 +8493,14 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 35,
+          "GunReferenceID": 35,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8462,7 +8509,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 9,
+          "TorpReferenceID": 9,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -8498,7 +8545,7 @@
       "artLink": "pixiv.net/en/artworks/67905419",
       "batteries": [
         {
-          "gunRefrenceID": 43,
+          "GunReferenceID": 43,
           "turretCount": 4,
           "gunsPerTurret": 3,
           "localOpticalDirector": true,
@@ -8506,14 +8553,14 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 44,
+          "GunReferenceID": 44,
           "turretCount": 16,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true
         },
         {
-          "gunRefrenceID": 45,
+          "GunReferenceID": 45,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8522,7 +8569,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 5,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -8558,7 +8605,7 @@
       "artLink": "pixiv.net/en/artworks/99028132",
       "batteries": [
         {
-          "gunRefrenceID": 62,
+          "GunReferenceID": 62,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8567,14 +8614,14 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 63,
+          "GunReferenceID": 63,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 83,
+          "GunReferenceID": 83,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -8582,7 +8629,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 11,
+          "TorpReferenceID": 11,
           "turretCount": 3,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -8619,7 +8666,7 @@
       "artLink": "pixiv.net/en/artworks/42414661",
       "batteries": [
         {
-          "gunRefrenceID": 10016,
+          "GunReferenceID": 10016,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8631,7 +8678,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10019,
+          "GunReferenceID": 10019,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -8643,12 +8690,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 24,
+          "MissileReferenceID": 24,
           "turretCount": 12,
           "missilesPerTurret": 1
         },
         {
-          "missileRefrenceID": 25,
+          "MissileReferenceID": 25,
           "turretCount": 24,
           "missilesPerTurret": 8
         }
@@ -8686,7 +8733,7 @@
       "artLink": "pixiv.net/en/artworks/57453415",
       "batteries": [
         {
-          "gunRefrenceID": 10015,
+          "GunReferenceID": 10015,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8698,7 +8745,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10019,
+          "GunReferenceID": 10019,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -8710,7 +8757,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10007,
+          "TorpReferenceID": 10007,
           "turretCount": 5,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -8718,17 +8765,17 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 24,
+          "MissileReferenceID": 24,
           "turretCount": 20,
           "missilesPerTurret": 1
         },
         {
-          "missileRefrenceID": 25,
+          "MissileReferenceID": 25,
           "turretCount": 8,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 20,
+          "MissileReferenceID": 20,
           "turretCount": 6,
           "missilesPerTurret": 8
         }
@@ -8766,7 +8813,7 @@
       //"artLink": "pixiv.net/en/artworks/6378926",
       "batteries": [
         {
-          "gunRefrenceID": 10015,
+          "GunReferenceID": 10015,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8778,7 +8825,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10016,
+          "GunReferenceID": 10016,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -8790,7 +8837,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10007,
+          "TorpReferenceID": 10007,
           "turretCount": 10,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -8798,17 +8845,17 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 19,
+          "MissileReferenceID": 19,
           "turretCount": 8,
           "missilesPerTurret": 2
         },
         {
-          "missileRefrenceID": 20,
+          "MissileReferenceID": 20,
           "turretCount": 8,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 21,
+          "MissileReferenceID": 21,
           "turretCount": 2,
           "missilesPerTurret": 20
         }
@@ -8846,7 +8893,7 @@
       "artLink": "pixiv.net/en/artworks/60677219",
       "batteries": [
         {
-          "gunRefrenceID": 10027,
+          "GunReferenceID": 10027,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8858,7 +8905,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10016,
+          "GunReferenceID": 10016,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -8870,7 +8917,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10007,
+          "TorpReferenceID": 10007,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -8878,12 +8925,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 35,
+          "MissileReferenceID": 35,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 25,
+          "MissileReferenceID": 25,
           "turretCount": 8,
           "missilesPerTurret": 8
         }
@@ -8922,7 +8969,7 @@
       "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
-          "gunRefrenceID": 10015, 
+          "GunReferenceID": 10015, 
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -8934,13 +8981,13 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10020, 
+          "GunReferenceID": 10020, 
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 10019,
+          "GunReferenceID": 10019,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -8952,7 +8999,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10010,
+          "TorpReferenceID": 10010,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -8960,17 +9007,17 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 26,
+          "MissileReferenceID": 26,
           "turretCount": 2,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 28,
+          "MissileReferenceID": 28,
           "turretCount": 2,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 27,
+          "MissileReferenceID": 27,
           "turretCount": 2,
           "missilesPerTurret": 16
         }
@@ -9008,7 +9055,7 @@
       "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
-          "gunRefrenceID": 10015, 
+          "GunReferenceID": 10015, 
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9020,13 +9067,13 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10020, 
+          "GunReferenceID": 10020, 
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 10019,
+          "GunReferenceID": 10019,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "rangefinder": true,
@@ -9038,7 +9085,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10009,
+          "TorpReferenceID": 10009,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -9046,17 +9093,17 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 26,
+          "MissileReferenceID": 26,
           "turretCount": 2,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 29,
+          "MissileReferenceID": 29,
           "turretCount": 2,
           "missilesPerTurret": 8
         },
         {
-          "missileRefrenceID": 27,
+          "MissileReferenceID": 27,
           "turretCount": 2,
           "missilesPerTurret": 16
         }
@@ -9093,7 +9140,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "gunRefrenceID": 10,
+          "GunReferenceID": 10,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9104,19 +9151,19 @@
           "radarFuses": true,
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 12,
+          "GunReferenceID": 12,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 3,
+          "GunReferenceID": 3,
           "turretCount": 6,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
@@ -9124,7 +9171,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 1,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -9157,7 +9204,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10006,
+          "GunReferenceID": 10006,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9169,7 +9216,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9178,7 +9225,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 6,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -9186,7 +9233,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10002,
+          "TorpReferenceID": 10002,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 6
@@ -9194,12 +9241,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 4,
+          "MissileReferenceID": 4,
           "turretCount": 16,
           "missilesPerTurret": 1,
           "dataLink": true
@@ -9240,7 +9287,7 @@
       "artLink": "pixiv.net/en/artworks/93626007",
       "batteries": [
         {
-          "gunRefrenceID": 10015,
+          "GunReferenceID": 10015,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9252,7 +9299,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10017,
+          "GunReferenceID": 10017,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -9265,7 +9312,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10011,
+          "TorpReferenceID": 10011,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -9273,24 +9320,24 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 41,
+          "MissileReferenceID": 41,
           "turretCount": 1,
           "missilesPerTurret": 24
         },
         {
-          "missileRefrenceID": 42,
+          "MissileReferenceID": 42,
           "turretCount": 1,
           "missilesPerTurret": 50,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 43,
+          "MissileReferenceID": 43,
           "turretCount": 1,
           "missilesPerTurret": 50,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 44,
+          "MissileReferenceID": 44,
           "turretCount": 1,
           "missilesPerTurret": 12,
           "dataLink": true
@@ -9329,7 +9376,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9341,7 +9388,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -9354,7 +9401,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10013,
+          "TorpReferenceID": 10013,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -9362,12 +9409,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 5,
+          "MissileReferenceID": 5,
           "turretCount": 1,
           "missilesPerTurret": 21
         },
         {
-          "missileRefrenceID": 44,
+          "MissileReferenceID": 44,
           "turretCount": 2,
           "missilesPerTurret": 4,
           "dataLink": true
@@ -9405,7 +9452,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10008,
+          "GunReferenceID": 10008,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9417,7 +9464,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10017,
+          "GunReferenceID": 10017,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -9429,7 +9476,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 10018,
+          "GunReferenceID": 10018,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9440,7 +9487,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10009,
+          "TorpReferenceID": 10009,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -9448,12 +9495,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 17,
+          "MissileReferenceID": 17,
           "turretCount": 4,
           "missilesPerTurret": 2
         },
         {
-          "missileRefrenceID": 22,
+          "MissileReferenceID": 22,
           "turretCount": 2,
           "missilesPerTurret": 6,
           "dataLink": true
@@ -9491,7 +9538,7 @@
       "artLink": "pixiv.net/en/artworks/78203807",
       "batteries": [
         {
-          "gunRefrenceID": 81,
+          "GunReferenceID": 81,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9501,7 +9548,7 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 82,
+          "GunReferenceID": 82,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9511,13 +9558,13 @@
           "mechanicalComputer": true
         },
         {
-          "gunRefrenceID": 71,
+          "GunReferenceID": 71,
           "turretCount": 3,
           "gunsPerTurret":4,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 36,
+          "GunReferenceID": 36,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -9525,7 +9572,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7,
+          "TorpReferenceID": 7,
           "turretCount": 2,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -9555,7 +9602,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9567,7 +9614,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 10001,
+          "GunReferenceID": 10001,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9578,7 +9625,7 @@
           "CWISTracking": true
         },
         {
-          "gunRefrenceID": 10002,
+          "GunReferenceID": 10002,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9589,7 +9636,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10005,
+          "TorpReferenceID": 10005,
           "turretCount": 2,
           "torpsPerTurret": 2,
           "torpReloads": 0
@@ -9597,18 +9644,18 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 4,
+          "MissileReferenceID": 4,
           "turretCount": 8,
           "missilesPerTurret": 32,
           "dataLink": true
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 8,
           "missilesPerTurret": 40,
           "dataLink": true
@@ -9644,7 +9691,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 10000,
+          "GunReferenceID": 10000,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9656,7 +9703,7 @@
           "digitalComputer": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -9664,7 +9711,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 10005,
+          "TorpReferenceID": 10005,
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -9672,12 +9719,12 @@
       ],
       "missiles": [
         {
-          "missileRefrenceID": 1,
+          "MissileReferenceID": 1,
           "turretCount": 2,
           "missilesPerTurret": 4
         },
         {
-          "missileRefrenceID": 3,
+          "MissileReferenceID": 3,
           "turretCount": 8,
           "missilesPerTurret": 32,
           "dataLink": true
@@ -9714,7 +9761,7 @@
       "artLink": "x.com/yefancreation/status/1733151813703258433",
       "batteries": [
         {
-          "gunRefrenceID": 90,
+          "GunReferenceID": 90,
           "turretCount": 3,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9723,7 +9770,7 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 90,
+          "GunReferenceID": 90,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9732,13 +9779,13 @@
           "airburstFuses": true
         },
         {
-          "gunRefrenceID": 2,
+          "GunReferenceID": 2,
           "turretCount": 5,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         },
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 8,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -9770,7 +9817,7 @@
       "artLink": "pixiv.net/en/artworks/70695269",
       "batteries": [
         {
-          "gunRefrenceID": 98,
+          "GunReferenceID": 98,
           "turretCount": 2,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9778,7 +9825,7 @@
           "rangefinder": true
         },
         {
-          "gunRefrenceID": 98,
+          "GunReferenceID": 98,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9786,7 +9833,7 @@
           "rangefinder": true
         },  
         {
-          "gunRefrenceID": 97,
+          "GunReferenceID": 97,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -9795,7 +9842,7 @@
           "airburstFuses": true,
         },
         {
-          "gunRefrenceID": 97,
+          "GunReferenceID": 97,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9804,7 +9851,7 @@
           "airburstFuses": true,
         },
         {
-          "gunRefrenceID": 99,
+          "GunReferenceID": 99,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -9812,7 +9859,7 @@
       ],
       "torpedoes": [
         {
-          "torpRefrenceID": 7, //CITATION NEEDED
+          "TorpReferenceID": 7, //CITATION NEEDED
           "turretCount": 2,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -9848,7 +9895,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "gunRefrenceID": 7,
+          "GunReferenceID": 7,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true

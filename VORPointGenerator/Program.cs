@@ -58,6 +58,11 @@ namespace VORPointGenerator
                 Console.WriteLine(e.Message);
                 Environment.Exit(1);
             }
+            foreach (var i in gunRefrences)
+            {
+                Console.Write(i.Name + ", ");
+            }
+
             // read torpedoes
             try
             {
@@ -71,6 +76,11 @@ namespace VORPointGenerator
                 Console.WriteLine(e.Message);
                 Environment.Exit(1);
             }
+            foreach(var i in torpedoRefrences)
+            {
+                Console.Write(i.Name + ", ");
+            }
+
             // read missiles
             try
             {
@@ -83,6 +93,10 @@ namespace VORPointGenerator
                 Console.WriteLine("Failed to find missile refrence list!");
                 Console.WriteLine(e.Message);
                 Environment.Exit(1);
+            }
+            foreach (var i in missileRefrences)
+            {
+                Console.Write(i.Name + ", ");
             }
 
             Console.WriteLine("\nWEAPONS READ SUCESSFUL\n");
@@ -398,7 +412,7 @@ namespace VORPointGenerator
                         Aircraft.EnergyGain++;
                     }
                 }
-
+                 
                 Aircraft.MaxEnergy = (int)Math.Round((((double)i.Speed * i.ServiceCeiling) / 250000));
                 if (Aircraft.MaxEnergy > 20)
                 {
