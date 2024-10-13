@@ -561,16 +561,6 @@
       "originCountry": "JP"
     },
     {
-      "Id": 56,
-      "Name": "20 cm/50 3rd Year Type",
-      "Calibre": 200,
-      "MaxRange": 28000,
-      "ArmorPenetration": 230, //CITATION NEEDED
-      "FireRate": 3,
-      "AttackAir": false,
-      "originCountry": "JP"
-    },
-    {
       "Id": 57,
       "Name": "12 cm/45 10th Year Type",
       "Calibre": 120,
@@ -581,7 +571,7 @@
       "originCountry": "JP"
     },
     {
-      "Id": 58,
+      "Id": 58, // TODO: DUPLICATE ENTRY
       "Name": "12 cm/45 10th Year Type",
       "Calibre": 120,
       "MaxRange": 16000,
@@ -871,7 +861,7 @@
       "originCountry": "UK"
     },
     {
-      "Id": 86,
+      "Id": 86, // TODO: FIX DUPLICATE ENTRY
       "Name": "15-in Mark I",
       "Calibre": 381,
       "MaxRange": 29720,
@@ -881,7 +871,7 @@
       "originCountry": "UK"
     },
     {
-      "Id": 87,
+      "Id": 87, // TODO: STATS SEEM INCORRECT
       "Name": "12-pdr 20cwt QF HA Mark I",
       "Calibre": 381,
       "MaxRange": 29720,
@@ -1050,7 +1040,26 @@
       "AttackAir": true,
       "originCountry": "JPN"
     },
-
+    {
+      "Id": 104,
+      "Name": "20 cm/50 3rd Year Type",
+      "Calibre": 200,
+      "MaxRange": 28000,
+      "ArmorPenetration": 230, //CITATION NEEDED
+      "FireRate": 3,
+      "AttackAir": false,
+      "originCountry": "JP"
+    },
+    {
+      "Id": 105,
+      "Name": "12\"/46 Model 1909",
+      "Calibre": 305,
+      "MaxRange": 24000,
+      "ArmorPenetration": 352, //CITATION NEEDED
+      "FireRate": 2,
+      "AttackAir": false,
+      "originCountry": "ITA"
+    },
 
     // MODERN WEAPONS
     {
@@ -1343,6 +1352,26 @@
       "FireRate": 5800,
       "AttackAir": true,
       "originCountry": "PRC"
+    },
+    {
+      "Id": 10029,
+      "Name": "ADEN cannon",
+      "Calibre": 30,
+      "MaxRange": 4000, // CITATION NEEDED
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 1700,
+      "AttackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "Id": 10030,
+      "Name": "Oerlikon KBA 25mm",
+      "Calibre": 25,
+      "MaxRange": 2500,
+      "ArmorPenetration": 40, //CITATION NEEDED
+      "FireRate": 175,
+      "AttackAir": true,
+      "originCountry": "ITA"
     },
   ]
 }

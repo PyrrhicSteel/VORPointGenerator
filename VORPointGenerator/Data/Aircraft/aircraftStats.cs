@@ -147,6 +147,8 @@ namespace VORPointGenerator.Data.Aircraft
             Cost = (int)(Cost * abilityWeight);
             PointValue = (int)Math.Round((double)Cost / 5) * 5;
             if (PointValue == 0) { PointValue = 5; }
+
+            Console.WriteLine(Name + ":\n\t\t\t\t\tBASE - " + Cost);
         }
 
         public void GenerateStatCard(string name, string countryOfOrigin, string cameo, string artist, string artLink)
@@ -621,7 +623,7 @@ namespace VORPointGenerator.Data.Aircraft
             }
             catch (Exception e)
             {
-                Console.WriteLine("Failed to write ship!");
+                Console.WriteLine("Failed to write aircraft!");
                 Console.WriteLine(e);
             }
         }

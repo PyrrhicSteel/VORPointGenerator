@@ -139,6 +139,7 @@
       "gpsGuidance": true,
       "inertialGuidance": true,
       "attackAir": false,
+      "seaSkimming": true,
       "orginCountry": "NOR"
     },
     {
@@ -546,6 +547,16 @@
       "attackAir": false,
       "orginCountry": "UK"
     },
-
+    {
+      "id": 46,
+      "name": "GBU-55 JDAM",
+      "mslWarheadSize": 687, //explosive type not specified, assumed 380 kg PBXN
+      "mslRange": 24000,
+      "mslSpeed": 100,
+      "inertialGuidance": true,
+      "gpsGuidance": true,
+      "opticalGuidance": true,
+      "orginCountry": "USA"
+    },
   ]
 }

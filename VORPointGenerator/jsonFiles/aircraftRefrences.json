@@ -266,9 +266,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 2,
+          "TorpReferenceID": 2,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -301,9 +301,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 2,
+          "TorpReferenceID": 2,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -565,9 +565,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10,
+          "TorpReferenceID": 10,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -600,9 +600,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 11,
+          "TorpReferenceID": 11,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -627,9 +627,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10,
+          "TorpReferenceID": 10,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -977,9 +977,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 14,
+          "TorpReferenceID": 14,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1004,9 +1004,9 @@
           "gunsPerTurret": 2
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 14,
+          "TorpReferenceID": 14,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1160,9 +1160,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 12,
+          "TorpReferenceID": 12,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1329,9 +1329,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10000,
+          "TorpReferenceID": 10000,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1389,6 +1389,7 @@
       ],
       "abilityWeight": 1.1
     },
+
     {
       "name": "F/A-18E Super Hornet", // (Role: Anti-air aircraft)
       "countryOfOrigin": "USA",
@@ -1550,7 +1551,55 @@
       ],
       "abilityWeight": 120 // Radar range X 2
     },
-     
+    {
+      "name": "AV-8B Harrier II Plus", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 298,
+      "thrust": 13241, // weight (13968 kg) * thrust-to-weight ratio (0.948)  
+      "weight": 13968,
+      "rateOfClimb": 75,
+      "ServiceCeiling": 15600,
+      "cameo": "av-8b.jpg",
+      "artist": "Mick",
+      "artLink": "danbooru.donmai.us/posts/64850590",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10029,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        },
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        },
+        {
+          "missileReferenceID": 46,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1,
+    },
+    
     {
       "name": "A-10C Thunderbolt II",
       "countryOfOrigin": "USA",
@@ -1599,6 +1648,7 @@
       ],
       "abilityWeight": 1.1
     },
+
     {
       "name": "B-1B Lancer", // (Role: Anti-ship aircraft)
       "countryOfOrigin": "USA",
@@ -1633,7 +1683,7 @@
 
     // JAPANESE AIRCRAFT
     {
-      "name": "F-35B",
+      "name": "F-35B Lightning II",
       "countryOfOrigin": "JPN",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1680,6 +1730,7 @@
       ],
       "abilityWeight": 2.5
     },
+
     {
       "name": "Mitsubishi H-60",
       "countryOfOrigin": "JPN",
@@ -1698,9 +1749,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10002,
+          "TorpReferenceID": 10002,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1820,9 +1871,9 @@
       "rateOfClimb": 9,
       "ServiceCeiling": 4575,
       "steelHull": true,
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10003,
+          "TorpReferenceID": 10003,
           "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1858,9 +1909,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10006,
+          "TorpReferenceID": 10006,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -1941,10 +1992,129 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10006,
+          "TorpReferenceID": 10006,
           "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
+    // ITALIAN Aircraft
+    {
+      "name": "AV-8B Harrier II Plus", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "ITA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 298,
+      "thrust": 13241, // weight (13968 kg) * thrust-to-weight ratio (0.948)  
+      "weight": 13968,
+      "rateOfClimb": 75,
+      "ServiceCeiling": 15600,
+      "cameo": "av-8b.jpg",
+      "artist": "Mick",
+      "artLink": "danbooru.donmai.us/posts/64850590",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10029,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        },
+        {
+          "missileReferenceID": 46,
+          "turretCount": 1,
+          "missilesPerTurret": 4
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1,
+    }, 
+    {
+      "name": "F-35B Lightning II",
+      "countryOfOrigin": "ITA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35bj.jpg",
+      "artist": "mick",
+      "artLink": "pixiv.net/en/artworks/117844088",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 8,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+    {
+      "name": "AgustaWestland AW101",
+      "countryOfOrigin": "ITA",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 2100,
+      "weight": 10500,
+      "rateOfClimb": 9,
+      "ServiceCeiling": 4575,
+      "steelHull": true,
+      "TorpedoBatReferences": [
+        {
+          "TorpReferenceID": 10003,
+          "turretCount": 4,
           "torpsPerTurret": 1,
           "torpReloads": 0
         }
@@ -1978,9 +2148,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10000,
+          "TorpReferenceID": 10000,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -2006,9 +2176,9 @@
       "rateOfClimb": 9, // CITATION NEEDED
       "ServiceCeiling": 5000,
       "steelHull": true,
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10007,
+          "TorpReferenceID": 10007,
           "turretCount": 1,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -2257,9 +2427,9 @@
       "artist": "hallelujah_zeng",
       "artLink": "pixiv.net/en/artworks/107810925",
       "steelHull": true,
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10012,
+          "TorpReferenceID": 10012,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0
@@ -2339,9 +2509,9 @@
           "gunsPerTurret": 1
         }
       ],
-      "torpedoBatReferences": [
+      "TorpedoBatReferences": [
         {
-          "torpRefrenceID": 10002,
+          "TorpReferenceID": 10002,
           "turretCount": 2,
           "torpsPerTurret": 1,
           "torpReloads": 0

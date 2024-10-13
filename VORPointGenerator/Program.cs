@@ -558,6 +558,7 @@ namespace VORPointGenerator
 
                     foreach (var z in torpedoRefrences)
                     {
+                        
                         if (z.Id == j.TorpReferenceID)
                         {
                             tRef = z;
