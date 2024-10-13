@@ -2112,7 +2112,57 @@
         }
       ]
     },
-    // TODO: To-class Agano (jpn) (4)
+    {
+      "name": "To-class Light Cruiser (Agano-class)",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 6652,
+      "horsepower": 100000,
+      "beltThickness": 47,
+      "length": 174,
+      "aircraftCount": 2,
+      "shipFaction": "JAPAN",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "GunReferenceID": 26,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 86,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ]
+    },
     // TODO: To-class Fiji (uk) (11)
     {
       "name": "To-class Light Cruiser (Town-class)",
@@ -3515,6 +3565,7 @@
     // TODO: Ta-class Alsace (fr)
     // TODO: Ta-class H-39 (ger)
     // TODO: Ta-class Lion (uk)
+    // TODO: Ta-class Incomparable (uk)
 
     // TODO: Ta-class Constellation (us)
 
@@ -6049,7 +6100,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Carrier Killer", // Technically, Gamby's sinking is more reasonablly accredited to Yamato, but I'm fine with taking some quick liberties
+          "name": "Carrier Killer", // Technically, Gamby's sinking is more reasonablly accredited to Yamato, but I'm fine with taking some liberties
           "description": "Chikuma gains +2 ACC when attacking enemy carriers."
         }
       ],
@@ -6167,6 +6218,68 @@
         }
       ],
       "abilityWeight": 0.65
+    },
+
+    {
+      "name": "JS Yahagi",
+      "carrier": false,
+      "speed": 35,
+      "displacement": 6652,
+      "horsepower": 100000,
+      "beltThickness": 47,
+      "length": 174,
+      "aircraftCount": 2,
+      "shipFaction": "JAPAN",
+      "hullCode": "CL",
+      "cameo": "yahagi.jpg",
+      "artist": "ゾンビモグラ",
+      "artLink": "pixiv.net/en/artworks/89062056",
+      "batteries": [
+        {
+          "GunReferenceID": 26,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 86,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 30,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 8,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "\"I'll protect Everyone\"",
+          "description": "At the start of the game, choose one of your ships that has a higher INT then Yahagi, signified by \nplacing a 'screen' marker on their card. For every lost INT this ship takes, gain +1 ACC. If this ship \nsinks, remove these bonuses and instead give Yahagi a -2 ACC penalty."
+        }
+      ],
+      "abilityWeight": 1.3
     },
 
     {
@@ -6776,6 +6889,65 @@
       "abilityWeight": 1.25
     },
 
+    {
+      "name": "JS Shimakaze",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 41,
+      "displacement": 2570,
+      "horsepower": 75000,
+      "beltThickness": 20,
+      "length": 129,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "JAPAN",
+      "hullCode": "DD",
+      "cameo": "jsShimakaze.png",
+      "artist": "yoko hata＜丁督＞",
+      "artLink": "pixiv.net/en/artworks/108911592",
+      "batteries": [
+        {
+          "GunReferenceID": 51,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 9,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 8,
+          "turretCount": 3,
+          "torpsPerTurret": 5,
+          "torpReloads": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Island wind swiftness.",
+          "description": "Gain +1 EVA when greater than 5\" from any alliies."
+        }
+      ],
+      "abilityWeight": 1.15
+    },
+
     // JAPAN HELICOPTER DESTROYERS
     {
       "name": "JS Izumo (DDH-183)",
@@ -6923,6 +7095,89 @@
         {
           "name": "Savior of Sasebo",
           "description": "Gain +2 ACC for every hostile aircraft within 12\" of Kongou."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
+      "name": "JS Shimakaze (DDG-172)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30, // I doubt it's actually 30
+      "displacement": 4674,
+      "horsepower": 72000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 150,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "JAPAN",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "jsShimakazeDDG.jpg",
+      "artist": "Yenさん",
+      "artLink": "pixiv.net/en/artworks/104351510",
+      "batteries": [
+        {
+          "GunReferenceID": 10031,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+      {
+          "TorpReferenceID": 10001,
+          "turretCount": 1,
+          "torpsPerTurret": 8,
+          "torpReloads": 0
+      },  
+      {
+          "TorpReferenceID": 10004,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 1,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "MissileReferenceID": 47,
+          "turretCount": 1,
+          "missilesPerTurret": 24,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 6"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Veteran of Kure",
+          "description": "After making an attack with 5 or more missiles, place a 'hardened' marker on Shimakaze's card. \nGain +1 EVA and +1 ARM for every hardened marker on Shimakaze's card'"
         }
       ],
       "abilityWeight": 1.2

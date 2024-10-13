@@ -861,23 +861,23 @@
       "originCountry": "UK"
     },
     {
-      "Id": 86, // TODO: FIX DUPLICATE ENTRY
-      "Name": "15-in Mark I",
-      "Calibre": 381,
-      "MaxRange": 29720,
-      "ArmorPenetration": 406, 
+      "Id": 86,
+      "Name": "8 cm/60 Type 98",
+      "Calibre": 80,
+      "MaxRange": 13600,
+      "ArmorPenetration": 60,
       "FireRate": 2,
       "AttackAir": false,
-      "originCountry": "UK"
+      "originCountry": "JP"
     },
     {
-      "Id": 87, // TODO: STATS SEEM INCORRECT
+      "Id": 87,
       "Name": "12-pdr 20cwt QF HA Mark I",
-      "Calibre": 381,
-      "MaxRange": 29720,
-      "ArmorPenetration": 406, 
+      "Calibre": 76,
+      "MaxRange": 9970,
+      "ArmorPenetration": 30, //CITATION NEEDED 
       "FireRate": 2,
-      "AttackAir": false,
+      "AttackAir": true,
       "originCountry": "UK"
     },
     {
@@ -1373,5 +1373,15 @@
       "AttackAir": true,
       "originCountry": "ITA"
     },
+    {
+      "Id": 10031,
+      "Name": "5-in/54 Mark 42",
+      "Calibre": 127,
+      "MaxRange": 23691,
+      "ArmorPenetration": 108, //CITATION NEEDED
+      "FireRate": 17,
+      "AttackAir": true,
+      "originCountry": "USA"
+    }
   ]
 }

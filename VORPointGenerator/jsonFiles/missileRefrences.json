@@ -558,5 +558,18 @@
       "opticalGuidance": true,
       "orginCountry": "USA"
     },
+    {
+      "id": 47,
+      "name": "RIM-666 SM-2MR Block III",
+      "mslWarheadSize": 258, //explosive type not specified, assumed 221 kg PBXN
+      "mslRange": 170000,
+      "mslSpeed": 1190,
+      "seaSkimming": false,
+      "inertialGuidance": true,
+      "infraredGuidance": true,
+      "sarhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
   ]
 }
