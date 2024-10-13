@@ -538,6 +538,7 @@ namespace VORPointGenerator.Data.Ship
             cameoPoint = cameoPoint + new Size(420, 0);
             string cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericShipImage.jpg";
 
+            if (SteelHull) cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericSteelHullImage.jpg";
 
             // Draw background image
             try

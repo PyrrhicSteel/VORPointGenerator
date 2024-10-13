@@ -544,8 +544,9 @@ namespace VORPointGenerator.Data.Aircraft
             height = 1430;
 
             cameoPoint = cameoPoint + new Size(420, 0);
-            string cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericShipImage.jpg";
-
+            string cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericPlaneImage.jpg";
+            if(Type.Contains("Jet")) cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericJetImage.jpg";
+            if (Type.Contains("Helicopter")) cameoBkndDirectory = workingDirectory + "\\images\\src\\GenericHeliImage.jpg";
 
             // Draw background image
             try
