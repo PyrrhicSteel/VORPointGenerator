@@ -1060,6 +1060,39 @@
       "AttackAir": false,
       "originCountry": "ITA"
     },
+    {
+      "Id": 106,
+      "Name": "18-in/47 Mark A",
+      "Calibre": 457,
+      "MaxRange": 39734,
+      "ArmorPenetration": 950, //SUPER FAKE NUMBER BECAUSE RE-CLASS
+      "FireRate": 1,
+      "AttackAir": false,
+      "originCountry": "USA"
+    },
+    {
+      "Id": 107,
+      "Name": "4-in/45 QF Mark V",
+      "Calibre": 102,
+      "MaxRange": 16430,
+      "ArmorPenetration": 107, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "Id": 108,
+      "Name": "Lewis .303",
+      "Calibre": 11,
+      "MaxRange": 3200,
+      "ArmorPenetration": 3, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
+      "originCountry": "UK"
+    },
+
+
+
 
     // MODERN WEAPONS
     {

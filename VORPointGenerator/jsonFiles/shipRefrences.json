@@ -504,7 +504,6 @@
           "gunsPerTurret": 1,
           "localOpticalDirector": true
         }
-
       ]
     },
 
@@ -1720,7 +1719,7 @@
       ],
       "torpedoes": [
         {
-          "TorpReferenceID": 4,
+          "TorpReferenceID": 5,
           "turretCount": 4,
           "torpsPerTurret": 3,
           "torpReloads": 0
@@ -2121,7 +2120,7 @@
       "beltThickness": 47,
       "length": 174,
       "aircraftCount": 2,
-      "shipFaction": "JAPAN",
+      "shipFaction": "ABYSSAL",
       "hullCode": "CL",
       "batteries": [
         {
@@ -2561,7 +2560,7 @@
       ],
       "torpedoes": [
         {
-          "TorpReferenceID": 4,
+          "TorpReferenceID": 15,
           "turretCount": 3,
           "torpsPerTurret": 4,
           "torpReloads": 0
@@ -2781,7 +2780,6 @@
     },
 
     // TODO: Na-class Aigle
-    // TODO: Na-class Akizuki
     {
       "name": "Na-class Destroyer (Fletcher-class)",
       "hasSonar": true,
@@ -3504,6 +3502,62 @@
     // TODO: Re-class Tillman IV CV Conversion (usa)
     // TODO: Re-class Iowa 18"/47 BBV (usa)
     {
+      "name": "Re-Class Aviation Battleship (Iowa BBV)",
+      "carrier": true,
+      "speed": 36,
+      "displacement": 48880,
+      "horsepower": 212000,
+      "beltThickness": 272,
+      "length": 270,
+      "aircraftCount": 30,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BBV",
+      "cameo": "re.jpg",
+      "artist": "メオ",
+      "artLink": "pixiv.net/en/artworks/48275678",
+      "batteries": [
+        {
+          "GunReferenceID": 106,
+          "turretCount": 2,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "GunReferenceID": 1,
+          "turretCount": 10,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "GunReferenceID": 2,
+          "turretCount": 6,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 3,
+          "turretCount": 30,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ]
+    },
+    // TODO: Re-class A-150 BBV (jp)
+    {
       "name": "Re-Class Aviation Battlehip (Ise)",
       "carrier": false,
       "speed": 23,
@@ -3558,6 +3612,7 @@
       ],
       "abilityWeight": 1
     },
+    // TODO: Re-class H-44 BBV (ger)
 
     // TODO: Wo-class Habakkuk (uk)
 
@@ -7906,6 +7961,118 @@
       ],
       "abilityWeight": 1.25
     },
+    {
+      "name": "HMS Janus",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1690,
+      "horsepower": 44000,
+      "beltThickness": 10,
+      "length": 108,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "DD",
+      "cameo": "hmsJanus.png",
+      "artist": "Vorisar",
+      "artLink": "pixiv.net/en/artworks/113276501",
+      "batteries": [
+        {
+          "GunReferenceID": 10,
+          "turretCount": 3,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "GunReferenceID": 12,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 71,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Littoral Threshold",
+          "description": "Gain +2 ACC if within 3\" of a coastline."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+    {
+      "name": "HMS Glowworm",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1350,
+      "horsepower": 34000,
+      "beltThickness": 10,
+      "length": 99,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "DD",
+      "cameo": "hmsGlowworm.jpg",
+      "artist": "arnold-s",
+      "artLink": "danbooru.donmai.us/posts/2424973",
+      "batteries": [
+        {
+          "GunReferenceID": 10,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "GunReferenceID": 71,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 4,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Death or Glory",
+          "description": "+5 POW and ARM when ramming. +2 EVA if in smoke."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
     // MODERN UK
     {
       "name": "HMS Queen Elizabeth (R08)",
@@ -9177,7 +9344,7 @@
       ],
       "missiles": [
         {
-          "MissileReferenceID": 61,
+          "MissileReferenceID": 16,
           "turretCount": 4,
           "missilesPerTurret": 8
         }
@@ -10258,6 +10425,71 @@
       "abilityWeight": 1.2
     },
     {
+      "name": "HMAS Vampire (D68)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 36,
+      "displacement": 1690,
+      "horsepower": 44000,
+      "beltThickness": 10,
+      "length": 108,
+      "depthChargeLauncherNumber": 2,
+      "aircraftCount": 0,
+      "shipFaction": "AUSTRALIA",
+      "hullCode": "DD",
+      "batteries": [
+        {
+          "GunReferenceID": 107,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 12,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 108,
+          "turretCount": 1,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 108,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 7,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Smoke"
+        },
+        {
+          "name": "Scrap Iron Demon",
+          "description": "Gain +1 EVA and +1 ARM for every enemy Aircraft within 12\"."
+        },
+        {
+          "name": "Wallace",
+          "description": "For the sake of fleet building and abilities, Vampire's nationality can be considered either \nAustralian or United Kingdom."       
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+    {
       "name": "HMAS Hobart (DDG 39)",
       "hasSonar": true,
       "carrier": false,
@@ -10321,14 +10553,14 @@
         },
         {
           "MissileReferenceID": 4,
-          "turretCount": 8,
-          "missilesPerTurret": 32,
+          "turretCount": 24,
+          "missilesPerTurret": 1,
           "dataLink": true
         },
         {
           "MissileReferenceID": 3,
-          "turretCount": 8,
-          "missilesPerTurret": 40,
+          "turretCount": 24,
+          "missilesPerTurret": 1,
           "dataLink": true
         }
       ],
@@ -10397,7 +10629,7 @@
         {
           "MissileReferenceID": 3,
           "turretCount": 8,
-          "missilesPerTurret": 32,
+          "missilesPerTurret": 4,
           "dataLink": true
         }
       ],

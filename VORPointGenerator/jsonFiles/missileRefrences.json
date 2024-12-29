@@ -489,7 +489,7 @@
       "id": 41,
       "name": "HQ-10",
       "mslWarheadSize": 3, 
-      "mslRange": 500,
+      "mslRange": 5000,
       "mslSpeed": 686, // CITATION NEEDED
       "seaSkimming": false,
       "infraredGuidance": true,

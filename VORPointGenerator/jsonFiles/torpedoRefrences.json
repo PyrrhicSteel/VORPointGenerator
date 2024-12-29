@@ -135,7 +135,15 @@
       "torpGuidance": 0,
       "orginCountry": "UK"
     },
-
+    {
+      "id": 15,
+      "name": "Mark 11 Torpedo",
+      "torpWarheadSize": 227, //227 kg TNT
+      "torpRange": 13700,
+      "torpSpeed": 27,
+      "torpGuidance": 0,
+      "orginCountry": "USA"
+    },
 
 
 

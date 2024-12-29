@@ -140,9 +140,11 @@ namespace VORPointGenerator.Data.Ship
             //add points for missiles
             foreach (var i in MissileBatteries)
             {
+                int correctedPwr = i.MslPower;
+                if (correctedPwr == 0 ) correctedPwr = 1;
                 int correctedRange = i.MslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
-                int missileStats = (int)Math.Round(i.MslTurrets * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * i.MslPower * i.MslAOE * mslBias), 1 + i.MslAcc / 75));
+                int missileStats = (int)Math.Round(i.MslTurrets * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * correctedPwr * i.MslAOE * mslBias), 1 + i.MslAcc / 75));
 
                 //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
 

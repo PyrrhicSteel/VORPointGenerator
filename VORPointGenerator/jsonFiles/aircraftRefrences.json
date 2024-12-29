@@ -84,7 +84,7 @@
         {
           "name": "AN-M57, 250 lb.",
           "number": 2,
-          "bombVolleySize": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 129,
           "diveBomb": true
         }
@@ -119,8 +119,8 @@
       "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
-          "number": 3,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 102,
           "diveBomb": true
         }
@@ -339,8 +339,8 @@
       "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 102
         }
       ],
@@ -371,8 +371,8 @@
       "bombReferences": [
         {
           "name": "30 kg Type 99",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 11,
           "diveBomb": true
         }
@@ -736,8 +736,8 @@
       "bombReferences": [
         {
           "name": "30 kg Type 99",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 11
         }
       ],
@@ -795,8 +795,8 @@
       "bombReferences": [
         {
           "name": "250 lb GP Bomb",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
       ],
@@ -825,8 +825,8 @@
       "bombReferences": [
         {
           "name": "AN-M30, 100 lb.",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 102,
           "diveBomb": true
         }
@@ -945,8 +945,8 @@
       "bombReferences": [
         {
           "name": "250 lb GP Bomb",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 190 //CITATION NEEDED
         }
       ],
@@ -1049,8 +1049,8 @@
       "bombReferences": [
         {
           "name": "SC50",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 27
         }
       ],
@@ -1093,7 +1093,7 @@
         {
           "name": "SC50",
           "number": 2,
-          "bombVolleySize": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 27,
           "diveBomb": true
         }
@@ -1130,7 +1130,7 @@
         {
           "name": "SC50",
           "number": 2,
-          "bombVolleySize": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 27,
           "diveBomb": true
         }
@@ -1192,8 +1192,8 @@
       "bombReferences": [
         {
           "name": "75 kg GP",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 55
         }
       ],
@@ -1299,8 +1299,8 @@
       "bombReferences": [
         {
           "name": "250 kg",
-          "number": 1,
-          "bombVolleySize": 2,
+          "number": 2,
+          "bombVolleySize": 1,
           "bombWarheadSize": 188
         }
       ],
@@ -1676,6 +1676,42 @@
         },
         {
           "name": "Radar 20"
+        }
+      ],
+      "abilityWeight": 2
+    },
+    {
+      "name": "B-52 Stratofortress", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Land-Based Jet Bomber",
+      "numPlanes": 2,
+      "speed": 291,
+      "thrust": 25807, // weight (83250 kg) * thrust-to-weight ratio (0.31)  
+      "weight": 83250,
+      "rateOfClimb": 31,
+      "ServiceCeiling": 50000,
+      "cameo": "b52.jpg",
+      "artist": "ツバサ",
+      "artLink": "pixiv.net/en/artworks/160794",
+      "steelHull": true,
+      "missiles": [
+        {
+          "missileReferenceID": 1,
+          "turretCount": 1,
+          "missilesPerTurret": 8
+        },  
+        {
+          "missileReferenceID": 46,
+          "turretCount": 1,
+          "missilesPerTurret": 30
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Jamming 3"
         }
       ],
       "abilityWeight": 2
