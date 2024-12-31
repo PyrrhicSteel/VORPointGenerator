@@ -493,10 +493,31 @@ namespace VORPointGenerator
 
                     statBlock.ApplyFixes();
 
-                    Aircraft.GunStats.Add(statBlock);
+                    // TODO: If aircraft have multiple different types of forward-facing guns,
+                    //       Combine aircraft stats.
+                    bool FixedForwardBatteries = false;
+                    if (statBlock.Turrets == 0)
+                    {
+                        foreach (BatteryStats t in Aircraft.GunStats)
+                        {
+                            if (t.Turrets == 0) FixedForwardBatteries = true;
+                        }
+                        
+                        if (FixedForwardBatteries)
+                        {
+                            foreach (BatteryStats t in Aircraft.GunStats)
+                            {
+                                if (t.Turrets == 0)
+                                {
+                                    t.CombineBattery(statBlock);
+                                }
+                            }
+                        }
+                    }
+                    if (!FixedForwardBatteries) Aircraft.GunStats.Add(statBlock);
 
                 }
-
+               
                 // Add rockets
                 foreach (var j in i.RocketReferences)
                 { 

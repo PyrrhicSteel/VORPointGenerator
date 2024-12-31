@@ -8272,7 +8272,7 @@
       "specialAbilities": [
         {
           "name": "Surface Raider",
-          "description": "When attacking a ship with a lower cost then Graf Zeppelin, guns and aircraft with +1 ACC."
+          "description": "When attacking a ship with a lower cost then Graf Zeppelin, her guns and aircraft gain +1 ACC."
         }
       ],
       "abilityWeight": 1.15

@@ -1,4 +1,5 @@
-﻿namespace VORPointGenerator.Data.Battery
+﻿
+namespace VORPointGenerator.Data.Battery
 {
     public class BatteryStats
     {
@@ -28,6 +29,17 @@
                 Range = 1;
             }
 
+        }
+
+        internal void CombineBattery(BatteryStats statBlock)
+        {
+            Name = Name + " & "+ statBlock.Name;
+            Range = Math.Max(Range, statBlock.Range);
+            Power = Math.Max(Power, statBlock.Power);
+            Accuracy = (int)Math.Round((Accuracy + statBlock.Accuracy) / 1.25);
+
+            // This will never be relevant lol
+            Laser = Laser | statBlock.Laser;
         }
     }
 }
