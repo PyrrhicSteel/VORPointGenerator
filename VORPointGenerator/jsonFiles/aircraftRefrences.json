@@ -30,7 +30,8 @@
           "rocketWarheadSize": 8
         }
       ],
-      "abyssalName": "Abyssal Corsair Fighter"
+      "abyssalName": "Abyssal Corsair Fighter",
+      //"abyssalCameo": "abyBearcatFighter.jpg"
     },
     {
       "name": "F4F Wildcat",
@@ -61,7 +62,8 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Cat Fighter"
+      "abyssalName": "Abyssal Cat Fighter",
+      //"abyssalCameo": "abyNightCatFighter.jpg"
     },
     {
       "name": "F2A Buffalo",
@@ -89,7 +91,8 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Buffalo Fighter"
+      "abyssalName": "Abyssal Buffalo Fighter",
+      //"abyssalCameo": "abyFighter.jpg"
     },
     {
       "name": "F6F Hellcat",
@@ -125,7 +128,8 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Night Cat Fighter"
+      "abyssalName": "Abyssal Night Cat Fighter",
+      //"abyssalCameo": "abyCatFighter.jpg"
     },
     {
       "name": "F8F Bearcat",
@@ -157,7 +161,8 @@
           "railDropped": true
         }
       ],
-      "abyssalName": "Abyssal Bear Cat Fighter"
+      "abyssalName": "Abyssal Bear Cat Fighter",
+      //"abyssalCameo": "abyBearcatFighter.jpg"
     },
     {
       "name": "SB2C Helldiver",

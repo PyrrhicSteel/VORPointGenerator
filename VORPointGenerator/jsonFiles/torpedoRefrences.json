@@ -144,7 +144,15 @@
       "torpGuidance": 0,
       "orginCountry": "USA"
     },
-
+    {
+      "id": 16,
+      "name": "45 cm M12D, Toulon",
+      "torpWarheadSize": 145, //145 kg TNT
+      "torpRange": 8000,
+      "torpSpeed": 28,
+      "torpGuidance": 0,
+      "orginCountry": "FRA"
+    },
 
 
     //MODERN WEAPONS

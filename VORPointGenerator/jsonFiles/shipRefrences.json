@@ -1057,7 +1057,7 @@
     },
 
     {
-      "name": "Ru-Class Battlehip (Bayern)", // TODO: Finish
+      "name": "Ru-Class Battlehip (Bayern)",
       "carrier": false,
       "speed": 21,
       "displacement": 28080,
@@ -1104,7 +1104,55 @@
         }
       ]
     },
-    // TODO: Ru-class Bretange
+
+    {
+      "name": "Ru-Class Battlehip (Bretagne)",
+      "carrier": false,
+      "speed": 21,
+      "displacement": 23936,
+      "horsepower": 27617,
+      "beltThickness": 184,
+      "length": 166,
+      "aircraftCount": 0,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "BB",
+      "cameo": "ru.jpg",
+      "artist": "和屋",
+      "artLink": "pixiv.net/en/artworks/45947847",
+      "batteries": [
+        {
+          "GunReferenceID": 107,
+          "turretCount": 5,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 108,
+          "turretCount": 22,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true
+        },
+        {
+          "GunReferenceID": 48,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 16,
+          "turretCount": 4,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ru-class Conte di Cavour
     // TODO: Ru-class Espana
     {
@@ -1512,7 +1560,59 @@
         }
       ]
     },
-    // TODO: Ri-class Canarias
+    {
+      "name": "Ri-Class Heavy Cruiser (Canarias)",
+      "carrier": false,
+      "speed": 33,
+      "displacement": 10670,
+      "horsepower": 67000,
+      "beltThickness": 71,
+      "length": 194,
+      "aircraftCount": 2,
+      "shipFaction": "ABYSSAL",
+      "hullCode": "CA",
+      "cameo": "ri.jpg",
+      "artist": "k-suwabe",
+      "artLink": "seiga.nicovideo.jp/seiga/im3548919",
+      "batteries": [
+        {
+          "GunReferenceID": 109,
+          "turretCount": 4,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 10,
+          "turretCount": 8,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 12,
+          "turretCount": 4,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 19,
+          "turretCount": 3,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 7,
+          "turretCount": 4,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        }
+      ]
+    },
     // TODO: Ri-class Suffren
     // TODO: Ri-class Duquesne
     // TODO: Ri-class Hawkins
@@ -1729,6 +1829,7 @@
     // TODO: Ne-class Zara
     // TODO: Ne-class Baltimore
     // TODO: Ne-class Commandant Teste
+
     // TODO: Ne-class Commandant Tone
     {
       "name": "Ne-Class Heavy Cruiser (Tone)",
@@ -4173,7 +4274,7 @@
       "specialAbilities": [
         {
           "name": "The Gold Standard",
-          "description": "If another ship in your fleet has the same MAN and SPEED as Colorado, both that ship and \nColorado gain +1 ACC and +1 ARM."
+          "description": "For every BB in your fleet that has the same MAN and SPEED as Colorado, both that ship and \nColorado gain +1 ACC and +2 ARM."
         }
       ],
       "abilityWeight": 1.2

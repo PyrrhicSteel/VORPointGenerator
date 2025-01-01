@@ -1090,8 +1090,36 @@
       "AttackAir": true,
       "originCountry": "UK"
     },
-
-
+    {
+      "Id": 107,
+      "Name": "34 cm/45 Model 1912",
+      "Calibre": 340,
+      "MaxRange": 23700,
+      "ArmorPenetration": 680, // CITATION NEEDED
+      "FireRate": 2,
+      "AttackAir": false,
+      "originCountry": "FRA"
+    },
+    {
+      "Id": 108,
+      "Name": "138.6 mm/55 Modele 1910",
+      "Calibre": 137,
+      "MaxRange": 46500,
+      "ArmorPenetration": 100, // CITATION NEEDED
+      "FireRate": 6,
+      "AttackAir": false,
+      "originCountry": "FR"
+    },
+    {
+      "Id": 109,
+      "Name": "BL 8-in/50 Mk VIII",
+      "Calibre": 203,
+      "MaxRange": 28030,
+      "ArmorPenetration": 254, // CITATION NEEDED
+      "FireRate": 6,
+      "AttackAir": false,
+      "originCountry": "UK"
+    },
 
 
     // MODERN WEAPONS

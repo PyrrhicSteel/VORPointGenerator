@@ -88,7 +88,7 @@ namespace VORPointGenerator.Data.Ship
             int attackStats = 0;
 
             // Tune these values for balancing
-            double gunBias = 0.3;
+            double gunBias = 0.5;
             double torpBias = 0.025;
             double mslBias = 0.00065;
 
@@ -96,12 +96,14 @@ namespace VORPointGenerator.Data.Ship
             int aircraftFloatBias = 50;
 
             int speedBias = 10;
-            int maneuverabilityBias = 10;
-            int healthBias = 60;
+            int maneuverabilityBias = 15;
+            int healthBias = 50;
             int spottingRangeBias = 1;
             int sonarRangeBias = 1;
             int evasionBias = 10;
             int armorBias = 150;
+
+            int gunAccuracyBias = 36; //NOTE: This value has an inverse releationship with ACC 
 
             baseStats = baseStats + MaxSpeed * speedBias;
             baseStats = baseStats + Maneuverability * maneuverabilityBias;
@@ -122,13 +124,17 @@ namespace VORPointGenerator.Data.Ship
             {
                 if (i.Power == 0)
                 {
-                    double batteryCost = Math.Pow((double)(i.Range * 1 * i.Turrets * i.GunsPerTurret * gunBias), 1 + i.Accuracy / 75);
-                    if (i.AttackAir == false) { batteryCost = batteryCost * 0.8; }
+                    double batteryCost = Math.Pow((double)(i.Range * 1 * i.Turrets * i.GunsPerTurret * gunBias), 1 + (double)i.Accuracy / gunAccuracyBias);
+                    if (i.AttackAir == false) { batteryCost = batteryCost * 0.9; }
+                    Console.WriteLine("\t" + i.Name + ": " + batteryCost);
                     attackStats = attackStats + (int)Math.Round(batteryCost);
                 }
                 else
                 {
-                    attackStats = attackStats + (int)Math.Round(i.Turrets * i.GunsPerTurret * Math.Pow((double)(i.Range * i.Power * gunBias), 1 + i.Accuracy / 75));
+                    double batteryCost = (int)Math.Round(i.Turrets * i.GunsPerTurret * Math.Pow((double)(i.Range * i.Power * gunBias), 1 + (double)i.Accuracy / gunAccuracyBias));
+                    if (i.AttackAir == false) { batteryCost = batteryCost * 0.9; }
+                    Console.WriteLine("\t" + i.Name + ": " + batteryCost);
+                    attackStats = attackStats + (int)Math.Round(batteryCost);
                 }
             }
             //add points for torpedoes
