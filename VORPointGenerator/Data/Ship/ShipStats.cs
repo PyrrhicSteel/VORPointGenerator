@@ -90,7 +90,7 @@ namespace VORPointGenerator.Data.Ship
             // Tune these values for balancing
             double gunBias = 0.5;
             double torpBias = 0.025;
-            double mslBias = 0.00065;
+            double mslBias = 0.00055;
 
             int aircraftCVbias = 75;
             int aircraftFloatBias = 50;
@@ -101,7 +101,8 @@ namespace VORPointGenerator.Data.Ship
             int spottingRangeBias = 1;
             int sonarRangeBias = 1;
             int evasionBias = 10;
-            int armorBias = 150;
+            int armorBias = 15;
+            double armorExponentialBias = 3.3;
 
             int gunAccuracyBias = 36; //NOTE: This value has an inverse releationship with ACC 
 
@@ -111,7 +112,7 @@ namespace VORPointGenerator.Data.Ship
             baseStats = baseStats + SpottingRange * spottingRangeBias;
             baseStats = baseStats + SonarRange * sonarRangeBias;
             baseStats = baseStats + Evasion * evasionBias;
-            baseStats = baseStats + Armor * armorBias;
+            baseStats = baseStats + (int)(Math.Round((double)Armor * (double)armorBias + Math.Pow(((double)Armor), (double)armorExponentialBias)));
             if (Carrier == true)
             {
                 baseStats = baseStats + NumAircraft * aircraftCVbias;
@@ -126,14 +127,14 @@ namespace VORPointGenerator.Data.Ship
                 {
                     double batteryCost = Math.Pow((double)(i.Range * 1 * i.Turrets * i.GunsPerTurret * gunBias), 1 + (double)i.Accuracy / gunAccuracyBias);
                     if (i.AttackAir == false) { batteryCost = batteryCost * 0.9; }
-                    Console.WriteLine("\t" + i.Name + ": " + batteryCost);
+                    // Console.WriteLine("\t" + i.Name + ": " + batteryCost);
                     attackStats = attackStats + (int)Math.Round(batteryCost);
                 }
                 else
                 {
                     double batteryCost = (int)Math.Round(i.Turrets * i.GunsPerTurret * Math.Pow((double)(i.Range * i.Power * gunBias), 1 + (double)i.Accuracy / gunAccuracyBias));
                     if (i.AttackAir == false) { batteryCost = batteryCost * 0.9; }
-                    Console.WriteLine("\t" + i.Name + ": " + batteryCost);
+                    // Console.WriteLine("\t" + i.Name + ": " + batteryCost);
                     attackStats = attackStats + (int)Math.Round(batteryCost);
                 }
             }
