@@ -307,6 +307,10 @@ namespace VORPointGenerator.Data.Ship
                 {
                     flagDirectory = flagDirectory + "prc.png";
                 }
+                if (ShipFaction.Equals("REPUBLIC OF CHINA"))
+                {
+                    flagDirectory = flagDirectory + "roc.png";
+                }
                 if (ShipFaction.Equals("SOUTH KOREA"))
                 {
                     flagDirectory = flagDirectory + "kor.png";

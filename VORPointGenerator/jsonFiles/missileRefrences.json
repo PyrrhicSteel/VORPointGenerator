@@ -571,5 +571,30 @@
       "attackAir": true,
       "orginCountry": "USA"
     },
+    {
+      "id": 48,
+      "name": "YJ-12",
+      "mslWarheadSize": 840, // 500 kg PBXN
+      "mslRange": 460000,
+      "mslSpeed": 828,
+      "seaSkimming": true,
+      "inertialGuidance": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "attackAir": false,
+      "orginCountry": "PRC"
+    },
+    {
+      "id": 49,
+      "name": "P-120 Malakhit \"Siren\"",
+      "mslWarheadSize": 840, 
+      "mslRange": 120000,
+      "mslSpeed": 343, 
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
   ]
 }

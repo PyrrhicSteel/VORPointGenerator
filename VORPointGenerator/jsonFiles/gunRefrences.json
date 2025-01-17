@@ -12,7 +12,7 @@
     },
     {
       "Id": 2,
-      "Name": "40mm Bofors L/60",
+      "Name": "40 mm Bofors L/60",
       "Calibre": 40,
       "MaxRange": 10180,
       "ArmorPenetration": 15,
@@ -122,7 +122,7 @@
     },
     {
       "Id": 13,
-      "Name": "155mm/50 Modele 1920",
+      "Name": "155 mm/50 Modele 1920",
       "Calibre": 155,
       "MaxRange": 25000,
       "ArmorPenetration": 102, // CITATION NEEDED
@@ -763,7 +763,7 @@
     {
       "Id": 76,
       "Name": "3-in/50 Mark 6",
-      "Calibre": 762,
+      "Calibre": 76,
       "MaxRange": 13350,
       "ArmorPenetration": 40, // CITATION NEEDED
       "FireRate": 20,
@@ -1120,6 +1120,77 @@
       "AttackAir": false,
       "originCountry": "UK"
     },
+    {
+      "Id": 110,
+      "Name": "40.6 cm SK C/34",
+      "Calibre": 406,
+      "MaxRange": 36800,
+      "ArmorPenetration": 805,
+      "FireRate": 2,
+      "AttackAir": false,
+      "originCountry": "GER"
+    },
+    {
+      "Id": 111,
+      "Name": "180 mm/60 B-1-K Pattern 1931",
+      "Calibre": 180,
+      "MaxRange": 37130,
+      "ArmorPenetration": 220, // CITATION NEEDED
+      "FireRate": 4,
+      "AttackAir": false,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 112,
+      "Name": "100 mm/56 B-34 Pattern 1940",
+      "Calibre": 100,
+      "MaxRange": 22241,
+      "ArmorPenetration": 100, // CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 113,
+      "Name": "45 mm/68 21-KM",
+      "Calibre": 45,
+      "MaxRange": 10680,
+      "ArmorPenetration": 5,
+      "FireRate": 40,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 114,
+      "Name": "37 mm/67 70-K",
+      "Calibre": 37,
+      "MaxRange": 8400,
+      "ArmorPenetration": 15, // CITATION NEEDED
+      "FireRate": 150,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 115,
+      "Name": "ShKAS",
+      "Calibre": 8,
+      "MaxRange": 2000, // CITATION NEEDED
+      "ArmorPenetration": 2, // CITATION NEEDED
+      "FireRate": 1650,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 116,
+      "Name": "16-in/50 Mark 2",
+      "Calibre": 406,
+      "MaxRange": 40691,
+      "ArmorPenetration": 737,
+      "FireRate": 2,
+      "AttackAir": false,
+      "originCountry": "USA"
+    },
+
 
 
     // MODERN WEAPONS
@@ -1443,6 +1514,16 @@
       "FireRate": 17,
       "AttackAir": true,
       "originCountry": "USA"
-    }
+    },
+    {
+      "Id": 10032,
+      "Name": "AK-176",
+      "Calibre": 76,
+      "MaxRange": 10000,
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 120,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
   ]
 }

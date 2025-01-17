@@ -553,12 +553,21 @@ namespace VORPointGenerator
                 foreach (var j in i.BombReferences)
                 {
                     BombStats bomb = new BombStats();
+                    int bombGuidance = 0;
+
+                    int totalBombs = j.Number;
+                    if(totalBombs * i.NumPlanes > 40 && i.NumPlanes > 10)
+                    {
+                        totalBombs = (int)Math.Round((double)totalBombs / 2);
+                        bombGuidance++;
+                    }
+
                     bomb.Name = j.Name;
                     bomb.Atk = j.BombVolleySize;
-                    bomb.Volleys = (int)Math.Round((double)j.Number / j.BombVolleySize);
+                    bomb.Volleys = (int)Math.Round((double)totalBombs / j.BombVolleySize);
                     bomb.Power = (int)Math.Round((double)j.BombWarheadSize / 50);
 
-                    int bombGuidance = 0;
+                    
                     if(j.LaserGuidance == true) { bombGuidance ++; }
 
                     bomb.DiveBomb = j.DiveBomb;

@@ -1609,7 +1609,7 @@
       "name": "A-10C Thunderbolt II",
       "countryOfOrigin": "USA",
       "type": "Land-Based Jet Attacker",
-      "numPlanes": 4,
+      "numPlanes": 8,
       "speed": 196,
       "thrust": 5320, // weight (11321 kg) * thrust-to-weight ratio (0.47)  
       "weight": 11321,
@@ -2207,6 +2207,31 @@
 
     // RUSSIAN AIRCRAFT
     {
+      "name": "Beriev Be-2",
+      "countryOfOrigin": "RUS",
+      "type": "Observation Floatplane",
+      "numPlanes": 4,
+      "speed": 68,
+      "thrust": 700,
+      "weight": 1800,
+      "rateOfClimb": 5, // CITATION NEEDED
+      "ServiceCeiling": 6600,
+      "GunReferences": [
+        {
+          "GunReferenceID": 115,
+          "turretCount": 0,
+          "gunsPerTurret": 2
+        },
+        {
+          "GunReferenceID": 115,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "abyssalName": "Abyssal Be-2 Floatplane"
+    },
+
+    {
       "name": "Ka-27",
       "countryOfOrigin": "RUS",
       "type": "Utility Maritime Helicopter",
@@ -2427,7 +2452,6 @@
       ],
       "abilityWeight": 2
     },
-
     {
       "name": "Beriev A-50U 'Mainstay'",
       "countryOfOrigin": "RUS",
@@ -2453,6 +2477,93 @@
       ],
       "abilityWeight": 144 // Radar range X 2
     },
+    {
+      "name": "Su-25 'Frogfoot'",
+      "countryOfOrigin": "RUS",
+      "type": "Land-Based Jet Attacker",
+      "numPlanes": 8,
+      "speed": 270,
+      "thrust": 6174, // weight (9800 kg) * thrust-to-weight ratio (0.63)  
+      "weight": 9800,
+      "rateOfClimb": 58,
+      "ServiceCeiling": 7000,
+      "cameo": "su25.jpg",
+      "artist": "Kotash107",
+      "artLink": "pixiv.net/en/artworks/113328145",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10021,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 36,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "rocketReferences": [
+        {
+          "rocketName": "S-13DF",
+          "rocketNumber": 30,
+          "rocketVolleySize": 2,
+          "rocketMaxRange": 3000,
+          "rocketWarheadSize": 40
+        } 
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 3"
+        },
+        {
+          "name": "Survivable",
+          "description": "If attacked by weapons of POW 0, gain +4 EVA."
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    // ROC AIRCRAFT
+    {
+      "name": "S-70C Seahawk",
+      "countryOfOrigin": "ROC",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 75,
+      "thrust": 1890,
+      "weight": 6895,
+      "rateOfClimb": 9,
+      "ServiceCeiling": 3700,
+      "cameo": "mh-60-seahawk.jpg",
+      "artist": "嘉志",
+      "artLink": "pixiv.net/en/artworks/77513514",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 7,
+          "turretCount": 1,
+          "gunsPerTurret": 1
+        }
+      ],
+      "TorpedoBatReferences": [
+        {
+          "TorpReferenceID": 10000,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
+    },
+
     // PRC AIRCRAFT
     {
       "name": "Harbin Z-9",
@@ -2482,6 +2593,41 @@
         }
         //TODO: Subhunting ability
       ]
+    },
+    {
+      "name": "Xi'an H-6", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "PRC",
+      "type": "Land-Based Jet Bomber",
+      "numPlanes": 2,
+      "speed": 645,
+      "thrust": 26100, // weight (58000 kg) * thrust-to-weight ratio (0.45)  
+      "weight": 58000,
+      "rateOfClimb": 15,
+      "ServiceCeiling": 13300,
+      "cameo": "h-6.png",
+      "artist": "ツバサ❏Art Book Ch",
+      "artLink": "pixiv.net/en/artworks/87860696",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10022,
+          "turretCount": 3,
+          "gunsPerTurret": 2
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 48,
+          "turretCount": 1,
+          "missilesPerTurret": 6
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+      ],
+      "abilityWeight": 2
     },
 
 

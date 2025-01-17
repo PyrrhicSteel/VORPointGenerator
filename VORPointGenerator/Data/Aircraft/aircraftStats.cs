@@ -283,6 +283,10 @@ namespace VORPointGenerator.Data.Aircraft
                 {
                     flagDirectory = flagDirectory + "prc.png";
                 }
+                if (countryOfOrigin.Equals("ROC"))
+                {
+                    flagDirectory = flagDirectory + "roc.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
