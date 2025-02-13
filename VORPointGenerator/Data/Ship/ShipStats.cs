@@ -90,7 +90,7 @@ namespace VORPointGenerator.Data.Ship
             // Tune these values for balancing
             double gunBias = 0.5;
             double torpBias = 0.025;
-            double mslBias = 0.00055;
+            double mslBias = 0.0007;
 
             int aircraftCVbias = 75;
             int aircraftFloatBias = 50;

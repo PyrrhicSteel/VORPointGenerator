@@ -1,5 +1,73 @@
 {
   "shipRefrences": [
+    // EXAMPLE SHIP: Provided as a guide to add ships of your own.
+    {
+      "name": "SS Example", // The name of your ship
+      "hasSonar": false, // Currently a useless stat, but may be used in the submarine implementation
+      "carrier": false, // 'true' if this ship is a CV of some kind, i.e. can carry fixed-wing aircraft squadrons
+      "speed": 10, // This ship's maximum speed, in knots
+      "displacement": 9001, // This ship's standard displacement Long Tons. ONLY USE STANDARD, full load will result in a bloated/unbalanced hp pool
+      "horsepower": 9001, // This ship's propulsion power, in shp
+      "beltThickness": 10, // This ship's armor thickness, in mm. Average of all known armor values, with thickest portion of belt counted twice
+      "length": 90, // This ship's length, in meters
+      "depthChargeLauncherNumber": 0, // currently unused
+      "aircraftCount": 2, // The number of aircraft this ship carries
+      "shipFaction": "UNITED NATIONS", // The faction this ship is a part of 
+      "hullCode": "IX", // Hull Classification Symbol, in US Navy Parlance
+      "steelHull": false, // 'false' if this is a shipgirl, 'true' if it isn't.
+      "cameo": "ussPreble.jpg", // filename of the art 
+      "artist": "David Oakes", // The Artist's name
+      "artLink": "artstation.com/david_oakes", // A link to the Artist's Art
+      "batteries": [
+        {
+          "GunReferenceID": 0,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "localRadarDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "radarRangefinder": true,
+          "radarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true,
+          "digitalComputer": true,
+          "poorShellQuality": true,
+          "CWISTracking": true,
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 0,
+          "turretCount": 1,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 0,
+          "turretCount": 1, 
+          "missilesPerTurret": 1,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Pacific Patriot",
+          "description": "Gain +1 ACC for every allied ship within 5\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+  
+  
     // ABYSSALS
     // ABYSSAL AIRCRAFT CARRIERS
     {
@@ -4598,6 +4666,70 @@
       ],
       "abilityWeight": 1.2
     },
+    {
+      "name": "USS Tennessee (BB-43)",
+      "carrier": false,
+      "speed": 21,
+      "displacement": 32300,
+      "horsepower": 28600,
+      "beltThickness": 310,
+      "length": 180,
+      "aircraftCount": 2, // CITATION NEEDED (???)
+      "shipFaction": "UNITED STATES",
+      "hullCode": "BB",
+      "cameo": "ussTennessee.png", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
+      "artist": "あめおとこ",
+      "artLink": "pixiv.net/en/artworks/81940481",
+      "batteries": [
+        {
+          "GunReferenceID": 120,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          "radarRangeFinder": true,
+          "radarDirector": true
+          //"RadarBlindFire": true
+        },
+        {
+          "GunReferenceID": 1,
+          "turretCount": 8,
+          "gunsPerTurret": 2,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "mechanicalComputer": true,
+          // "radarRangeFinder": true,
+          "radarDirector": true,
+          //"RadarBlindFire": true,
+          "airburstFuses": true,
+          "radarFuses": true
+        },
+        {
+          "GunReferenceID": 2,
+          "turretCount": 14,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true
+        },
+        {
+          "GunReferenceID": 3,
+          "turretCount": 43,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Survival of the Fittest",
+          "description": "Every time an allied BB within 12\" of Tennessee, gain 1 'Rage' Token. Tennessee's 14-in/50s gain \n+1 ACC for every 'Rage' Token on her card."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
 
     {
       "name": "USS Nevada (BB-36)",
@@ -6121,7 +6253,99 @@
       ],
       "abilityWeight": 1.3
     },
-
+    {
+      "name": "USS Wichita (LCS-13)",
+      "hasSonar": false,
+      "carrier": false,
+      "speed": 45, 
+      "displacement": 3500,
+      "horsepower": 57100,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 115,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1
+      "shipFaction": "UNITED STATES",
+      "hullCode": "LCS",
+      "steelHull": true,
+      "cameo": "ussFreedom.jpg",
+      "artist": "Ennuishao",
+      "artLink": "pixiv.net/en/artworks/69045942",
+      "batteries": [
+        {
+          "GunReferenceID": 10006,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        },
+        {
+          "GunReferenceID": 10007,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 11,
+          "turretCount": 4,
+          "missilesPerTurret": 2
+        },
+        {
+          "MissileReferenceID": 12,
+          "turretCount": 24,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "MissileReferenceID": 5,
+          "turretCount": 1,
+          "missilesPerTurret": 21,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Stealth"
+        },
+        {
+          "name": "Keeper of the Seas",
+          "description": "+1 EVA for every shipgirl aircraft, friendly or enemy, within 12\"."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
 
 
     // TODO: JAPAN
@@ -7777,6 +8001,96 @@
       ],
       "abilityWeight": 1.2
     },
+    {
+      "name": "JS Maya (DDG-179)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 30, // I doubt it's actually 30
+      "displacement": 8200,
+      "horsepower": 94740,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 170,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters 
+      "shipFaction": "JAPAN",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "cameo": "jsMayaDDG.jpg",
+      "artist": "Ennuishao",
+      "artLink": "pixiv.net/en/artworks/113991191",
+      "batteries": [
+        {
+          "GunReferenceID": 10000,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "localRadarDirector": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 10004,
+          "turretCount": 2,
+          "torpsPerTurret": 3,
+          "torpReloads": 0
+        },
+        {
+          "TorpReferenceID": 10001,
+          "turretCount": 24,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 56,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "MissileReferenceID": 10,
+          "turretCount": 24,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+        {
+          "MissileReferenceID": 15,
+          "turretCount": 24,
+          "missilesPerTurret": 1,
+          "dataLink": true
+        },
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Born into the Abyssal War",
+          "description": "Gain +4 ACC (subject to penalties) on attacks against shipgirls or shipgirl aircraft."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
     // JAPAN MODERN FRIGATES
     {
       "name": "JS Mogami (FFM-1)",
@@ -8326,6 +8640,43 @@
       "abilityWeight": 1.2
     },
     // UK LIGHT CARRIERS
+    {
+      "name": "HMS Hermes",
+      "carrier": true,
+      "speed": 25,
+      "displacement": 10850,
+      "horsepower": 40000,
+      "beltThickness": 59,
+      "length": 182,
+      "aircraftCount": 20,
+      "shipFaction": "UNITED KINGDOM",
+      "hullCode": "CV",
+      "batteries": [
+        {
+          "GunReferenceID": 117,
+          "turretCount": 6,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 107,
+          "turretCount": 3,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "airburstFuses": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Aeronautical Pioneer",
+          "description": "Allied aircraft from other friendly carriers within 12\" of Hermes gain +2 EVA."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // UK DESTROYERS
     {
       "name": "HMS Cossack",
@@ -9209,6 +9560,66 @@
       ],
       "abilityWeight": 1.2
     },
+    {
+      "name": "Jean Bart",
+      "carrier": false,
+      "speed": 28,
+      "displacement": 37850,
+      "horsepower": 155000,
+      "beltThickness": 318,
+      "length": 248,
+      "aircraftCount": 4,
+      "shipFaction": "FRANCE",
+      "hullCode": "BB",
+      "batteries": [
+        {
+          "GunReferenceID": 39,
+          "turretCount": 2,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "poorShellQuality": true
+        },
+        {
+          "GunReferenceID": 40,
+          "turretCount": 3,
+          "gunsPerTurret": 3,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 41,
+          "turretCount": 4,
+          "gunsPerTurret": 3,
+          "opticalDirector": true,
+          "radarDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        },
+        {
+          "GunReferenceID": 2,
+          "turretCount": 14,
+          "gunsPerTurret": 4,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 3,
+          "turretCount": 48,
+          "gunsPerTurret": 1
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "C'est la vie",
+          "description": "During the damage control phase, before rolling for damage control, remove one non-fire or non-flooding hazard marker from Jean Bart's card."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
     // FRANCE HEAVY CRUISERS
     // FRANCE LIGHT CRUISERS
     {
@@ -9905,7 +10316,6 @@
     },
 
     // RUSSIA
-    // RUSSIA CARRIERS (lol)
     // RUSSIA BATTLESHIPS
     {
       "name": "Gangut",
@@ -10079,7 +10489,42 @@
       ],
       "abilityWeight": 1.1
     },
-    // RUSSIA LIGHT CARRIERS
+    {
+      "name": "Aurora",
+      "carrier": false,
+      "speed": 19,
+      "displacement": 6731,
+      "horsepower": 11610,
+      "beltThickness": 89, 
+      "length": 127,
+      "aircraftCount": 0,
+      "shipFaction": "RUSSIA",
+      "hullCode": "CL",
+      "batteries": [
+        {
+          "GunReferenceID": 118,
+          "turretCount": 14,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 45,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Flagship of the Russian Navy",
+          "description": "Whenever a Russian ship that you own sinks, place their figure on Aurora's card. For every ship on\n Aurora's card, Aurora and all Russian ships within 10\" of Aurora gain +1 ARM, +1 ACC, and +1 EVA."
+        }
+      ],
+      "abilityWeight": 1.3
+    },
     // RUSSIA DESTROYERS
     {
       "name": "Tashkent",
@@ -10504,7 +10949,78 @@
       ],
       "abilityWeight": 1.2
     },
-
+    {
+      "name": "Admiral Ushakov (434)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 33,
+      "displacement": 6600,
+      "horsepower": 1000000,
+      "beltThickness": 30, // Splinter plating. Modeled just enough to block POW 0 weapons
+      "length": 156,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "RUSSIA",
+      "hullCode": "DDG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "GunReferenceID": 10015,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 10016,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "rangefinder": true,
+          "localOpticalDirector": true,
+          "radarBlindFire": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 10007,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 35,
+          "turretCount": 2,
+          "missilesPerTurret": 4
+        },
+        {
+          "MissileReferenceID": 51,
+          "turretCount": 2,
+          "missilesPerTurret": 24
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+         "name": "Countermeasures 2"
+        },
+        {
+          "name": "Not Scrap Yet",
+          "description": "Gain a +1 bonus to damage control rolls for every missing INT Admrial Ushakov has. \nRolls of 1, 2, or 3 are unaffected."
+        }
+      ],
+      "abilityWeight": 1.3
+    },
     {
       "name": "Admiral Golovko (456)",
       "hasSonar": true,
@@ -10970,7 +11486,6 @@
       ],
       "abilityWeight": 1.05
     },
-    // TODO: Cruiser Yat Sen
     {
       "name": "Yat Sen",
       "hasSonar": true,

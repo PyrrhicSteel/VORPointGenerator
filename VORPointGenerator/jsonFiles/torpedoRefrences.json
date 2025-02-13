@@ -10,6 +10,15 @@
 
   "torpedoRefrences": [
     {
+      "id": 0,
+      "name": "Example Torpedo",
+      "torpWarheadSize": 300, // This torpedo's warhead size, in TNT equivilant
+      "torpRange": 1000, // This torpedo's maximum range
+      "torpSpeed": 10, // This torpedo's speed, at this range
+      "torpGuidance": 0, // Accuracy bonuses this torpedo gets based on guidance systems
+      "orginCountry": "UN"
+    },  
+    {
       "id": 1,
       "name": "55 cm 19V, Toulon",
       "torpWarheadSize": 286, //238 kg TNP
@@ -199,7 +208,7 @@
       "torpRange": 12000, // CITATION NEEDED
       "torpSpeed": 45, // CITATION NEEDED
       "torpGuidance": 6, // active/passive acoustic homing
-      "orginCountry": "JP"
+      "orginCountry": "JPN"
     },
     {
       "id": 10005,

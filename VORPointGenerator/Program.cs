@@ -39,9 +39,8 @@ namespace VORPointGenerator
 
             ShipStatList? shipStatList;
 
-            // String workingDirectory = Directory.GetCurrentDirectory();
-            // Console.WriteLine(workingDirectory);
-
+            // 
+            int warheadCoefficient = 40;
 
 
             // Read Weapons
@@ -280,7 +279,7 @@ namespace VORPointGenerator
                     torpFireControl = torpFireControl + tRef.TorpGuidance;
 
                     t.Name = tRef.Name;
-                    t.TorpPower = (int)Math.Round((double)tRef.TorpWarheadSize / 50);
+                    t.TorpPower = (int)Math.Round((double)tRef.TorpWarheadSize / warheadCoefficient);
                     t.TorpTurrets = j.TurretCount;
                     t.TorpsPerTurret = j.TorpsPerTurret;
                     t.TorpRange = (int)Math.Round(((double)tRef.TorpRange / 1500));
@@ -328,13 +327,13 @@ namespace VORPointGenerator
                     //Console.WriteLine(mRef.name);
 
                     m.Name = mRef.Name;
-                    m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / 50);
+                    m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
                     m.MslTurrets = j.TurretCount;
                     m.MslsPerTurret = j.MissilesPerTurret;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
-                    m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 75));
+                    m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 80));
 
                     m.AttackAir = mRef.AttackAir;
 
@@ -526,7 +525,7 @@ namespace VORPointGenerator
                     rocket.RocketAtk = j.RocketVolleySize;
                     rocket.RocketVolleys = (int)Math.Round((double)j.RocketNumber / j.RocketVolleySize);
                     rocket.RocketRange = (int)Math.Round((double)j.RocketMaxRange / 500);
-                    rocket.RocketPower = (int)Math.Round((double)j.RocketWarheadSize / 50);
+                    rocket.RocketPower = (int)Math.Round((double)j.RocketWarheadSize / warheadCoefficient);
 
                     int fireControl = 1;
 
@@ -565,7 +564,7 @@ namespace VORPointGenerator
                     bomb.Name = j.Name;
                     bomb.Atk = j.BombVolleySize;
                     bomb.Volleys = (int)Math.Round((double)totalBombs / j.BombVolleySize);
-                    bomb.Power = (int)Math.Round((double)j.BombWarheadSize / 50);
+                    bomb.Power = (int)Math.Round((double)j.BombWarheadSize / warheadCoefficient);
 
                     
                     if(j.LaserGuidance == true) { bombGuidance ++; }
@@ -601,7 +600,7 @@ namespace VORPointGenerator
                     torpFireControl = torpFireControl + tRef.TorpGuidance;
 
                     t.Name = tRef.Name;
-                    t.TorpPower = (int)Math.Round((double)tRef.TorpWarheadSize / 50);
+                    t.TorpPower = (int)Math.Round((double)tRef.TorpWarheadSize / warheadCoefficient);
                     t.TorpTurrets = j.TurretCount;
                     t.TorpsPerTurret = j.TorpsPerTurret;
                     t.TorpRange = (int)Math.Round(((double)tRef.TorpRange / 1500));
@@ -646,18 +645,20 @@ namespace VORPointGenerator
                     //Console.WriteLine(mRef.name);
 
                     m.Name = mRef.Name;
-                    m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / 50);
+                    m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
                     m.MslTurrets = j.TurretCount;
                     m.MslsPerTurret = j.MissilesPerTurret;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
-                    m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 75));
+                    m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 80));
 
                     m.AttackAir = mRef.AttackAir;
 
                     if (mRef.Stealth) m.MslEvasion += 8;
                     if (mRef.SeaSkimming) m.MslEvasion += 3;
+
+                    while (m.MslAOE > m.MslRange) m.MslAOE--; m.MslAcc++;
 
                     Aircraft.MissileStats.Add(m);
                 }

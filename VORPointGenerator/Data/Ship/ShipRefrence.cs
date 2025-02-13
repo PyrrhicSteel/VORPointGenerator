@@ -32,7 +32,7 @@ namespace VORPointGenerator.Data.Ship
         /// </summary>
         public int Horsepower { get; set; }
         /// <summary>
-        /// for developing armor. average of all known armor values, with thickest portion of belt counted Twice
+        /// for developing armor. average of all known armor values, with thickest portion of belt counted twice
         /// </summary>
         public int BeltThickness { get; set; }
         /// <summary>

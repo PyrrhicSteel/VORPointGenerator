@@ -91,9 +91,9 @@
     },
     {
       "id": 8,
-      "name": "AGM-88 HARM",
+      "name": "AGM-88E AARGM",
       "mslWarheadSize": 114, //explosive type not specified, assumed 68 kg PBXN
-      "mslRange": 80000,
+      "mslRange": 148000,
       "mslSpeed": 987,
       "arhGuidance": true,
       "sarhGuidance": true,
@@ -178,7 +178,7 @@
     {
       "id": 15,
       "name": "RIM-174 Standard ERAM SM-6",
-      "mslWarheadSize": 64, 
+      "mslWarheadSize": 102, // 64 kg warhead
       "mslRange": 240000,
       "mslSpeed": 1200,
       "seaSkimming": false,
@@ -574,7 +574,7 @@
     {
       "id": 48,
       "name": "YJ-12",
-      "mslWarheadSize": 840, // 500 kg PBXN
+      "mslWarheadSize": 344, // 205 kg PBXN
       "mslRange": 460000,
       "mslSpeed": 828,
       "seaSkimming": true,
@@ -595,6 +595,94 @@
       "inertialGuidance": true,
       "attackAir": false,
       "orginCountry": "RUS"
+    },
+    {
+      "id": 50,
+      "name": "P-270 Moskit \"Sunburn\"",
+      "mslWarheadSize": 300,
+      "mslRange": 250000,
+      "mslSpeed": 1000, 
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": false,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 51,
+      "name": "3S90 Uragan \"Gadfly\"",
+      "mslWarheadSize": 24,
+      "mslRange": 120000,
+      "mslSpeed": 1029,
+      "seaSkimming": false,
+      "sarhGuidance": true,
+      "arhGuidance": true,
+      "attackAir": true,
+      "orginCountry": "RUS"
+    },
+    {
+      "id": 52,
+      "name": "AAM-174B",
+      "mslWarheadSize": 102, 
+      "mslRange": 240000,
+      "mslSpeed": 1200,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "gpsGuidance": true,
+      "attackAir": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 53,
+      "name": "AGM-88G AAGRM-ER",
+      "mslWarheadSize": 114, //explosive type not specified, assumed 68 kg PBXN
+      "mslRange": 160000,
+      "mslSpeed": 987,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "homeOnJam": true,
+      "antiRadiation": true,
+      "orginCountry": "USA"
+    },
+    {
+      "id": 54,
+      "name": "AAM-4B",
+      "mslWarheadSize": 15, // CITATION NEEDED
+      "mslRange": 120000,
+      "mslSpeed": 1543,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": true,
+      "orginCountry": "JPN"
+    },
+    {
+      "id": 55,
+      "name": "AAM-5",
+      "mslWarheadSize": 15, // CITATION NEEDED
+      "mslRange": 35000,
+      "mslSpeed": 1400,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "inertialGuidance": true,
+      "sra2a": true,
+      "attackAir": true,
+      "orginCountry": "JPN"
+    },
+    {
+      "id": 56,
+      "name": "Type 17 Anti-ship Missile",
+      "mslWarheadSize": 250, // CITATION NEEDED 
+      "mslRange": 400000,
+      "mslSpeed": 475, // CITATION NEEDED
+      "seaSkimming": true,
+      "arhGuidance": true,
+      "gpsGuidance": true,
+      "inertialGuidance": true,
+      "orginCountry": "JPN"
     },
   ]
 }

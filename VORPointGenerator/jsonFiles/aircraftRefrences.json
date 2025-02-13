@@ -31,7 +31,9 @@
         }
       ],
       "abyssalName": "Abyssal Corsair Fighter",
-      //"abyssalCameo": "abyBearcatFighter.jpg"
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "F4F Wildcat",
@@ -63,7 +65,9 @@
         }
       ],
       "abyssalName": "Abyssal Cat Fighter",
-      //"abyssalCameo": "abyNightCatFighter.jpg"
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
     {
       "name": "F2A Buffalo",
@@ -92,7 +96,9 @@
         }
       ],
       "abyssalName": "Abyssal Buffalo Fighter",
-      //"abyssalCameo": "abyFighter.jpg"
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
     {
       "name": "F6F Hellcat",
@@ -129,7 +135,9 @@
         }
       ],
       "abyssalName": "Abyssal Night Cat Fighter",
-      //"abyssalCameo": "abyCatFighter.jpg"
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "F8F Bearcat",
@@ -162,7 +170,9 @@
         }
       ],
       "abyssalName": "Abyssal Bear Cat Fighter",
-      //"abyssalCameo": "abyBearcatFighter.jpg"
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "SB2C Helldiver",
@@ -208,7 +218,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Hell Dive Bomber"
+      "abyssalName": "Abyssal Hell Dive Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "SBD Dauntless",
@@ -240,11 +253,14 @@
           "name": "AN-M65, 1000 lb.",
           "number": 1,
           "bombVolleySize": 1,
-          "bombWarheadSize": 252,
+          "bombWarheadSize": 438, // 255 kg Composition B
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Dauntless Bomber"
+      "abyssalName": "Abyssal Dauntless Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "TBD Devastator",
@@ -279,7 +295,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Devastation Bomber"
+      "abyssalName": "Abyssal Devastation Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "TBF Avenger",
@@ -314,7 +333,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Revenge Bomber"
+      "abyssalName": "Abyssal Revenge Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "OS2U Kingfisher",
@@ -382,7 +404,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Claude Fighter"
+      "abyssalName": "Abyssal Claude Fighter",
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
     {
       "name": "A6M Zero 'Zeke'",
@@ -418,7 +443,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Zero Fighter"
+      "abyssalName": "Abyssal Zero Fighter",
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "A7M Reppū 'Sam'",
@@ -440,7 +468,10 @@
           "gunsPerTurret": 4
         }
       ],
-      "abyssalName": "Abyssal Strong Wind Fighter"
+      "abyssalName": "Abyssal Strong Wind Fighter",
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "J7W Shinden",
@@ -471,7 +502,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Magnificent Lightning Fighter"
+      "abyssalName": "Abyssal Magnificent Lightning Fighter",
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
     {
       "name": "D3A 'Val'",
@@ -507,7 +541,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Val Bomber"
+      "abyssalName": "Abyssal Val Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "B7A Ryusei 'Grace'",
@@ -543,7 +580,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Shooting Star Bomber"
+      "abyssalName": "Abyssal Shooting Star Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "B5N 'Kate'",
@@ -578,7 +618,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Kate Bomber"
+      "abyssalName": "Abyssal Kate Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "B6N Tenzan 'Jill'",
@@ -613,7 +656,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Heavenly Mountain Bomber"
+      "abyssalName": "Abyssal Heavenly Mountain Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "B4Y 'Jean'",
@@ -640,7 +686,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Jean Bomber"
+      "abyssalName": "Abyssal Jean Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "D4Y Suisei 'Judy'",
@@ -676,7 +725,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Comet Bomber"
+      "abyssalName": "Abyssal Comet Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "E16A Zuiun 'Paul'",
@@ -868,7 +920,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Suka Bomber"
+      "abyssalName": "Abyssal Suka Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
     {
       "name": "Vought Corsair",
@@ -928,7 +983,10 @@
           "bombWarheadSize": 190 //CITATION NEEDED
         }
       ],
-      "abyssalName": "Abyssal Sea Fire Fighter"
+      "abyssalName": "Abyssal Sea Fire Fighter",
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "Fairey Fulmar",
@@ -955,7 +1013,10 @@
           "bombWarheadSize": 190 //CITATION NEEDED
         }
       ],
-      "abyssalName": "Abyssal Fulmar Fighter"
+      "abyssalName": "Abyssal Fulmar Fighter",
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
     {
       "name": "Fairey Swordfish",
@@ -990,7 +1051,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Sword Fish Bomber"
+      "abyssalName": "Abyssal Sword Fish Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
     {
       "name": "Fairey Barracuda",
@@ -1017,7 +1081,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Barracuda Bomber"
+      "abyssalName": "Abyssal Barracuda Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
 
     // GERMANY
@@ -1103,7 +1170,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Stuka Bomber"
+      "abyssalName": "Abyssal Stuka Bomber",
+      "abyssalCameo": "abyssalHellDiveBomber.jpg",
+      "abyssalArtist": "Yan ge",
+      "abyssalArtLink": "danbooru.donmai.us/posts/3226047"
     },
 
     {
@@ -1140,7 +1210,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Knife Fighter"
+      "abyssalName": "Abyssal Knife Fighter",
+      "abyssalCameo": "abyssalCatFighter.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
 
     {
@@ -1173,7 +1246,10 @@
           "torpReloads": 0
         }
       ],
-      "abyssalName": "Abyssal Fi 167 Bomber"
+      "abyssalName": "Abyssal Fi 167 Bomber",
+      "abyssalCameo": "abyssalRevengeBomber.png",
+      "abyssalArtist": "Kakiiro",
+      "abyssalArtLink": "x.com/simoooji/status/1020936799475019776"
     },
 
     // FRANCE
@@ -1256,7 +1332,10 @@
           "diveBomb": true
         }
       ],
-      "abyssalName": "Abyssal Falcon Fighter-Bomber"
+      "abyssalName": "Abyssal Falcon Fighter-Bomber",
+      "abyssalCameo": "abyssalFighter.jpg",
+      "abyssalArtist": "kitsuneno denpachi",
+      "abyssalArtLink": "danbooru.donmai.us/posts/2978573"
     },
 
     // OTHER
@@ -1351,7 +1430,7 @@
     },
 
     {
-      "name": "F/A-18F Super Hornet", // (Role: Anti-ship aircraft)
+      "name": "F/A-18F Super Hornet (Harpoon)", // (Role: Anti-ship aircraft)
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1394,9 +1473,53 @@
       ],
       "abilityWeight": 1.1
     },
+    {
+      "name": "F/A-18F Super Hornet (LRASM)", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "fa-18f.jpg",
+      "artist": "amisu",
+      "artLink": "danbooru.donmai.us/posts/1038566",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 18,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
 
     {
-      "name": "F/A-18E Super Hornet", // (Role: Anti-air aircraft)
+      "name": "F/A-18E Super Hornet (AAMRAM)", // (Role: Anti-air aircraft)
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1440,9 +1563,60 @@
       "abilityWeight": 1.1
     },
     {
+      "name": "F/A-18E Super Hornet (Murder Hornet)", // (Role: Anti-air aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "fa-18e.jpg",
+      "artist": "ES饺子",
+      "artLink": "pixiv.net/en/artworks/78769667",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 52,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
       "name": "EA-18G Growler", // (EWAR)
       "countryOfOrigin": "USA",
-      "type": "Jet EW Aircraft",
+      "type": "Carrier Jet EW Aircraft",
       "numPlanes": 4,
       "speed": 530,
       "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
@@ -1484,7 +1658,7 @@
       "abilityWeight": 1.25
     },
     {
-      "name": "F-35C Lighting II",
+      "name": "F-35C Lighting II (A2A)",
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1510,7 +1684,43 @@
           "turretCount": 1,
           "missilesPerTurret": 4,
           "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
         },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+    {
+      "name": "F-35C Lighting II (A2G)",
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 16784, // weight (14552 kg) * thrust-to-weight ratio (1.07)  
+      "weight": 15686,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35c.jpg",
+      "artist": "Yenさん",
+      "artLink": "pixiv.net/en/artworks/89731379",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
         {
           "missileReferenceID": 9,
           "turretCount": 1,
@@ -1531,6 +1741,108 @@
       ],
       "abilityWeight": 2.5
     },
+
+    { 
+      "name": "F-35B Lighting II (SEAD)",
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35b.jpg",
+      "artist": "ITO DYNAMICS",
+      "artLink": "pixiv.net/en/artworks/75684145",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 53,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        },
+        {
+          "name": "Home on Jam",
+          "description": "AGM-88 attacks ignore the 'Jamming' ability"
+        }
+      ],
+      "abilityWeight": 2.75
+    },
+    { 
+      "name": "F-35B Lighting II (A2G)",
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35b.jpg",
+      "artist": "ITO DYNAMICS",
+      "artLink": "pixiv.net/en/artworks/75684145",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 23,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+
     {
       "name": "E-2C Hawkeye",
       "countryOfOrigin": "USA",
@@ -1651,7 +1963,7 @@
           "description": "If attacked by weapons of POW 0, gain +4 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 0.9
     },
 
     {
@@ -1683,7 +1995,7 @@
           "name": "Radar 20"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
     },
     {
       "name": "B-52 Stratofortress", // (Role: Anti-ship aircraft)
@@ -1719,12 +2031,40 @@
           "name": "Jamming 3"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
+    },
+    {
+      "name": "Boeing E-3 Sentry",
+      "countryOfOrigin": "USA",
+      "type": "Land-Based AEW Jet Aircraft",
+      "numPlanes": 2,
+      "speed": 237,
+      "thrust": 86025, // weight (185000 kg) * thrust-to-weight ratio (0.465)  
+      "weight": 185000,
+      "rateOfClimb": 10, // CITATION NEEDED
+      "ServiceCeiling": 8800,
+      "steelHull": true,
+      "cameo": "e-3Sentry.png",
+      "artist": "緒方TANK",
+      "artLink": "pixiv.net/en/artworks/71255930",
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 80"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
+        }
+      ],
+      "abilityWeight": 160 // Radar range X 2
     },
 
     // JAPANESE AIRCRAFT
     {
-      "name": "F-35B Lightning II",
+      "name": "F-35B Lightning II (A2A)",
       "countryOfOrigin": "JPN",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1748,7 +2088,49 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 8,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+    {
+      "name": "F-35B Lightning II (A2G)",
+      "countryOfOrigin": "JPN",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35bj.jpg",
+      "artist": "mick",
+      "artLink": "pixiv.net/en/artworks/117844088",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 46,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
           "dataLink": true
         },
         {
@@ -1770,6 +2152,129 @@
         }
       ],
       "abilityWeight": 2.5
+    },
+
+    {
+      "name": "Mitsubishi F-15J (A2A)",
+      "countryOfOrigin": "JPN",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 736,
+      "thrust": 22624, // weight (20200 kg) * thrust-to-weight ratio (1.12)  
+      "weight": 20200,
+      "rateOfClimb": 254,
+      "ServiceCeiling": 20000,
+      "cameo": "f-15j.jpg",
+      "artist": "MISSILE228",
+      "artLink": "pixiv.net/en/artworks/46614477",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 54,
+          "turretCount": 1,
+          "missilesPerTurret": 6,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 55,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 0.9
+    },
+    {
+      "name": "Mitsubishi F-15J (A2G)",
+      "countryOfOrigin": "JPN",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 736,
+      "thrust": 22624, // weight (20200 kg) * thrust-to-weight ratio (1.12)  
+      "weight": 20200,
+      "rateOfClimb": 254,
+      "ServiceCeiling": 20000,
+      "cameo": "f-15j.jpg",
+      "artist": "MISSILE228",
+      "artLink": "pixiv.net/en/artworks/46614477",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 55,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        }
+      ],
+      "bombReferences": [
+        {
+          "name": "Mark 82, 500 lb.",
+          "number": 18,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 150, // 89 kg PBXN
+          "diveBomb": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 0.9
+    },
+
+    {
+      "name": "Boeing E-767",
+      "countryOfOrigin": "JPN",
+      "type": "Land-Based AEW Jet Aircraft",
+      "numPlanes": 2,
+      "speed": 294,
+      "thrust": 13285, // weight (188705 kg) * thrust-to-weight ratio (0.0704)  
+      "weight": 188705,
+      "rateOfClimb": 10, // CITATION NEEDED
+      "ServiceCeiling": 12200,
+      "steelHull": true,
+      "cameo": "e-767.jpg",
+      "artist": "Thompson",
+      "artLink": "pixiv.net/en/artworks/48299054",
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 80"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
+        }
+      ],
+      "abilityWeight": 160 // Radar range X 2
     },
 
     {
@@ -1807,8 +2312,50 @@
     },
 
     // BRITISH AIRCRAFT
-    {
-      "name": "Joint Combat Aircraft (F-35B)",
+    { 
+      "name": "Joint Combat Aircraft (F-35B) (A2A)",
+      "countryOfOrigin": "UK",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 549,
+      "thrust": 15318, // weight (14729 kg) * thrust-to-weight ratio (1.04)  
+      "weight": 14729,
+      "rateOfClimb": 257, // CITATION NEEDED (probably classified)
+      "ServiceCeiling": 15000,
+      "cameo": "f-35b.jpg",
+      "artist": "ITO DYNAMICS",
+      "artLink": "pixiv.net/en/artworks/75684145",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10003,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 4,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 40"
+        },
+        {
+          "name": "Stealth"
+        }
+      ],
+      "abilityWeight": 2.5
+    },
+    { 
+      "name": "Joint Combat Aircraft (F-35B) (A2G)",
       "countryOfOrigin": "UK",
       "type": "Multirole Carrier Jet Fighter",
       "numPlanes": 4,
@@ -1832,7 +2379,7 @@
         {
           "missileReferenceID": 13,
           "turretCount": 1,
-          "missilesPerTurret": 4,
+          "missilesPerTurret": 2,
           "dataLink": true
         },
         {
@@ -1898,7 +2445,7 @@
           "name": "Radar 30"
         }
       ],
-      "abilityWeight": 1.0
+      "abilityWeight": 0.9
     },
 
     {
@@ -2008,7 +2555,7 @@
           "name": "Radar 30"
         }
       ],
-      "abilityWeight": 1.0
+      "abilityWeight": 0.9
     },
 
     // FRENCH Aircraft
@@ -2047,6 +2594,34 @@
         }
         //TODO: Subhunting ability
       ]
+    },
+    {
+      "name": "Boeing E-3 Sentry",
+      "countryOfOrigin": "FRA",
+      "type": "Land-Based AEW Jet Aircraft",
+      "numPlanes": 2,
+      "speed": 237,
+      "thrust": 86025, // weight (185000 kg) * thrust-to-weight ratio (0.465)  
+      "weight": 185000,
+      "rateOfClimb": 10, // CITATION NEEDED
+      "ServiceCeiling": 8800,
+      "steelHull": true,
+      "cameo": "e-3Sentry.png",
+      "artist": "緒方TANK",
+      "artLink": "pixiv.net/en/artworks/71255930",
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 80"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
+        }
+      ],
+      "abilityWeight": 160 // Radar range X 2
     },
 
     // ITALIAN Aircraft
@@ -2118,7 +2693,7 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 8,
+          "missilesPerTurret": 4,
           "dataLink": true
         },
         {
@@ -2204,6 +2779,166 @@
         //TODO: Subhunting ability
       ]
     },
+    {
+      "name": "F/A-18F Super Hornet (A2A)", 
+      "countryOfOrigin": "AUS",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "fa-18f.jpg",
+      "artist": "amisu",
+      "artLink": "danbooru.donmai.us/posts/1038566",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "missilesPerTurret": 8,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 0.9
+    },
+    {
+      "name": "F/A-18F Super Hornet (A2G)", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "AUS",
+      "type": "Multirole Land-Based Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "fa-18f.jpg",
+      "artist": "amisu",
+      "artLink": "danbooru.donmai.us/posts/1038566",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 18,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 0.9
+    },
+    {
+      "name": "EA-18G Growler", // (EWAR)
+      "countryOfOrigin": "AUS",
+      "type": "Land-Based Jet EW Aircraft",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "ea-18g.jpg",
+      "artist": "mick",
+      "artLink": "pixiv.net/en/artworks/56675869",
+      "steelHull": true,
+      "missiles": [
+        {
+          "missileReferenceID": 8,
+          "turretCount": 1,
+          "missilesPerTurret": 2,
+          "dataLink": true
+        },
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        },
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Home on Jam",
+          "description": "AGM-88 attacks ignore the 'Jamming' ability"
+        }
+      ],
+      "abilityWeight": 1.05
+    },
+    {
+      "name": "Boeing E-7 Wedgetail",
+      "countryOfOrigin": "AUS",
+      "type": "Land-Based AEW Jet Aircraft",
+      "numPlanes": 2,
+      "speed": 294,
+      "thrust": 13285, // weight (188705 kg) * thrust-to-weight ratio (0.0704)  
+      "weight": 188705,
+      "rateOfClimb": 10, // CITATION NEEDED
+      "ServiceCeiling": 12200,
+      "steelHull": true,
+      "cameo": "e-7Wedgetail.jpg",
+      "artist": "mindvue",
+      "artLink": "pixiv.net/en/artworks/24989434",
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 92"
+        },
+        {
+          "name": "Single Launch",
+          "description": "If this aircraft takes any damage, take 1 damage only, then immediately return this arcraft to the \nairbase that launched it."
+        }
+      ],
+      "abilityWeight": 184 // Radar range X 2
+    },
 
     // RUSSIAN AIRCRAFT
     {
@@ -2283,12 +3018,12 @@
         {
           "missileReferenceID": 30,
           "turretCount": 1,
-          "missilesPerTurret": 4
+          "missilesPerTurret": 2
         },
         {
           "missileReferenceID": 31,
           "turretCount": 1,
-          "missilesPerTurret": 4
+          "missilesPerTurret": 6
         }
       ],
       "specialAbilities": [
@@ -2379,7 +3114,7 @@
           "name": "Radar 30"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
     },
 
     {
@@ -2418,7 +3153,7 @@
           "name": "Radar 20"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
     },
 
     {
@@ -2450,7 +3185,7 @@
           "name": "Radar 20"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
     },
     {
       "name": "Beriev A-50U 'Mainstay'",
@@ -2523,7 +3258,7 @@
           "description": "If attacked by weapons of POW 0, gain +4 EVA."
         }
       ],
-      "abilityWeight": 1.1
+      "abilityWeight": 0.9
     },
 
     // ROC AIRCRAFT
@@ -2627,7 +3362,7 @@
           "name": "Countermeasures 2"
         }
       ],
-      "abilityWeight": 2
+      "abilityWeight": 0.9
     },
 
 

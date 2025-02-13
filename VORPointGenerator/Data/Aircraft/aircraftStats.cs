@@ -36,7 +36,6 @@ namespace VORPointGenerator.Data.Aircraft
         public double abilityWeight = 1.0;
 
         public int PointValue { get; set; }
-
         public string Cameo { get; set; } = string.Empty;
         public string Artist { get; set; } = string.Empty;
         public string ArtLink { get; set; } = string.Empty;
@@ -125,7 +124,7 @@ namespace VORPointGenerator.Data.Aircraft
             // Anti-ship missiles
             foreach (var i in MissileStats)
             {
-                double missileBias = 0.0001;
+                double missileBias = 0.0007;
 
                 int correctedRange = i.MslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons

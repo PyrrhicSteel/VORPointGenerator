@@ -1,6 +1,18 @@
 {
   "GunRefrences": [
     {
+      "Id": 0,
+      "Name": "Example Weapon",
+      "Calibre": 100, // The calibre of this gun weapons system,
+      "MaxRange": 1000, // The maximum range of this weapons system
+      "ArmorPenetration": 1000, // The armor penetration capabilities of this weapon at its closest known range
+                                // There are a lot of weapons systems with no good penetration data available:
+                                // Just grab a number from a weapon of a similar calibre and throw weight.
+      "FireRate": 1000, // The weapon's rate of fire
+      "AttackAir": true,
+      "originCountry": "UN" // The weapon's country of origin.
+    },
+    {
       "Id": 1,
       "Name": "5-in/38-cal",
       "Calibre": 127,
@@ -1190,8 +1202,46 @@
       "AttackAir": false,
       "originCountry": "USA"
     },
-
-
+    {
+      "Id": 117,
+      "Name": "5.5-in/50 BL Mk I",
+      "Calibre": 140,
+      "MaxRange": 16250,
+      "ArmorPenetration": 135, //CITATION NEEDED
+      "FireRate": 12,
+      "AttackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "Id": 118,
+      "Name": "152 mm/45 Pattern 1892",
+      "Calibre": 152,
+      "MaxRange": 18660,
+      "ArmorPenetration": 156, 
+      "FireRate": 7,
+      "AttackAir": false,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 119,
+      "Name": "75 mm/50 Pattern 1892",
+      "Calibre": 75,
+      "MaxRange": 8967,
+      "ArmorPenetration": 40, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": true,
+      "originCountry": "RUS"
+    },
+    {
+      "Id": 120,
+      "Name": "14-in/50 Mark 7",
+      "Calibre": 356,
+      "MaxRange": 38000,
+      "ArmorPenetration": 601,
+      "FireRate": 2,
+      "AttackAir": false,
+      "originCountry": "USA"
+    },
 
     // MODERN WEAPONS
     {
