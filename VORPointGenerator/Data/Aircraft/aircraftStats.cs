@@ -286,6 +286,86 @@ namespace VORPointGenerator.Data.Aircraft
                 {
                     flagDirectory = flagDirectory + "roc.png";
                 }
+                if (countryOfOrigin.Equals("ARG"))
+                {
+                    flagDirectory = flagDirectory + "arg.png";
+                }
+                if (countryOfOrigin.Equals("BELG"))
+                {
+                    flagDirectory = flagDirectory + "belg.png";
+                }
+                if (countryOfOrigin.Equals("CHIL"))
+                {
+                    flagDirectory = flagDirectory + "chil.png";
+                }
+                if (countryOfOrigin.Equals("DEN"))
+                {
+                    flagDirectory = flagDirectory + "den.png";
+                }
+                if (countryOfOrigin.Equals("FIN"))
+                {
+                    flagDirectory = flagDirectory + "fin.png";
+                }
+                if (countryOfOrigin.Equals("GRC"))
+                {
+                    flagDirectory = flagDirectory + "grc.png";
+                }
+                if (countryOfOrigin.Equals("IND"))
+                {
+                    flagDirectory = flagDirectory + "ind.png";
+                }
+                if (countryOfOrigin.Equals("IRAN"))
+                {
+                    flagDirectory = flagDirectory + "iran.png";
+                }
+                if (countryOfOrigin.Equals("IRE"))
+                {
+                    flagDirectory = flagDirectory + "ire.png";
+                }
+                if (countryOfOrigin.Equals("ISRL"))
+                {
+                    flagDirectory = flagDirectory + "isrl.png";
+                }
+                if (countryOfOrigin.Equals("NORW"))
+                {
+                    flagDirectory = flagDirectory + "norw.png";
+                }
+                if (countryOfOrigin.Equals("PHIL"))
+                {
+                    flagDirectory = flagDirectory + "phil.png";
+                }
+                if (countryOfOrigin.Equals("POL"))
+                {
+                    flagDirectory = flagDirectory + "pol.png";
+                }
+                if (countryOfOrigin.Equals("PORT"))
+                {
+                    flagDirectory = flagDirectory + "port.png";
+                }
+                if (countryOfOrigin.Equals("PRK"))
+                {
+                    flagDirectory = flagDirectory + "prk.png";
+                }
+                if (countryOfOrigin.Equals("SARB"))
+                {
+                    flagDirectory = flagDirectory + "sarb.png";
+                }
+                if (countryOfOrigin.Equals("SING"))
+                {
+                    flagDirectory = flagDirectory + "sing.png";
+                }
+                if (countryOfOrigin.Equals("SPN"))
+                {
+                    flagDirectory = flagDirectory + "spn.png";
+                }
+                if (countryOfOrigin.Equals("VTNM"))
+                {
+                    flagDirectory = flagDirectory + "vtnm.png";
+                }
+                if (countryOfOrigin.Equals("TRKY"))
+                {
+                    flagDirectory = flagDirectory + "trky.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try

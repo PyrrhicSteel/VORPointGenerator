@@ -315,6 +315,86 @@ namespace VORPointGenerator.Data.Ship
                 {
                     flagDirectory = flagDirectory + "kor.png";
                 }
+                if (ShipFaction.Equals("ARGENTINA"))
+                {
+                    flagDirectory = flagDirectory + "arg.png";
+                }
+                if (ShipFaction.Equals("BELGIUM"))
+                {
+                    flagDirectory = flagDirectory + "belg.png";
+                }
+                if (ShipFaction.Equals("CHILE"))
+                {
+                    flagDirectory = flagDirectory + "chil.png";
+                }
+                if (ShipFaction.Equals("DENMARK"))
+                {
+                    flagDirectory = flagDirectory + "den.png";
+                }
+                if (ShipFaction.Equals("FINLAND"))
+                {
+                    flagDirectory = flagDirectory + "fin.png";
+                }
+                if (ShipFaction.Equals("GREECE"))
+                {
+                    flagDirectory = flagDirectory + "grc.png";
+                }
+                if (ShipFaction.Equals("INDIA"))
+                {
+                    flagDirectory = flagDirectory + "ind.png";
+                }
+                if (ShipFaction.Equals("IRAN"))
+                {
+                    flagDirectory = flagDirectory + "iran.png";
+                }
+                if (ShipFaction.Equals("IRELAND"))
+                {
+                    flagDirectory = flagDirectory + "ire.png";
+                }
+                if (ShipFaction.Equals("ISRAEL"))
+                {
+                    flagDirectory = flagDirectory + "isrl.png";
+                }
+                if (ShipFaction.Equals("NORWAY"))
+                {
+                    flagDirectory = flagDirectory + "norw.png";
+                }
+                if (ShipFaction.Equals("PHILLIPINES"))
+                {
+                    flagDirectory = flagDirectory + "phil.png";
+                }
+                if (ShipFaction.Equals("POLAND"))
+                {
+                    flagDirectory = flagDirectory + "pol.png";
+                }
+                if (ShipFaction.Equals("PORTUGAL"))
+                {
+                    flagDirectory = flagDirectory + "port.png";
+                }
+                if (ShipFaction.Equals("NORTH KOREA"))
+                {
+                    flagDirectory = flagDirectory + "prk.png";
+                }
+                if (ShipFaction.Equals("SAUDI ARABIA"))
+                {
+                    flagDirectory = flagDirectory + "sarb.png";
+                }
+                if (ShipFaction.Equals("SINGAPORE"))
+                {
+                    flagDirectory = flagDirectory + "sing.png";
+                }
+                if (ShipFaction.Equals("SPAIN"))
+                {
+                    flagDirectory = flagDirectory + "spn.png";
+                }
+                if (ShipFaction.Equals("VIETNAM"))
+                {
+                    flagDirectory = flagDirectory + "vtnm.png";
+                }
+                if (ShipFaction.Equals("TURKEY"))
+                {
+                    flagDirectory = flagDirectory + "trky.png";
+                }
 
                 PointF flagPoint = new PointF(width - 2000, -300);
                 try
