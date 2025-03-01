@@ -54,17 +54,14 @@
       ],
       "specialAbilities": [
         {
-          "name": "Jamming 8"
+          "name": "This is the title for an ability",
+          "description": "This is the description for an ability."
         },
         {
-          "name": "Countermeasures 2"
-        },
-        {
-          "name": "Pacific Patriot",
-          "description": "Gain +1 ACC for every allied ship within 5\"."
+          "name": "You can add multiple abilities."
         }
       ],
-      "abilityWeight": 1.2
+      "abilityWeight": 1.2 // A modifier used for balance and to account for abilities
     },
   
   

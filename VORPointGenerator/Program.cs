@@ -308,7 +308,6 @@ namespace VORPointGenerator
                         }
                     }
 
-
                     if (j.DataLink) mslFireCtrl+=2;
                     if (mRef.SarhGuidance) mslFireCtrl += 3;
                     if (mRef.ArhGuidance) mslFireCtrl += 3;
