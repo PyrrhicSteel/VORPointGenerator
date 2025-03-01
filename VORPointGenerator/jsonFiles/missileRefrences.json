@@ -9,6 +9,28 @@
   ],
   "missileRefrences": [
     {
+      "id": 0,
+      "name": "Example Missile",
+      "mslWarheadSize": 10, // The warhead weight, in kg TNT equivilance 
+      "mslRange": 1000, // The missile's range, in km
+      "mslSpeed": 100, // The missile's speed, in meters per second
+      "sarhGuidance": true, // semi-active radar homing guidance
+      "arhGuidance": true, // active radar homing guidance
+      "gpsGuidance": true, // stallite guidance
+      "inertialGuidance": true, // The missile knows where it is at all times. It knows this because it knows where it isn't. 
+                                // By subtracting where it is from where it isn't, or where it isn't from where it is (whichever is greater), it obtains a difference, or deviation.
+      "opticalGuidance": true, // Optical guidance tracking system
+      "cwis": true, // For high-agility close in weapons systems 
+      "homeOnJam": true, // For missiles with home-on-jam features
+      "antiRadiation": true, // For dedicated anti-radion weapons and SEAD/DEAD systems
+      "dataLinkSwarm": true, // For advanced systems that incorporate artificial intellegence and swarm communication 
+      "antiBallistic": true, // For dedicated anti-ballistic missile systems
+      "sra2a": true, // For short-ranged Air-to-air missiles, such as sidewinder
+      
+      "attackAir": true, // For missiles that can track and attack airborne targets
+      "orginCountry": "USA"
+    },  
+    {
       "id": 1,
       "name": "RGM-84 Harpoon Block I",
       "mslWarheadSize": 258, //explosive type not specified, assumed 221 kg PBXN 
