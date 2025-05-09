@@ -685,6 +685,9 @@ namespace VORPointGenerator.Data.Ship
             //save the card
             string opPath;
 
+            // Old way, for a shorter string lengths (A required workaround for tabletop simulator)
+            // opPath = "C:\\Outputs";
+
             // New way, saving to a custom directory in documents
             string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             opPath = documents + @"\My Games\Valkyries of Ran\Ships";
