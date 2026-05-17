@@ -40,7 +40,7 @@ namespace VORPointGenerator
             ShipStatList? shipStatList;
 
             // 
-            int warheadCoefficient = 40;
+            int warheadCoefficient = 35;
 
 
             // Read Weapons
@@ -184,7 +184,7 @@ namespace VORPointGenerator
                 if (i.HasSonar == true) { Warship.SonarRange = 10; }
                 if (i.Carrier == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 20)); }
                 else { Warship.NumAircraft = (int)Math.Round((((double)i.AircraftCount + 1) / 4)); }
-                if(i.Carrier == true && i.SteelHull == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 15)); }
+                if(i.Carrier == true && i.SteelHull == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 8)); }
                 Warship.Submarine = i.Submarine;
                 Warship.Carrier = i.Carrier;
                 Warship.SteelHull = i.SteelHull;

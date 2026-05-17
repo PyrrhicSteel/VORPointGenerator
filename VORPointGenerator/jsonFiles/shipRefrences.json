@@ -5697,7 +5697,7 @@
       "beltThickness": 30,
       "length": 257,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 90,
+      "aircraftCount": 20,
       "shipFaction": "UNITED STATES",
       "hullCode": "CV",
       "steelHull": true,
@@ -10791,7 +10791,7 @@
       ],
       "abilityWeight": 1.2
     },
-    {
+    { //TODO: Add russian anti-submarine rockets to Russian-origin warships
       "name": "Varyag (011)",
       "hasSonar": true,
       "carrier": false,

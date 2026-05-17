@@ -1309,7 +1309,7 @@
       "speed": 150,
       "thrust": 1159,
       "weight": 2495,
-      "rateOfClimb": 13, 
+      "rateOfClimb": 13,
       "ServiceCeiling": 11000,
       "GunReferences": [
         {
@@ -1519,6 +1519,54 @@
     },
 
     {
+      "name": "F/A-18F Super Hornet (Mark 82)", // (Role: Anti-ship aircraft)
+      "countryOfOrigin": "USA",
+      "type": "Multirole Carrier Jet Fighter",
+      "numPlanes": 4,
+      "speed": 530,
+      "thrust": 13533, // weight (14552 kg) * thrust-to-weight ratio (0.93)  
+      "weight": 14552,
+      "rateOfClimb": 228,
+      "ServiceCeiling": 15000,
+      "cameo": "fa-18f.jpg",
+      "artist": "amisu",
+      "artLink": "danbooru.donmai.us/posts/1038566",
+      "steelHull": true,
+      "GunReferences": [
+        {
+          "GunReferenceID": 10001,
+          "turretCount": 0,
+          "gunsPerTurret": 1
+        }
+      ],
+      "missiles": [
+        {
+          "missileReferenceID": 6,
+          "turretCount": 1,
+          "missilesPerTurret": 2
+        }
+      ],
+      "bombReferences": [
+        {
+          "name": "Mark 82, 500 lb.",
+          "number": 12,
+          "bombVolleySize": 1,
+          "bombWarheadSize": 150, // 89 kg PBXN
+          "diveBomb": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Radar 30"
+        }
+      ],
+      "abilityWeight": 1.1
+    },
+
+    {
       "name": "F/A-18E Super Hornet (AAMRAM)", // (Role: Anti-air aircraft)
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
@@ -1671,13 +1719,13 @@
       "artist": "Yenさん",
       "artLink": "pixiv.net/en/artworks/89731379",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35C doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 7,
@@ -1713,13 +1761,13 @@
       "artist": "Yenさん",
       "artLink": "pixiv.net/en/artworks/89731379",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35C doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 9,
@@ -1742,7 +1790,7 @@
       "abilityWeight": 2.5
     },
 
-    { 
+    {
       "name": "F-35B Lighting II (SEAD)",
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
@@ -1756,13 +1804,13 @@
       "artist": "ITO DYNAMICS",
       "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35C doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 7,
@@ -1794,7 +1842,7 @@
       ],
       "abilityWeight": 2.75
     },
-    { 
+    {
       "name": "F-35B Lighting II (A2G)",
       "countryOfOrigin": "USA",
       "type": "Multirole Carrier Jet Fighter",
@@ -1808,13 +1856,13 @@
       "artist": "ITO DYNAMICS",
       "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 6,
@@ -1914,9 +1962,9 @@
           "name": "Radar 30"
         }
       ],
-      "abilityWeight": 1.1,
+      "abilityWeight": 1.1
     },
-    
+
     {
       "name": "A-10C Thunderbolt II",
       "countryOfOrigin": "USA",
@@ -2016,7 +2064,7 @@
           "missileReferenceID": 1,
           "turretCount": 1,
           "missilesPerTurret": 8
-        },  
+        },
         {
           "missileReferenceID": 46,
           "turretCount": 1,
@@ -2077,13 +2125,13 @@
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/117844088",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 7,
@@ -2119,13 +2167,13 @@
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/117844088",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 46,
@@ -2312,7 +2360,7 @@
     },
 
     // BRITISH AIRCRAFT
-    { 
+    {
       "name": "Joint Combat Aircraft (F-35B) (A2A)",
       "countryOfOrigin": "UK",
       "type": "Multirole Carrier Jet Fighter",
@@ -2326,13 +2374,13 @@
       "artist": "ITO DYNAMICS",
       "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 7,
@@ -2354,7 +2402,7 @@
       ],
       "abilityWeight": 2.5
     },
-    { 
+    {
       "name": "Joint Combat Aircraft (F-35B) (A2G)",
       "countryOfOrigin": "UK",
       "type": "Multirole Carrier Jet Fighter",
@@ -2368,13 +2416,13 @@
       "artist": "ITO DYNAMICS",
       "artLink": "pixiv.net/en/artworks/75684145",
       "steelHull": true,
-      "GunReferences": [
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 13,
@@ -2666,8 +2714,8 @@
           "name": "Radar 30"
         }
       ],
-      "abilityWeight": 1.1,
-    }, 
+      "abilityWeight": 1.1
+    },
     {
       "name": "F-35B Lightning II",
       "countryOfOrigin": "ITA",
@@ -2681,14 +2729,14 @@
       "cameo": "f-35bj.jpg",
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/117844088",
-      "steelHull": true,
-      "GunReferences": [
+      "steelHull": true
+      /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
           "turretCount": 0,
           "gunsPerTurret": 1
         }
-      ],
+      ], **/
       "missiles": [
         {
           "missileReferenceID": 7,
@@ -2780,7 +2828,7 @@
       ]
     },
     {
-      "name": "F/A-18F Super Hornet (A2A)", 
+      "name": "F/A-18F Super Hornet (A2A)",
       "countryOfOrigin": "AUS",
       "type": "Multirole Land-Based Jet Fighter",
       "numPlanes": 4,
@@ -3087,7 +3135,7 @@
       "type": "Land-Based Bomber",
       "numPlanes": 2,
       "speed": 257,
-      "thrust": 60000,  
+      "thrust": 60000,
       "weight": 90000,
       "rateOfClimb": 10,
       "ServiceCeiling": 13716,
@@ -3247,7 +3295,7 @@
           "rocketVolleySize": 2,
           "rocketMaxRange": 3000,
           "rocketWarheadSize": 40
-        } 
+        }
       ],
       "specialAbilities": [
         {
