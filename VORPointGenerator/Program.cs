@@ -410,14 +410,46 @@ namespace VORPointGenerator
                         Aircraft.EnergyGain++;
                     }
                 }
-                 
-                Aircraft.MaxEnergy = (int)Math.Round((((double)i.Speed * i.ServiceCeiling) / 250000));
-                if (Aircraft.MaxEnergy > 20)
+
+                double speedWeight = 0.0001;
+                double serviceCeilingWeight = 0.0001;
+                double maxEnergyDenominator = 1;
+
+                double KE = (double)i.Speed * (double)i.Speed * (speedWeight);
+                if(KE == 0) { KE = 1; }
+                double PE = (double)i.ServiceCeiling * 9.8 * (serviceCeilingWeight);
+                if (PE == 0) { PE = 1; }
+                
+                if (KE > 10) {
+                    double oldKE = KE;
+                    KE = 10;
+                    while (oldKE > 10)
+                    {
+                        oldKE = oldKE * 0.75;
+                        KE++;
+                    }
+                }
+
+                if (PE > 10)
+                {
+                    double oldPE = PE;
+                    PE = 10;
+                    while (oldPE > 10)
+                    {
+                        oldPE = oldPE * 0.75;
+                        PE++;
+                    }
+                }
+                
+                Aircraft.MaxEnergy = (int)Math.Round((KE + PE) / maxEnergyDenominator);
+                
+                /**
+                if (Aircraft.MaxEnergy > 25)
                 {
                     // Console.WriteLine(Aircraft.name + ": " + Aircraft.maxEnergy + " Recalcuating Energy");
 
 
-                    Aircraft.MaxEnergy = (int)Math.Round((((double)i.Speed * i.ServiceCeiling) / 1500000));
+                    Aircraft.MaxEnergy = (int)Math.Round((((((double)i.Speed * (speedWeight)) + ((double)i.ServiceCeiling * (serviceCeilingWeight)))) / (maxEnergyDenominator * 1.5)));
                     double energyMax = i.Speed * i.ServiceCeiling;
                     while (energyMax > 20)
                     {
@@ -425,7 +457,7 @@ namespace VORPointGenerator
                         Aircraft.MaxEnergy++;
                     }
                     // Console.WriteLine("New energy: " + Aircraft.maxEnergy);
-                }
+                } **/
 
                 Aircraft.Cameo = i.cameo;
                 Aircraft.Artist = i.artist;
