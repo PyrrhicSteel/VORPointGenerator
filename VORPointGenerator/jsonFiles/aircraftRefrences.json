@@ -1454,13 +1454,15 @@
         {
           "missileReferenceID": 1,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1498,13 +1500,15 @@
         {
           "missileReferenceID": 18,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1543,7 +1547,8 @@
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "bombReferences": [
@@ -1591,13 +1596,15 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 8,
-          "dataLink": true
+          "MissileCount": 8,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1635,19 +1642,22 @@
         {
           "missileReferenceID": 52,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1679,13 +1689,15 @@
         {
           "missileReferenceID": 8,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1730,8 +1742,9 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1772,8 +1785,9 @@
         {
           "missileReferenceID": 9,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1815,14 +1829,16 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 53,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1867,14 +1883,16 @@
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 23,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1941,17 +1959,20 @@
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 46,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -1990,7 +2011,8 @@
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "bombReferences": [
@@ -2031,8 +2053,9 @@
       "missiles": [
         {
           "missileReferenceID": 18,
-          "turretCount": 1,
-          "missilesPerTurret": 30
+          "turretCount": 3,
+          "MissileCount": 30,
+          "LaunchMethod": "BOMBBAY"
         }
       ],
       "specialAbilities": [
@@ -2063,12 +2086,14 @@
         {
           "missileReferenceID": 1,
           "turretCount": 1,
-          "missilesPerTurret": 8
+          "MissileCount": 8,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 46,
-          "turretCount": 1,
-          "missilesPerTurret": 30
+          "turretCount": 2,
+          "MissileCount": 30,
+          "LaunchMethod": "BOMBBAY"
         }
       ],
       "specialAbilities": [
@@ -2136,8 +2161,9 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2178,14 +2204,16 @@
         {
           "missileReferenceID": 46,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2227,14 +2255,16 @@
         {
           "missileReferenceID": 54,
           "turretCount": 1,
-          "missilesPerTurret": 6,
-          "dataLink": true
+          "MissileCount": 6,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 55,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2272,8 +2302,9 @@
         {
           "missileReferenceID": 55,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "bombReferences": [
@@ -2385,8 +2416,9 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2427,14 +2459,16 @@
         {
           "missileReferenceID": 13,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 9,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2476,13 +2510,15 @@
         {
           "missileReferenceID": 40,
           "turretCount": 1,
-          "missilesPerTurret": 6,
-          "dataLink": true
+          "MissileCount": 6,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 39,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2586,13 +2622,15 @@
         {
           "missileReferenceID": 38,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 39,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2698,12 +2736,14 @@
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 46,
           "turretCount": 1,
-          "missilesPerTurret": 4
+          "MissileCount": 4,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2729,7 +2769,7 @@
       "cameo": "f-35bj.jpg",
       "artist": "mick",
       "artLink": "pixiv.net/en/artworks/117844088",
-      "steelHull": true
+      "steelHull": true,
       /** "GunReferences": [ //The F35B doesn't have a gun what were you thinking Pyrric?
         {
           "GunReferenceID": 10003,
@@ -2741,14 +2781,16 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 4,
-          "dataLink": true
+          "MissileCount": 4,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2852,13 +2894,15 @@
         {
           "missileReferenceID": 7,
           "turretCount": 1,
-          "missilesPerTurret": 8,
-          "dataLink": true
+          "MissileCount": 8,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2896,13 +2940,15 @@
         {
           "missileReferenceID": 18,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2933,13 +2979,15 @@
         {
           "missileReferenceID": 8,
           "turretCount": 1,
-          "missilesPerTurret": 2,
-          "dataLink": true
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3066,12 +3114,14 @@
         {
           "missileReferenceID": 30,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 31,
           "turretCount": 1,
-          "missilesPerTurret": 6
+          "MissileCount": 6,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3110,12 +3160,14 @@
         {
           "missileReferenceID": 36,
           "turretCount": 1,
-          "missilesPerTurret": 4
+          "MissileCount": 4,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 37,
           "turretCount": 1,
-          "missilesPerTurret": 8
+          "MissileCount": 8,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3150,8 +3202,9 @@
       "missiles": [
         {
           "missileReferenceID": 32,
-          "turretCount": 1,
-          "missilesPerTurret": 14
+          "turretCount": 2,
+          "MissileCount": 28,
+          "LaunchMethod": "BOMBBAY"
         }
       ],
       "specialAbilities": [
@@ -3190,7 +3243,8 @@
         {
           "missileReferenceID": 33,
           "turretCount": 1,
-          "missilesPerTurret": 3
+          "MissileCount": 3,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3222,7 +3276,8 @@
         {
           "missileReferenceID": 34,
           "turretCount": 2,
-          "missilesPerTurret": 12
+          "MissileCount": 24,
+          "LaunchMethod": "BOMBBAY"
         }
       ],
       "specialAbilities": [
@@ -3285,7 +3340,8 @@
         {
           "missileReferenceID": 36,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "rocketReferences": [
@@ -3402,7 +3458,8 @@
         {
           "missileReferenceID": 48,
           "turretCount": 1,
-          "missilesPerTurret": 6
+          "MissileCount": 6,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3441,13 +3498,15 @@
         {
           "missileReferenceID": 23,
           "turretCount": 1,
-          "missilesPerTurret": 6,
-          "dataLink": true
+          "MissileCount": 6,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         },
         {
           "missileReferenceID": 6,
           "turretCount": 1,
-          "missilesPerTurret": 2
+          "MissileCount": 2,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -3517,7 +3576,8 @@
         {
           "missileReferenceID": 45,
           "turretCount": 1,
-          "missilesPerTurret": 4
+          "MissileCount": 4,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [

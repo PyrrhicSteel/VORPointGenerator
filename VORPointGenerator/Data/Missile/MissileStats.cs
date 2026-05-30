@@ -10,7 +10,7 @@
         public int MslAcc { get; set; }
         public int MslAOE { get; set; }
         public int MslEvasion { get; set; }
-
+        public string MslLaunchMethod { get; set; } = "ERROR";
         public bool AttackAir { get; set; } = false;
     }
 }

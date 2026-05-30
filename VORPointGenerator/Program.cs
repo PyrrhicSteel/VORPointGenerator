@@ -117,6 +117,26 @@ namespace VORPointGenerator
                 Console.WriteLine(e.Message);
                 Environment.Exit(1);
             }
+
+            try
+            {
+                string text = File.ReadAllText(@"./jsonFiles/shipRefrences1.json");
+                shipRefrenceList = JsonConvert.DeserializeObject<ShipReferenceList>(text);
+                
+                List<ShipReference> shipRefrencesTemp = new List<ShipReference>();
+                shipRefrencesTemp = shipRefrenceList.ShipRefrences;
+                foreach (var i in shipRefrencesTemp)
+                {
+                    shipRefrences.Add(i);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Failed to find ship refrence list 1!");
+                Console.WriteLine(e.Message);
+                Environment.Exit(1);
+            }
+
             foreach (var i in shipRefrences)
             {
                 Console.Write(i.Name + ", ");
@@ -328,7 +348,7 @@ namespace VORPointGenerator
                     m.Name = mRef.Name;
                     m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
                     m.MslTurrets = j.TurretCount;
-                    m.MslsPerTurret = j.MissilesPerTurret;
+                    m.MslsPerTurret = j.MissileCount;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
@@ -678,7 +698,8 @@ namespace VORPointGenerator
                     m.Name = mRef.Name;
                     m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
                     m.MslTurrets = j.TurretCount;
-                    m.MslsPerTurret = j.MissilesPerTurret;
+                    m.MslsPerTurret = j.MissileCount;
+                    m.MslLaunchMethod = j.LaunchMethod;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
