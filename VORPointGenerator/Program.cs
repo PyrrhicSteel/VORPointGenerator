@@ -40,7 +40,7 @@ namespace VORPointGenerator
             ShipStatList? shipStatList;
 
             // 
-            int warheadCoefficient = 35;
+            int warheadCoefficient = 40;
 
 
             // Read Weapons
@@ -202,9 +202,9 @@ namespace VORPointGenerator
                 Warship.Evasion = (int)Math.Round((double)((i.Length / 35) * -1) + 2  + Warship.Maneuverability);
 
                 if (i.HasSonar == true) { Warship.SonarRange = 10; }
-                if (i.Carrier == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 20)); }
+                if (i.Carrier == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 12)); }
                 else { Warship.NumAircraft = (int)Math.Round((((double)i.AircraftCount + 1) / 4)); }
-                if(i.Carrier == true && i.SteelHull == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 8)); }
+                if(i.Carrier == true && i.SteelHull == true) { Warship.NumAircraft = (int)Math.Round(((double)i.AircraftCount / 6)); }
                 Warship.Submarine = i.Submarine;
                 Warship.Carrier = i.Carrier;
                 Warship.SteelHull = i.SteelHull;
@@ -343,16 +343,43 @@ namespace VORPointGenerator
                     if (mRef.AntiBallistic) mslFireCtrl += 3;
                     if (mRef.Sra2a) mslFireCtrl += 7;
 
-                    //Console.WriteLine(mRef.name);
+                    //Console.WriteLine(mRef.Name);
 
                     m.Name = mRef.Name;
                     m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
-                    m.MslTurrets = j.TurretCount;
+                    //m.MslTurrets = j.TurretCount;// dummied out so I can track down all calculations that use MslTurrets which shouldn't exist anymore
                     m.MslsPerTurret = j.MissileCount;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
                     m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 80));
+
+                    m.MslLaunchMethod = j.LaunchMethod;
+                    if (m.MslLaunchMethod.Equals("HARDPOINT"))
+                    {
+                        m.MslVolleySize = 4 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("BOMBBAY"))
+                    {
+                        m.MslVolleySize = 6 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("VLS"))
+                    {
+                        m.MslVolleySize = 10 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("BOX"))
+                    {
+                        m.MslVolleySize = 2 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("SINGLEARM"))
+                    {
+                        m.MslVolleySize = j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("CWIS"))
+                    {
+                        m.MslVolleySize = 15 * j.TurretCount;
+                    }
+
 
                     m.AttackAir = mRef.AttackAir;
 
@@ -697,13 +724,39 @@ namespace VORPointGenerator
 
                     m.Name = mRef.Name;
                     m.MslPower = (int)Math.Round((double)mRef.MslWarheadSize / warheadCoefficient);
-                    m.MslTurrets = j.TurretCount;
+                    //m.MslTurrets = j.TurretCount;
                     m.MslsPerTurret = j.MissileCount;
                     m.MslLaunchMethod = j.LaunchMethod;
                     m.MslRange = (int)Math.Round(((double)mRef.MslRange / 1500));
                     m.MslAcc = mslFireCtrl - (int)Math.Round((double)mRef.MslSpeed / 500);
                     m.MslAOE = (int)Math.Round((double)mRef.MslSpeed / 100) + mslFireCtrl;
                     m.MslEvasion = (int)Math.Round(((double)mRef.MslSpeed / 80));
+
+                    m.MslLaunchMethod = j.LaunchMethod;
+                    if (m.MslLaunchMethod.Equals("HARDPOINT"))
+                    {
+                        m.MslVolleySize = 4 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("BOMBBAY"))
+                    {
+                        m.MslVolleySize = 6 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("VLS"))
+                    {
+                        m.MslVolleySize = 10 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("BOX"))
+                    {
+                        m.MslVolleySize = 2 * j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("SINGLEARM"))
+                    {
+                        m.MslVolleySize = j.TurretCount;
+                    }
+                    else if (m.MslLaunchMethod.Equals("CWIS"))
+                    {
+                        m.MslVolleySize = 15 * j.TurretCount;
+                    }
 
                     m.AttackAir = mRef.AttackAir;
 

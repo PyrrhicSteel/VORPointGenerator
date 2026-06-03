@@ -1437,6 +1437,9 @@
           "name": "Angled Deck"
         },
         {
+          "name": "Supercarrier"
+        },
+        {
           "name": "Bastion of Defiance",
           "description": "Non-US Allied Units within 12\" of Regan gain +2 EVA"
         }
@@ -1515,8 +1518,11 @@
           "name": "Angled Deck"
         },
         {
+          "name": "Supercarrier"
+        },
+        {
           "name": "Biggest and Baddest",
-          "description": "If Gerald R. Ford is undamaged, she may launch two aircraft per turn, instead of 1\nIf Gerald R. Ford is damaged, all units within 12\" of Gerald R Ford gain a +3 ACC bonus.\nIf Gerald R. Ford is sunk, all units in your fleet get a -1 ACC penalty."
+          "description": "If Gerald R. Ford is undamaged, she may launch an additonal aircraft every turn.\nIf Gerald R. Ford is damaged, all units within 12\" of Gerald R Ford gain a +3 ACC bonus.\nIf Gerald R. Ford is sunk, all units in your fleet get a -1 ACC penalty."
         }
       ],
       "abilityWeight": 1.25
@@ -5268,6 +5274,9 @@
           "name": "Angled Deck"
         },
         {
+          "name": "Supercarrier"
+        },
+        {
           "name": "Diamond of the Isles",
           "description": "All allied Steel-hulled ships within 9\" gain +2 EVA."
         }
@@ -5485,7 +5494,7 @@
       "specialAbilities": [
         {
           "name": "Terror of the Seas",
-          "description": "If Bismarck is the only battleships in your fleet, all of your other ships gain +1 EVA."
+          "description": "If Bismarck is the only battleship in your fleet, all of your other ships gain +1 EVA."
         }
       ],
       "abilityWeight": 1.2
@@ -5721,13 +5730,15 @@
       "missiles": [
         {
           "MissileReferenceID": 1,             
-          "turretCount": 1,          
-          "MissileCount": 4    
+          "turretCount": 2,          
+          "MissileCount": 8,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 5,
           "turretCount": 2,
-          "MissileCount": 30,
+          "MissileCount": 42,
+          "LaunchMethod": "CWIS",
           "dataLink": true
         }
       ],
@@ -5867,7 +5878,7 @@
       "specialAbilities": [
         {
           "name": "C'est la vie",
-          "description": "During the damage control phase, before rolling for damage control, remove one non-fire or non-flooding hazard marker from Jean Bart's card."
+          "description": "During the damage control phase, before rolling for damage control, remove one \nnon-fire or non-flooding hazard marker from Jean Bart's card."
         }
       ],
       "abilityWeight": 1.2
@@ -5995,6 +6006,67 @@
     },
     // FRANCE MODERN SHIPS
     {
+      "name": "Charles de Gaulle",
+      "hasSonar": false,
+      "carrier": true,
+      "speed": 27, 
+      "displacement": 41800,
+      "horsepower": 82000,
+      "beltThickness": 100, // "Unknown" for obvious reasons
+      "length": 262,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 40,
+      "shipFaction": "FRANCE",
+      "hullCode": "CVN",
+      "steelHull": true,
+      "cameo": "charlesDeGaulle.png",
+      "artist": "Ennuishao",
+      "artLink": "pixiv.net/en/artworks/136345275",
+      "batteries": [
+        {
+          "GunReferenceID": 10034,
+          "turretCount": 3,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true
+        },
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 58,
+          "TurretCount": 2,
+          "LaunchMethod": "VLS",
+          "MissileCount": 32,
+          "dataLink": true
+        },
+        {
+          "MissileReferenceID": 59,
+          "TurretCount": 2,
+          "LaunchMethod": "VLS",
+          "MissileCount": 12,
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Angled Deck"
+        },
+        {
+          "name": "Long Arm of Europe",
+          "description": "Gain +1 EVA, ACC, and ARM for each BB, CV, or CVN in your fleet."
+        }
+      ],
+      "abilityWeight": 1.15
+    },
+    {
       "name": "Forbin (D 620)",
       "hasSonar": true,
       "carrier": false,
@@ -6043,12 +6115,14 @@
         {
           "MissileReferenceID": 17,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 8,
+          "LaunchMethod": "BOX",
         },
         {
           "MissileReferenceID": 16,
-          "turretCount": 48,
-          "MissileCount": 1,
+          "turretCount": 1,
+          "MissileCount": 48,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
       ],
@@ -6106,7 +6180,8 @@
         {
           "MissileReferenceID": 17,  // Technically Exocets were removed,           
           "turretCount": 1,         // but in light of the abyssal war 
-          "MissileCount": 2    // we'll say they've been added again.
+          "MissileCount": 2,        // we'll say they've been added again.
+          "LaunchMethod": "BOX",
         }
       ],
       "specialAbilities": [
@@ -6122,6 +6197,81 @@
         }
       ],
       "abilityWeight": 1.3
+    },
+    {
+      "name": "Amiral Ronarc'h (D660)",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 27,
+      "displacement": 4400, 
+      "horsepower": 43000,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 122,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
+      "shipFaction": "FRANCE",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "GunReferenceID": 10008,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 10034,
+          "turretCount": 2,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "digitalComputer": true,
+          "CWISTracking": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 10005,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 2
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 17,
+          "turretCount": 2,
+          "MissileCount": 8,
+          "LaunchMethod": "BOX",
+        },
+        {
+          "MissileReferenceID": 16,
+          "turretCount": 1,
+          "MissileCount": 16,
+          "LaunchMethod": "VLS",
+          "dataLink": true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Jamming 8"
+        },
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Emergency Comission",
+          "description": "+2 ACC when within 12\" of a civilian warship or friendly installation."
+        }
+      ],
+      "abilityWeight": 1.1
     },
 
     // TODO: ITALY
@@ -6548,8 +6698,9 @@
       "missiles": [
         {
           "MissileReferenceID": 16,
-          "turretCount": 4,
-          "MissileCount": 8
+          "turretCount": 2,
+          "MissileCount": 8,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -6943,22 +7094,27 @@
       "missiles": [
         {
           "MissileReferenceID": 24,
-          "turretCount": 12,
-          "MissileCount": 1
+          "turretCount": 1,
+          "MissileCount": 12,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 25,
-          "turretCount": 24,
-          "MissileCount": 8
+          "turretCount": 4,
+          "MissileCount": 192,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
         {
           "name": "Jamming 4"
         },
-      //  {
-      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
-      //  },
+        {
+          "name": "Supercarrier"
+        },
+      //{
+      // "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
+      //},
         {
           "name": "Rushed Deployment",
           "description": "Admiral Kuznetsov starts the game with one of their aircraft launched."
@@ -7018,18 +7174,15 @@
       "missiles": [
         {
           "MissileReferenceID": 24,
-          "turretCount": 20,
-          "MissileCount": 1
+          "turretCount": 1,
+          "MissileCount": 20,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 25,
-          "turretCount": 8,
-          "MissileCount": 8
-        },
-        {
-          "MissileReferenceID": 20,
-          "turretCount": 6,
-          "MissileCount": 8
+          "turretCount": 2,
+          "MissileCount": 128,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7060,9 +7213,9 @@
       "shipFaction": "RUSSIA",
       "hullCode": "CG",
       "steelHull": true,
-      //"cameo": "slavaClass.jpg",
-      //"artist": "KCME",
-      //"artLink": "pixiv.net/en/artworks/6378926",
+      "cameo": "slavaClass.jpg",
+      "artist": "KCME",
+      "artLink": "pixiv.net/en/artworks/6378926",
       "batteries": [
         {
           "GunReferenceID": 10015,
@@ -7098,18 +7251,21 @@
       "missiles": [
         {
           "MissileReferenceID": 19,
-          "turretCount": 8,
-          "MissileCount": 2
+          "turretCount": 2,
+          "MissileCount": 16,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 20,
-          "turretCount": 8,
-          "MissileCount": 8
+          "turretCount": 2,
+          "MissileCount": 64,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 21,
           "turretCount": 2,
-          "MissileCount": 20
+          "MissileCount": 40,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7140,9 +7296,6 @@
       "shipFaction": "RUSSIA",
       "hullCode": "DDG",
       "steelHull": true,
-      "cameo": "severomorsk.jpg",
-      "artist": "しんしん（shinshin)",
-      "artLink": "pixiv.net/en/artworks/60677219",
       "batteries": [
         {
           "GunReferenceID": 10027,
@@ -7179,12 +7332,14 @@
         {
           "MissileReferenceID": 35,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 8,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 25,
-          "turretCount": 8,
-          "MissileCount": 8
+          "turretCount": 2,
+          "MissileCount": 64,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7214,6 +7369,9 @@
       "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
       "shipFaction": "RUSSIA",
       "hullCode": "DDG",
+      "cameo": "sovremenny.jpg",
+      "artist": "しんしん（shinshin)",
+      "artLink": "pixiv.net/en/artworks/60677219",
       "steelHull": true,
       "batteries": [
         {
@@ -7251,12 +7409,14 @@
         {
           "MissileReferenceID": 35,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 8,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 51,
           "turretCount": 2,
-          "MissileCount": 24
+          "MissileCount": 48,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7332,17 +7492,20 @@
         {
           "MissileReferenceID": 26,
           "turretCount": 2,
-          "MissileCount": 8
+          "MissileCount": 16,
+          "LaunchMethod": "CWIS"
         },
         {
           "MissileReferenceID": 28,
           "turretCount": 2,
-          "MissileCount": 8
+          "MissileCount": 16,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 27,
           "turretCount": 2,
-          "MissileCount": 16
+          "MissileCount": 32,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7418,17 +7581,20 @@
         {
           "MissileReferenceID": 26,
           "turretCount": 2,
-          "MissileCount": 8
+          "MissileCount": 16,
+          "LaunchMethod": "CWIS"
         },
         {
           "MissileReferenceID": 29,
           "turretCount": 2,
-          "MissileCount": 8
+          "MissileCount": 16,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 27,
           "turretCount": 2,
-          "MissileCount": 16
+          "MissileCount": 32,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7487,17 +7653,20 @@
         {
           "MissileReferenceID": 49,
           "turretCount": 2,
-          "MissileCount": 3
+          "MissileCount": 6,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 31,
           "turretCount": 1,
-          "MissileCount": 16
+          "MissileCount": 16,
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 27,
           "turretCount": 1,
-          "MissileCount": 20
+          "MissileCount": 20,
+          "LaunchMethod": "VLS"
         }
       ],
       "specialAbilities": [
@@ -7632,12 +7801,14 @@
         {
           "MissileReferenceID": 1,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 4,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 4,
-          "turretCount": 16,
-          "MissileCount": 1,
+          "turretCount": 2,
+          "MissileCount": 16,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
       ],
@@ -7712,14 +7883,16 @@
       "missiles": [
         {
           "MissileReferenceID": 47,
-          "turretCount": 2,
+          "turretCount": 4,
           "MissileCount": 34,
+          "LaunchMethod": "SINGLEARM",
           "dataLink": true
         },
         {
           "MissileReferenceID": 1,
           "turretCount": 2,
           "MissileCount": 4,
+          "LaunchMethod": "BOX",
           "dataLink": true
         }
 
@@ -7813,7 +7986,7 @@
           "digitalComputer": true
         },
         {
-          "GunReferenceID": 10017,
+          "GunReferenceID": 10028,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "rangefinder": true,
@@ -7836,27 +8009,23 @@
         {
           "MissileReferenceID": 41,
           "turretCount": 1,
-          "MissileCount": 24
+          "MissileCount": 24,
+          "LaunchMethod": "VLS",
         },
         {
           "MissileReferenceID": 42,
           "turretCount": 1,
-          "MissileCount": 50,
+          "MissileCount": 56,
+          "LaunchMethod": "VLS",
           "dataLink": true
         },
         {
           "MissileReferenceID": 43,
           "turretCount": 1,
-          "MissileCount": 50,
-          "dataLink": true
-        },
-        {
-          "MissileReferenceID": 44,
-          "turretCount": 1,
-          "MissileCount": 12,
+          "MissileCount": 56,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
-
       ],
       "specialAbilities": [
         {
@@ -7925,12 +8094,14 @@
         {
           "MissileReferenceID": 5,
           "turretCount": 1,
-          "MissileCount": 21
+          "MissileCount": 21,
+          "LaunchMethod": "CWIS"
         },
         {
           "MissileReferenceID": 44,
           "turretCount": 2,
-          "MissileCount": 4,
+          "MissileCount": 16,
+          "LaunchMethod": "BOX",
           "dataLink": true
         }
       ],
@@ -8010,13 +8181,15 @@
       "missiles": [
         {
           "MissileReferenceID": 17,
-          "turretCount": 4,
-          "MissileCount": 2
+          "turretCount": 2,
+          "MissileCount": 8,
+          "LaunchMethod": "BOX",
         },
         {
           "MissileReferenceID": 22,
           "turretCount": 2,
-          "MissileCount": 6,
+          "MissileCount": 12,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
       ],
@@ -8225,18 +8398,21 @@
         {
           "MissileReferenceID": 1,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 8,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 4,
           "turretCount": 24,
           "MissileCount": 1,
+          "LaunchMethod": "VLS",
           "dataLink": true
         },
         {
           "MissileReferenceID": 3,
           "turretCount": 24,
           "MissileCount": 1,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
       ],
@@ -8300,12 +8476,14 @@
         {
           "MissileReferenceID": 1,
           "turretCount": 2,
-          "MissileCount": 4
+          "MissileCount": 4,
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 3,
-          "turretCount": 8,
-          "MissileCount": 4,
+          "turretCount": 1,
+          "MissileCount": 16,
+          "LaunchMethod": "VLS",
           "dataLink": true
         }
       ],

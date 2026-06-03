@@ -582,7 +582,7 @@
     },
     {
       "id": 47,
-      "name": "RIM-666 SM-2MR Block III",
+      "name": "RIM-66 SM-2MR Block III",
       "mslWarheadSize": 258, //explosive type not specified, assumed 221 kg PBXN
       "mslRange": 170000,
       "mslSpeed": 1190,
@@ -705,6 +705,43 @@
       "gpsGuidance": true,
       "inertialGuidance": true,
       "orginCountry": "JPN"
+    },
+    {
+      "id": 57,
+      "name": "Meteor",
+      "mslWarheadSize": 20,
+      "mslRange": 200000,
+      "mslSpeed": 1372,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "InertialGuidance": true,
+      "attackAir": true,
+      "orginCountry": "EU"
+    },
+    {
+      "id": 58,
+      "name": "Aster 15",
+      "mslWarheadSize": 15, 
+      "mslRange": 30000,
+      "mslSpeed": 1400,
+      "seaSkimming": false,
+      "arhGuidance": true,
+      "sarhGuidance": true,
+      "inertialGuidance": true,
+      "attackAir": true,
+      "orginCountry": "FRA"
+    },
+    {
+      "id": 59,
+      "name": "Mistral",
+      "mslWarheadSize": 3, 
+      "mslRange": 8000,
+      "mslSpeed": 930,
+      "seaSkimming": false,
+      "InfraredGuidance": true,
+      "Cwis": true,
+      "attackAir": true,
+      "orginCountry": "FRA"
     },
   ]
 }

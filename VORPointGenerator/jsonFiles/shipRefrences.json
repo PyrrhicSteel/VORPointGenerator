@@ -49,6 +49,7 @@
           "MissileReferenceID": 0,
           "turretCount": 1, 
           "MissileCount": 1,
+          "LaunchMethod": "SINGLERAIL",
           "dataLink": true
         }
       ],
@@ -257,8 +258,13 @@
           "gunsPerTurret": 2,
           "localOpticalDirector": true
         }
-
-      ]
+      ],
+      "specialAbilities": [
+        {
+          "name": "Supercarrier"
+        },
+      ],
+      "abilityWeight": 1.1
     },
 
     {

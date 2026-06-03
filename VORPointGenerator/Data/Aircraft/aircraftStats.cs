@@ -91,6 +91,9 @@ namespace VORPointGenerator.Data.Aircraft
 
             Cost = (int)Math.Round(PlaneCount * (double)Move * EnergyGain * MaxEnergy * 0.02);
 
+            double bombBias = 0.3;
+            double torpBias = 0.1;
+
             // guns
             //Console.WriteLine(cost);
             foreach (var i in GunStats)
@@ -104,14 +107,14 @@ namespace VORPointGenerator.Data.Aircraft
             //Console.WriteLine(cost);
             foreach (var i in TorpedoStats)
             {
-                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.TorpTurrets * i.TorpsPerTurret * i.TorpRange * i.TorpPower * i.TorpAOE * 0.025), 1 + i.TorpAcc / 50));
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.TorpTurrets * i.TorpsPerTurret * i.TorpRange * i.TorpPower * i.TorpAOE * torpBias), 1 + i.TorpAcc / 50));
             }
 
             // bombs
             //Console.WriteLine(cost);
             foreach (var i in BombStats)
             {
-                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.Power * i.Range * i.Atk * i.Volleys * 0.025), 1 + i.Accuracy / 50));
+                Cost = Cost + (int)Math.Round(Math.Pow((double)(PlaneCount * i.Power * i.Range * i.Atk * i.Volleys * bombBias), 1 + i.Accuracy / 50));
             }
 
             // rockets
@@ -124,14 +127,14 @@ namespace VORPointGenerator.Data.Aircraft
             // Anti-ship missiles
             foreach (var i in MissileStats)
             {
-                double missileBias = 0.0007;
+                double missileBias = 0.0001;
 
                 int correctedRange = i.MslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
                 int corrMslPwr = i.MslPower;
                 if (i.MslPower == 0) corrMslPwr = 1;
-                int missileStats = (int)Math.Round(PlaneCount * i.MslTurrets * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * corrMslPwr * i.MslAOE * missileBias), 1 + i.MslAcc / 75));
-                //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
+                int missileStats = (int)Math.Round(PlaneCount * i.MslVolleySize * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * corrMslPwr * i.MslAOE * missileBias), 1 + i.MslAcc / 75));
+                //Console.WriteLine("Missile Cost: " + i.MslVolleySize + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
 
                 Cost = Cost + missileStats;
             }
@@ -484,7 +487,9 @@ namespace VORPointGenerator.Data.Aircraft
                 cardGraphics.DrawString(weaponTitle, textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                string statBlock = "\t" + i.Turrets + "x" + i.GunsPerTurret + "\t " + i.Range + "\t " + i.Power + "\t " + i.Accuracy + "\t -\t -";
+                string statBlock;
+                if(i.Turrets == 0) statBlock = "\t" + i.GunsPerTurret + "\t " + i.Range + "\t " + i.Power + "\t " + i.Accuracy + "\t -\t -";
+                else statBlock = "\t" + i.Turrets + "x" + i.GunsPerTurret + "\t " + i.Range + "\t " + i.Power + "\t " + i.Accuracy + "\t -\t -";
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
@@ -581,10 +586,11 @@ namespace VORPointGenerator.Data.Aircraft
                 string weaponTitle;
                 if (i.AttackAir == true) { weaponTitle = i.Name + " (MSL) (D/P)"; }
                 else { weaponTitle = i.Name + " (MSL)"; }
+                weaponTitle = weaponTitle + " (" + i.MslVolleySize + " x turn)";
                 cardGraphics.DrawString(weaponTitle, textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                string statBlock = "\t" + i.MslTurrets + "x" + i.MslsPerTurret + "\t " + i.MslRange + "\t " + i.MslPower + "\t " + i.MslAcc + "\t " + i.MslAOE + "\t " + i.MslEvasion;
+                string statBlock = "\t" + i.MslsPerTurret + "\t " + i.MslRange + "\t " + i.MslPower + "\t " + i.MslAcc + "\t " + i.MslAOE + "\t " + i.MslEvasion;
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 

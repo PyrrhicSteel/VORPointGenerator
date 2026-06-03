@@ -1575,5 +1575,25 @@
       "AttackAir": true,
       "originCountry": "RUS"
     },
+    {
+      "Id": 10033,
+      "Name": "GIAT 30",
+      "Calibre": 30,
+      "MaxRange": 4000, // CITATION NEEDED
+      "ArmorPenetration": 60, //CITATION NEEDED
+      "FireRate": 2500,
+      "AttackAir": true,
+      "originCountry": "FRA"
+    },
+    {
+      "Id": 10034,
+      "Name": "KNDS Narwhal 20B",
+      "Calibre": 20,
+      "MaxRange": 1500, // CITATION NEEDED
+      "ArmorPenetration": 40, //CITATION NEEDED
+      "FireRate": 800,
+      "AttackAir": true,
+      "originCountry": "FRA"
+    },
   ]
 }

@@ -88,9 +88,9 @@ namespace VORPointGenerator.Data.Ship
             int attackStats = 0;
 
             // Tune these values for balancing
-            double gunBias = 0.5;
+            double gunBias = 0.6;
             double torpBias = 0.025;
-            double mslBias = 0.0007;
+            double mslBias = 0.0001;
 
             int aircraftCVbias = 75;
             int aircraftFloatBias = 50;
@@ -104,7 +104,7 @@ namespace VORPointGenerator.Data.Ship
             int armorBias = 15;
             double armorExponentialBias = 3.3;
 
-            int gunAccuracyBias = 36; //NOTE: This value has an inverse releationship with ACC 
+            int gunAccuracyBias = 30; //NOTE: This value has an inverse releationship with ACC 
 
             baseStats = baseStats + MaxSpeed * speedBias;
             baseStats = baseStats + Maneuverability * maneuverabilityBias;
@@ -151,14 +151,14 @@ namespace VORPointGenerator.Data.Ship
                 if (correctedPwr == 0 ) correctedPwr = 1;
                 int correctedRange = i.MslRange;
                 if (correctedRange > 72) correctedRange = 72; //past six feet, a missile's range doesn't really matter for balance reasons
-                int missileStats = (int)Math.Round(i.MslTurrets * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * correctedPwr * i.MslAOE * mslBias), 1 + i.MslAcc / 75));
-
-                //Console.WriteLine("Missile Cost: " + i.mslTurrets + " " + i.mslsPerTurret + " " + i.mslEvasion + " " + i.mslRange + " " + i.mslPower + " " + i.mslAOE + " " + i.mslAcc);
+                int missileStats = (int)Math.Round(i.MslVolleySize * i.MslsPerTurret * i.MslEvasion * Math.Pow((double)(correctedRange * correctedPwr * i.MslAOE * mslBias), 1 + i.MslAcc / 75));
 
                 attackStats = attackStats + missileStats;
             }
 
-            //TODO: add points for depth charges
+            // Console.WriteLine(attackStats);
+
+            // TODO: add points for depth charges
 
             if (SteelHull == true)
             {
@@ -414,8 +414,10 @@ namespace VORPointGenerator.Data.Ship
             cardGraphics.DrawString(Name, h2, foregroundColor, startPoint);
 
             //Point Value in top left corner
-            PointF leftPoint = new PointF(width - 200, 55);
+            PointF leftPoint = new PointF(width - 260, 55);
             cardGraphics.DrawString(PointValue.ToString(), h1, foregroundColor, leftPoint);
+            
+            leftPoint = new PointF(width - 200, 55);
 
             // Integrity
             leftPoint = leftPoint + new Size(-1075, 50);
@@ -580,13 +582,15 @@ namespace VORPointGenerator.Data.Ship
 
                 //draw weapon
 
+                // draw weapon title
                 string weaponTitle;
                 if (i.AttackAir == true) { weaponTitle = i.Name + " (MSL) (D/P)"; }
                 else { weaponTitle = i.Name + " (MSL)"; }
+                weaponTitle = weaponTitle + " (" + i.MslVolleySize + " x turn)";
                 cardGraphics.DrawString(weaponTitle, textFont, foregroundColor, startPoint);
 
                 startPoint = startPoint + new Size(0, textFontMargin);
-                string statBlock = "\t" + i.MslTurrets + "x" + i.MslsPerTurret + "\t " + i.MslRange + "\t " + i.MslPower + "\t " + i.MslAcc + "\t " + i.MslAOE + "\t " + i.MslEvasion;
+                string statBlock = "\t" + i.MslsPerTurret + "\t " + i.MslRange + "\t " + i.MslPower + "\t " + i.MslAcc + "\t " + i.MslAOE + "\t " + i.MslEvasion;
                 cardGraphics.DrawString(statBlock, h4, foregroundColor, startPoint);
             }
 
