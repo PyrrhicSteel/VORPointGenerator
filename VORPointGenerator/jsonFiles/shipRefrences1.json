@@ -1,6 +1,6 @@
 ﻿{
   "shipRefrences": [
-	// USA
+    // USA
     // USA CARRIERS
     {
       "name": "USS Intrepid (CV-11)",
@@ -15,7 +15,7 @@
       "hullCode": "CV",
       "cameo": "ussIntrepid.jpg", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
       "artist": "YeFan 葉凡",
-      "artLink": "pixiv.net/en/artworks/67468794",  //alt pic: twitter.com/TimmyYen/status/1305885629360685057
+      "artLink": "pixiv.net/en/artworks/67468794", //alt pic: twitter.com/TimmyYen/status/1305885629360685057
       "batteries": [
         {
           "GunReferenceID": 1,
@@ -82,7 +82,7 @@
       "hullCode": "CV",
       "cameo": "ussHornetCV-8.png", // TODO: Include alternate "black text" for crediting authors in excessively bright cameos
       "artist": "常盤仙渓",
-      "artLink": "pixiv.net/en/artworks/110221714",  //alt pic: twitter.com/TimmyYen/status/1305885629360685057
+      "artLink": "pixiv.net/en/artworks/110221714", //alt pic: twitter.com/TimmyYen/status/1305885629360685057
       "batteries": [
         {
           "GunReferenceID": 1,
@@ -954,13 +954,13 @@
           //"RadarBlindFire": true,
           "airburstFuses": true,
           "radarFuses": true
-        },  
+        },
         {
           "GunReferenceID": 2,
           "turretCount": 8,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
-        },  
+        },
         {
           "GunReferenceID": 3,
           "turretCount": 20,
@@ -1107,7 +1107,7 @@
         },
         {
           "name": "Ariake",
-          "description": "For the sake of fleet building and abilities, Edwards's nationality can be considered either \nUS or Japanese."       
+          "description": "For the sake of fleet building and abilities, Edwards's nationality can be considered either \nUS or Japanese."
         }
       ],
       "abilityWeight": 1.35
@@ -1361,7 +1361,7 @@
       ],
       "abilityWeight": 1.35
     },
-    
+
 
     // MODERN USA
     // USA CVN
@@ -1451,7 +1451,7 @@
       "hasSonar": false,
       "carrier": true,
       "speed": 33, // "excess of 30 kn" is automatically assumed to be 33 for all ships
-      "displacement": 100000, 
+      "displacement": 100000,
       "horsepower": 350000, // Wikipedia estimate
       "beltThickness": 100, // "Unknown" for obvious reasons
       "length": 337,
@@ -2069,14 +2069,14 @@
       "missiles": [
         {
           "MissileReferenceID": 18,
-          "turretCount": 2, 
+          "turretCount": 2,
           "MissileCount": 20,
           "LaunchMethod": "VLS",
           "dataLink": true
         },
         {
           "MissileReferenceID": 3,
-          "turretCount": 2, 
+          "turretCount": 2,
           "MissileCount": 76,
           "LaunchMethod": "VLS",
           "dataLink": true
@@ -2164,14 +2164,14 @@
       "missiles": [
         {
           "MissileReferenceID": 4,
-          "turretCount": 2, 
+          "turretCount": 2,
           "MissileCount": 80,
           "LaunchMethod": "VLS",
           "dataLink": true
         },
         {
           "MissileReferenceID": 15,
-          "turretCount": 2, 
+          "turretCount": 2,
           "MissileCount": 76,
           "LaunchMethod": "VLS",
           "dataLink": true
@@ -2195,7 +2195,7 @@
       "name": "USS Zumwalt (DDG-1000)",
       "hasSonar": true,
       "carrier": false,
-      "speed": 34, 
+      "speed": 34,
       "displacement": 14564,
       "horsepower": 105000,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
@@ -2399,7 +2399,7 @@
       "name": "USS Canberra (LCS-30)",
       "hasSonar": false,
       "carrier": false,
-      "speed": 47, 
+      "speed": 47,
       "displacement": 2271,
       "horsepower": 60000, // From 2 GE LM2500 Gas Turbine Engines
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
@@ -2495,7 +2495,7 @@
       "name": "USS Wichita (LCS-13)",
       "hasSonar": false,
       "carrier": false,
-      "speed": 45, 
+      "speed": 45,
       "displacement": 3500,
       "horsepower": 57100,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
@@ -2686,7 +2686,7 @@
       "displacement": 20130,
       "horsepower": 152000,
       "beltThickness": 72,
-      "length": 227, 
+      "length": 227,
       "aircraftCount": 65,
       "shipFaction": "JAPAN",
       "hullCode": "CV",
@@ -2728,7 +2728,7 @@
       "displacement": 29770,
       "horsepower": 160000,
       "beltThickness": 100,
-      "length": 261, 
+      "length": 261,
       "aircraftCount": 65,
       "shipFaction": "JAPAN",
       "hullCode": "CV",
@@ -2763,7 +2763,7 @@
     },
     // JAPAN BATTLESHIPS
     {
-      "name": "Js Yamato",
+      "name": "JS Yamato",
       "carrier": false,
       "speed": 27,
       "displacement": 69988,
@@ -3130,8 +3130,7 @@
           "gunsPerTurret": 2,
           "rangefinder": true,
           "localOpticalDirector": true,
-          "opticalDirector": true,
-          "rangefinder": true
+          "opticalDirector": true
         },
         {
           "GunReferenceID": 8,
@@ -3225,7 +3224,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Inspiring Presence", 
+          "name": "Inspiring Presence",
           "description": "If an enemy has the most expensive ship in the battlefield, Ships within 5\" of Atago gain +1 POW."
         }
       ],
@@ -3384,7 +3383,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Idol of the Fleet", 
+          "name": "Idol of the Fleet",
           "description": "Gain +1 ACC and +1 EVA for every friendly Destroyer or Frigate within 12\"."
         }
       ],
@@ -3439,7 +3438,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Destroyer Leader", 
+          "name": "Destroyer Leader",
           "description": "All Allied DD's within 8\" gain +1 EVA and +1 ACC."
         }
       ],
@@ -3494,7 +3493,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Deadly Serenity", 
+          "name": "Deadly Serenity",
           "description": "In Ramming attacks, Tatsua gains +5 ARM and +5 POW."
         }
       ],
@@ -4019,7 +4018,7 @@
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 248,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 28, 
+      "aircraftCount": 28,
       "shipFaction": "JAPAN",
       "hullCode": "DDH",
       "steelHull": true,
@@ -4207,13 +4206,13 @@
         }
       ],
       "torpedoes": [
-      {
+        {
           "TorpReferenceID": 10001,
           "turretCount": 1,
           "torpsPerTurret": 8,
           "torpReloads": 0
-      },  
-      {
+        },
+        {
           "TorpReferenceID": 10004,
           "turretCount": 2,
           "torpsPerTurret": 3,
@@ -4325,7 +4324,7 @@
           "MissileCount": 24,
           "LaunchMethod": "VLS",
           "dataLink": true
-        },
+        }
       ],
       "specialAbilities": [
         {
@@ -4469,7 +4468,7 @@
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
-        },
+        }
       ],
       "specialAbilities": [
         {
@@ -4528,7 +4527,7 @@
           "turretCount": 45,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
-        },
+        }
       ],
       "specialAbilities": [
         {
@@ -4760,7 +4759,7 @@
           "turretCount": 4,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
-        },
+        }
       ],
       "specialAbilities": [
         {
@@ -4805,7 +4804,7 @@
         {
           "GunReferenceID": 48,
           "turretCount": 4,
-          "gunsPerTurret":1,
+          "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "airburstFuses": true
         },
@@ -5344,14 +5343,14 @@
       "missiles": [
         {
           "MissileReferenceID": 11,
-          "turretCount": 2, 
+          "turretCount": 2,
           "MissileCount": 8,
           "LaunchMethod": "BOX",
           "dataLink": true
-        },  
+        },
         {
           "MissileReferenceID": 16,
-          "turretCount": 1, 
+          "turretCount": 1,
           "MissileCount": 48,
           "LaunchMethod": "VLS",
           "dataLink": true
@@ -5590,7 +5589,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "radarDirector":true,
+          "radarDirector": true,
           "airburstFuses": true
         },
         {
@@ -5617,7 +5616,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Smoke",
+          "name": "Smoke"
         },
         {
           "name": "Lessons of Wikinger",
@@ -5646,7 +5645,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "radarDirector":true,
+          "radarDirector": true,
           "airburstFuses": true
         },
         {
@@ -5673,7 +5672,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Smoke",
+          "name": "Smoke"
         },
         {
           "name": "Max's Dicipline'",
@@ -5688,12 +5687,12 @@
       "hasSonar": true,
       "carrier": false,
       "speed": 26,
-      "displacement": 2600, 
+      "displacement": 2600,
       "horsepower": 33526,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 150,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 2, 
+      "aircraftCount": 2,
       "shipFaction": "GERMANY",
       "hullCode": "FFG",
       "steelHull": true,
@@ -5729,8 +5728,8 @@
       ],
       "missiles": [
         {
-          "MissileReferenceID": 1,             
-          "turretCount": 2,          
+          "MissileReferenceID": 1,
+          "turretCount": 2,
           "MissileCount": 8,
           "LaunchMethod": "BOX"
         },
@@ -5891,7 +5890,7 @@
       "speed": 35,
       "displacement": 7600,
       "horsepower": 84000,
-      "beltThickness": 84, 
+      "beltThickness": 84,
       "length": 179,
       "aircraftCount": 4,
       "shipFaction": "FRANCE",
@@ -6009,7 +6008,7 @@
       "name": "Charles de Gaulle",
       "hasSonar": false,
       "carrier": true,
-      "speed": 27, 
+      "speed": 27,
       "displacement": 41800,
       "horsepower": 82000,
       "beltThickness": 100, // "Unknown" for obvious reasons
@@ -6031,7 +6030,7 @@
           "rangefinder": true,
           "airburstFuses": true,
           "digitalComputer": true
-        },
+        }
       ],
       "missiles": [
         {
@@ -6071,7 +6070,7 @@
       "hasSonar": true,
       "carrier": false,
       "speed": 29,
-      "displacement": 6939, 
+      "displacement": 6939,
       "horsepower": 62560,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 153,
@@ -6116,7 +6115,7 @@
           "MissileReferenceID": 17,
           "turretCount": 2,
           "MissileCount": 8,
-          "LaunchMethod": "BOX",
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 16,
@@ -6145,7 +6144,7 @@
       "hasSonar": true,
       "carrier": false,
       "speed": 20,
-      "displacement": 2600, 
+      "displacement": 2600,
       "horsepower": 8820,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 94,
@@ -6178,10 +6177,10 @@
       ],
       "missiles": [
         {
-          "MissileReferenceID": 17,  // Technically Exocets were removed,           
-          "turretCount": 1,         // but in light of the abyssal war 
-          "MissileCount": 2,        // we'll say they've been added again.
-          "LaunchMethod": "BOX",
+          "MissileReferenceID": 17, // Technically Exocets were removed,           
+          "turretCount": 1, // but in light of the abyssal war 
+          "MissileCount": 2, // we'll say they've been added again.
+          "LaunchMethod": "BOX"
         }
       ],
       "specialAbilities": [
@@ -6203,7 +6202,7 @@
       "hasSonar": true,
       "carrier": false,
       "speed": 27,
-      "displacement": 4400, 
+      "displacement": 4400,
       "horsepower": 43000,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 122,
@@ -6249,7 +6248,7 @@
           "MissileReferenceID": 17,
           "turretCount": 2,
           "MissileCount": 8,
-          "LaunchMethod": "BOX",
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 16,
@@ -6662,13 +6661,13 @@
       "name": "Cavour",
       "hasSonar": true,
       "carrier": true,
-      "speed": 29, 
+      "speed": 29,
       "displacement": 26700,
       "horsepower": 118000,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 244,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 30, 
+      "aircraftCount": 30,
       "shipFaction": "ITALY",
       "hullCode": "CV",
       "steelHull": true,
@@ -6782,7 +6781,7 @@
       "speed": 36,
       "displacement": 7890,
       "horsepower": 113500,
-      "beltThickness": 66, 
+      "beltThickness": 66,
       "length": 191,
       "aircraftCount": 2,
       "shipFaction": "RUSSIA",
@@ -6840,7 +6839,7 @@
       "speed": 36,
       "displacement": 10620,
       "horsepower": 110000,
-      "beltThickness": 111, 
+      "beltThickness": 111,
       "length": 200,
       "aircraftCount": 2,
       "shipFaction": "RUSSIA",
@@ -6898,7 +6897,7 @@
       "speed": 19,
       "displacement": 6731,
       "horsepower": 11610,
-      "beltThickness": 89, 
+      "beltThickness": 89,
       "length": 127,
       "aircraftCount": 0,
       "shipFaction": "RUSSIA",
@@ -7060,7 +7059,7 @@
       "beltThickness": 50, // Splinter plating. Slightly increased because reactor shielding
       "length": 305,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 30, 
+      "aircraftCount": 30,
       "shipFaction": "RUSSIA",
       "hullCode": "CV",
       "steelHull": true,
@@ -7112,9 +7111,9 @@
         {
           "name": "Supercarrier"
         },
-      //{
-      // "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
-      //},
+        //{
+        // "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
+        //},
         {
           "name": "Rushed Deployment",
           "description": "Admiral Kuznetsov starts the game with one of their aircraft launched."
@@ -7132,7 +7131,7 @@
       "beltThickness": 50, // Splinter plating. Slightly increased because reactor shielding
       "length": 252,
       "depthChargeLauncherNumber": 0,
-      "aircraftCount": 3, 
+      "aircraftCount": 3,
       "shipFaction": "RUSSIA",
       "hullCode": "CCGN",
       "steelHull": true,
@@ -7189,9 +7188,9 @@
         {
           "name": "Jamming 8"
         },
-      //  {
-      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
-      //  },
+        //  {
+        //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
+        //  },
         {
           "name": "Emperess of the North",
           "description": "If the Pyotr Velikiy is the most expensive ship on the table, all allied ships within 8\" of Pyotr Velikiy \ngain +2 ACC and +2 EVA."
@@ -7272,9 +7271,9 @@
         {
           "name": "Jamming 8"
         },
-      //  {
-      //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
-      //  },
+        //  {
+        //   "name": "Countermeasures 2" // Can't prove that they have these, but they have to, right?
+        //  },
         {
           "name": "The Viking of Vladivostok",
           "description": "Gain +2 EVA and +2 ARM if no allies are within 8\"."
@@ -7347,7 +7346,7 @@
           "name": "Jamming 8"
         },
         {
-         "name": "Countermeasures 2"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Artic Guardian",
@@ -7424,7 +7423,7 @@
           "name": "Jamming 8"
         },
         {
-         "name": "Countermeasures 2"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Not Scrap Yet",
@@ -7452,7 +7451,7 @@
       "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
-          "GunReferenceID": 10015, 
+          "GunReferenceID": 10015,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7464,7 +7463,7 @@
           "digitalComputer": true
         },
         {
-          "GunReferenceID": 10020, 
+          "GunReferenceID": 10020,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7513,7 +7512,7 @@
           "name": "Jamming 4"
         },
         {
-         "name": "Countermeasures 2"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Domesticlly Buit",
@@ -7541,7 +7540,7 @@
       "artLink": "pixiv.net/en/artworks/120228759",
       "batteries": [
         {
-          "GunReferenceID": 10015, 
+          "GunReferenceID": 10015,
           "turretCount": 1,
           "gunsPerTurret": 2,
           "localOpticalDirector": true,
@@ -7553,7 +7552,7 @@
           "digitalComputer": true
         },
         {
-          "GunReferenceID": 10020, 
+          "GunReferenceID": 10020,
           "turretCount": 2,
           "gunsPerTurret": 1,
           "localOpticalDirector": true
@@ -7602,7 +7601,7 @@
           "name": "Jamming 4"
         },
         {
-         "name": "Countermeasures 2"
+          "name": "Countermeasures 2"
         },
         {
           "name": "The New Frigate",
@@ -7618,7 +7617,7 @@
       "speed": 32,
       "displacement": 560,
       "horsepower": 30000,
-      "beltThickness": 10, 
+      "beltThickness": 10,
       "length": 59,
       "depthChargeLauncherNumber": 0,
       "aircraftCount": 2, // Actually 1, an additional aircraft added so the DDG can carry helicopters
@@ -7627,7 +7626,7 @@
       "steelHull": true,
       "batteries": [
         {
-          "GunReferenceID": 10032, 
+          "GunReferenceID": 10032,
           "turretCount": 1,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -7671,7 +7670,7 @@
       ],
       "specialAbilities": [
         {
-         "name": "Countermeasures 2"
+          "name": "Countermeasures 2"
         },
         {
           "name": "Trade Winds",
@@ -7706,7 +7705,7 @@
           "rangefinder": true,
           "radarDirector": true,
           "airburstFuses": true,
-          "radarFuses": true,
+          "radarFuses": true
         },
         {
           "GunReferenceID": 12,
@@ -7751,7 +7750,7 @@
       "hasSonar": true,
       "carrier": false,
       "speed": 30,
-      "displacement": 3995, 
+      "displacement": 3995,
       "horsepower": 53000,
       "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
       "length": 134,
@@ -7931,7 +7930,7 @@
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
           "opticalDirector": true,
-          "rangefinder": true,
+          "rangefinder": true
         },
         {
           "GunReferenceID": 97,
@@ -8010,7 +8009,7 @@
           "MissileReferenceID": 41,
           "turretCount": 1,
           "MissileCount": 24,
-          "LaunchMethod": "VLS",
+          "LaunchMethod": "VLS"
         },
         {
           "MissileReferenceID": 42,
@@ -8183,7 +8182,7 @@
           "MissileReferenceID": 17,
           "turretCount": 2,
           "MissileCount": 8,
-          "LaunchMethod": "BOX",
+          "LaunchMethod": "BOX"
         },
         {
           "MissileReferenceID": 22,
@@ -8247,7 +8246,7 @@
         {
           "GunReferenceID": 71,
           "turretCount": 3,
-          "gunsPerTurret":4,
+          "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
@@ -8333,7 +8332,7 @@
         },
         {
           "name": "Wallace",
-          "description": "For the sake of fleet building and abilities, Vampire's nationality can be considered either \nAustralian or United Kingdom."       
+          "description": "For the sake of fleet building and abilities, Vampire's nationality can be considered either \nAustralian or United Kingdom."
         }
       ],
       "abilityWeight": 1.2
@@ -8564,7 +8563,7 @@
       "speed": 28,
       "displacement": 4750,
       "horsepower": 33000,
-      "beltThickness": 46, 
+      "beltThickness": 46,
       "length": 135,
       "aircraftCount": 6,
       "shipFaction": "SWEDEN",
@@ -8588,7 +8587,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true
-        },  
+        },
         {
           "GunReferenceID": 97,
           "turretCount": 1,
@@ -8596,7 +8595,7 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "airburstFuses": true,
+          "airburstFuses": true
         },
         {
           "GunReferenceID": 97,
@@ -8605,13 +8604,13 @@
           "localOpticalDirector": true,
           "opticalDirector": true,
           "rangefinder": true,
-          "airburstFuses": true,
+          "airburstFuses": true
         },
         {
           "GunReferenceID": 99,
           "turretCount": 4,
           "gunsPerTurret": 1,
-          "localOpticalDirector": true,
+          "localOpticalDirector": true
         }
       ],
       "torpedoes": [
@@ -8630,7 +8629,86 @@
       ],
       "abilityWeight": 1.2
     },
-    
+
+    // NORWAY
+    {
+      "name": "HNoMS Thor Heyerdahl",
+      "hasSonar": true,
+      "carrier": false,
+      "speed": 26,
+      "displacement": 2600,
+      "horsepower": 33526,
+      "beltThickness": 20, // Kevlar splinter protection. Modeled just enough to block POW 0 weapons
+      "length": 150,
+      "depthChargeLauncherNumber": 0,
+      "aircraftCount": 2,
+      "shipFaction": "NORWAY",
+      "hullCode": "FFG",
+      "steelHull": true,
+      "batteries": [
+        {
+          "GunReferenceID": 10008,
+          "turretCount": 1,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "airburstFuses": true,
+          "radarBlindFire": true,
+          "radarFuses": true,
+          "digitalComputer": true
+        },
+        {
+          "GunReferenceID": 7,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "localOpticalDirector": true
+        },
+        {
+          "GunReferenceID": 10007,
+          "turretCount": 4,
+          "gunsPerTurret": 1,
+          "opticalDirector": true,
+          "rangefinder": true,
+          "digitalComputer": true
+        }
+      ],
+      "torpedoes": [
+        {
+          "TorpReferenceID": 10003,
+          "turretCount": 2,
+          "torpsPerTurret": 2,
+          "torpReloads": 0
+        }
+      ],
+      "missiles": [
+        {
+          "MissileReferenceID": 11,
+          "turretCount": 2,
+          "MissileCount": 8,
+          "LaunchMethod": "BOX",
+          "dataLink": true
+        },
+        {
+          "MissileReferenceID": 4,
+          "turretCount": 2,
+          "MissileCount": 64,
+          "LaunchMethod": "VLS",
+          "dataLink":  true
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        },
+        {
+          "name": "Fjords Adventurer",
+          "description": "Every time Thor ends a move with an enemy ship within 12\", gain 1 'Adventure' token. \nThor gains +1 ACC and +1 EVA for each 'Adventure' token."
+        }
+      ],
+      "abilityWeight": 1.2
+    },
+
     // INDIA
     // PHILLIPINES
     // 
@@ -8695,6 +8773,6 @@
         }
       ],
       "abilityWeight": 0.33
-    },
+    }
   ]
 }

@@ -18,7 +18,7 @@ namespace VORPointGenerator.Data.Battery
         internal void ApplyFixes()
         {
 
-            while (Turrets * GunsPerTurret > 20)
+            while (Turrets * GunsPerTurret > 25)
             {
                 Turrets = Turrets / 2;
                 Accuracy++;

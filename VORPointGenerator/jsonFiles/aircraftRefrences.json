@@ -1788,6 +1788,13 @@
           "MissileCount": 4,
           "dataLink": true,
           "LaunchMethod": "HARDPOINT"
+        },
+        {
+          "missileReferenceID": 7,
+          "turretCount": 1,
+          "MissileCount": 2,
+          "dataLink": true,
+          "LaunchMethod": "HARDPOINT"
         }
       ],
       "specialAbilities": [
@@ -2053,8 +2060,8 @@
       "missiles": [
         {
           "missileReferenceID": 18,
-          "turretCount": 3,
-          "MissileCount": 30,
+          "turretCount": 1,
+          "MissileCount": 18, //Actually 30, nerfed for point value
           "LaunchMethod": "BOMBBAY"
         }
       ],
@@ -2092,7 +2099,7 @@
         {
           "missileReferenceID": 46,
           "turretCount": 2,
-          "MissileCount": 30,
+          "MissileCount": 30, 
           "LaunchMethod": "BOMBBAY"
         }
       ],
@@ -3708,6 +3715,44 @@
         //TODO: Subhunting ability
       ],
       "abilityWeight": 1.1
+    },
+    // NORWAY
+    // GERMAN Aircraft
+    {
+      "name": "NH90",
+      "countryOfOrigin": "NORW",
+      "type": "Utility Maritime Helicopter",
+      "numPlanes": 4,
+      "speed": 83,
+      "thrust": 4834,
+      "weight": 6400,
+      "rateOfClimb": 8,
+      "ServiceCeiling": 6000,
+      "steelHull": true,
+      "cameo": "nh90.jpg",
+      "artist": "OnDaDoor",
+      "artLink": "pixiv.net/en/artworks/69295911",
+      "GunReferences": [
+        {
+          "GunReferenceID": 10010, // CITATION NEEDED
+          "turretCount": 2,
+          "gunsPerTurret": 1
+        }
+      ],
+      "TorpedoBatReferences": [
+        {
+          "TorpReferenceID": 10003,
+          "turretCount": 2,
+          "torpsPerTurret": 1,
+          "torpReloads": 0
+        }
+      ],
+      "specialAbilities": [
+        {
+          "name": "Countermeasures 2"
+        }
+        //TODO: Subhunting ability
+      ]
     }
   ]
 }

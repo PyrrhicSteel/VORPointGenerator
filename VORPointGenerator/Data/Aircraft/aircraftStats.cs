@@ -194,11 +194,11 @@ namespace VORPointGenerator.Data.Aircraft
             SolidBrush backgroundColor = new SolidBrush(baseColor);
 
             //set up font
-            Font h1 = new Font("Trajan Pro", 60, FontStyle.Bold);
-            Font h2 = new Font("Trajan Pro", 48, FontStyle.Bold);
-            Font h3 = new Font("Trajan Pro", 36, FontStyle.Bold);
-            Font h4 = new Font("Trajan Pro", 30, FontStyle.Bold);
-            Font textFont = new Font("Trajan Pro", 24, FontStyle.Bold);
+            Font h1 = new Font("Arial", 60, FontStyle.Bold);
+            Font h2 = new Font("Arial", 48, FontStyle.Bold);
+            Font h3 = new Font("Arial", 36, FontStyle.Bold);
+            Font h4 = new Font("Arial", 30, FontStyle.Bold);
+            Font textFont = new Font("Arial", 24, FontStyle.Bold);
             Font descFont = new Font("Corbel", 18);
             Font descFontTitle = new Font("Corbel", 20, FontStyle.Bold);
 
