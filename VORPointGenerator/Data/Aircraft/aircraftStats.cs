@@ -150,7 +150,7 @@ namespace VORPointGenerator.Data.Aircraft
             PointValue = (int)Math.Round((double)Cost / 5) * 5;
             if (PointValue == 0) { PointValue = 5; }
 
-            Console.WriteLine(Name + ":\n\t\t\t\t\tBASE - " + Cost);
+            Console.WriteLine(Name + ":\n\t\t\t\t\tCOST - " + PointValue);
         }
 
         public void GenerateStatCard(string name, string countryOfOrigin, string cameo, string artist, string artLink)

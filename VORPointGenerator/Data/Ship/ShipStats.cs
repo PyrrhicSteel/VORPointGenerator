@@ -169,7 +169,9 @@ namespace VORPointGenerator.Data.Ship
             PointValue = baseStats + attackStats;
             PointValue = (int)Math.Round((double)(PointValue * abilityWeight) / 2 / 5) * 5;
 
-            Console.WriteLine(Name + ":\n\t\t\t\t\tBASE - " + baseStats + "\tWEAPONS - " + attackStats + ",\tTOTAL - " + PointValue);
+            //Console.WriteLine(Name + ":\n\t\t\t\t\tBASE - " + baseStats + "\tWEAPONS - " + attackStats + ",\tTOTAL - " + PointValue);
+
+            Console.WriteLine(Name + ":\n\t\t\t\t\tCOST - " + PointValue);
         }
         // Generate PNG files for this ship
         public void GenerateStatCard()

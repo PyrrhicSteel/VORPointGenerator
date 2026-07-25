@@ -1084,26 +1084,6 @@
     },
     {
       "Id": 107,
-      "Name": "4-in/45 QF Mark V",
-      "Calibre": 102,
-      "MaxRange": 16430,
-      "ArmorPenetration": 107, // CITATION NEEDED
-      "FireRate": 15,
-      "AttackAir": true,
-      "originCountry": "UK"
-    },
-    {
-      "Id": 108,
-      "Name": "Lewis .303",
-      "Calibre": 11,
-      "MaxRange": 3200,
-      "ArmorPenetration": 3, // CITATION NEEDED
-      "FireRate": 600,
-      "AttackAir": true,
-      "originCountry": "UK"
-    },
-    {
-      "Id": 107,
       "Name": "34 cm/45 Model 1912",
       "Calibre": 340,
       "MaxRange": 23700,
@@ -1241,6 +1221,26 @@
       "FireRate": 2,
       "AttackAir": false,
       "originCountry": "USA"
+    },
+    {
+      "Id": 121,
+      "Name": "4-in/45 QF Mk V",
+      "Calibre": 102,
+      "MaxRange": 16430,
+      "ArmorPenetration": 107, // CITATION NEEDED
+      "FireRate": 15,
+      "AttackAir": true,
+      "originCountry": "UK"
+    },
+    {
+      "Id": 122,
+      "Name": "Lewis .303",
+      "Calibre": 11,
+      "MaxRange": 3200,
+      "ArmorPenetration": 3, // CITATION NEEDED
+      "FireRate": 600,
+      "AttackAir": true,
+      "originCountry": "UK"
     },
 
     // MODERN WEAPONS

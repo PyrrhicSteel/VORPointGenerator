@@ -553,7 +553,7 @@
       "specialAbilities": [
         {
           "name": "Survival of the Fittest",
-          "description": "Every time an allied BB within 12\" of Tennessee, gain 1 'Rage' Token. Tennessee's 14-in/50s gain \n+1 ACC for every 'Rage' Token on her card."
+          "description": "Every time an allied BB within 12\" of Tennessee is attacked, gain 1 'Rage' Token. \nTennessee's 14-in/50s gain +1 ACC for every 'Rage' Token on her card."
         }
       ],
       "abilityWeight": 1.2
@@ -919,8 +919,12 @@
       "specialAbilities": [
         {
           "name": "La Fayette",
-          "description": "For the sake of fleet building and abilities, Langley's nationality can be considered either \nUS or French. Aircraft gain +2 EVA from AA reaction fire from Battleships."
-        }
+          "description": "For the sake of fleet building and abilities, Langley's nationality can be considered either \nUS or French."
+        },
+        {
+          "name": "Chase 'em down!",
+          "description": "Aircraft gain +2 EVA against AA reaction fire from Battleships."
+        },
       ],
       "abilityWeight": 1.1
     },
@@ -2672,7 +2676,7 @@
       "specialAbilities": [
         {
           "name": "Pride of Carrier Divison 1",
-          "description": "When attacking a targets with two of Akagi's aircraft at the same time, add +1 ACC to each attack."
+          "description": "When attacking a target that another one of Akagi's aircraft has already attacked, add +1 ACC to \neach attack."
         }
       ],
       "abilityWeight": 1.2
@@ -2755,7 +2759,7 @@
       ],
       "specialAbilities": [
         {
-          "name": "Defiant Phonix",
+          "name": "Defiant Phoenix",
           "description": "Gain +2 ARM if no allied warships are within 5\" of Taihou."
         }
       ],
@@ -3757,7 +3761,7 @@
         },
         {
           "name": "The Up-to-date Destroyer",
-          "description": "Sazanami gains +3 ACC if within 8\" of an allied steelHulled unit."
+          "description": "Sazanami gains +3 ACC if within 8\" of an allied modern warship."
         }
       ],
       "abilityWeight": 1.25
@@ -5885,7 +5889,7 @@
     // FRANCE HEAVY CRUISERS
     // FRANCE LIGHT CRUISERS
     {
-      "name": "Glorie",
+      "name": "Gloire",
       "carrier": false,
       "speed": 35,
       "displacement": 7600,
@@ -5895,6 +5899,9 @@
       "aircraftCount": 4,
       "shipFaction": "FRANCE",
       "hullCode": "CL",
+      "cameo": "gloire.png",
+      "artist": "つけもの",
+      "artLink": "pixiv.net/en/artworks/121700395",
       "batteries": [
         {
           "GunReferenceID": 40,
@@ -5955,6 +5962,9 @@
       "aircraftCount": 0,
       "shipFaction": "FRANCE",
       "hullCode": "DD",
+      "cameo": "mogador.png",
+      "artist": "某氏屋",
+      "artLink": "pixiv.net/en/artworks/127392760",
       "batteries": [
         {
           "GunReferenceID": 101,
@@ -5998,7 +6008,7 @@
       "specialAbilities": [
         {
           "name": "Contre-torpilleur",
-          "description": "Gain +1 ACC when attacking ships with equal or less INT then Mogador."
+          "description": "Gain +2 ACC when attacking ships with equal or less maximum INT then Mogador."
         }
       ],
       "abilityWeight": 1.2
@@ -6134,7 +6144,7 @@
         },
         {
           "name": "The Guardian Admiral",
-          "description": "If within 3\" of a friendly carrier, gain +5 EVA"
+          "description": "If within 5\" of a friendly carrier, gain +5 EVA"
         }
       ],
       "abilityWeight": 1.45
@@ -6786,6 +6796,9 @@
       "aircraftCount": 2,
       "shipFaction": "RUSSIA",
       "hullCode": "CL",
+      "cameo": "Kirov.jpg",
+      "artist": "こるぺら",
+      "artLink": "pixiv.net/en/artworks/129503323",
       "batteries": [
         {
           "GunReferenceID": 111,
@@ -8287,7 +8300,7 @@
       "hullCode": "DD",
       "batteries": [
         {
-          "GunReferenceID": 107,
+          "GunReferenceID": 121,
           "turretCount": 4,
           "gunsPerTurret": 1,
           "localOpticalDirector": true,
@@ -8302,13 +8315,13 @@
           "localOpticalDirector": true
         },
         {
-          "GunReferenceID": 108,
+          "GunReferenceID": 122,
           "turretCount": 1,
           "gunsPerTurret": 4,
           "localOpticalDirector": true
         },
         {
-          "GunReferenceID": 108,
+          "GunReferenceID": 122,
           "turretCount": 4,
           "gunsPerTurret": 2,
           "localOpticalDirector": true
