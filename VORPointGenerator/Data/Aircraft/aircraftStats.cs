@@ -146,6 +146,7 @@ namespace VORPointGenerator.Data.Aircraft
 
             // round point value to 5
             //Console.WriteLine(cost);
+
             Cost = (int)(Cost * abilityWeight);
             PointValue = (int)Math.Round((double)Cost / 5) * 5;
             if (PointValue == 0) { PointValue = 5; }

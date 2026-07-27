@@ -680,7 +680,7 @@
 
     // ABYSSAL BATTLESHIPS
     {
-      "name": "Ta-Class Fast Battlehip (Kongo)",
+      "name": "Ta-Class Fast Battleship (Kongo)",
       "carrier": false,
       "speed": 30,
       "displacement": 32156,
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Bismarck)",
+      "name": "Ta-Class Fast Battleship (Bismarck)",
       "carrier": false,
       "speed": 30,
       "displacement": 41700,
@@ -788,7 +788,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Dunkerque)",
+      "name": "Ta-Class Fast Battleship (Dunkerque)",
       "carrier": false,
       "speed": 30,
       "displacement": 26500,
@@ -845,7 +845,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Iowa)",
+      "name": "Ta-Class Fast Battleship (Iowa)",
       "carrier": false,
       "speed": 36,
       "displacement": 48880,
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (King George V)",
+      "name": "Ta-Class Fast Battleship (King George V)",
       "carrier": false,
       "speed": 28,
       "displacement": 40000,
@@ -966,7 +966,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (Richelieu)",
+      "name": "Ta-Class Fast Battleship (Richelieu)",
       "carrier": false,
       "speed": 28,
       "displacement": 37850,
@@ -1022,7 +1022,7 @@
       ]
     },
     {
-      "name": "Ta-Class Fast Battlehip (South Dakota)",
+      "name": "Ta-Class Fast Battleship (South Dakota)",
       "carrier": false,
       "speed": 28,
       "displacement": 35980,
@@ -1079,7 +1079,7 @@
 
     // Ru-class battleships
     {
-      "name": "Ru-Class Battlehip (Andrea Doria)",
+      "name": "Ru-Class Battleship (Andrea Doria)",
       "carrier": false,
       "speed": 21,
       "displacement": 28882,
@@ -1141,7 +1141,7 @@
     },
 
     {
-      "name": "Ru-Class Battlehip (Bayern)",
+      "name": "Ru-Class Battleship (Bayern)",
       "carrier": false,
       "speed": 21,
       "displacement": 28080,
@@ -1190,7 +1190,7 @@
     },
 
     {
-      "name": "Ru-Class Battlehip (Bretagne)",
+      "name": "Ru-Class Battleship (Bretagne)",
       "carrier": false,
       "speed": 21,
       "displacement": 23936,
@@ -1240,7 +1240,7 @@
     // TODO: Ru-class Conte di Cavour
     // TODO: Ru-class Espana
     {
-      "name": "Ru-Class Battlehip (Gangut)",
+      "name": "Ru-Class Battleship (Gangut)",
       "carrier": false,
       "speed": 24,
       "displacement": 24400,
@@ -1288,7 +1288,7 @@
     },
 
     {
-      "name": "Ru-Class Battlehip (Nelson)",
+      "name": "Ru-Class Battleship (Nelson)",
       "carrier": false,
       "speed": 23,
       "displacement": 33300,
@@ -1339,7 +1339,7 @@
     },
 
     {
-      "name": "Ru-Class Battlehip (Queen Elizabeth)",
+      "name": "Ru-Class Battleship (Queen Elizabeth)",
       "carrier": false,
       "speed": 24,
       "displacement": 32590,
@@ -1390,7 +1390,7 @@
     // TODO: Ru-class Revenge
     // TODO: Ru-class Tegetthoff
     {
-      "name": "Ru-Class Battlehip (Fusou)",
+      "name": "Ru-Class Battleship (Fusou)",
       "carrier": false,
       "speed": 25,
       "displacement": 34700,
@@ -1438,7 +1438,7 @@
     },
     // TODO: Ru-class Nagato
     {
-      "name": "Ru-Class Battlehip (Yamato)",
+      "name": "Ru-Class Battleship (Yamato)",
       "carrier": false,
       "speed": 27,
       "displacement": 69988,
@@ -1497,7 +1497,7 @@
     // TODO: Ru-class New York
     // TODO: Ru-class New Mexico
     {
-      "name": "Ru-Class Battlehip (Colorado)",
+      "name": "Ru-Class Battleship (Colorado)",
       "carrier": false,
       "speed": 21,
       "displacement": 32600,
@@ -3883,7 +3883,7 @@
     },
     // TODO: Re-class A-150 BBV (jp)
     {
-      "name": "Re-Class Aviation Battlehip (Ise)",
+      "name": "Re-Class Aviation Battleship (Ise)",
       "carrier": false,
       "speed": 23,
       "displacement": 39805,
@@ -3940,7 +3940,7 @@
     // TODO: Re-class H-44 BBV (ger)
 
     {
-      "name": "Ta-Class Battlehip (Tillman III)",
+      "name": "Ta-Class Battleship (Tillman III)",
       "carrier": false,
       "speed": 30,
       "displacement": 63500,
@@ -3992,7 +3992,7 @@
     },
     // TODO: Ta-class Alsace (fr)
     {
-      "name": "Ta-Class Fast Battlehip (H-39)",
+      "name": "Ta-Class Fast Battleship (H-39)",
       "carrier": false,
       "speed": 30,
       "displacement": 53553,
@@ -4062,7 +4062,7 @@
     // TODO: Ta-class Constellation (us)
 
     {
-      "name": "Ru-Class Battlehip (Tillman IV)",
+      "name": "Ru-Class Battleship (Tillman IV)",
       "carrier": false,
       "speed": 25,
       "displacement": 80000,
@@ -4113,7 +4113,7 @@
       "abilityWeight": 1.1 // Fake tax
     },
     {
-      "name": "Ru-Class Battlehip (Montana)",
+      "name": "Ru-Class Battleship (Montana)",
       "carrier": false,
       "speed": 28,
       "displacement": 63211,
